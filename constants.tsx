@@ -2,33 +2,54 @@ import { Publication, Talk, ArtPiece, Award } from './types';
 
 export const PUBLICATIONS: Publication[] = [
   {
+    id: 'childrensbook3',
+    title: "Katwalk",
+    authors: "An Brouns (author), Leen Sevens (illustrator)",
+    year: 2017,
+    venue: "Uitgeverij Het Punt",
+    type: 'Children’s books',
+    link: "",
+    abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit."
+  },  
+  {
     id: 'aca5',
-    title: "Why We Must Reclaim Our Attention",
-    authors: "Sevens, L.",
-    year: 2024,
-    venue: "The Sunday Times Magazine",
-    type: 'Other',
-    link: "#"
+    title: "Towards Integrating People with Intellectual Disabilities in the Digital World",
+    authors: "Jaime Medina Maestro, Horacio Saggion, Ineke Schuurman, Leen Sevens, John O'Flaherty, Annelies De Vliegher, Jo Daems",
+    year: 2016,
+    venue: "Proceedings of the 7th International Workshop on Intelligent Environments Supporting Healthcare and Well-being",
+    type: 'Academic',
+    link: "http://ebooks.iospress.nl/volumearticle/45194",
+    abstract: "Information and Communication Technologies have radically changed the way in which we access and share information. However, accessibility for all is still far from being a reality. People with Intellectual or Developmental Disabilities (IDD) currently have very limited access to the information society and, in particular, to social media websites. Even though the recent technological advances have provided valuable support for people with disabilities, the focus has in most cases been placed on sensory and physical impairments, while IDD is normally not on the agenda of technology developers. In this paper, we will describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) techniques. We will also describe how the pilot studies guide us in improving our tools."
   },
   {
     id: 'aca4',
-    title: "Neuroplasticity in the Digital Age: A Longitudinal Study",
-    authors: "Sevens, L., Doe, A., & Lee, K.",
-    year: 2023,
-    venue: "Journal of Cognitive Neuroscience",
+    title: "Translating Text into Pictographs",
+    authors: "Vincent Vandeghinste, Ineke Schuurman, Leen Sevens, Frank Van Eynde",
+    year: 2015,
+    venue: "Natural Language Engineering, Vol. 23 (2), Cambridge University Press",
     type: 'Academic',
-    link: "#",
-    abstract: "This paper explores the long-term effects of high-frequency digital interaction on synaptic pruning and the subsequent impact on cognitive load management in adult learners. Over a period of five years, we tracked 250 participants using a combination of fMRI imaging and cognitive behavioral assessments. Our findings suggest that constant switching between digital tasks—what we term 'hyper-fragmented attention'—leads to a measurable thinning of the prefrontal cortex in specific regions associated with executive function. However, we also observed remarkable resilience in participants who engaged in 'deep work' practices, suggesting that the brain's plasticity allows for significant recovery when cognitive hygiene is prioritized. The study further discusses the educational implications of these findings, arguing for a shift in curriculum design toward 'attentional stamina' as a core competency. We examine how the dopamine-driven feedback loops of modern social platforms interface with traditional learning models, creating a friction point that requires urgent pedagogical intervention. This research provides a foundational framework for understanding the biological cost of our digital lives and offers practical strategies for educators to foster neuro-cognitive health in an increasingly distracted world."
+    link: "https://lirias.kuleuven.be/retrieve/409217",
+    abstract: "We describe and evaluate a text-to-pictograph translation system that is used in an online platform for Augmentative and Alternative Communication, which is intended for people who are not able to read and write, but who still want to communicate with the outside world. The system is set up to translate from Dutch into Sclera and Beta, two publicly available pictograph sets consisting of several thousands of pictographs each. We have linked large amounts of these pictographs to synsets or combinations of synsets of Cornetto, a lexical-semantic database for Dutch similar to WordNet. In the translation system, the Dutch input text undergoes shallow linguistic analysis and the synsets of the content words are looked up. The system looks for the nearest pictographs in the lexical-semantic database and displays the message into pictographs. We evaluated the system and results showed a large improvement over the baseline system which consisted of straightforward string-matching between the input text and the filenames of the pictographs. Our system provides a clear improvement in the communication possibilities of illiterate people. Nevertheless there is room for further improvement."
   },
   {
     id: 'aca3',
-    title: "The Intersection of Ethics and Artificial Intelligence in Modern Pedagogy",
-    authors: "Sevens, L.",
-    year: 2022,
-    venue: "Educational Review Quarterly",
+    title: "Extending a Dutch Text-to-Pictograph Converter to English and Spanish",
+    authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
+    year: 2015,
+    venue: "Proceedings of 6th Workshop on Speech and Language Processing for Assistive Technologies (110-117)",
     type: 'Academic',
-    link: "#",
-    abstract: "An examination of the ethical implications of deploying generative AI tools within the classroom, focusing on equity, privacy, and the preservation of human-led mentorship."
+    link: "https://aclanthology.org/W15-5119.pdf",
+    abstract: "We describe how a Dutch Text-to-Pictograph translation system, designed to augment written text for people with Intellectual or Developmental Disabilities (IDD), was adapted in order to be usable for English and Spanish. The original system has a language-independent design. As far as the textual part is concerned, it is adaptable to all natural languages for which interlingual WordNet [1] links, lemmatizers and part-of-speech taggers are available. As far as the pictographic part is concerned, it can be modified for various pictographic languages. The evaluations show that our results are in line with the performance of the original Dutch system. Text-to-Pictograph translation has a wide application potential in the domain of Augmentative and Alternative Communication (AAC). The system will be released as an open source product."
+  },
+  {
+    id: 'childrensbook2',
+    title: "Dromeria: Lode",
+    authors: "Marc Geyens (author), Leen Sevens (illustrator)",
+    year: 2015,
+    venue: "Uitgeverij Het Punt",
+    type: 'Children’s books',
+    link: "",
+    abstract: "In Dromeria: Biggie hebben we al vele inwoners van Dromeria leren kennen. Nu is het de beurt aan de verstrooide postbode Lode!"
   },
   {
     id: 'aca2',
