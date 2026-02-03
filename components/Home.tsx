@@ -91,7 +91,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
 
             <div className="relative aspect-square w-64 sm:w-72 md:w-80 lg:w-[360px] overflow-hidden rounded-sm bg-white p-3 lg:p-4 shadow-[0_20px_50px_rgba(0,0,0,0.12)] -rotate-1 lg:rotate-1 hover:rotate-0 transition-all duration-700 ease-out mx-auto">
               <img 
-                src="../images/profile.jpg" 
+                src="/images/profile.jpg" 
                 alt="Leen Sevens" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
