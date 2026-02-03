@@ -2,6 +2,86 @@ import { Publication, Talk, ArtPiece, Award } from './types';
 
 export const PUBLICATIONS: Publication[] = [
   {
+    id: 'aca20',
+    title: "Can Pictograph Translation Technologies Facilitate Communication and Integration in Migration Settings?",
+    authors: "Bram Bulté, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman, Frank Van Eynde",
+    year: 2021,
+    venue: "Computational Linguistics in the Netherlands Journal, Vol. 11, p. 189-212",
+    type: 'Academic',
+    link: "https://www.clinjournal.org/clinj/article/view/136/142",
+    abstract: "In this pilot study, we investigate the potential of pictograph translation technologies for facilitating communication and integration in the context of migration. We incorporate a new pictograph set in an existing text-to-pictograph translation system and carry out evaluations on three sets of authentic data (language classes, news articles, websites of local governments). We also evaluate whether a component targeting named entities can increase the coverage of the system. Our results show that, even though the pictograph translations can successfully represent parts of input sentences, conveying their full meaning proves to be a difficult task. We conclude that using the text-to-pictograph translation system as such in a migration context is not recommended. At the same time, we suggest other potential applications for the system in a migration context and point to potential improvements."  
+  },   
+  {
+    id: 'other2',
+    title: "Chatten Zonder Letters",
+    authors: "Leen Sevens",
+    year: 2017,
+    venue: "EOS Wetenschap",
+    type: 'Others',
+    link: "https://www.eoswetenschap.eu/technologie/chatten-zonder-letters",
+    abstract: "Niet kunnen lezen en schrijven, maar tóch mailen en chatten? Het Picto-systeem vertaalt tekst naar pictogrammen en omgekeerd zodat mensen met een verstandelijke beperking actief kunnen deelnemen aan de digitale maatschappij. \\n Een mailtje sturen naar je collega, surfen naar de website van je favoriete krant, tweeten over de kanarie van de buren en nog snel even een app’je verzenden naar je beste vriendin. Tekst en digitale media zijn onlosmakelijk met elkaar verbonden. Toch zijn er in Europa naar schatting tussen de twee en de vijf miljoen mensen voor wie digitale communicatie gemakkelijker zou zijn als die niet via tekst, maar via pictogrammen zou verlopen. Voor hen ontwikkelden we Picto, een slim systeem voor automatische vertaling van geschreven tekst naar pictogrammen en omgekeerd."
+  },
+  {
+    id: 'aca19',
+    title: "Automating lexical simplification in Dutch",
+    authors: "Bram Bulté, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman, Frank Van Eynde",
+    year: 2018,
+    venue: "Computational Linguistics in the Netherlands Journal, Vol. 8, p. 24-48",
+    type: 'Academic',
+    link: "https://lirias.kuleuven.be/retrieve/29de3090-bf98-4568-8bda-f0328e3c47c2",
+    abstract: "We discuss the design, development and evaluation of an automated lexical simplification tool for Dutch. A basic pipeline approach is used to perform both text adaptation and annotation. First, sentences are preprocessed and word sense disambiguation is performed. Then, the difficulty of each token is estimated by looking at their average age of acquisition and frequency in a corpus of simplified Dutch. We use Cornetto to find synonyms of words that have been identified as difficult and the SONAR500 corpus to perform reverse lemmatisation. Finally, we rely on a largescale language model to verify whether the selected replacement word fits the local context. In addition, the text is augmented with information from Wikipedia (word definitions and links). We tune and evaluate the system with sentences taken from the Flemish newspaper De Standaard. The results show that the system’s adaptation component has low coverage, since it only correctly simplifies around one in five ‘difficult’ words, but reasonable accuracy, with no grammatical errors being introduced in the text. The Wikipedia annotations have a broader coverage, but their potential for simplification needs to be further developed and more thoroughly evaluated."
+  },
+  {
+    id: 'aca18',
+    title: "Dutch Colour Terms",
+    authors: "Frank Van Eynde, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
+    year: 2018,
+    venue: "A Coat of Many Colours. Vriendenboek voor Dany Jaspers, p. 1-13",
+    type: 'Academic',
+    link: "https://dj60.be/wp-content/uploads/2018/01/vaneynde.pdf",
+    abstract: "From a physical point of view all colours are equal, but our senses and our minds treat some as more equal than others. Red and blue, for instance, are generally felt to be basic, while crimson and indigo are not. The question why has occupied philosophers, artists, physicists and psychologists over the centuries. Among the most famous are Aristotle, Leonardo da Vinci, Isaac Newton, Wolfgang Goethe, Arthur Schopenhauer and Ludwig Wittgenstein. Linguists have also contributed to the debate, since the distinction between basic colours and other colours is also reflected in our languages.   
+  },   
+  {
+    id: 'aca17',
+    title: "Words Divide, Pictographs Unite: Pictograph Communication Technologies for People with an Intellectual Disability",
+    authors: "Leen Sevens",
+    year: 2018,
+    venue: "PhD Thesis. LOT Publications",
+    type: 'Academic',
+    link: "https://core.ac.uk/download/pdf/572206779.pdf#page=197",
+    abstract: "In order to improve the accessibility of the Internet for people with an intellectual disability (ID), we develop a set of tools that automatically translate Dutch natural language text into pictographs and vice versa, allowing people with limited literacy skills to read and write status updates, emails, and chat messages in online environments. \\n For the conversion of texts into pictographs, we start from an existing system. We evaluate the baseline Text-to-Pictograph translation system using a combination of automated metrics, manual assessments, and user studies, and we propose three major improvements: We create a spelling correction tool for people with ID, we develop a syntactic simplification tool and a temporality detection module, and we implement a word sense disambiguation tool for improved semantic analysis. The added value of each of these components is evaluated in depth. \\n Conversely, the Pictograph-to-Text translation tool provides help in constructing textual messages by allowing the user to input a series of pictographs, and translates these messages into natural language text. The challenge in Pictograph-to-Text translation is twofold. The first task concerns the development of an accessible interface that allows people with ID to find the pictographs of their choice. The second task is the actual development of the Pictograph-to-Text translation engine. We discuss a variety of approaches, including language modelling and (neural) machine translation techniques, toward the generation of rich natural language text from underspecified pictograph input."  
+  },    
+  {
+    id: 'aca16',
+    title: "Pictograph Translation Technologies for People with Limited Literacy",
+    authors: "Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
+    year: 2018,
+    venue: "CLARIN Annual Conference Proceedings, p. 190-193",
+    type: 'Academic',
+    link: "https://core.ac.uk/download/pdf/572206779.pdf#page=197",
+    abstract: "We present a set of Pictograph Translation Technologies, which automatically translates natural language text into pictographs, as well as pictograph sequences into natural language text. These translation technologies are combined with sentence simplification and an advanced spelling correction mechanism. The goal of these technologies is to enable people with a low level of literacy in a certain language to have access to information available in that language, and to allow these people to participate in online social life by writing natural language messages through pictographic input. The technologies and demonstration system will be added to the CLARIN infrastructure at the Dutch Language Institute in the course of this year, and have been presented on Tour De CLARIN."
+  },  
+  {
+    id: 'aca15',
+    title: "Less is More: A Rule-Based Syntactic Simplification Module for Improved Text-to-Pictograph Translation",
+    authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
+    year: 2018,
+    venue: "Data and Knowledge Engineering, Vol. 117, p. 264-289",
+    type: 'Academic',
+    link: "https://www.academia.edu/download/89444091/j.datak.2018.05.00120220810-1-1n04lej.pdf",
+    abstract: "In order to enable or facilitate online communication for people with an intellectual disability, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. By using recursion and applying the simplification operations in a logical way, only one syntactic parse is needed per message. Promising results are obtained."
+  },    
+  {
+    id: 'aca14',
+    title: "Involving People with an Intellectual Disability in the Development of Pictograph Translation Technologies for Social Media Use",
+    authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
+    year: 2018,
+    venue: "Language and the New (Instant) Media, p. 57-68, Presses Universitaires de Louvain",
+    type: 'Academic',
+    link: "https://pul.uclouvain.be/book/?GCOI=29303100157810",
+    abstract: "This paper presents a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies."
+  },  
+  {
     id: 'childrensbook3',
     title: "Katwalk",
     authors: "An Brouns (author), Leen Sevens (illustrator)",
@@ -10,7 +90,67 @@ export const PUBLICATIONS: Publication[] = [
     type: 'Children’s books',
     link: "",
     abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit."
+  },
+  {
+    id: 'other1',
+    title: "Kom Naar Buiten Met Je Doctoraatsonderzoek!",
+    authors: "Leen Sevens",
+    year: 2017,
+    venue: "KU Leuven Blogt",
+    type: 'Others',
+    link: "https://kuleuvenblogt.be/2017/12/13/kom-naar-buiten-met-je-doctoraatsonderzoek/",
+    abstract: "Op verbeelding staat geen grenzen, zelfs niet in in de academische wereld. Laat de wereld weten hoe gepassioneerd je bent door jouw onderzoeksproject met deze originele tips en ontdek zelf hoe aanstekelijk creativiteit daadwerkelijk kan zijn." 
   },  
+  {
+    id: 'aca13',
+    title: "E-Including the Illiterate",
+    authors: "Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
+    year: 2017,
+    venue: "IEEE Potentials, Vol. 36, p. 29-33",
+    type: 'Academic',
+    link: "https://ieeexplore.ieee.org/document/7814401",
+    abstract: "In present-day society, we communicate over the Internet in several media forms. We put videos and images online, listen to music made by famous bands or by our friends, and read and write a lot of text. Never in the history of mankind have we produced more text than at this present moment, so being able to read and write is an important way of taking part in our society. We tend to forget that, even in our educated communities, not all people can read or write and there exist several degrees of literateness. People with reduced cognitive capacities and those migrating from cultures with a different language, or even a completely different writing system, are excluded from fully taking part in written online communication: they are e-excluded."
+  },  
+  {
+    id: 'aca12',
+    title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities",
+    authors: "Leen Sevens, Jo Daems, Annelies De Vliegher, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
+    year: 2017,
+    venue: "Harnessing the Power of Technology to Improve Lives, p. 870-877",
+    type: 'Academic',
+    link: "https://ebooks.iospress.nl/publication/47371",
+    abstract: "This paper presents a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies."
+  },
+  {
+    id: 'aca11',
+    title: "Simplified Text-to-Pictograph Translation for People with Intellectual Disabilities",
+    authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
+    year: 2017,
+    venue: "Proceedings of the 22nd International Conference on Natural Language & Information Systems, p. 185-196, Springer International Publishing",
+    type: 'Academic',
+    link: "https://link.springer.com/content/pdf/10.1007/978-3-319-59569-6.pdf",
+    abstract: "In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. Our evaluations show a large improvement over the baseline."
+  },
+  {
+    id: 'aca10',
+    title: "Able to Read my Mail: An Accessible E-mail Client with Assistive Technology",
+    authors: "Horacio Saggion, Daniel Ferrés, Leen Sevens, Ineke Schuurman",
+    year: 2017,
+    venue: "Proceedings of the 14th International Web for All Conference, p. 1-4, Association for Computing Machinery",
+    type: 'Academic',
+    link: "https://dl.acm.org/doi/epdf/10.1145/3058555.3058567",
+    abstract: "The Able to Include project aims at improving the living conditions of people with intellectual or developmental disabilities (IDD) in key areas of society. One of its focus points concerns improving the integration of people with IDD in the workplace by introducing accessible Web-based tools. This paper describes one of the tools developed as result of the project: an e-mail client with text simplification and other assistive technologies which makes information transmitted over the Internet more understandable to people with IDD therefore facilitating their labor integration. The accessible Web e-mail client has been developed following a User-Centered Design and tested with people with IDD. The results so far are encouraging."
+  },
+  {
+    id: 'aca9',
+    title: "The CLIN27 Shared Task: Translating Historical Text to Contemporary Language for Improving Automatic Linguistic Annotation",
+    authors: "Erik Tjong Kim Sang, Marcel Bollmann, Remko Boschker, Francisco Casacuberta, Feike Dietz, Stefanie Dipper, Miguel Domingo, Rob van der Goot, Marjo van Koppen, Nikola Ljubević, Robert Östling, Florian Petran, Eva Pettersson, Yves Scherrer, Marijn Schraagen, Leen Sevens, Jörg Tiedemann, Tom Vanallemeersch, Kalliopi Zervanou",
+    year: 2017,
+    venue: "Computational Linguistics in the Netherlands Journal, Vol. 7, p. 53-64",
+    type: 'Academic',
+    link: "https://clinjournal.org/clinj/article/view/68/61",
+    abstract: "The CLIN27 shared task evaluates the effect of translating historical text to modern text with the goal of improving the quality of the output of contemporary natural language processing tools applied to the text. We focus on improving part-of-speech tagging analysis of seventeenth-century Dutch. Eight teams took part in the shared task. The best results were obtained by teams employing character-based machine translation. The best system obtained an error reduction of 51% in comparison with the baseline of tagging unmodified text. This is close to the error reduction obtained by human translation (57%)."
+  },
   {
     id: 'aca8',
     title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities",
