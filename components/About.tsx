@@ -4,17 +4,17 @@ const About: React.FC = () => {
   const timelineEntries = [
     {
       period: "2009 — 2012",
-      title: "BA in Language & Literature (French/Spanish)",
+      title: "BA in Language & Literature (French & Spanish)",
       description: "Laying the linguistic foundation through classical and modern studies."
     },
     {
       period: "2012 — 2013",
-      title: "MA in Computational Linguistics",
+      title: "MA in Linguistics (Computational & Variational Linguistics)",
       description: "Discovering the power of mapping human language to computational structures."
     },
     {
       period: "2013 — 2014",
-      title: "MA in Artificial Intelligence",
+      title: "MA in Artificial Intelligence (Speech & Language Technology)",
       description: "Deepening technical expertise in intelligent systems and cognitive modeling."
     },
     {
@@ -25,7 +25,7 @@ const About: React.FC = () => {
     {
       period: "2019 — Now",
       title: "Educational Technologist",
-      description: "Innovating at the intersection of AI, pedagogy, and higher education."
+      description: "Innovating at the intersection of AI, pedagogy, and higher education for the Humanities and Social Sciences Group at KU Leuven."
     }
   ];
 
