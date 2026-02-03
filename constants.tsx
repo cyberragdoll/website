@@ -144,7 +144,7 @@ export const PUBLICATIONS: Publication[] = [
   {
     id: 'aca9',
     title: "The CLIN27 Shared Task: Translating Historical Text to Contemporary Language for Improving Automatic Linguistic Annotation",
-    authors: "Erik Tjong Kim Sang, Marcel Bollmann, Remko Boschker, Francisco Casacuberta, Feike Dietz, Stefanie Dipper, Miguel Domingo, Rob van der Goot, Marjo van Koppen, Nikola Ljubević, Robert Östling, Florian Petran, Eva Pettersson, Yves Scherrer, Marijn Schraagen, Leen Sevens, Jörg Tiedemann, Tom Vanallemeersch, Kalliopi Zervanou",
+    authors: "Erik Tjong Kim Sang et al. (incl. Leen Sevens, Tom Vanallemeersch)"
     year: 2017,
     venue: "Computational Linguistics in the Netherlands Journal, Vol. 7, p. 53-64",
     type: 'Academic',
