@@ -17,7 +17,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Leen Sevens",
     year: 2017,
     venue: "EOS Wetenschap",
-    type: 'Others',
+    type: 'Other',
     link: "https://www.eoswetenschap.eu/technologie/chatten-zonder-letters",
     abstract: "Niet kunnen lezen en schrijven, maar tóch mailen en chatten? Het Picto-systeem vertaalt tekst naar pictogrammen en omgekeerd zodat mensen met een verstandelijke beperking actief kunnen deelnemen aan de digitale maatschappij. \n Een mailtje sturen naar je collega, surfen naar de website van je favoriete krant, tweeten over de kanarie van de buren en nog snel even een app’je verzenden naar je beste vriendin. Tekst en digitale media zijn onlosmakelijk met elkaar verbonden. Toch zijn er in Europa naar schatting tussen de twee en de vijf miljoen mensen voor wie digitale communicatie gemakkelijker zou zijn als die niet via tekst, maar via pictogrammen zou verlopen. Voor hen ontwikkelden we Picto, een slim systeem voor automatische vertaling van geschreven tekst naar pictogrammen en omgekeerd."
   },
@@ -97,7 +97,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Leen Sevens",
     year: 2017,
     venue: "KU Leuven Blogt",
-    type: 'Others',
+    type: 'Other',
     link: "https://kuleuvenblogt.be/2017/12/13/kom-naar-buiten-met-je-doctoraatsonderzoek/",
     abstract: "Op verbeelding staat geen grenzen, zelfs niet in in de academische wereld. Laat de wereld weten hoe gepassioneerd je bent door jouw onderzoeksproject met deze originele tips en ontdek zelf hoe aanstekelijk creativiteit daadwerkelijk kan zijn." 
   },  
