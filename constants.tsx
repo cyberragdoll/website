@@ -2,7 +2,7 @@ import { Publication, Talk, ArtPiece, Award } from './types';
 
 export const PUBLICATIONS: Publication[] = [
   {
-    id: '5',
+    id: 'aca5',
     title: "Why We Must Reclaim Our Attention",
     authors: "Sevens, L.",
     year: 2024,
@@ -11,7 +11,7 @@ export const PUBLICATIONS: Publication[] = [
     link: "#"
   },
   {
-    id: '4',
+    id: 'aca4',
     title: "Neuroplasticity in the Digital Age: A Longitudinal Study",
     authors: "Sevens, L., Doe, A., & Lee, K.",
     year: 2023,
@@ -21,7 +21,7 @@ export const PUBLICATIONS: Publication[] = [
     abstract: "This paper explores the long-term effects of high-frequency digital interaction on synaptic pruning and the subsequent impact on cognitive load management in adult learners. Over a period of five years, we tracked 250 participants using a combination of fMRI imaging and cognitive behavioral assessments. Our findings suggest that constant switching between digital tasks—what we term 'hyper-fragmented attention'—leads to a measurable thinning of the prefrontal cortex in specific regions associated with executive function. However, we also observed remarkable resilience in participants who engaged in 'deep work' practices, suggesting that the brain's plasticity allows for significant recovery when cognitive hygiene is prioritized. The study further discusses the educational implications of these findings, arguing for a shift in curriculum design toward 'attentional stamina' as a core competency. We examine how the dopamine-driven feedback loops of modern social platforms interface with traditional learning models, creating a friction point that requires urgent pedagogical intervention. This research provides a foundational framework for understanding the biological cost of our digital lives and offers practical strategies for educators to foster neuro-cognitive health in an increasingly distracted world."
   },
   {
-    id: '3',
+    id: 'aca3',
     title: "The Intersection of Ethics and Artificial Intelligence in Modern Pedagogy",
     authors: "Sevens, L.",
     year: 2022,
@@ -31,25 +31,35 @@ export const PUBLICATIONS: Publication[] = [
     abstract: "An examination of the ethical implications of deploying generative AI tools within the classroom, focusing on equity, privacy, and the preservation of human-led mentorship."
   },
   {
-    id: '2',
-    title: "The Quiet Revolution of Community Art",
-    authors: "Sevens, L.",
-    year: 2021,
-    venue: "Arts & Culture Today",
-    type: 'Children’s books',
-    link: "#",
-    abstract: "A colorful journey through the impact of shared creative spaces on neighborhood resilience and childhood development."
+    id: 'aca2',
+    title: "Natural Language Generation from Pictographs",
+    authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
+    year: 2015,
+    venue: "Proceedings of the 15th European Workshop on Natural Language Generation, (71-75)",
+    type: 'Academic',
+    link: "https://aclanthology.org/W15-4711.pdf",
+    abstract: "We present a Pictograph-to-Text translation system for people with Intellectual or Developmental Disabilities (IDD). The system translates pictograph messages, consisting of one or more pictographs, into Dutch text using WordNet links and an ngram language model. We also provide several pictograph input methods assisting the users in selecting the appropriate pictographs."
   },
     {
-    id: '1',
+    id: 'aca1',
     title: "Improving the Precision of Synset Links Between Cornetto and Princeton WordNet",
     authors: "Leen Sevens, Vincent Vandeghinste, Frank Van Eynde",
-    year: 2024,
-    venue: "Proceedings of the Workshop on Lexical and Grammatical Resources for Language Processing, (120-126). Association for Computational Linguistics.",
+    year: 2014,
+    venue: "Proceedings of the Workshop on Lexical and Grammatical Resources for Language Processing, (120-126), Association for Computational Linguistics",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/279457",
     abstract: "Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages’ synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3)."
-  }
+  },
+   {
+    id: 'childrensbook1',
+    title: "Dromeria: Biggie",
+    authors: "Marc Geyens (author), Leen Sevens (illustrator)",
+    year: 2013,
+    venue: "Uitgeverij Het Punt",
+    type: 'Children’s books',
+    link: "",
+    abstract: "In Dromeria woont Biggie samen met vele andere leuke dieren. Wil je weten wat daar allemaal gebeurt? Lees dan snel dit boekje en ontdek welke grappige streken Biggie nu weer uithaalt..."
+  },
 ];
 
 export const TALKS: Talk[] = [
