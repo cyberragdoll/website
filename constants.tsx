@@ -15,7 +15,7 @@ export const PUBLICATIONS: Publication[] = [
     id: 'other2',
     title: "Chatten Zonder Letters",
     authors: "Leen Sevens",
-    year: 2017,
+    year: 2019,
     venue: "EOS Wetenschap",
     type: 'Other',
     link: "https://www.eoswetenschap.eu/technologie/chatten-zonder-letters",
