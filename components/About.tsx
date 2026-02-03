@@ -114,7 +114,7 @@ const About: React.FC = () => {
               
               <div className="relative aspect-square w-64 md:w-72 overflow-hidden rounded-sm bg-white p-3 shadow-2xl -rotate-1 lg:rotate-1 group-hover:rotate-0 transition-all duration-700 mx-auto">
                 <img 
-                  src="profile_personal.jpg" 
+                  src="/website/profile.jpg" 
                   alt="Leen" 
                   className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-all duration-700"
                   onError={(e) => {
