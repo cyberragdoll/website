@@ -39,7 +39,7 @@ export const PUBLICATIONS: Publication[] = [
     type: 'Children’s books',
     link: "#",
     abstract: "A colorful journey through the impact of shared creative spaces on neighborhood resilience and childhood development."
-  }
+  },
     {
     id: '5',
     title: "Test!",
