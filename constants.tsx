@@ -40,6 +40,16 @@ export const PUBLICATIONS: Publication[] = [
     link: "#",
     abstract: "A colorful journey through the impact of shared creative spaces on neighborhood resilience and childhood development."
   }
+    {
+    id: '5',
+    title: "Test!",
+    authors: "Sevens, L.",
+    year: 2021,
+    venue: "Arts & Culture Today",
+    type: 'Children’s books',
+    link: "#",
+    abstract: "A test!"
+  }
 ];
 
 export const TALKS: Talk[] = [
