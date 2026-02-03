@@ -12,11 +12,41 @@ export const PUBLICATIONS: Publication[] = [
     abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit."
   },  
   {
+    id: 'aca8',
+    title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities",
+    authors: "Leen Sevens, Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
+    year: 2016,
+    venue: "Proceedings of 1st Workshop on Improving Social Inclusion using NLP: Tools and Resources, p. 11-19, ELRA Language Resources Association",
+    type: 'Academic',
+    link: "https://lirias.kuleuven.be/retrieve/390119",
+    abstract: "We present the first version of an automated spelling correction system for Dutch Internet users with Intellectual Disabilities (ID). The normalization of ill-formed messages is an important preprocessing step before any conventional Natural Language Processing (NLP) process can be applied. As such, we describe the effects of automated correction of Dutch ID text within the larger framework of a Text-to-Pictograph translation system. The present study consists of two main parts. First, we thoroughly analyze email messages that have been written by users with cognitive disabilities in order to gain insights on how to develop solutions that are specifically tailored to their needs. We then present a new, generally applicable approach toward context-sensitive spelling correction, based on character-level fuzzy matching techniques. The resulting system shows significant improvements, although further research is still needed."
+  },
+  {
+    id: 'aca7',
+    title: "Improving Text-to-Pictograph Translation Through Word Sense Disambiguation",
+    authors: "Leen Sevens, Gilles Jacobs, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
+    year: 2016,
+    venue: "Proceedings of the 5th Joint Conference on Lexical and Computational Semantics, p. 131-135, Association for Computational Linguistics",
+    type: 'Academic',
+    link: "https://aclanthology.org/S16-2017.pdf",
+    abstract: "We describe the implementation of a Word Sense Disambiguation (WSD) tool in a Dutch Text-to-Pictograph translation system, which converts textual messages into sequences of pictographic images. The system is used in an online platform for Augmentative and Alternative Communication (AAC). In the original translation process, the appropriate sense of a word was not disambiguated before converting it into a pictograph. This often resulted in incorrect translations. The implementation of a WSD tool provides a better semantic understanding of the input messages."
+  },
+  {
+    id: 'aca6',
+    title: "E-Inclusion of Functionally Illiterate Users by the use of Language Technology",
+    authors: "Leen Sevens, John J. O' Flaherty, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
+    year: 2016,
+    venue: "Proceedings of the 2nd Conference on Engineering4Society, Vol. 2, p. 91-95, Institute of Electrical and Electronics Engineers (IEEE)",
+    type: 'Academic',
+    link: "https://lirias.kuleuven.be/retrieve/1d85a7a1-386d-4e26-bac7-d409c7a0633c",
+    abstract: "Social media websites have radically changed the way in which we access and share information. However, people with Intellectual Disabilities (ID) have very limited access to the currently available technological tools, such as email clients or Facebook. We describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) technologies within the framework of a contextaware Accessibility Layer. More particularly, in this paper, we will focus on the set of tools that translate written text into pictographs and vice versa. Additionally, we will explain how the different pilot studies that are conducted within the project guide us in improving our technologies."
+  },
+  {
     id: 'aca5',
     title: "Towards Integrating People with Intellectual Disabilities in the Digital World",
     authors: "Jaime Medina Maestro, Horacio Saggion, Ineke Schuurman, Leen Sevens, John O'Flaherty, Annelies De Vliegher, Jo Daems",
     year: 2016,
-    venue: "Proceedings of the 7th International Workshop on Intelligent Environments Supporting Healthcare and Well-being",
+    venue: "Proceedings of the 7th International Workshop on Intelligent Environments Supporting Healthcare and Well-being, p. 348-357",
     type: 'Academic',
     link: "http://ebooks.iospress.nl/volumearticle/45194",
     abstract: "Information and Communication Technologies have radically changed the way in which we access and share information. However, accessibility for all is still far from being a reality. People with Intellectual or Developmental Disabilities (IDD) currently have very limited access to the information society and, in particular, to social media websites. Even though the recent technological advances have provided valuable support for people with disabilities, the focus has in most cases been placed on sensory and physical impairments, while IDD is normally not on the agenda of technology developers. In this paper, we will describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) techniques. We will also describe how the pilot studies guide us in improving our tools."
@@ -26,7 +56,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Translating Text into Pictographs",
     authors: "Vincent Vandeghinste, Ineke Schuurman, Leen Sevens, Frank Van Eynde",
     year: 2015,
-    venue: "Natural Language Engineering, Vol. 23 (2), Cambridge University Press",
+    venue: "Natural Language Engineering, Vol. 23 (2), p. 217-244, Cambridge University Press",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/409217",
     abstract: "We describe and evaluate a text-to-pictograph translation system that is used in an online platform for Augmentative and Alternative Communication, which is intended for people who are not able to read and write, but who still want to communicate with the outside world. The system is set up to translate from Dutch into Sclera and Beta, two publicly available pictograph sets consisting of several thousands of pictographs each. We have linked large amounts of these pictographs to synsets or combinations of synsets of Cornetto, a lexical-semantic database for Dutch similar to WordNet. In the translation system, the Dutch input text undergoes shallow linguistic analysis and the synsets of the content words are looked up. The system looks for the nearest pictographs in the lexical-semantic database and displays the message into pictographs. We evaluated the system and results showed a large improvement over the baseline system which consisted of straightforward string-matching between the input text and the filenames of the pictographs. Our system provides a clear improvement in the communication possibilities of illiterate people. Nevertheless there is room for further improvement."
@@ -36,7 +66,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Extending a Dutch Text-to-Pictograph Converter to English and Spanish",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2015,
-    venue: "Proceedings of 6th Workshop on Speech and Language Processing for Assistive Technologies (110-117)",
+    venue: "Proceedings of the 6th Workshop on Speech and Language Processing for Assistive Technologies, p. 110-117, Association for Computational Linguistics",
     type: 'Academic',
     link: "https://aclanthology.org/W15-5119.pdf",
     abstract: "We describe how a Dutch Text-to-Pictograph translation system, designed to augment written text for people with Intellectual or Developmental Disabilities (IDD), was adapted in order to be usable for English and Spanish. The original system has a language-independent design. As far as the textual part is concerned, it is adaptable to all natural languages for which interlingual WordNet [1] links, lemmatizers and part-of-speech taggers are available. As far as the pictographic part is concerned, it can be modified for various pictographic languages. The evaluations show that our results are in line with the performance of the original Dutch system. Text-to-Pictograph translation has a wide application potential in the domain of Augmentative and Alternative Communication (AAC). The system will be released as an open source product."
@@ -56,7 +86,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Natural Language Generation from Pictographs",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2015,
-    venue: "Proceedings of the 15th European Workshop on Natural Language Generation, (71-75)",
+    venue: "Proceedings of the 15th European Workshop on Natural Language Generation, p. 71-75, Association for Computational Linguistics",
     type: 'Academic',
     link: "https://aclanthology.org/W15-4711.pdf",
     abstract: "We present a Pictograph-to-Text translation system for people with Intellectual or Developmental Disabilities (IDD). The system translates pictograph messages, consisting of one or more pictographs, into Dutch text using WordNet links and an ngram language model. We also provide several pictograph input methods assisting the users in selecting the appropriate pictographs."
@@ -66,7 +96,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Improving the Precision of Synset Links Between Cornetto and Princeton WordNet",
     authors: "Leen Sevens, Vincent Vandeghinste, Frank Van Eynde",
     year: 2014,
-    venue: "Proceedings of the Workshop on Lexical and Grammatical Resources for Language Processing, (120-126), Association for Computational Linguistics",
+    venue: "Proceedings of the Workshop on Lexical and Grammatical Resources for Language Processing, p. 120-126, Association for Computational Linguistics",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/279457",
     abstract: "Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages’ synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3)."
