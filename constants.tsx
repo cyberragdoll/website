@@ -330,8 +330,8 @@ export const AWARDS: Award[] = [
     organization: "KU Leuven",
     year: 2017,
     description: "First Prize (Jury) and Audience Award at a science pitch competition for 'Breaking the Wall of Illiteracy', awarded among fifteen researchers, followed by representation of KU Leuven at the international finale in Berlin.",
-    imageUrl: "award3",
-    gallery: ["award4, award5"]
+    imageUrl: "/website/award3.jpg",
+    gallery: ["/website/award4.jpg", "/website/award5.jpg"]
   },
   {
     id: 'award2',
@@ -339,7 +339,7 @@ export const AWARDS: Award[] = [
     organization: "De Taalsector",
     year: 2016,
     description: "Text2Picto was honored with the Language Industry Award for Best Language Service (2015). The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "award2.jpg"
+    imageUrl: "/website/award2.jpg"
   },
   {
     id: 'award1',
@@ -347,7 +347,7 @@ export const AWARDS: Award[] = [
     organization: "LOT Summer School",
     year: 2015,
     description: "Best Poster Award for 'Text-to-Pictograph Translation for Six Language Pairs'. The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "award1.jpg"
+    imageUrl: "/website/award1.jpg"
   }
 ];
 
