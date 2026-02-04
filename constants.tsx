@@ -339,8 +339,8 @@ export const AWARDS: Award[] = [
     organization: "Koninklijke Vlaamse Academie van België & Jonge Academie",
     year: 2019,
     description: "The Annual Science Communication Award, presented by the Royal Flemish Academy of Belgium for Science and the Arts and the Young Academy, honors researchers with exceptional contributions to science communication, highlighting concrete and impactful public engagement projects.",
-    imageUrl: "/website/award9.jpg",
-    gallery: ["/website/award10.jpg", "/website/award11.jpg"]
+    imageUrl: "/website/award10.jpg",
+    gallery: ["/website/award11.jpg"]
   },
    {
     id: 'award6',
