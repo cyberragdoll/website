@@ -53,7 +53,7 @@ const Awards: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-serif font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">{award.title}</h3>
                 {award.description && (
-                  <p className="text-sm text-slate-500 max-w-2xl leading-relaxed line-clamp-2">
+                  <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
                     {award.description}
                   </p>
                 )}
