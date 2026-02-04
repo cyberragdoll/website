@@ -37,8 +37,8 @@ const About: React.FC = () => {
       borderHover: "hover:border-rose-100"
     },
     {
-      title: "Videogames & Game Club",
-      text: "Lately I've been deep into RPGs and online games with friends. Since 2024, I also co-host a monthly game club in Leuven where we play and discuss indie games together.",
+      title: "Playing Videogames",
+      text: "Lately I've been deep into RPGs and online competitive games with friends. Since 2024, I also co-host a monthly game club in Leuven where we play and discuss indie games together.",
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     },
@@ -61,8 +61,8 @@ const About: React.FC = () => {
       borderHover: "hover:border-sky-100"
     },
     {
-      title: "Cosy Cafés & Dinner Dates",
-      text: "Always on the lookout for cosy cafés, great restaurants, and nice bars, preferably with lots of laughter with friends, family, or colleagues.",
+      title: "World Flavours",
+      text: "I cook several times a week and love experimenting with dishes from all over the world. I try to pick up at least one new cooking trick every week!",
       color: "text-amber-600",
       borderHover: "hover:border-amber-100"
     }
