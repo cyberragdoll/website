@@ -31,38 +31,38 @@ const About: React.FC = () => {
 
   const lifeInterests = [
     {
-      title: "The Studio",
-      text: "Urban sketching and digital painting. Capturing the quiet rhythm of cities and the magic in children's stories.",
+      title: "Creating a Children's Book",
+      text: "I'm currently writing and illustrating a fun, accessible book about AI for kids aged 10-12. My big 2026 goal? Finish it and find a publisher!",
       color: "text-rose-600",
       borderHover: "hover:border-rose-100"
     },
     {
-      title: "The Library",
-      text: "A healthy obsession with board games and story-driven video games. Narrative matters everywhere.",
+      title: "Videogames & Game Club",
+      text: "Lately I've been deep into RPGs and online games with friends. Since 2024, I also co-host a monthly game club in Leuven where we play and discuss indie games together.",
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     },
     {
-      title: "The Den",
-      text: "Living in a cozy corner of Belgium with my husband and our two very curious cats.",
+      title: "Studying Japanese",
+      text: "I've been teaching myself Japanese daily since 2020. It started as curiosity and turned into a long-term love for the language.",
       color: "text-amber-600",
       borderHover: "hover:border-amber-100"
     },
     {
-      title: "The Quest",
-      text: "Endless curiosity. Whether it's a new AI model or a hidden alleyway, I'm always wandering toward it.",
+      title: "Reading Books",
+      text: "I can finally call myself a casual reader again, finishing around 20 books a year. My favourites are cosy Japanese novels and books about AI, both fiction and non-fiction.",
       color: "text-rose-600",
       borderHover: "hover:border-rose-100"
     },
     {
-      title: "The Kitchen",
-      text: "Experimenting with recipes and the chemistry of cooking. It's just another form of creative science.",
+      title: "Art Trips",
+      text: "Taking myself on artsy dates to museums, zoos, cafés, and new cities — always with a sketchbook in my bag.",
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     },
     {
-      title: "The Archive",
-      text: "Collecting vintage children's books and studying the evolution of visual storytelling across cultures.",
+      title: "Cosy Cafés & Dinner Dates",
+      text: "Always on the lookout for cosy cafés, great restaurants, and nice bars, preferably with lots of laughter with friends, family, or colleagues.",
       color: "text-amber-600",
       borderHover: "hover:border-amber-100"
     }
