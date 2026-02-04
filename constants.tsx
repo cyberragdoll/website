@@ -325,15 +325,16 @@ export const TALKS: Talk[] = [
 
 export const AWARDS: Award[] = [
   {
-    id: 'a1',
+    id: 'award3',
     title: "Distinguished Researcher Award",
     organization: "Global Neuroscience Society",
     year: 2023,
     description: "Awarded for pioneering work in digital-induced neuroplasticity.",
-    imageUrl: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1200"
+    imageUrl: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1200",
+    gallery: ["https://images.unsplash.com/photo-1540575861501-7ad0582371f3?auto=format&fit=crop&q=80&w=1200"]
   },
   {
-    id: 'a2',
+    id: 'award2',
     title: "Emerging Artist Grant",
     organization: "Metropolitan Arts Council",
     year: 2021,
@@ -341,7 +342,7 @@ export const AWARDS: Award[] = [
     imageUrl: "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?auto=format&fit=crop&q=80&w=1200"
   },
   {
-    id: 'a3',
+    id: 'award1',
     title: "Best Keynote Speaker",
     organization: "London Tech Week",
     year: 2019,
