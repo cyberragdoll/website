@@ -119,10 +119,10 @@ const Awards: React.FC = () => {
                    <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Photos</h4>
                    <div className="flex flex-col gap-6">
                       {getAwardImages(selectedAward).map((url, i) => (
-                        <div key={i} className="rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 shadow-sm">
+                        <div key={i} className="flex justify-center rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 shadow-sm">
                           <img 
                             src={url} 
-                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
+                            className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
                             alt={`Award visual ${i + 1}`} 
                           />
                         </div>
