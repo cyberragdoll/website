@@ -44,7 +44,7 @@ const About: React.FC = () => {
     },
     {
       title: "Studying Japanese",
-      text: "I've been teaching myself Japanese daily since 2020. It started as curiosity and turned into a long-term love for the language.",
+      text: "I've been teaching myself Japanese daily since 2020. After a few trips to Japan, I figured learning the local language was the logical next step!",
       color: "text-amber-600",
       borderHover: "hover:border-amber-100"
     },
