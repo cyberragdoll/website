@@ -330,8 +330,8 @@ export const AWARDS: Award[] = [
     organization: "Scimingo",
     year: 2019,
     description: "Third Place in the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
-    imageUrl: "/website/award13.jpg",
-    gallery: ["/website/award12.png"]
+    imageUrl: "/website/award13.png",
+    gallery: ["/website/award12.jpg"]
   },
   {
     id: 'award7',
