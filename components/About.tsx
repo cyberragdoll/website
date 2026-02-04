@@ -91,14 +91,13 @@ const About: React.FC = () => {
             </div>
             <div className="space-y-4 text-slate-700 text-base leading-relaxed">
               <p>
-              Hi! I'm Leen Sevens (°1992). I was born in Lanaken, but I moved to Leuven at seventeen for my studies and, like so many before me, completely fell in love with the city and never left. These days I live here with my husband Niels and our two fluffy Maine Coons, Susu and Senshi, who are large, fluffy, and firmly convinced they are in charge of the household.
+              Hi! I'm Leen Sevens (°1992). Born in Lanaken, I moved to Leuven at seventeen for my studies and, like so many before me, completely fell in love with the city and never left. These days I live here with my husband Niels and our two Maine Coons, Susu and Senshi: large, fluffy, and firmly convinced they run the household.              
               </p>
               <p>
-              I'm a certified technology nerd, which turned into a career in language technology and AI, especially the kind that makes the world a little more inclusive. When I'm not geeking out over algorithms, you'll probably find me with a sketchbook in a museum, a café, or at home. Art has always been part of my life, from childhood classes to countless hours of practice, and I have a serious soft spot for colourful, joyful art. Think children's books, comics, and video games.
+              I'm a certified technology nerd, which turned into a career in language technology and AI, especially the kind that makes the world a little more inclusive. When I'm not geeking out over algorithms, you'll probably find me with a sketchbook in a museum, a café, or at home. Art has always been part of my life, and I have a serious soft spot for colourful, joyful art
               </p>
               <p>
-              Outside of work and art, I love getting lost in cosy Japanese novels, learning new languages, travelling (with a not-so-secret obsession with Japan), gaming, and discovering great restaurants and snug cafés with friends and family. When I’m not working or drawing, you’ll find me playing video games, reading cosy Japanese literature, learning foreign languages, travelling (with a completely under-control obsession with Japan), or hunting down nice restaurants and snug cafés with friends and family. In short: part tech nerd, part art goblin, full-time curious human. :)
-              </p>
+              Outside of work and art, I love videogames, cosy Japanese novels, learning languages, travelling (with a very under-control obsession with Japan), and hunting down great restaurants and snug cafés with friends and family. In short: part tech nerd, part art goblin, full-time curious human. :)             </p>
             </div>
           </div>
           
