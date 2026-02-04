@@ -331,7 +331,7 @@ export const AWARDS: Award[] = [
     year: 2017,
     description: "First Prize (Jury) and Audience Award at a science pitch competition for 'Breaking the Wall of Illiteracy', awarded among fifteen researchers, followed by representation of KU Leuven at the international finale in Berlin.",
     imageUrl: "/website/award3.jpg",
-    gallery: ["/website/award4.jpg", "/website/award5.jpg"]
+    gallery: ["/website/award4.jpg", "/website/award5.jpg", "/website/award1.jpg"]
   },
   {
     id: 'award2',
@@ -347,7 +347,7 @@ export const AWARDS: Award[] = [
     organization: "LOT Summer School",
     year: 2015,
     description: "Best Poster Award for 'Text-to-Pictograph Translation for Six Language Pairs'. The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "/website/award1.jpg"
+    imageUrl: "/website/award6.jpg"
   }
 ];
 
