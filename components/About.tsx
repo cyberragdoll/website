@@ -4,28 +4,28 @@ const About: React.FC = () => {
   const timelineEntries = [
     {
       period: "2009 — 2012",
-      title: "BA in Language & Literature (French & Spanish)",
-      description: "Laying the linguistic foundation through classical and modern studies."
+      title: "BA in Language & Literature (French & Spanish) - Faculty of Arts, KU Leuven",
+      description: "Building a strong foundation in languages, culture, and literary analysis."
     },
     {
       period: "2012 — 2013",
-      title: "MA in Linguistics (Computational & Variational Linguistics)",
+      title: "MA in Linguistics (Computational & Variational Linguistics) - Faculty of Arts, KU Leuven",
       description: "Discovering the power of mapping human language to computational structures."
     },
     {
       period: "2013 — 2014",
-      title: "MA in Artificial Intelligence (Speech & Language Technology)",
-      description: "Deepening technical expertise in intelligent systems and cognitive modeling."
+      title: "MA in Artificial Intelligence (Speech & Language Technology) - Department of Computer Science, KU Leuven",
+      description: "Diving deeper into AI, machine learning, and human language processing."
     },
     {
       period: "2014 — 2019",
-      title: "PhD in Computational Linguistics",
-      description: "Advanced doctoral research at KU Leuven, bridging technology and linguistics."
+      title: "PhD in Computational Linguistics - Centre for Computational Linguistics, KU Leuven",
+      description: "Doctoral research on pictograph-based translation technologies to support people with an intellectual disability."
     },
     {
       period: "2019 — Now",
-      title: "Educational Technologist",
-      description: "Innovating at the intersection of AI, pedagogy, and higher education for the Humanities and Social Sciences Group at KU Leuven."
+      title: "Educational Technologist - Humanities and Social Sciences Group, KU Leuven",
+      description: "Supporting and innovating education in the Humanities and Social Sciences, with a focus on Generative AI."
     }
   ];
 
