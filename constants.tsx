@@ -325,8 +325,49 @@ export const TALKS: Talk[] = [
 
 export const AWARDS: Award[] = [
   {
+    id: 'award8',
+    title: "Third Place in the Flemish PhD Cup",
+    organization: "Scimingo",
+    year: 2019,
+    description: "Third Place in the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
+    imageUrl: "/website/award12.jpg",
+    gallery: ["/website/award13.png"]
+  },
+  {
+    id: 'award7',
+    title: "Annual Science Communication Award",
+    organization: "Koninklijke Vlaamse Academie van België & Jonge Academie",
+    year: 2019,
+    description: "The Annual Science Communication Award, presented by the Royal Flemish Academy of Belgium for Science and the Arts and the Young Academy Belgium, honors researchers with exceptional contributions to science communication, highlighting concrete and impactful public engagement projects.",
+    imageUrl: "/website/award9.jpg",
+    gallery: ["/website/award10.jpg", "/website/award11.jpg"]
+  },
+   {
+    id: 'award6',
+    title: "KU Leuven Science Slam Winner",
+    organization: "KU Leuven",
+    year: 2018,
+    description: "Winner of KU Leuven’s Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
+    imageUrl: "/website/award6.jpg"
+  },
+  {
+    id: 'award5',
+    title: "Mediawijs Award",
+    organization: "Mediawijs",
+    year: 2017,
+    description: "The Able-to-Include project received the Mediawijs award for best smart media production, awarded to the CCL research group (Leen Sevens, Ineke Schuurman, Vincent Vandeghinste) at KU Leuven and Thomas More Kempen (Jo Daems, Annelies De Vliegher) for their co-creation project on accessible social media using pictograph-based communication.",
+    imageUrl: "/website/award2.png"
+  },
+  {
+    id: 'award4',
+    title: "Best Communication Paper Award",
+    organization: "Web4All Conference",
+    year: 2017,
+    description: "Best Communication Paper Award for 'Able to Read my Mail: An Accessible E-mail Client with Assistive Technology' (Horacio Saggion, Daniel Ferrés, Leen Sevens, Ineke Schuurman) at the 14th International Web for All Conference."
+  },
+  {
     id: 'award3',
-    title: "Falling Walls Lab KU Leuven - Jury's 1st Prize & Audience Award",
+    title: "Falling Walls Lab KU Leuven - Jury's First Prize & Audience Award",
     organization: "KU Leuven",
     year: 2017,
     description: "First Prize (Jury) and Audience Award at a science pitch competition for 'Breaking the Wall of Illiteracy', awarded among fifteen researchers, followed by representation of KU Leuven at the international finale in Berlin.",
