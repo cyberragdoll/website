@@ -339,7 +339,7 @@ export const AWARDS: Award[] = [
     organization: "De Taalsector",
     year: 2016,
     description: "Text2Picto was honored with the Language Industry Award for Best Language Service (2015). The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "/website/award2.jpg"
+    imageUrl: "/website/award7.jpg"
   },
   {
     id: 'award1',
@@ -347,7 +347,7 @@ export const AWARDS: Award[] = [
     organization: "LOT Summer School",
     year: 2015,
     description: "Best Poster Award for 'Text-to-Pictograph Translation for Six Language Pairs'. The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "/website/award6.jpg"
+    imageUrl: "/website/award8.jpg"
   }
 ];
 
