@@ -3,28 +3,28 @@ import React from 'react';
 const About: React.FC = () => {
   const timelineEntries = [
     {
-      period: "2009 — 2012",
-      title: "BA in Language & Literature (French & Spanish) - Faculty of Arts, KU Leuven",
+      period: "2009 — 2012 @ Faculty of Arts (KU Leuven)",
+      title: "BA in Language & Literature (French & Spanish)",
       description: "Building a strong foundation in languages, culture, and literary analysis."
     },
     {
-      period: "2012 — 2013",
-      title: "MA in Linguistics (Computational & Variational Linguistics) - Faculty of Arts, KU Leuven",
-      description: "Discovering the power of mapping human language to computational structures."
+      period: "2012 — 2013 @ Faculty of Arts (KU Leuven)",
+      title: "MA in Linguistics (Computational & Variational Linguistics)",
+      description: "Bridging linguistic theory with computational methods and research."
     },
     {
-      period: "2013 — 2014",
-      title: "MA in Artificial Intelligence (Speech & Language Technology) - Department of Computer Science, KU Leuven",
-      description: "Diving deeper into AI, machine learning, and human language processing."
+      period: "2013 — 2014 @ Department of Computer Science (KU Leuven)",
+      title: "MA in Artificial Intelligence (Speech & Language Technology)",
+      description: "From theory to practice in modern language-focused AI systems."
     },
     {
-      period: "2014 — 2019",
-      title: "PhD in Computational Linguistics - Centre for Computational Linguistics, KU Leuven",
+      period: "2014 — 2019 @ Centre for Computational Linguistics (KU Leuven)",
+      title: "PhD in Computational Linguistics",
       description: "Doctoral research on pictograph-based translation technologies to support people with an intellectual disability."
     },
     {
-      period: "2019 — Now",
-      title: "Educational Technologist - Humanities and Social Sciences Group, KU Leuven",
+      period: "2019 — Now @ Humanities and Social Sciences Group (KU Leuven)",
+      title: "Educational Technologist",
       description: "Supporting and innovating education in the Humanities and Social Sciences, with a focus on Generative AI."
     }
   ];
