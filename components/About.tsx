@@ -56,7 +56,7 @@ const About: React.FC = () => {
     },
     {
       title: "Art Trips",
-      text: "Taking myself on artsy dates to museums, zoos, cafés, and new cities — always with a sketchbook in my bag.",
+      text: "I love planning little day trips for myself — getting lost in cities, exploring new places, visiting museums, and always carrying a sketchbook to capture what catches my eye.",
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     },
