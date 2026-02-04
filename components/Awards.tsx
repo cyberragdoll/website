@@ -15,7 +15,7 @@ const Awards: React.FC = () => {
     const images = [];
     if (award.imageUrl) images.push(award.imageUrl);
     if (award.gallery) images.push(...award.gallery);
-    return images.slice(0, 3); // Limit to top 3
+    return images.slice(0, 4); // Limit to top 4
   };
 
   return (
