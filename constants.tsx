@@ -326,27 +326,28 @@ export const TALKS: Talk[] = [
 export const AWARDS: Award[] = [
   {
     id: 'award3',
-    title: "Distinguished Researcher Award",
-    organization: "Global Neuroscience Society",
-    year: 2023,
-    description: "Awarded for pioneering work in digital-induced neuroplasticity.",
-    imageUrl: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1200",
-    gallery: ["https://images.unsplash.com/photo-1540575861501-7ad0582371f3?auto=format&fit=crop&q=80&w=1200"]
+    title: "Falling Walls Lab KU Leuven - Jury's 1st Prize & Audience Award",
+    organization: "KU Leuven",
+    year: 2017,
+    description: "First Prize (Jury) and Audience Award at a science pitch competition for 'Breaking the Wall of Illiteracy', awarded among fifteen researchers, followed by representation of KU Leuven at the international finale in Berlin.",
+    imageUrl: "award3",
+    gallery: ["award4, award5"]
   },
   {
     id: 'award2',
-    title: "Emerging Artist Grant",
-    organization: "Metropolitan Arts Council",
-    year: 2021,
-    description: "Support for the 'Binary Sunset' digital painting series.",
-    imageUrl: "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?auto=format&fit=crop&q=80&w=1200"
+    title: "Language Industry Award",
+    organization: "De Taalsector",
+    year: 2016,
+    description: "Text2Picto was honored with the Language Industry Award for Best Language Service (2015). The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
+    imageUrl: "award2.jpg"
   },
   {
     id: 'award1',
-    title: "Best Keynote Speaker",
-    organization: "London Tech Week",
-    year: 2019,
-    imageUrl: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=1200"
+    title: "Best Poster Award",
+    organization: "LOT Summer School",
+    year: 2015,
+    description: "Best Poster Award for 'Text-to-Pictograph Translation for Six Language Pairs'. The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
+    imageUrl: "award1.jpg"
   }
 ];
 
