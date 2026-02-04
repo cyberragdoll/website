@@ -91,13 +91,13 @@ const About: React.FC = () => {
             </div>
             <div className="space-y-4 text-slate-700 text-base leading-relaxed">
               <p>
-                I'm a curious soul with a background that bridges the gap between the structure of linguistics and the logic of computer science. While my professional life is spent navigating the evolving landscape of educational technology at KU Leuven, my heart often finds its home in the tangible world of art.
+              Hi! I'm Leen Sevens (°1992). I was born in Lanaken, but I moved to Leuven at seventeen for my studies and, like so many before me, completely fell in love with the city and never left. These days I live here with my husband Niels and our two fluffy Maine Coons, Susu and Senshi, who are large, fluffy, and firmly convinced they are in charge of the household.
               </p>
               <p>
-                I believe that curiosity is our greatest asset. Whether I'm analyzing how a new AI model interprets syntax or sketching the intricate architecture of a Belgian town square, I'm driven by a desire to understand and illustrate the beauty of the systems around us.
+              I'm a certified technology nerd, which turned into a career in language technology and AI, especially the kind that makes the world a little more inclusive. When I'm not geeking out over algorithms, you'll probably find me with a sketchbook in a museum, a café, or at home. Art has always been part of my life, from childhood classes to countless hours of practice, and I have a serious soft spot for colourful, joyful art. Think children's books, comics, and video games.
               </p>
               <p>
-                When I'm not in the office or the studio, you'll likely find me lost in a story—be it in a dusty vintage book, a sprawling narrative video game, or a quiet conversation with my husband and cats.
+              Outside of work and art, I love getting lost in cosy Japanese novels, learning new languages, travelling (with a not-so-secret obsession with Japan), gaming, and discovering great restaurants and snug cafés with friends and family. When I’m not working or drawing, you’ll find me playing video games, reading cosy Japanese literature, learning foreign languages, travelling (with a completely under-control obsession with Japan), or hunting down nice restaurants and snug cafés with friends and family. In short: part tech nerd, part art goblin, full-time curious human. :)</p>
               </p>
             </div>
           </div>
