@@ -339,7 +339,7 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "Presentation for the Falling Walls Lab competition in Leuven. Fifteen candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience. The jury as well as the audience declared a winner. 'Breaking the Wall of Illiteracy' won the Jury's First Prize and the Audience Award.",
     imageUrl: "award4.jpg",
-    gallery: ["/website/award4.jpg", "/website/scicomm1.jpg"]
+    gallery: ["/website/award5.jpg", "/website/scicomm1.jpg"]
   },
   {
     id: 'academictalk11',
