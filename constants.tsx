@@ -408,7 +408,7 @@ export const TALKS: Talk[] = [
     date: "2015-10-08",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "I hosted a workshop on pictograph communications for people with an intellectual disability. The Big Draw Belgium is part of an international movement that celebrates drawing as a universal tool for creativity, thinking, and connection. Each year it brings together schools, museums, artists, libraries, and communities across Belgium to host workshops, urban sketching sessions, exhibitions, and participatory drawing events—making drawing accessible and fun for people of all ages and backgrounds."
+    description: "I hosted a workshop on pictograph communications for people with an intellectual disability. The Big Draw Belgium is part of an international movement that celebrates drawing as a universal tool for creativity, thinking, and connection. Each year it brings together schools, museums, artists, libraries, and communities across Belgium to host workshops, urban sketching sessions, exhibitions, and participatory drawing events, making drawing accessible and fun for people of all ages and backgrounds."
   },
   {
     id: 'academictalk6',
