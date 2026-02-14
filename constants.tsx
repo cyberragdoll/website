@@ -338,7 +338,6 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Presentation for the Falling Walls Lab competition in Leuven. Fifteen candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience. The jury as well as the audience declared a winner. 'Breaking the Wall of Illiteracy' won the Jury's First Prize and the Audience Award.",
-    link: "",
     imageUrl: "award4.jpg",
     gallery: ["/website/award4.jpg", "/website/scicomm1.jpg"]
   },
@@ -362,8 +361,7 @@ export const TALKS: Talk[] = [
     location: "Dublin, Ireland",
     type: 'Academic & Professional',
     description: "Poster presentation. Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages’ synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3).",
-    link: "#",
-    imageUrl: "/website/academictalk1.png",
+    imageUrl: "/website/academictalk1.jpg",
   }
 ];
 
