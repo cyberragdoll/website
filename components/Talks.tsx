@@ -16,6 +16,13 @@ const Talks: React.FC = () => {
   const upcomingTalks = filteredTalks.filter(t => new Date(t.date) >= now);
   const previousTalks = filteredTalks.filter(t => new Date(t.date) < now);
 
+  const getTalkImages = (talk: Talk) => {
+  const images: string[] = [];
+  if (talk.imageUrl) images.push(talk.imageUrl);
+  if (talk.gallery) images.push(...talk.gallery);
+  return images.slice(0, 4); // optional: keep/remove this limit
+  };
+
   const getBadgeStyles = (type: Talk['type']) => {
     switch (type) {
       case 'Academic & Professional': return 'bg-sky-50 text-sky-700 border-sky-100';
@@ -142,9 +149,21 @@ const Talks: React.FC = () => {
               </div>
             </div>
             <p className="text-slate-600 leading-relaxed">{selectedTalk.description}</p>
-            {selectedTalk.imageUrl && (
-              <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-100">
-                <img src={selectedTalk.imageUrl} alt={selectedTalk.title} className="w-full h-auto" />
+          {getTalkImages(selectedTalk).length > 0 && (
+              <div className="space-y-6 pt-4 border-t border-slate-50">
+                <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Photos</h4>
+            
+                <div className="flex flex-col gap-6">
+                  {getTalkImages(selectedTalk).map((url, i) => (
+                    <div key={i} className="flex justify-center rounded-2xl overflow-hidden shadow-sm border border-slate-100">
+                      <img
+                        src={url}
+                        className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                        alt={`Talk photo ${i + 1}`}
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
             {selectedTalk.link && (
