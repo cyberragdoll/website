@@ -417,7 +417,7 @@ export const TALKS: Talk[] = [
     date: "2015-09-11",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Presenting 9 months of PhD research for fellow PhD students and research staff of the Department of Linguistics."
+    description: "Presenting 9 months of PhD research to my fellow PhD students and research staff of the Department of Linguistics."
   },
   {
     id: 'academictalk5',
