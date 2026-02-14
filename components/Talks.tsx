@@ -148,7 +148,7 @@ const Talks: React.FC = () => {
                 <span>{selectedTalk.location}</span>
               </div>
             </div>
-            <p className="text-slate-600 leading-relaxed">{selectedTalk.description}</p>
+            <p className="whitespace-pre-line text-slate-600 leading-relaxed">{selectedTalk.description}</p>
           {getTalkImages(selectedTalk).length > 0 && (
               <div className="space-y-6 pt-4 border-t border-slate-50">
                 <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Photos</h4>
