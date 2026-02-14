@@ -255,7 +255,7 @@ export const PUBLICATIONS: Publication[] = [
 
 export const TALKS: Talk[] = [
   {
-    id: 'host6',
+    id: 'host7',
     title: "The Big Blend V",
     event: "KU Leuven",
     date: "2026-03-13",
@@ -266,7 +266,7 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host4.png"
   },
   {
-    id: 'host5',
+    id: 'host6',
     title: "The Big Blend IV",
     event: "KU Leuven",
     date: "2024-03-22",
