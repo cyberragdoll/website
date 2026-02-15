@@ -87,7 +87,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "An Brouns (author), Leen Sevens (illustrator)",
     year: 2017,
     venue: "Uitgeverij Het Punt",
-    type: 'Childrens books',
+    type: 'Children’s books',
     abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit."
   },
   {
@@ -216,7 +216,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2015,
     venue: "Uitgeverij Het Punt",
-    type: 'Childrens books',
+    type: 'Children’s books',
     link: "",
     abstract: "In Dromeria: Biggie hebben we al vele inwoners van Dromeria leren kennen. Nu is het de beurt aan de verstrooide postbode Lode!"
   },
@@ -246,7 +246,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2013,
     venue: "Uitgeverij Het Punt",
-    type: 'Childrens books',
+    type: 'Children’s books',
     link: "",
     abstract: "In Dromeria woont Biggie samen met vele andere leuke dieren. Wil je weten wat daar allemaal gebeurt? Lees dan snel dit boekje en ontdek welke grappige streken Biggie nu weer uithaalt..."
   },
