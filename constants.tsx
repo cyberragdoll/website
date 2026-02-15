@@ -320,6 +320,38 @@ export const TALKS: Talk[] = [
     gallery: ["/website/scicomm8.jpg"] 
   },
   {
+    id: 'scicomm14',
+    title: "Interview and Science Pitch about the Picto Translation Technology",
+    event: "VRT Taalavond",
+    date: "2019-10-10",
+    location: "Antwerp, Belgium",
+    type: 'science communication',
+    description: "Invited speaker at the VRT Taalavond, where I presented my PhD Cup pitch and was interviewed by Marcel Vanthilt about accessibility in language.",
+    imageUrl: "/website/scicomm9.jpg",
+    gallery: ["/website/scicomm10.jpg"] 
+
+  },
+  {
+    id: 'scicomm13',
+    title: "Final Round Pitch: Chatten Zonder Letters",
+    event: "De Vlaamse PhD Cup",
+    date: "2019-10-06",
+    location: "Brussels, Belgium",
+    type: 'science communication',
+    description: "Third Place in the final round the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
+    imageUrl: "/website/award12.jpg",
+  },
+  {
+    id: 'scicomm12',
+    title: "Semi-final Pitch: Chatten Zonder Letters",
+    event: "De Vlaamse PhD Cup",
+    date: "2019-09-25",
+    location: "Brussels, Belgium",
+    type: 'science communication',
+    description: "I was selected in the semi-final round of the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
+    imageUrl: "/website/award13.jpg",
+  },
+  {
     id: 'scicomm10',
     title: "Picto Workshops for Children",
     event: "Ervaringsdagen",
