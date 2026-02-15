@@ -330,6 +330,26 @@ export const TALKS: Talk[] = [
     description: "Article description: 'Leen Sevens is continually pushing extraordinary boundaries in her research at the Centre for Computational Linguistics (KU Leuven). The many benefits of her pioneering work will undoubtedly transform those with cognitive learning difficulties, including the rapidly increasing number of migrating populations who are having to quickly learn a new language. Durtti wants to understand some of the development challenges Leen has faced to date, and more importantly, how she has overcome them.'",
     link: "http://web.archive.org/web/20190621201347/http://www.durtti.com:80/computational-linguist-leen-sevens-talks-to-durtti-about-her-groundbreaking-pictograph-translation-technology/"
   },
+    {
+    id: 'academictalk16',
+    title: "Make it Simple, But Significant: Improved Text-to-Pictograph Translation for People with Intellectual Disabilities",
+    event: "Nordic Network on Disability Research Conference (NNDR14)",
+    date: "2017-05-03",
+    location: "Örebro, Sweden",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs. Our baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave our end users confused and distracted. \n \n In order to formulate a set of objectives for pictograph output simplification, we study a number of guidelines and inspiration sources: the Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the “Klare Taal” checklist for clear language. We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations using gold standard simplifications. The system does not perform any unnecessary syntactic simplification operations and high accuracy scores were obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Simplification systems are ideally tested with the intended users. Future evaluations within the framework of the European Able to Include project will involve human judgements. We expect these experiments to reveal the merits and disadvantages of our proposed solutions.",
+    imageUrl: "/website/academictalk9.jpg",
+  },
+  {
+    id: 'academictalk15',
+    title: "Unity is Strength: How User Feedback Influences Technical Decisions in the Able to Include Project",
+    event: "Nordic Network on Disability Research Conference (NNDR14)",
+    date: "2017-05-03",
+    location: "Örebro, Sweden",
+    type: 'Academic & Professional',
+    description: "Poster in collaboration with Ineke Schuurman, Annelies De Vliegher, and Jo Daems, presented by me. People with Intellectual Disabilities (ID) currently have very limited access to the information society and social media websites. Not being able to access or use information technology is a major form of social exclusion. The Able to Include project aims to overcome this problem by developing a set of technologies that can improve the daily lives of people with ID. One such technology is the Picto translation system, which translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs, and vice versa. At the time of developing the Picto system, a number of technical decisions had to be made. In order to create a truly useful tool that is tailored toward the target group, the end users' feedback turned out to be indispensable. \n \n Within the project, three types of pilot studies are carried out. One concerns 'Leisure within the Information Society', another one 'Mobility', and the third one 'Labour Integration'. These pilots allow, through the interaction with real users, for a permanent adjustment of the project, especially of the tools and resources involved. \n \n The results of the Flemish pilot studies are used to adapt and improve the Dutch Picto translation technology. Testing is a particularly long process, especially since it requires very small steps to be taken. However, we found that, if that time is spent meaningfully and a solid methodology is adopted, the feedback that is given by the end users can be exceptionally valuable. For instance, they thought the initial pictograph output was too long and complex, so a simplification module was added. There are many examples of how the users' opinions influence our technical decisions. \n \n The users are enthusiastic about being part of the project. They are eager to learn more about the technologies and positive about accessing Facebook through them. After all, they are the experts, and when new technologies are developed for them, they should, ideally, be involved from the very start.", 
+    imageUrl: "/website/academictalk8.jpg",
+  },
   {
     id: 'scicomm1',
     title: "Breaking the Wall of Illiteracy",
@@ -340,6 +360,44 @@ export const TALKS: Talk[] = [
     description: "Presentation for the Falling Walls Lab competition in Leuven. Fifteen candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience. The jury as well as the audience declared a winner. 'Breaking the Wall of Illiteracy' won the Jury's First Prize and the Audience Award.",
     imageUrl: "award4.jpg",
     gallery: ["/website/award5.jpg", "/website/scicomm1.jpg"]
+  },
+  {
+    id: 'academictalk14',
+    title: "Text-to-Pictograph Translation and Vice Versa for People with Intellectual Disabilities",
+    event: "Séminaires du CENTAL",
+    date: "2017-02-24",
+    location: "Louvain-la-Neuve, Belgium",
+    type: 'Academic & Professional',
+    description: "We describe, demonstrate and evaluate a Text-to-Pictograph translation system that is used in an online platform for Augmentative and Alternative Communication (AAC), which is intended for people who are not able to read and write, but who still want to communicate with the outside world (Vandeghinste et al., 2015). The system is set up to translate from Dutch, English and Spanish text into Sclera and Beta, two publicly available pictograph sets consisting of several thousands of pictographs each. We have linked large amounts of these pictographs to synsets or combinations of synsets in WordNets, lexical-semantic databases. We also describe the other direction and how it works to generate text from sequences of pictographs (Sevens et al., 2015).",
+    link: "https://cental.uclouvain.be/team/seminaires/seminaire2016-2017/2017.02.24_sevens_slides.pdf"
+  },
+  {
+    id: 'academictalk13',
+    title: "De Meerwaarde van Pictogrammen en Klare Taal in een Juridische Context",
+    event: "Op.Recht.Mechelen: Justitie en Management",
+    date: "2017-02-10",
+    location: "Mechelen, Belgium",
+    type: 'Academic & Professional',
+    description: "On 10 February 2017, the Op.Recht.Mechelen conference 'Better Management of Justice: Also Better for the Citizen?' was held in Mechelen, Belgium, as part of the city's Op.Recht.Mechelen festival focusing on law and justice. The event brought together legal experts, policymakers and academics to discuss how reforms in the management of the justice system could improve its performance and benefit society."
+  },
+  {
+    id: 'host8',
+    title: "Computational Linguistics in the Netherlands Conference (CLIN27)",
+    event: "KU Leuven",
+    date: "2027-02-10",
+    location: "Leuven, Belgium",
+    type: 'Hosting',
+    description: "Co-organizer of the 27th Computational Linguistics in the Netherlands Conference (CLIN27) in Leuven.",
+    link: "https://www.ccl.kuleuven.be/CLIN27/",
+  },
+  {
+    id: 'academictalk12',
+    title: "Syntactic Simplification for Improved Text-to-Pictograph Translation",
+    event: "Computational Linguistics in the Netherlands Conference (CLIN27)",
+    date: "2017-02-10",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave the end users confused and distracted. \n \n We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process, using the Alpino parser for preprocessing. The Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the 'Klare Taal' checklist for clear language serve as an inspiration source. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations of the simplification module using gold standard simplifications. The system does not apply any unnecessary simplification operations and high accuracy scores are obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Future evaluations will involve human judgments. ", 
   },
   {
     id: 'academictalk11',
@@ -403,21 +461,12 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm2',
-    title: "Introduction to Pictograph Translation Technologies",
+    title: "Introductie tot Pictogramvertaaltechnologie",
     event: "The Big Draw Belgium",
     date: "2015-10-08",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "I hosted a workshop on pictograph communications for people with an intellectual disability. The Big Draw Belgium is part of an international movement that celebrates drawing as a universal tool for creativity, thinking, and connection. Each year it brings together schools, museums, artists, libraries, and communities across Belgium to host workshops, urban sketching sessions, exhibitions, and participatory drawing events, making drawing accessible and fun for people of all ages and backgrounds."
-  },
-  {
-    id: 'academictalk6',
-    title: "Pictographic Communication Technologies for Browsing the Web",
-    event: "Dag van de Doctorandi",
-    date: "2015-09-11",
-    location: "Leuven, Belgium",
-    type: 'Academic & Professional',
-    description: "Presenting 9 months of PhD research to my fellow PhD students and research staff of the Department of Linguistics."
+    description: "I hosted a workshop on pictograph communications for an audience of people with an intellectual disability. The Big Draw Belgium is part of an international movement that celebrates drawing as a universal tool for creativity, thinking, and connection. Each year it brings together schools, museums, artists, libraries, and communities across Belgium to host workshops, urban sketching sessions, exhibitions, and participatory drawing events, making drawing accessible and fun for people of all ages and backgrounds."
   },
   {
     id: 'academictalk5',
@@ -448,15 +497,6 @@ export const TALKS: Talk[] = [
     location: "Antwerp; Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links."
-  },
-  {
-    id: 'academictalk2',
-    title: "Able-to-Include: Automatic Translation from Pictographs to Text and Vice Versa",
-    event: "The ComForT Research Group at KU Leuven",
-    date: "2014-12-03",
-    location: "Leuven; Belgium",
-    type: 'Academic & Professional',
-    description: "Invited talk for the Computational and Formal Linguistics (ComForT) research group at KU Leuven."
   },
   {
     id: 'academictalk1',
