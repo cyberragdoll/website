@@ -66,7 +66,7 @@ const Publications: React.FC = () => {
             <FilterButton type="Academic" label="Academic" />
           </div>
           <div className="flex gap-2 justify-center w-full sm:w-auto">
-            <FilterButton type="Childrens books" label="Children’s books" />
+            <FilterButton type="Children’s books" label="Children’s books" />
             <FilterButton type="Other" label="Other" />
           </div>
         </div>
