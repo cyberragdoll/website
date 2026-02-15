@@ -309,6 +309,37 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host4.png"
   },
   {
+    id: 'scicomm11',
+    title: "Praten met Prentjes",
+    event: "Kinderuniversiteit",
+    date: "2020-10-03",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Kinderuniversiteit (Children's University) is an educational outreach initiative that introduces children to university life through engaging lectures, workshops, and hands-on activities, inspiring curiosity and a love for science and learning from an early age.",
+    imageUrl: "/website/scicomm7.jpg",
+    gallery: ["/website/scicomm8.png"] 
+  },
+  {
+    id: 'scicomm10',
+    title: "Picto Workshops for Children",
+    event: "Ervaringsdagen",
+    date: "2019-05-16",
+    location: "Lanaken, Belgium",
+    type: 'science communication',
+    description: "The Ervaringsdagen (Experience Days) in Lanaken are educational awareness events, organised by the municipal Welfare Service and the Advisory Council for People with Disabilities, where children and adults take part in interactive workshops that simulate everyday experiences of living with a disability. Held at the Lanaken Cultural Centre, these activities aim to foster understanding, empathy, and inclusive attitudes.",
+    imageUrl: "/website/scicomm2.jpg"
+  },
+  {
+    id: 'academictalk23',
+    title: "Public PhD Defense",
+    event: "KU Leuven",
+    date: "2018-12-14",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Never in the history of mankind have we produced more text than at this present moment. Being able to read and write is an important way of taking part in our society. However, we tend to forget that, even in our educated communities, there exist several degrees of literacy. Written text on the Internet creates a barrier between people with and without an intellectual disability. As a result, people with reading and writing difficulties are e-excluded. Schools and day centres for people with an intellectual disability use specialised picture systems, called pictographs, that depict everyday activities and objects, to enable accessible written communication between children or adults with an intellectual disability and their environment. In my dissertation, I transfer these pictographs to social media platforms and email, by developing natural language processing tools that automatically translate natural language text into pictographs and vice versa for people with an intellectual disability, allowing them to read and write status updates, emails, and chat messages in online environments.",
+    imageUrl: "/website/academictalk13.jpg"
+  },
+  {
     id: 'scicomm8',
     title: "Pictographs to the Rescue!",
     event: "Microbes & Booze",
@@ -316,6 +347,16 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Presentation for the Microbes & Booze lecture series. The monthly ‘Microbes and Booze’ seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
+  },
+  {
+    id: 'scicomm9',
+    title: "Spelen met Taal en Computers",
+    event: "Dag van de Wetenschap",
+    date: "2018-11-25",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Dag van de Wetenschap (Science Day) is an annual public outreach event in which universities, research institutions, and science organisations open their doors to the public, offering hands-on activities, demonstrations, workshops, and talks to make scientific research accessible, engaging, and relevant for a broad audience.",
+    imageUrl: "/website/scicomm6.jpg"
   },
   {
     id: 'scicomm6',
@@ -368,6 +409,26 @@ export const TALKS: Talk[] = [
     description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metrics and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system."
   },
   {
+    id: 'media4',
+    title: "Lanakense Ontwikkelt Pictogrammentaal en Geeft Mensen met een Mentale Beperking een Stem",
+    event: "TV Limburg",
+    date: "2018-01-14",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Een technologie waarmee tekst voor mensen met een beperking kan omgezet worden naar pictogrammen en omgekeerd. Het is het doctoraatsproject van Leen Sevens uit Lanaken. Ze hoopt op die manier sociale media en het internet vlotter toegankelijk te maken voor mensen met een beperking. Het project gaat niet onopgemerkt voorbij, want de Lanakense won er al een internationale competitie mee voor jonge onderzoekers die maatschappelijke vernieuwing teweeg brengen.",
+    link: "https://www.tvl.be/nieuws/lanakense-ontwikkelt-pictogrammentaal-en-geeft-mensen-met-een-mentale-beperking-een-stem-54241"
+  },
+  {
+    id: 'media3',
+    title: "Interview for Nieuwe Feiten",
+    event: "Radio 1",
+    date: "2018-01-08",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Interview for the radio programme Nieuwe Feiten (Radio 1), hosted by Lieven Vandenhaute. During the broadcast, Frank Deboosere, Xavier Taverne and Martine Tanghe experimented with the Picto system and took on a playful 'Picto exam' in the corridors of the VRT.",
+    link: "http://www.ccl.kuleuven.be/~leen/NieuweFeitenPicto.wav"
+  },
+  {
     id: 'academictalk21',
     title: "Taaltechnologie ontwikkelen voor en met mensen met een verstandelijke beperking",
     event: "COM@Modem Dag",
@@ -376,6 +437,16 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
     imageUrl: "academictalk12.jpg"
+  },
+  {
+    id: 'media2',
+    title: "Lanakense Vindt Systeem uit dat Tekst Vertaalt naar Pictogrammen",
+    event: "Het Belang van Limburg",
+    date: "2017-11-10",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Article description: 'Leen Sevens (25) uit Lanaken heeft een vertaalsysteem uitgevonden dat tekst kan omzetten in pictogrammen en vice versa. Daarmee wil de doctoraatsstudente het internet en sociale media toegankelijker maken voor mensen met een verstandelijke beperking. 'Maar het systeem zou bijvoorbeeld ook gebruikt kunnen worden om te kunnen communiceren met vluchtelingen die nog geen Nederlands kunnen', zegt de Lanakense.",
+    imgURL: "media1.jpg"
   },
   {
     id: 'scicomm4',
@@ -575,7 +646,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm2',
-    title: "Introductie tot Pictogramvertaaltechnologie",
+    title: "Praten met Prentjes",
     event: "The Big Draw Belgium",
     date: "2015-10-08",
     location: "Leuven, Belgium",
