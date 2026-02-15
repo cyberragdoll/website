@@ -397,7 +397,7 @@ export const TALKS: Talk[] = [
     location: "Kortrijk, Belgium",
     type: 'science communication',
     description: "Invited talk for Kulak staff on practical techniques for communicating research clearly and effectively.",
-    imageUrl: "scicomm4.jpg"
+    imageUrl: "/website/scicomm4.jpg"
   },
   {
     id: 'academictalk22',
@@ -436,7 +436,7 @@ export const TALKS: Talk[] = [
     location: "Geel, Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
-    imageUrl: "academictalk12.jpg"
+    imageUrl: "/website/academictalk12.jpg"
   },
   {
     id: 'media2',
@@ -446,7 +446,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Media & Interviews',
     description: "Article description: 'Leen Sevens (25) uit Lanaken heeft een vertaalsysteem uitgevonden dat tekst kan omzetten in pictogrammen en vice versa. Daarmee wil de doctoraatsstudente het internet en sociale media toegankelijker maken voor mensen met een verstandelijke beperking. 'Maar het systeem zou bijvoorbeeld ook gebruikt kunnen worden om te kunnen communiceren met vluchtelingen die nog geen Nederlands kunnen', zegt de Lanakense.",
-    imageURL: "media1.jpg"
+    imageURL: "/website/media1.jpg"
   },
   {
     id: 'scicomm4',
@@ -456,7 +456,7 @@ export const TALKS: Talk[] = [
     location: "Berlin, Germany",
     type: 'science communication',
     description: "Presentation for the Falling Walls Lab international finale in Berlin. A hundred candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience.",
-    imageUrl: "scicomm3.jpg"
+    imageUrl: "/website/scicomm3.jpg"
   },
   {
     id: 'academictalk20',
