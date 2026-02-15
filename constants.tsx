@@ -314,7 +314,7 @@ export const TALKS: Talk[] = [
     event: "Microbes & Booze",
     date: "2018-12-12",
     location: "Leuven, Belgium",
-    type: 'Academic & Professional',
+    type: 'science communication',
     description: "Presentation for the Microbes & Booze lecture series. The monthly ‘Microbes and Booze’ seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
   },
   {
