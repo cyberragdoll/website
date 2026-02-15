@@ -384,7 +384,7 @@ export const TALKS: Talk[] = [
     id: 'host8',
     title: "Computational Linguistics in the Netherlands Conference (CLIN27)",
     event: "KU Leuven",
-    date: "2027-02-10",
+    date: "2017-02-10",
     location: "Leuven, Belgium",
     type: 'Hosting',
     description: "Co-organizer of the 27th Computational Linguistics in the Netherlands Conference (CLIN27) in Leuven.",
