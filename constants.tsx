@@ -309,7 +309,7 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host4.png"
   },
   {
-    id: 'scicomm7',
+    id: 'scicomm8',
     title: "Pictographs to the Rescue!",
     event: "Microbes & Booze",
     date: "2018-12-12",
