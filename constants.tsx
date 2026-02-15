@@ -321,7 +321,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm14',
-    title: "Interview and Science Pitch about the Picto Translation Technology",
+    title: "Science Pitch about the Picto Translation Technology",
     event: "VRT Taalavond",
     date: "2019-10-10",
     location: "Antwerp, Belgium",
@@ -402,7 +402,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm7',
-    title: "Interview and Science Pitch about the Picto Translation Technology",
+    title: "Science Pitch about the Picto Translation Technology",
     event: "VIP Opening Event @ Boekenbeurs Antwerpen",
     date: "2018-10-27",
     location: "Antwerpen, Belgium",
