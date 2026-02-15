@@ -314,7 +314,7 @@ export const TALKS: Talk[] = [
     date: "2021-06-02",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Article description: In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.",
+    description: "Article description: 'In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.'",
     link: "https://stories.kuleuven.be/nl/verhalen/speeddate-met-leen-sevens-ooit-wil-ik-klingon-leren",
     imageUrl: "/website/media2.png"
   },
@@ -722,7 +722,7 @@ export const TALKS: Talk[] = [
     date: "2016-03-23",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Article description: Naar schatting twee tot vijf miljoen mensen in Europa zouden makkelijker communiceren als dat via een ander medium dan tekst kan verlopen. 'Denk daarbij bijvoorbeeld aan mensen met het syndroom van Down, afasie of een ernstige verstandelijke beperking. Pictogrammen kunnen hen een belangrijke uitweg bieden', zegt linguïste Leen Sevens van het Centrum voor Computerlinguïstiek (CCL).",
+    description: "Article description: 'Naar schatting twee tot vijf miljoen mensen in Europa zouden makkelijker communiceren als dat via een ander medium dan tekst kan verlopen. 'Denk daarbij bijvoorbeeld aan mensen met het syndroom van Down, afasie of een ernstige verstandelijke beperking. Pictogrammen kunnen hen een belangrijke uitweg bieden', zegt linguïste Leen Sevens van het Centrum voor Computerlinguïstiek (CCL).'",
     link: "https://museos2015.wordpress.com/wp-content/uploads/2015/11/campuskrant.pdf"
   },
   {
