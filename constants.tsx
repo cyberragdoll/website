@@ -375,7 +375,7 @@ export const TALKS: Talk[] = [
     location: "Geel, Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
-    imageUrl: "academictalk11.jpg"
+    imageUrl: "academictalk12.jpg"
   },
   {
     id: 'scicomm4',
