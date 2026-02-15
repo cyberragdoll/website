@@ -316,7 +316,7 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "Article description: 'In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.'",
     link: "https://stories.kuleuven.be/nl/verhalen/speeddate-met-leen-sevens-ooit-wil-ik-klingon-leren",
-    imageUrl: "/website/media2.png"
+    imageUrl: "/website/media2.jpg"
   },
   {
     id: 'academictalk26',
