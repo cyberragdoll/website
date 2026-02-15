@@ -19,7 +19,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "EOS Wetenschap",
     type: 'Other',
     link: "https://www.eoswetenschap.eu/technologie/chatten-zonder-letters",
-    abstract: "Niet kunnen lezen en schrijven, maar tóch mailen en chatten? Het Picto-systeem vertaalt tekst naar pictogrammen en omgekeerd zodat mensen met een verstandelijke beperking actief kunnen deelnemen aan de digitale maatschappij. \n \n Een mailtje sturen naar je collega, surfen naar de website van je favoriete krant, tweeten over de kanarie van de buren en nog snel even een app’je verzenden naar je beste vriendin. Tekst en digitale media zijn onlosmakelijk met elkaar verbonden. Toch zijn er in Europa naar schatting tussen de twee en de vijf miljoen mensen voor wie digitale communicatie gemakkelijker zou zijn als die niet via tekst, maar via pictogrammen zou verlopen. Voor hen ontwikkelden we Picto, een slim systeem voor automatische vertaling van geschreven tekst naar pictogrammen en omgekeerd."
+    abstract: "Niet kunnen lezen en schrijven, maar tóch mailen en chatten? Het Picto-systeem vertaalt tekst naar pictogrammen en omgekeerd zodat mensen met een verstandelijke beperking actief kunnen deelnemen aan de digitale maatschappij. \n \n Een mailtje sturen naar je collega, surfen naar de website van je favoriete krant, tweeten over de kanarie van de buren en nog snel even een app'je verzenden naar je beste vriendin. Tekst en digitale media zijn onlosmakelijk met elkaar verbonden. Toch zijn er in Europa naar schatting tussen de twee en de vijf miljoen mensen voor wie digitale communicatie gemakkelijker zou zijn als die niet via tekst, maar via pictogrammen zou verlopen. Voor hen ontwikkelden we Picto, een slim systeem voor automatische vertaling van geschreven tekst naar pictogrammen en omgekeerd."
   },
   {
     id: 'aca19',
@@ -29,7 +29,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Computational Linguistics in the Netherlands Journal, Vol. 8, p. 24-48",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/29de3090-bf98-4568-8bda-f0328e3c47c2",
-    abstract: "We discuss the design, development and evaluation of an automated lexical simplification tool for Dutch. A basic pipeline approach is used to perform both text adaptation and annotation. First, sentences are preprocessed and word sense disambiguation is performed. Then, the difficulty of each token is estimated by looking at their average age of acquisition and frequency in a corpus of simplified Dutch. We use Cornetto to find synonyms of words that have been identified as difficult and the SONAR500 corpus to perform reverse lemmatisation. Finally, we rely on a largescale language model to verify whether the selected replacement word fits the local context. In addition, the text is augmented with information from Wikipedia (word definitions and links). We tune and evaluate the system with sentences taken from the Flemish newspaper De Standaard. The results show that the system’s adaptation component has low coverage, since it only correctly simplifies around one in five ‘difficult’ words, but reasonable accuracy, with no grammatical errors being introduced in the text. The Wikipedia annotations have a broader coverage, but their potential for simplification needs to be further developed and more thoroughly evaluated."
+    abstract: "We discuss the design, development and evaluation of an automated lexical simplification tool for Dutch. A basic pipeline approach is used to perform both text adaptation and annotation. First, sentences are preprocessed and word sense disambiguation is performed. Then, the difficulty of each token is estimated by looking at their average age of acquisition and frequency in a corpus of simplified Dutch. We use Cornetto to find synonyms of words that have been identified as difficult and the SONAR500 corpus to perform reverse lemmatisation. Finally, we rely on a largescale language model to verify whether the selected replacement word fits the local context. In addition, the text is augmented with information from Wikipedia (word definitions and links). We tune and evaluate the system with sentences taken from the Flemish newspaper De Standaard. The results show that the system's adaptation component has low coverage, since it only correctly simplifies around one in five ‘difficult' words, but reasonable accuracy, with no grammatical errors being introduced in the text. The Wikipedia annotations have a broader coverage, but their potential for simplification needs to be further developed and more thoroughly evaluated."
   },
   {
     id: 'aca18',
@@ -87,7 +87,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "An Brouns (author), Leen Sevens (illustrator)",
     year: 2017,
     venue: "Uitgeverij Het Punt",
-    type: 'Children’s books',
+    type: 'Children's books',
     link: "",
     abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit."
   },
@@ -217,7 +217,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2015,
     venue: "Uitgeverij Het Punt",
-    type: 'Children’s books',
+    type: 'Children's books',
     link: "",
     abstract: "In Dromeria: Biggie hebben we al vele inwoners van Dromeria leren kennen. Nu is het de beurt aan de verstrooide postbode Lode!"
   },
@@ -239,7 +239,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Proceedings of the Workshop on Lexical and Grammatical Resources for Language Processing, p. 120-126, Association for Computational Linguistics",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/279457",
-    abstract: "Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages’ synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3)."
+    abstract: "Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages' synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3)."
   },
   {
     id: 'childrensbook1',
@@ -247,7 +247,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2013,
     venue: "Uitgeverij Het Punt",
-    type: 'Children’s books',
+    type: 'Children's books',
     link: "",
     abstract: "In Dromeria woont Biggie samen met vele andere leuke dieren. Wil je weten wat daar allemaal gebeurt? Lees dan snel dit boekje en ontdek welke grappige streken Biggie nu weer uithaalt..."
   },
@@ -310,6 +310,35 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host4.png"
   },
   {
+    id: 'scicomm7',
+    title: "Pictographs to the Rescue!",
+    event: "Microbes & Booze",
+    date: "2018-12-12",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Presentation for the Microbes & Booze lecture series. The monthly ‘Microbes and Booze’ seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
+  },
+  {
+    id: 'scicomm6',
+    title: "Science Slam: Pictogramvertaaltechnologie voor Mensen met een Verstandelijke Beperking",
+    event: "Boekenbeurs Antwerpen",
+    date: "2018-11-08",
+    location: "Antwerpen, Belgium",
+    type: 'science communication',
+    description: "Winner of KU Leuven's Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
+    imageUrl: "/website/award6.jpg"
+  },
+  {
+    id: 'scicomm7',
+    title: "Interview and Science Pitch about the Picto Translation Technology",
+    event: "VIP Opening Event @ Boekenbeurs Antwerpen",
+    date: "2018-10-27",
+    location: "Antwerpen, Belgium",
+    type: 'science communication',
+    description: "Speaker at the VIP opening event of the Antwerp Book Fair as a representative of KU Leuven.",
+    imageUrl: "/website/scicomm5.jpg"
+  },
+  {
     id: 'host2',
     title: "The 2nd Workshop on Improving Social Inclusion: Tools and Resources (ISI-NLP)",
     event: "The 11th Language Resources and Evaluation Conference (LREC 2018)",
@@ -321,6 +350,82 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host3.jpg"
   },
   {
+    id: 'scicomm5',
+    title: "The @rt of Effective #Science Communication: Do's and Don'ts",
+    event: "Kulak Research Day",
+    date: "2018-03-09",
+    location: "Kortrijk, Belgium",
+    type: 'science communication',
+    description: "Invited talk for Kulak staff on practical techniques for communicating research clearly and effectively.",
+    imageUrl: "scicomm4.jpg"
+  },
+  {
+    id: 'academictalk22',
+    title: "Pictograph-to-Text Translation for Augmented and Alternative Communication",
+    event: "Computational Linguistics in the Netherlands Conference (CLIN28)",
+    date: "2018-01-26",
+    location: "Nijmegen, The Netherlands",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metrics and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system."
+  },
+  {
+    id: 'academictalk21',
+    title: "Taaltechnologie ontwikkelen voor en met mensen met een verstandelijke beperking",
+    event: "COM@Modem Dag",
+    date: "2017-11-30",
+    location: "Geel, Belgium",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
+    imageUrl: "academic11.jpg"
+  },
+  {
+    id: 'scicomm4',
+    title: "Breaking the Wall of Illiteracy",
+    event: "Falling Walls Lab",
+    date: "2017-11-08",
+    location: "Berlin, Germany",
+    type: 'science communication',
+    description: "Presentation for the Falling Walls Lab international finale in Berlin. A hundred candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience.",
+    imageUrl: "scicomm3.jpg"
+  },
+  {
+    id: 'academictalk20',
+    title: "E-Inclusion Through Pictographs",
+    event: "LT Industry Summit",
+    date: "2017-10-10",
+    location: "Brussels, Belgium",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain."
+  },
+  {
+    id: 'academictalk19',
+    title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities",
+    event: "Association for the Advancement of Assistive Technology in Europe Conference (AAATE 2017)",
+    date: "2017-09-14",
+    location: "Sheffield, UK",
+    type: 'Academic & Professional',
+    description: "We present a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies.",
+    imageUrl: "/website/academictalk10.jpg"
+  },
+  {
+    id: 'scicomm3',
+    title: "What We Learn with Pleasure, We Never Forget",
+    event: "Let's Talk Science",
+    date: "2017-07-06",
+    location: "Ghent, Belgium",
+    type: 'Academic & Professional',
+    description: "Let's Talk Science is all about science communication and communicative competences. Every year, around the beginning of July, PhD researchers and postdocs of all Flemish universities and researchers of the Council of the Flemish Universities of Applied Sciences and Arts get the chance to delve into the world of science communication. In this plenary session, I testified about my experiences with science communication. By sharing examples and best practices, I illustrated how you can use science communication to the benefit of your current research and future career."
+  },
+  {
+    id: 'academictalk18',
+    title: "Simplified Text-to-Pictograph Translation for People with Intellectual Disabilities",
+    event: "International Conference on Applications of Natural Language to Information Systems (NLDB 2017)",
+    date: "2017-06-22",
+    location: "Liège, Belgium",
+    type: 'Academic & Professional',
+    description: "In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. Our evaluations show a large improvement over the baseline.",
+  },
+  {
     id: 'media1',
     title: "Computational Linguist Leen Sevens Talks To Durtti About Her Groundbreaking Pictograph Translation Technology",
     event: "Durtti",
@@ -329,6 +434,15 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "Article description: 'Leen Sevens is continually pushing extraordinary boundaries in her research at the Centre for Computational Linguistics (KU Leuven). The many benefits of her pioneering work will undoubtedly transform those with cognitive learning difficulties, including the rapidly increasing number of migrating populations who are having to quickly learn a new language. Durtti wants to understand some of the development challenges Leen has faced to date, and more importantly, how she has overcome them.'",
     link: "http://web.archive.org/web/20190621201347/http://www.durtti.com:80/computational-linguist-leen-sevens-talks-to-durtti-about-her-groundbreaking-pictograph-translation-technology/"
+  },
+  {
+    id: 'academictalk17',
+    title: "E-Inclusion Through Pictographs",
+    event: "Uitreiking Pioniersprijs en Maatschappijprijs Groep Humane Wetenschappen",
+    date: "2017-05-22",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain."
   },
     {
     id: 'academictalk16',
@@ -415,7 +529,7 @@ export const TALKS: Talk[] = [
     date: "2016-09-06",
     location: "Lancaster, UK",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. In order to be included in today’s society, it is becoming increasingly important to be able to use the current available technological tools. The number of apps is growing exponentially, but very few are really accessible to people with Intellectual Disabilities (ID). However, users indicated very clearly their desire to interact with their friends and family on social media. The Able-to-Include project seeks to improve the lives of people with ID. Able-to-Include is creating a context-aware Accessibility Layer based on three key technologies that can improve the daily tasks of people with ID and help them interact with the Information Society. These technologies are a text simplifier, pictograph translation technologies, and text-to-speech funtionalities. The integration of this Accessibility Layer with existing ICT tools will be tested in different pilots in Spain, Belgium, and the UK. Within the Able-to-Include project, KU Leuven is responsible for the development of the Text-to-Pictograph and Pictograph-to-Text translation tools. The Text-to-Pictograph translation tool translates Dutch, English, and Spanish text into a series of Sclera or Beta pictographs. Additional to a shallow source language analysis, we use WordNets to link pictographs to groups of synonyms and retrieve appropriate or semantically related pictographs in the translation process. The system allows social media text to be converted into pictographs with a single tap. The Pictograph-to-Text translation system provides help in constructing Dutch, English, and Spanish textual messages by allowing the user to introduce a series of pictographs and translates these messages into natural language using WordNet synsets and a trigram language model. So far, we have developed two different input methods. When using social media websites, users have access to the Accessibility Layer to construct pictograph messages using a pictograph hierarchy and a pictograph predictor. Their messages will be converted to text, which can be posted on the website.", 
+    description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. In order to be included in today's society, it is becoming increasingly important to be able to use the current available technological tools. The number of apps is growing exponentially, but very few are really accessible to people with Intellectual Disabilities (ID). However, users indicated very clearly their desire to interact with their friends and family on social media. The Able-to-Include project seeks to improve the lives of people with ID. Able-to-Include is creating a context-aware Accessibility Layer based on three key technologies that can improve the daily tasks of people with ID and help them interact with the Information Society. These technologies are a text simplifier, pictograph translation technologies, and text-to-speech funtionalities. The integration of this Accessibility Layer with existing ICT tools will be tested in different pilots in Spain, Belgium, and the UK. Within the Able-to-Include project, KU Leuven is responsible for the development of the Text-to-Pictograph and Pictograph-to-Text translation tools. The Text-to-Pictograph translation tool translates Dutch, English, and Spanish text into a series of Sclera or Beta pictographs. Additional to a shallow source language analysis, we use WordNets to link pictographs to groups of synonyms and retrieve appropriate or semantically related pictographs in the translation process. The system allows social media text to be converted into pictographs with a single tap. The Pictograph-to-Text translation system provides help in constructing Dutch, English, and Spanish textual messages by allowing the user to introduce a series of pictographs and translates these messages into natural language using WordNet synsets and a trigram language model. So far, we have developed two different input methods. When using social media websites, users have access to the Accessibility Layer to construct pictograph messages using a pictograph hierarchy and a pictograph predictor. Their messages will be converted to text, which can be posted on the website.", 
     imageUrl: "/website/academictalk7.jpg"
   },
  {
@@ -505,7 +619,7 @@ export const TALKS: Talk[] = [
     date: "2014-09-24",
     location: "Dublin, Ireland",
     type: 'Academic & Professional',
-    description: "Poster presentation in collaboration with Vincent Vandeghinste and Frank Van Eynde, presented by me. Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages’ synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3).",
+    description: "Poster presentation in collaboration with Vincent Vandeghinste and Frank Van Eynde, presented by me. Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages' synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3).",
     imageUrl: "/website/academictalk1.jpg"
   }
 ];
@@ -533,7 +647,7 @@ export const AWARDS: Award[] = [
     title: "KU Leuven Science Slam Winner",
     organization: "KU Leuven",
     year: 2018,
-    description: "Winner of KU Leuven’s Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
+    description: "Winner of KU Leuven's Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
     imageUrl: "/website/award6.jpg"
   },
   {
@@ -557,7 +671,8 @@ export const AWARDS: Award[] = [
     title: "Best Communication Paper Award",
     organization: "Web4All Conference",
     year: 2017,
-    description: "Best Communication Paper Award for 'Able to Read my Mail: An Accessible E-mail Client with Assistive Technology' (Horacio Saggion, Daniel Ferrés, Leen Sevens, Ineke Schuurman) at the 14th International Web for All Conference."
+    description: "Best Communication Paper Award for 'Able to Read my Mail: An Accessible E-mail Client with Assistive Technology' (Horacio Saggion, Daniel Ferrés, Leen Sevens, Ineke Schuurman) at the 14th International Web for All Conference.",
+    imageUrl: "/website/award15.jpg",
   },
   {
     id: 'award3',
