@@ -349,7 +349,7 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'science communication',
     description: "I was selected in the semi-final round of the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
-    imageUrl: "/website/award13.jpg",
+    imageUrl: "/website/award13.png",
   },
   {
     id: 'scicomm10',
