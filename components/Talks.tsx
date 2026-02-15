@@ -174,7 +174,7 @@ const Talks: React.FC = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 px-8 py-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest rounded-xl hover:bg-sky-600 transition-all shadow-lg"
                 >
-                  <span>Read more</span>
+                  <span>Learn more</span>
                   <svg
                     className="w-4 h-4"
                     fill="none"
