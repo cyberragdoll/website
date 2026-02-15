@@ -287,6 +287,16 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host4.png"
   },
   {
+    id: 'academictalk27',
+    title: "Student vs. Docent: Feedback over de Toekomst van Blended Onderwijs in HW",
+    event: "The Big Blend II (KU Leuven)",
+    date: "2021-12-10",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Event report: 'De immer bevlogen Leen Sevens gaf ons tijdens The Big Blend een inkijk in een grootscheepse bevraging bij ruim 3.000 studenten en 390 docenten die de stafmedewerker onderwijsinnovatie in deskundige banen leidde. Wat kunnen we zoal uit het onderzoek afleiden? Gezien de alomtegenwoordigheid van het coronavirus, hoeft het niet te verbazen dat slechts een bescheiden minderheid van de contactmomenten op de campus heeft plaatsgevonden. Tegelijkertijd valt de hoge interactiviteit hierbij op, in meerdere mate zelfs dan bij de vakken die volledig digitaal zijn verlopen. Wanneer we dan inzoomen op dat online onderwijs, kunnen de meeste elementen daarvan op veel bijval rekenen. Docenten geven hierbij weliswaar aan dat ze in de toekomst verkiezen om aan een fysiek publiek les te geven. Studenten raden op hun beurt de inzet van verouderde lesopnames ten stelligste af. Als het op digitale presentaties aankomt, merken ze dan weer op dat uiteenzettingen op de campus meer oefenkansen voor demonstratieskills bieden. Online onderwijs heeft met andere woorden voor- en nadelen. Studenten benadrukken vooral de flexibiliteit als pluspunt, maar tonen zich toch bezorgd om de studiebelasting en het gebrek aan sociaal contact. Voor docenten is de tijdsbelasting eveneens een aandachtspunt. Zij prijzen aan de andere kant de vele ervaringen met digitale tools en onderwijsdesign die ze hebben opgedaan.'",
+    link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-II"
+  },
+  {
     id: 'host4',
     title: "The Big Blend II",
     event: "KU Leuven",
@@ -296,6 +306,27 @@ export const TALKS: Talk[] = [
     description: "Co-organizer of the second edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n The end of the working week had never been so enjoyable as on Friday, December 10, 2021, during The Big Blend II. On that day, several lecturers and support staff from the Group of Humanities gave around a hundred participants a stimulating boost of inspiration. They shared, among other things, how they used educational tools to engage in dialogue and interaction with students — and with each other.",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-II",
     imageUrl: "/website/host4.png"
+  },
+  {
+    id: 'media6',
+    title: "Speeddate met Leen Sevens: 'Ooit wil ik Klingon leren'",
+    event: "Sonar (Magazine KU Leuven)",
+    date: "2021-06-02",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Article description: In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.",
+    link: "https://stories.kuleuven.be/nl/verhalen/speeddate-met-leen-sevens-ooit-wil-ik-klingon-leren",
+    imageUrl: "/website/media2.png"
+  },
+  {
+    id: 'academictalk26',
+    title: "Feedback van Studenten over Afstandsonderwijs",
+    event: "The Big Blend I (KU Leuven)",
+    date: "2020-12-04",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Event report: 'Hoe ervaren studenten blended onderwijs? Leen Sevens van de Groepsdiensten Humane Wetenschappen licht een tipje van de sluier van een grootscheepse studentenbevraging. Als het van hen afhangt, zal deze onderwijsvorm in de toekomst een rol van betekenis blijven spelen. Zelf koos Leen voor een gedurfde blend tussen een online livesessie en handgeschreven slides.'",
+    link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-terugblik"
   },
   {
     id: 'host3',
@@ -320,6 +351,16 @@ export const TALKS: Talk[] = [
     gallery: ["/website/scicomm8.jpg"] 
   },
   {
+    id: 'academictalk24',
+    title: "Words Divide, Pictographs Unite",
+    event: "KU Leuven",
+    date: "2019-11-14",
+    location: "Antwerp, Belgium",
+    type: 'Academic & Professional',
+    description: "Guest lecture about pictograph translation technologies for the course 'Communicatiewetenschap' at the Faculty of Arts in Antwerp.",
+    imageUrl: "/website/academictalk14.jpg"
+  },
+  {
     id: 'scicomm14',
     title: "Science Pitch about the Picto Translation Technology",
     event: "VRT Taalavond",
@@ -329,7 +370,6 @@ export const TALKS: Talk[] = [
     description: "Invited speaker at the VRT Taalavond, where I presented my PhD Cup pitch and was interviewed by Marcel Vanthilt about accessibility in language.",
     imageUrl: "/website/scicomm9.jpg",
     gallery: ["/website/scicomm10.jpg"] 
-
   },
   {
     id: 'scicomm13',
@@ -350,6 +390,15 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "I was selected in the semi-final round of the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
     imageUrl: "/website/award13.png",
+  },
+  {
+    id: 'academictalk25',
+    title: "Praten met Prentjes",
+    event: "KU Leuven",
+    date: "2019-09-19",
+    location: "Antwerp, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture on pictograph translation technologies to mark the opening of the new academic year for the BA in Applied Linguistics at the Faculty of Arts in Antwerp."
   },
   {
     id: 'scicomm10',
@@ -665,6 +714,16 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. We present the first version of an automated spelling correction system for Dutch Internet users with Intellectual Disabilities (ID). The normalization of ill-formed messages is an important preprocess- ing step before any conventional Natural Language Processing (NLP) process can be applied. As such, we describe the effects of automated correction of Dutch ID text within the larger framework of a Text-to-Pictograph translation system. The present study consists of two main parts. First, we thoroughly analyze email messages that have been written by users with cognitive disabilities in or- der to gain insights on how to develop solutions that are specifically tailored to their needs. We then present a new, generally applicable approach toward context-sensitive spelling correction, based on character-level fuzzy matching techniques. The resulting system shows significant improvements, although further research is still needed.",
     imageUrl: "/website/host2.jpg"
+  },
+  {
+    id: 'media5',
+    title: "Vertaalprogramma Zet Tekst om in Pictogrammen en Omgekeerd",
+    event: "Campuskrant KU Leuven",
+    date: "2016-03-23",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Article description: Naar schatting twee tot vijf miljoen mensen in Europa zouden makkelijker communiceren als dat via een ander medium dan tekst kan verlopen. 'Denk daarbij bijvoorbeeld aan mensen met het syndroom van Down, afasie of een ernstige verstandelijke beperking. Pictogrammen kunnen hen een belangrijke uitweg bieden', zegt linguïste Leen Sevens van het Centrum voor Computerlinguïstiek (CCL).",
+    link: "https://museos2015.wordpress.com/wp-content/uploads/2015/11/campuskrant.pdf"
   },
   {
     id: 'academictalk7',
