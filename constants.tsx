@@ -415,7 +415,7 @@ export const TALKS: Talk[] = [
     date: "2018-01-14",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Een technologie waarmee tekst voor mensen met een beperking kan omgezet worden naar pictogrammen en omgekeerd. Het is het doctoraatsproject van Leen Sevens uit Lanaken. Ze hoopt op die manier sociale media en het internet vlotter toegankelijk te maken voor mensen met een beperking. Het project gaat niet onopgemerkt voorbij, want de Lanakense won er al een internationale competitie mee voor jonge onderzoekers die maatschappelijke vernieuwing teweeg brengen.",
+    description: "Interview description: 'Een technologie waarmee tekst voor mensen met een beperking kan omgezet worden naar pictogrammen en omgekeerd. Het is het doctoraatsproject van Leen Sevens uit Lanaken. Ze hoopt op die manier sociale media en het internet vlotter toegankelijk te maken voor mensen met een beperking. Het project gaat niet onopgemerkt voorbij, want de Lanakense won er al een internationale competitie mee voor jonge onderzoekers die maatschappelijke vernieuwing teweeg brengen.'",
     link: "https://www.tvl.be/nieuws/lanakense-ontwikkelt-pictogrammentaal-en-geeft-mensen-met-een-mentale-beperking-een-stem-54241"
   },
   {
