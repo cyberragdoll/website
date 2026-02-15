@@ -542,7 +542,7 @@ export const AWARDS: Award[] = [
     organization: "KU Leuven",
     year: 2017,
     description: "The Picto technology, developed in collaboration with Vincent Vandeghinste and Ineke Schuurman, received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
-    imageUrl: "/website/award14.png"
+    imageUrl: "/website/award14.jpg"
   },
   {
     id: 'award5',
