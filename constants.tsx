@@ -446,7 +446,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Media & Interviews',
     description: "Article description: 'Leen Sevens (25) uit Lanaken heeft een vertaalsysteem uitgevonden dat tekst kan omzetten in pictogrammen en vice versa. Daarmee wil de doctoraatsstudente het internet en sociale media toegankelijker maken voor mensen met een verstandelijke beperking. 'Maar het systeem zou bijvoorbeeld ook gebruikt kunnen worden om te kunnen communiceren met vluchtelingen die nog geen Nederlands kunnen', zegt de Lanakense.",
-    imgURL: "media1.jpg"
+    imageURL: "media1.jpg"
   },
   {
     id: 'scicomm4',
