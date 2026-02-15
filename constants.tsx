@@ -394,7 +394,7 @@ export const TALKS: Talk[] = [
     date: "2017-10-10",
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain."
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. Social media websites have radically changed the way in which we access and share information. However, people with Intellectual Disabilities (ID) have very limited access to the currently available technological tools, such as email clients or Facebook. We describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) technologies within the framework of a contextaware Accessibility Layer. More particularly, in this paper, we will focus on the set of tools that translate written text into pictographs and vice versa. Additionally, we will explain how the different pilot studies that are conducted within the project guide us in improving our technologies."
   },
   {
     id: 'academictalk19',
@@ -441,7 +441,8 @@ export const TALKS: Talk[] = [
     date: "2017-05-22",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain."
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
+    imageUrl: "/website/award14.jpg"
   },
     {
     id: 'academictalk16',
