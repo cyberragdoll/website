@@ -317,7 +317,7 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "Kinderuniversiteit (Children's University) is an educational outreach initiative that introduces children to university life through engaging lectures, workshops, and hands-on activities, inspiring curiosity and a love for science and learning from an early age.",
     imageUrl: "/website/scicomm7.jpg",
-    gallery: ["/website/scicomm8.png"] 
+    gallery: ["/website/scicomm8.jpg"] 
   },
   {
     id: 'scicomm10',
