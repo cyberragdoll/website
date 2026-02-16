@@ -282,7 +282,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
-    imageUrl: "/website/scicomm15.png",
+    imageUrl: "/website/scicomm15.jpg",
     gallery: ["/website/scicomm16.jpg"],
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
