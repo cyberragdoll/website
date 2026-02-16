@@ -597,7 +597,7 @@ export const TALKS: Talk[] = [
   {
     id: 'scicomm4',
     title: "Breaking the Wall of Illiteracy",
-    event: "Falling Walls Lab Finale",
+    event: "Falling Walls Lab Berlin",
     date: "2017-11-08",
     location: "Berlin, Germany",
     type: 'science communication',
