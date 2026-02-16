@@ -266,7 +266,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm20',
-    title: "Jury member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
     date: "2026-03-11",
     location: "Leuven, Belgium",
@@ -276,7 +276,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm19',
-    title: "Jury member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
     date: "2025-03-25",
     location: "Leuven, Belgium",
@@ -287,8 +287,17 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'academictalk28',
+    title: "Closing Speech on the Future of Language Education in Times of GenAI",
+    event: "Forumdag Taalbeleid Hoger Onderwijs",
+    date: "2024-05-31",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "I gave the closing speech at the Forum Day on Language Policy in Higher Education (topic: 'Toward a High-Tech Language Policy?'), where I wrapped up and reflected on the day's main insights."
+  },
+  {
     id: 'scicomm18',
-    title: "Jury member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
     date: "2024-03-28",
     location: "Leuven, Belgium",
@@ -321,7 +330,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm17',
-    title: "Jury member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
     date: "2023-03-22",
     location: "Leuven, Belgium",
@@ -332,7 +341,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm15',
-    title: "Jury member for the 3 Minute Thesis competition",
+    title: "Jury Member for the 3 Minute Thesis competition",
     event: "KU Leuven",
     date: "2022-11-27",
     location: "Leuven, Belgium",
@@ -526,7 +535,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm16',
-    title: "Jury member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
     date: "2018-03-29",
     location: "Leuven, Belgium",
