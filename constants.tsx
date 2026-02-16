@@ -265,6 +265,39 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/host4.png"
   },
   {
+    id: 'scicomm20',
+    title: "Jury member for Falling Walls Lab Leuven",
+    event: "KU Leuven",
+    date: "2026-03-11",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
+    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
+  },
+  {
+    id: 'scicomm19',
+    title: "Jury member for Falling Walls Lab Leuven",
+    event: "KU Leuven",
+    date: "2025-03-25",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
+    imageUrl: "/website/scicomm15.png",
+    gallery: ["/website/scicomm16.jpg"],
+    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
+  },
+  {
+    id: 'scicomm18',
+    title: "Jury member for Falling Walls Lab Leuven",
+    event: "KU Leuven",
+    date: "2024-03-28",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
+    imageUrl: "/website/scicomm14.png",
+    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
+  },
+  {
     id: 'host6',
     title: "The Big Blend IV",
     event: "KU Leuven",
@@ -285,6 +318,27 @@ export const TALKS: Talk[] = [
     description: "Co-organizer and panel moderator of the third edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n What is the 'new' normal, and how does it differ — or not — from the 'old' normal? How can we foster interaction with and between students? How do you encourage reflection, discussion, and collaboration among students? Which tools and support can you use to facilitate this? And how do you evaluate it all? In this third edition of 'The Big Blend', we focused on several concrete case studies, with plenty of room for feedback and interaction, as well as two energising networking moments.",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-III",
     imageUrl: "/website/host4.png"
+  },
+  {
+    id: 'scicomm17',
+    title: "Jury member for Falling Walls Lab Leuven",
+    event: "KU Leuven",
+    date: "2023-03-22",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
+    imageUrl: "/website/scicomm13.jpg",
+    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
+  },
+  {
+    id: 'scicomm15',
+    title: "Jury member for the 3 Minute Thesis competition",
+    event: "KU Leuven",
+    date: "2022-11-27",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Jury member for the Belgian preselections of the '3 Minute Thesis' competition at KU Leuven, organized during 'Dag van de Wetenschap' (Science Day).",
+    imageUrl: "/website/scicomm11.jpg"
   },
   {
     id: 'academictalk27',
@@ -469,6 +523,17 @@ export const TALKS: Talk[] = [
     description: "I co-organized the second workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 7) at the 11th Language Resources and Evaluation Conference (LREC 2018) in Miyazaki, Japan. \n \n Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?",
     link: "https://www.ccl.kuleuven.be/ISINLP2/",
     imageUrl: "/website/host3.jpg"
+  },
+  {
+    id: 'scicomm16',
+    title: "Jury member for Falling Walls Lab Leuven",
+    event: "KU Leuven",
+    date: "2018-03-29",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
+    imageUrl: "/website/scicomm12.jpg",
+    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
     id: 'scicomm5',
