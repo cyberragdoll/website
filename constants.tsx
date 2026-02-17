@@ -356,7 +356,7 @@ export const TALKS: Talk[] = [
     date: "2023-02-13",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Podcast description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?",
+    description: "Podcast description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?'",
     link: "https://open.spotify.com/episode/0eyXI2q9sHt4H47aKPYSzZ",
     imageUrl: "/website/media3.jpg"
   },
