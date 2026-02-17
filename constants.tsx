@@ -275,6 +275,16 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'academictalk29',
+    title: "GenAI en Begrijpelijke Taal",
+    event: "Colloquium Begrijpelijke Rechtstaal",
+    date: "2025-05-20",
+    location: "Brussels, Belgium",
+    type: 'Academic & Professional',
+    description: "Three workshops in collaboration with An De Moor and Bert Keirsbilck. \n \n Tijdens deze sessie laten we zien hoe tools zoals Copilot en andere chatbots kunnen helpen bij het herschrijven van juridische documenten in een 'klare taal'. We presenteren voorbeelden van wollige juridische teksten en hun herschrijvingen in begrijpelijke rechtstaal, uitgevoerd door een jurist, studenten en GenAI. Daarnaast leren we je hoe je effectieve prompts kunt schrijven om het beste uit GenAI te halen en geven we je praktische voorbeelden mee. We sluiten af met een brainstormsessie over andere mogelijke toepassingen van GenAI voor juristen, waarbij we waardevolle tips delen.",
+    imageUrl: "/website/academictalk15.jpg",
+  },
+  {
     id: 'scicomm19',
     title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
@@ -338,6 +348,17 @@ export const TALKS: Talk[] = [
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
     imageUrl: "/website/scicomm13.jpg",
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
+  },
+   {
+    id: 'media7',
+    title: "Word je Docent Binnenkort een Robot?'",
+    event: "AI AI AI Podcast",
+    date: "2023-02-13",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Podcast description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?",
+    link: "https://open.spotify.com/episode/0eyXI2q9sHt4H47aKPYSzZ",
+    imageUrl: "/website/media3.jpg"
   },
   {
     id: 'scicomm15',
