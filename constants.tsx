@@ -351,7 +351,7 @@ export const TALKS: Talk[] = [
   },
    {
     id: 'media7',
-    title: "Word je Docent Binnenkort een Robot?'",
+    title: "Word je Docent Binnenkort een Robot?",
     event: "AI AI AI Podcast",
     date: "2023-02-13",
     location: "Remote",
