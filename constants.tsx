@@ -263,7 +263,16 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const TALKS: Talk[] = [
-   {
+  {
+    id: 'academictalk48',
+    title: "Skills voor de 21ste eeuw: Efficiënt en verantwoord studeren met GenAI [NL]",
+    event: "KU Leuven",
+    date: "2026-04-27",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture within the course 'Skills voor de 21ste eeuw' (Skills for the 21st Century, Faculty of Science, KU Leuven), focusing on digital and entrepreneurial skills through hands-on introduction to generative AI tools. The session explores practical applications of GenAI for entrepreneurship, including creative problem-solving, workflow support, and responsible use in real-world contexts."
+  },   
+  {
     id: 'academictalk44',
     title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
     event: "LUCA School of Arts",
@@ -331,6 +340,7 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "Three workshops in collaboration with An De Moor and Bert Keirsbilck. \n \n 'Tijdens deze sessie laten we zien hoe tools zoals Copilot en andere chatbots kunnen helpen bij het herschrijven van juridische documenten in een 'klare taal'. We presenteren voorbeelden van wollige juridische teksten en hun herschrijvingen in begrijpelijke rechtstaal, uitgevoerd door een jurist, studenten en GenAI. Daarnaast leren we je hoe je effectieve prompts kunt schrijven om het beste uit GenAI te halen en geven we je praktische voorbeelden mee. We sluiten af met een brainstormsessie over andere mogelijke toepassingen van GenAI voor juristen, waarbij we waardevolle tips delen.'",
     imageUrl: "/website/academictalk15.jpg",
+    link: "https://lirias.kuleuven.be/retrieve/7967b30b-2ed6-404c-9762-14365d06716b"
   },
   {
     id: 'academictalk31',
@@ -382,6 +392,16 @@ export const TALKS: Talk[] = [
     description: "Invited lecture for the course 'Studium Generale' at KU Leuven, focusing on the opportunities and challenges of AI in education. The session combined practical do's and don'ts for students, covering responsible use, risks such as bias, misinformation, and environmental impact, with an overview of KU Leuven's institutional approach to AI in teaching and learning.",
     imageUrl: "/website/academictalk17.png"
   },
+  {
+    id: 'academictalk52',
+    title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond",
+    event: "VAIA Team Day",
+    date: "2025-02-05",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited presentation at the team day of Vlaamse AI Academie (VAIA), highlighting AI initiatives at KU Leuven with a particular focus on the collaboration between KU Leuven and VAIA in the development of a MOOC on AI and the Humanities. The session showcased institutional strategy, educational innovation, and cross-sector partnership in AI education.",
+    imageUrl: "/website/academictalk31.jpg"
+  },  
   {
     id: 'academictalk38',
     title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
@@ -444,6 +464,16 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/media6.png"
   },
   {
+    id: 'academictalk48',
+    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    event: "FEB @ KU Leuven",
+    date: "2024-08-21",
+    location: "Brussels, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for the Research Unit for Economics Education (Faculty of Economics and Business, KU Leuven), delivered during the unit's annual council meeting. \n \n 'In een tijdperk waar technologische innovaties, en in het bijzonder GenAI, razendsnel evolueren, staat ons onderwijs voor nieuwe uitdagingen en kansen. In deze sessie verkennen we de delicate balans tussen het omarmen van GenAI in het onderwijs en het behouden van een kritische, bewuste aanpak. We duiken in de kansen die GenAI biedt voor het verrijken van de leerervaring van onze studenten, alsook de inherente risico's die gepaard gaan met een te grote afhankelijkheid van dergelijke technologieën. \n \n We staan stil bij de vraagstukken rond het evalueren van de (schrijf)vaardigheden van studenten in een tijd waarin technologie een steeds grotere rol speelt. Hoe kunnen we er zeker van zijn dat zij aan het einde van hun leertraject in staat zijn hun unieke, menselijke talenten optimaal te benutten, zelfstandig en niet noodzakelijk geassisteerd door technologische hulpmiddelen? \n \n Verder verkennen we hoe GenAI kan dienen als een krachtige bondgenoot in ons eigen onderwijsproces. We zullen onderzoeken hoe docenten optimaal gebruik kunnen maken van de voordelen en nieuwe werkvormen die GenAI ons te bieden heeft, zonder daarbij de essentie van ons vakgebied te ontmenselijken. \n \n Aan de hand van inspirerende voorbeelden en inzichten in hoe KU Leuven navigeert door de steeds evoluerende technojungle, gaan we samen op zoek naar de juiste methoden om GenAI op een goede manier te benaderen, zodat zowel docenten als studenten het maximale uit deze revolutionaire technologie kunnen halen, zonder daarbij de menselijke touch te verliezen.'",
+    imageUrl: "/website/academictalk28.jpg"
+  },   
+  {
     id: 'academictalk34',
     title: "Tussen mens en machine - De rol van GenAI in taalonderwijs [NL]",
     event: "Inspiratiedag Taalonderwijs (CLT 50)",
@@ -470,6 +500,26 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Academic & Professional',
     description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor ‘Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC’. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'"
+  },  
+  {
+    id: 'host8',
+    title: "Dag van de Onderwijsondersteuner: GenAI - Uitdagingen en kansen [NL]",
+    event: "KU Leuven",
+    date: "2024-04-26",
+    location: "Leuven, Belgium",
+    type: 'Hosting',
+    description: "Co-organizer and panel moderator of the 'Dag van de Onderwijsondersteuner' (Day of the Educational Support Professional), dedicated to exploring the challenges and opportunities of generative AI and its impact on the role of educational support staff. The event examined practical applications of tools such as Copilot and ChatGPT, strategies for effective use in educational and workplace contexts, and critical reflections on both the benefits and risks of GenAI.",
+    imageUrl: "/website/host5.jpg"
+  },
+  {
+    id: 'academictalk51',
+    title: "The basics van GenAI: van A tot GPT! [NL]",
+    event: "Dag van de Onderwijsondersteuner @ KU Leuven",
+    date: "2024-04-26",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Lien Castelein on the fundamentals of generative AI in higher education, introducing KU Leuven guidelines for responsible use alongside practical prompting tips and hands-on strategies. The session supported teaching staff in understanding both institutional policy and everyday applications of GenAI for learning, teaching, and assessment.",
+    imageUrl: "/website/academictalk30.jpg"
   },  
   {
     id: 'media9',
@@ -553,6 +603,25 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/media9.jpg"
   },
   {
+    id: 'scicomm25',
+    title: "Getting Out There as a Science Communicator",
+    event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
+    date: "2023-06-08",
+    location: "Kortrijk, Belgium",
+    type: 'science communication',
+    description: "Invited talk for Kulak staff on practical techniques for communicating research clearly and effectively.",
+    imageUrl: "/website/scicomm19.jpg"
+  },
+  {
+    id: 'academictalk50',
+    title: "Hoe kan je evoluties uit de maatschappij en beroepsdomeinen integreren in curricula? [NL]",
+    event: "Dag van de Onderwijsondersteuner @ KU Leuven",
+    date: "2023-05-05",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Gertjan Muyters, Lien Castelein, Sanne Uyttendaele, Thomas Lodewyckx, and Giete Vanderlinden. \n \n 'De wereld staat niet stil, en het onderwijslandschap moet steeds sneller kunnen volgen om studenten hierop voor te bereiden. In deze sessie zullen we, o.b.v. twee projecten, bekijken hoe we de ontwikkelingen voortkomend uit de snel evoluerende maatschappij en beroepsdomeinen kunnen integreren in verschillende curricula. Enerzijds zoomen we in op de aanpak binnen Biomedische Wetenschappen om de evoluties in de gezondheidszorg te vertalen naar kerncompetenties voor zorgprofessionals en de impact op curricula, anderzijds bekijken we hoe binnen Humane Wetenschappen data science op de agenda gezet wordt van uiteenlopende curricula.'"
+  },  
+  {
     id: 'host5',
     title: "The Big Blend III [NL]",
     event: "KU Leuven",
@@ -562,6 +631,17 @@ export const TALKS: Talk[] = [
     description: "Co-organizer and panel moderator of the fourth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze derde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-III",
     imageUrl: "/website/host4.png"
+  },
+  {
+    id: 'scicomm23',
+    title: "Beyond the Manuscripts and Microscopes - Experimenting with Effective #SciComm",
+    event: "Kulak Onderzoeksdag",
+    date: "2024-03-25",
+    location: "Kortrijk, Belgium",
+    type: 'science communication',
+    description: "Event description: 'We have invited dr. Leen Sevens, PhD in Computational Linguistics & MSc in Artificial Intelligence, to deliver the keynote lecture during the Research Afternoon. Dr. Sevens is specialized in how to communicate research successfully and creatively to the outer world. This lecture, full of valuable tips, tricks & lessons learnt, will send you home feeling inspired and ready to take your first/next steps towards becoming a resourceful science communicator yourself.'",
+    imageUrl: "/website/academictalk24.jpg",
+    gallery: ["/website/academictalk24.jpg"]
   },
   {
     id: 'scicomm17',
@@ -670,6 +750,16 @@ export const TALKS: Talk[] = [
     gallery: ["/website/scicomm8.jpg"] 
   },
   {
+    id: 'academictalk49',
+    title: "De robot, docent van de toekomst? Een technorealistische kijk op artificial intelligence in het hoger onderwijs [NL]",
+    event: "Dag van de Onderwijsondersteuner @ KU Leuven",
+    date: "2020-02-06",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "'Onderwijsinstellingen worden in toenemende mate getransformeerd door intelligente systemen die mensen helpen beter te leren en hun leerdoelen te bereiken: artificial intelligence. Van hypergepersonaliseerde leeromgevingen en slimme taaltechnologieën, tot automatische feedback en virtuele klaslokalen: het belang van technologie in het hoger onderwijs zal de komende jaren alleen maar toenemen. Krijg ik straks een robot als collega? Gaan computers mijn werk overnemen? Of creëert artificial intelligence juist meer ruimte voor innovatie en creativiteit? In deze sessie nemen we een kijkje naar de manier waarop artificial intelligence ons onderwijslandschap vandaag de dag al beïnvloedt en gaan we samen op zoek naar slimme oplossingen voor hedendaagse uitdagingen vanuit een optimistisch, maar realistisch toekomstperspectief.'",
+    imageUrl: "/website/academictalk29.jpg"
+  },  
+  {
     id: 'scicomm21',
     title: "De do's en don'ts van presenteren: PollEverywhere-editie [NL]",
     event: "Expertisenetwerk Informatiegeletterdheid @ KU Leuven",
@@ -729,6 +819,15 @@ export const TALKS: Talk[] = [
     description: "Invited lecture on pictograph translation technologies to mark the opening of the new academic year for the BA in Applied Linguistics at the Faculty of Arts in Antwerp."
   },
   {
+    id: 'scicomm25',
+    title: "Breaking Down the Wall of Bad Science Communication",
+    event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
+    date: "2019-05-28",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Workshop description: 'Science isn't finished until it's communicated. Get out there with your results and stand out from the crowd with mind-blowing presentations, get a wider following by making effective use of web-based technologies, and make sure you take every opportunity you can get to steal the spotlight with your achievements. Are you ready to break down the wall of bad science communication? Get inspired in this interactive workshop led by Falling Walls Lab winner Leen Sevens, and let the world know how passionate you are about your research project!'"
+  },
+  {
     id: 'scicomm10',
     title: "Praten met prentjes [NL]",
     event: "Ervaringsdagen",
@@ -786,6 +885,15 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "Speaker at the VIP opening event of the ntwerp Book Fair (Boekenbeurs van Antwerpen) as a representative of KU Leuven.",
     imageUrl: "/website/scicomm5.jpg"
+  },
+  {
+    id: 'scicomm24',
+    title: "How Do You Do (It)? - Research",
+    event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
+    date: "2018-05-31",
+    location: "Leuven, Belgium",
+    type: 'science communication',
+    description: "Workshop in collaboration with Tom Vandevelde and Bram De Ridder. \n \n 'Every young researcher is confronted with similar problems. How do I deal with the different deadlines? Help, I've got writer's block! What if I can't see the next step? Who do I talk to? In the session on 'Research', we tackle common problems that are too often ignored. We don't just put these issues out in the open, we also work together to come up with the right solutions for each of these problems. The famous PhD Comics will add a pinch of humor.'
   },
   {
     id: 'host2',
