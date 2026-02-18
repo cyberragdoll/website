@@ -255,12 +255,12 @@ export const PUBLICATIONS: Publication[] = [
 export const TALKS: Talk[] = [
   {
     id: 'host7',
-    title: "The Big Blend V",
+    title: "The Big Blend V [NL]",
     event: "KU Leuven",
     date: "2026-03-13",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer and panel moderator of the fifth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n Looking for inspiration to innovate your teaching? How can we design interaction with and between students in our educational practice? How do you encourage reflection, discussion, and collaboration in the process? Which tools and support can you draw on to make this happen? And how do you evaluate it all? The fifth edition of 'The Big Blend' takes a closer look at several concrete practice-based examples, with plenty of room for feedback and interaction, as well as two energising networking moments.",
+    description: "Co-organizer and panel moderator of the fifth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Op zoek naar inspiratie om je onderwijs te vernieuwen? Hoe kunnen we interactie met en tussen studenten vormgeven in onze onderwijspraktijk? Hoe stimuleer je daarbij reflectie, discussie en samenwerking? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze vijfde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend",
     imageUrl: "/website/host4.png"
   },
@@ -276,12 +276,12 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk29',
-    title: "GenAI en Begrijpelijke Taal",
+    title: "GenAI en begrijpelijke taal [NL]",
     event: "Colloquium Begrijpelijke Rechtstaal",
     date: "2025-05-20",
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
-    description: "Three workshops in collaboration with An De Moor and Bert Keirsbilck. \n \n Tijdens deze sessie laten we zien hoe tools zoals Copilot en andere chatbots kunnen helpen bij het herschrijven van juridische documenten in een 'klare taal'. We presenteren voorbeelden van wollige juridische teksten en hun herschrijvingen in begrijpelijke rechtstaal, uitgevoerd door een jurist, studenten en GenAI. Daarnaast leren we je hoe je effectieve prompts kunt schrijven om het beste uit GenAI te halen en geven we je praktische voorbeelden mee. We sluiten af met een brainstormsessie over andere mogelijke toepassingen van GenAI voor juristen, waarbij we waardevolle tips delen.",
+    description: "Three workshops in collaboration with An De Moor and Bert Keirsbilck. \n \n 'Tijdens deze sessie laten we zien hoe tools zoals Copilot en andere chatbots kunnen helpen bij het herschrijven van juridische documenten in een 'klare taal'. We presenteren voorbeelden van wollige juridische teksten en hun herschrijvingen in begrijpelijke rechtstaal, uitgevoerd door een jurist, studenten en GenAI. Daarnaast leren we je hoe je effectieve prompts kunt schrijven om het beste uit GenAI te halen en geven we je praktische voorbeelden mee. We sluiten af met een brainstormsessie over andere mogelijke toepassingen van GenAI voor juristen, waarbij we waardevolle tips delen.'",
     imageUrl: "/website/academictalk15.jpg",
   },
   {
@@ -297,13 +297,34 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'media8',
+    title: "My Career Journey as an Educational Innovation Staff Member at the Humanities and Social Sciences Group at KU Leuven",
+    event: "#100PhDAlumniVoices",
+    date: "2024-10-11",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Video description: 'Watch the #100PhDAlumniVoices session by Leen Sevens, PhD in Computational Linguistics. #100PhDAlumniVoices is a web series connecting PhD alumni with current students to discuss diverse career paths post-PhD. Episodes include conversations between alumni and a moderator, followed by Q&A sessions for students. Join upcoming sessions at #100PhDAlumniVoices.'",
+    link: "https://connect.kuleuven.cloud/page/global-talks-phdalum-ghum-kuleuven",
+    imageUrl: "/website/media4.png"
+  },
+  {
     id: 'academictalk28',
-    title: "Closing Speech on the Future of Language Education in Times of GenAI",
+    title: "De toekomst van taalbeleid en -onderwijs in tijden van GenAI [NL]",
     event: "Forumdag Taalbeleid Hoger Onderwijs",
     date: "2024-05-31",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "I gave the closing speech at the Forum Day on Language Policy in Higher Education (topic: 'Toward a High-Tech Language Policy?'), where I wrapped up and reflected on the day's main insights."
+  },
+  {
+    id: 'media9',
+    title: "Onderwijsmaker in de kijker: Leen Sevens [NL]",
+    event: "Samen Onderwijs Maken Leuven",
+    date: "2024-04-16",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "<b>Wat is je rol in het Leuvense onderwijsveld?</b> \n \n Onderwijsinnovator aan de Groep Humane Wetenschappen van KU Leuven met een hart voor educatieve technologie en artificial intelligence. \n \n <b>Wat betekent Samen Onderwijs Maken (SOM) voor jou?</b> \n \n 'Samen Onderwijs Maken' staat voor een krachtig netwerk waarin diverse onderwijspartners hun expertise bundelen. Van het uitwisselen van innovatieve ideeën, tot het bedenken van oplossingen voor gemeenschappelijke uitdagingen over de gehele breedte van het onderwijsspectrum. Van kleuteronderwijs tot volwassenenonderwijs. Van beleidsnota's tot praktijk. Door samen te werken, versterken we het onderwijs in zijn geheel en zorgen we voor een vruchtbare bodem voor innovatie. \n \n <b>Wat kan er volgens jou anders in het onderwijs?</b> \n \n Binnen het brede spectrum van ons onderwijs kan er meer aandacht worden besteed aan een snelle, veilige en effectieve integratie van nieuwe technologieën, zoals GenAI. Het is belangrijk dat zowel de risico's als de opportuniteiten worden belicht. GenAI biedt bijvoorbeeld unieke kansen voor het personaliseren van het leerproces, wat kan bijdragen aan een inclusiever onderwijs. Door zowel studenten als onderwijzend personeel tijdig te sensibiliseren, kunnen we de kracht van nieuwe technologieën optimaal benutten en werken aan een toekomstbestendig onderwijssysteem. \n \n <b>Waarvoor mogen onderwijsmakers jou contacteren?</b> \n \n Mijn passie ligt bij het benutten van educatieve technologie als katalysator voor onderwijsinnovatie. Mijn enthousiasme wordt vooral gewekt door taaltechnologie en de manieren waarop digitalisering kan bijdragen aan verhoogde personalisatie binnen ons onderwijs. Samen kunnen we op zoek gaan naar nieuwe, effectieve onderwijsmethoden die aansluiten bij de unieke talenten en behoeften van elke student... én docent! \n \n <b>Wat maakt voor jou het beroep van leraar zo mooi?</b> \n \n Als onderwijsinnovator aan de Groep Humane Wetenschappen sta ik elke dag in contact met gedreven docenten en onderwijsondersteuners. Zij zijn voortdurend op zoek naar de meest effectieve methodes om studenten te betrekken, activeren en begeesteren. Hoewel mijn enthousiasme voor technologie groot is, vind ik het fantastisch dat het menselijke aspect steeds de kern blijft van ons onderwijs. Zo kunnen onze docenten onderwijs bieden dat niet alleen informeert, maar ook inspireert en transformeert.",
+    imageUrl: "/website/media5.jpg"
   },
   {
     id: 'scicomm18',
@@ -318,23 +339,33 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host6',
-    title: "The Big Blend IV",
+    title: "The Big Blend IV [NL]",
     event: "KU Leuven",
     date: "2024-03-22",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer and panel moderator of the fourth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n What is the 'new' normal, and how does it differ — or not — from the 'old' normal? How can we foster interaction with and between students? How do you encourage reflection, discussion, and collaboration among students? Which tools and support can you use to facilitate this? And how do you evaluate it all? In this fourth edition of 'The Big Blend', we focused on several concrete case studies, with plenty of room for feedback and interaction, as well as two energising networking moments.",
+    description: "Co-organizer and panel moderator of the fourth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze vierde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-iv",
     imageUrl: "/website/host4.png"
   },
   {
+    id: 'academictalk30',
+    title: "AI-cademisch onderwijs onder de loep [NL]",
+    event: "SOM - Afterwork: AI in Onderwijs",
+    date: "2024-03-18",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: ' Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do’s en don’ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
+    imageUrl: "/website/academictalk16.jpg"
+  },
+  {
     id: 'host5',
-    title: "The Big Blend III",
+    title: "The Big Blend III [NL]",
     event: "KU Leuven",
     date: "2023-03-31",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer and panel moderator of the third edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n What is the 'new' normal, and how does it differ — or not — from the 'old' normal? How can we foster interaction with and between students? How do you encourage reflection, discussion, and collaboration among students? Which tools and support can you use to facilitate this? And how do you evaluate it all? In this third edition of 'The Big Blend', we focused on several concrete case studies, with plenty of room for feedback and interaction, as well as two energising networking moments.",
+    description: "Co-organizer and panel moderator of the fourth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze derde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-III",
     imageUrl: "/website/host4.png"
   },
@@ -351,7 +382,7 @@ export const TALKS: Talk[] = [
   },
    {
     id: 'media7',
-    title: "Word je Docent Binnenkort een Robot?",
+    title: "Word je docent binnenkort een robot? [NL]",
     event: "AI AI AI Podcast",
     date: "2023-02-13",
     location: "Remote",
@@ -372,7 +403,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk27',
-    title: "Student vs. Docent: Feedback over de Toekomst van Blended Onderwijs in HW",
+    title: "Student vs. docent - Feedback over de toekomst van blended onderwijs in HW [NL]",
     event: "The Big Blend II (KU Leuven)",
     date: "2021-12-10",
     location: "Leuven, Belgium",
@@ -382,29 +413,29 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host4',
-    title: "The Big Blend II",
+    title: "The Big Blend II [NL]",
     event: "KU Leuven",
     date: "2021-12-10",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer of the second edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n The end of the working week had never been so enjoyable as on Friday, December 10, 2021, during The Big Blend II. On that day, several lecturers and support staff from the Group of Humanities gave around a hundred participants a stimulating boost of inspiration. They shared, among other things, how they used educational tools to engage in dialogue and interaction with students — and with each other.",
+    description: "Co-organizer of the second edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Het einde van de werkweek was nog nooit zo leuk als op vrijdag 10 december 2021 tijdens The Big Blend II. Toen injecteerden enkele docenten en ondersteuners van de Groep Humane Wetenschappen een honderdtal deelnemers met een prikkelende inspiratieboostershot. Ze vertelden er onder meer hoe ze met behulp van educatieve tools in dialoog en interactie zijn gegaan met studenten én elkaar.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-II",
     imageUrl: "/website/host4.png"
   },
   {
     id: 'media6',
-    title: "Speeddate met Leen Sevens: 'Ooit wil ik Klingon leren'",
+    title: "Speeddate met Leen Sevens: 'Ooit wil ik Klingon leren' [NL]",
     event: "Sonar (Magazine KU Leuven)",
     date: "2021-06-02",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Article description: 'In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.'",
+    description: "Article description: 'In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de Groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.'",
     link: "https://stories.kuleuven.be/nl/verhalen/speeddate-met-leen-sevens-ooit-wil-ik-klingon-leren",
     imageUrl: "/website/media2.jpg"
   },
   {
     id: 'academictalk26',
-    title: "Feedback van Studenten over Afstandsonderwijs",
+    title: "Feedback van studenten over afstandsonderwijs [NL]",
     event: "The Big Blend I (KU Leuven)",
     date: "2020-12-04",
     location: "Leuven, Belgium",
@@ -414,18 +445,18 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host3',
-    title: "The Big Blend I",
+    title: "The Big Blend I [NL]",
     event: "KU Leuven",
     date: "2020-12-04",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer the first edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n What happens when lecturers and support staff bring together their experiences and expertise in blended learning? The Big Blend, a dynamic online event featuring testimonials from across the Group of Humanities. More than 172 participants from 19 faculties and services joined the Microsoft Teams meeting on Friday, December 4, 2020, to be inspired by their colleagues.",
+    description: "Co-organizer the first edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat krijg je als docenten en ondersteuners hun ervaringen en expertise over blended leren samenbrengen? The Big Blend, ofwel een dynamisch online event met getuigenissen uit de Groep Humane Wetenschappen. Meer dan 172 deelnemers van 19 faculteiten en diensten popten op in de Microsoft Teams-meeting op vrijdag 4 december 2020 om zich door hun collega’s te laten inspireren.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-terugblik",
     imageUrl: "/website/host4.png"
   },
   {
     id: 'scicomm11',
-    title: "Praten met Prentjes",
+    title: "Praten met prentjes [NL]",
     event: "Kinderuniversiteit",
     date: "2020-10-03",
     location: "Leuven, Belgium",
@@ -435,9 +466,18 @@ export const TALKS: Talk[] = [
     gallery: ["/website/scicomm8.jpg"] 
   },
   {
+    id: 'scicomm21',
+    title: "De Do's en don'ts van presenteren: PollEverywhere-editie [NL]",
+    event: "Expertisenetwerk Informatiegeletterdheid @ KU Leuven",
+    date: "2019-12-12",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop within the Expert Network for Information Literacy during the internal teaching seminar, focusing on principles of effective science communication applied to the use of PollEverywhere at KU Leuven. The session combined theoretical insights with practical strategies for interactive teaching.",
+  },
+  {
     id: 'academictalk24',
-    title: "Words Divide, Pictographs Unite",
-    event: "KU Leuven",
+    title: "Words Divide, Pictographs Unite [NL]",
+    event: "KU Leuven Campus Antwerp",
     date: "2019-11-14",
     location: "Antwerp, Belgium",
     type: 'Academic & Professional',
@@ -446,39 +486,39 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm14',
-    title: "Science Pitch about the Picto Translation Technology",
+    title: "Wetenschapspitch over de Picto-vertaaltechnologie [NL]",
     event: "VRT Taalavond",
     date: "2019-10-10",
     location: "Antwerp, Belgium",
     type: 'science communication',
-    description: "Invited speaker at the VRT Taalavond, where I presented my PhD Cup pitch and was interviewed by Marcel Vanthilt about accessibility in language.",
+    description: "Invited speaker at the VRT Taalavond in deSingel, where I presented my PhD Cup pitch 'Chatten zonder letters' and was interviewed by Marcel Vanthilt about accessibility in language.",
     imageUrl: "/website/scicomm9.jpg",
     gallery: ["/website/scicomm10.jpg"] 
   },
   {
     id: 'scicomm13',
-    title: "Final Round Pitch: Chatten Zonder Letters",
-    event: "De Vlaamse PhD Cup",
+    title: "Chatten zonder letters [NL]",
+    event: "De Vlaamse PhD Cup: Final Round",
     date: "2019-10-06",
     location: "Brussels, Belgium",
     type: 'science communication',
-    description: "Third Place in the final round the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
+    description: "The Vlaamse Phd Cup (Flemish PhD Cup) is a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round. My pitch placed third.",
     imageUrl: "/website/award12.jpg",
   },
   {
     id: 'scicomm12',
-    title: "Semi-final Pitch: Chatten Zonder Letters",
-    event: "De Vlaamse PhD Cup",
+    title: "Chatten zonder letters [NL]",
+    event: "De Vlaamse PhD Cup: Semi-final Round",
     date: "2019-09-25",
     location: "Brussels, Belgium",
     type: 'science communication',
-    description: "I was selected in the semi-final round of the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
+    description: "The Vlaamse Phd Cup (Flemish PhD Cup) is a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round. My pitch advanced to the final round.",
     imageUrl: "/website/award13.png",
   },
   {
     id: 'academictalk25',
-    title: "Praten met Prentjes",
-    event: "KU Leuven",
+    title: "Praten met prentjes [NL]",
+    event: "KU Leuven Campus Antwerp",
     date: "2019-09-19",
     location: "Antwerp, Belgium",
     type: 'Academic & Professional',
@@ -486,7 +526,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm10',
-    title: "Picto Workshops for Children",
+    title: "Praten met prentjes [NL]",
     event: "Ervaringsdagen",
     date: "2019-05-16",
     location: "Lanaken, Belgium",
@@ -501,7 +541,7 @@ export const TALKS: Talk[] = [
     date: "2018-12-14",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Never in the history of mankind have we produced more text than at this present moment. Being able to read and write is an important way of taking part in our society. However, we tend to forget that, even in our educated communities, there exist several degrees of literacy. Written text on the Internet creates a barrier between people with and without an intellectual disability. As a result, people with reading and writing difficulties are e-excluded. Schools and day centres for people with an intellectual disability use specialised picture systems, called pictographs, that depict everyday activities and objects, to enable accessible written communication between children or adults with an intellectual disability and their environment. In my dissertation, I transfer these pictographs to social media platforms and email, by developing natural language processing tools that automatically translate natural language text into pictographs and vice versa for people with an intellectual disability, allowing them to read and write status updates, emails, and chat messages in online environments.",
+    description: "'Never in the history of mankind have we produced more text than at this present moment. Being able to read and write is an important way of taking part in our society. However, we tend to forget that, even in our educated communities, there exist several degrees of literacy. Written text on the Internet creates a barrier between people with and without an intellectual disability. As a result, people with reading and writing difficulties are e-excluded. Schools and day centres for people with an intellectual disability use specialised picture systems, called pictographs, that depict everyday activities and objects, to enable accessible written communication between children or adults with an intellectual disability and their environment. In my dissertation, I transfer these pictographs to social media platforms and email, by developing natural language processing tools that automatically translate natural language text into pictographs and vice versa for people with an intellectual disability, allowing them to read and write status updates, emails, and chat messages in online environments.'",
     imageUrl: "/website/academictalk13.jpg"
   },
   {
@@ -515,7 +555,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm9',
-    title: "Spelen met Taal en Computers",
+    title: "Spelen met taal en computers [NL]",
     event: "Dag van de Wetenschap",
     date: "2018-11-25",
     location: "Leuven, Belgium",
@@ -525,8 +565,8 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm6',
-    title: "Science Slam: Pictogramvertaaltechnologie voor Mensen met een Verstandelijke Beperking",
-    event: "Boekenbeurs Antwerpen",
+    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking [NL]",
+    event: "Science Slam @ Boekenbeurs Antwerpen",
     date: "2018-11-08",
     location: "Antwerpen, Belgium",
     type: 'science communication',
@@ -535,12 +575,12 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm7',
-    title: "Science Pitch about the Picto Translation Technology",
+    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking [NL]",
     event: "VIP Opening Event @ Boekenbeurs Antwerpen",
     date: "2018-10-27",
     location: "Antwerpen, Belgium",
     type: 'science communication',
-    description: "Speaker at the VIP opening event of the Antwerp Book Fair as a representative of KU Leuven.",
+    description: "Speaker at the VIP opening event of the ntwerp Book Fair (Boekenbeurs van Antwerpen) as a representative of KU Leuven.",
     imageUrl: "/website/scicomm5.jpg"
   },
   {
@@ -550,7 +590,7 @@ export const TALKS: Talk[] = [
     date: "2018-05-07",
     location: "Miyazaki, Japan",
     type: 'Hosting',
-    description: "I co-organized the second workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 7) at the 11th Language Resources and Evaluation Conference (LREC 2018) in Miyazaki, Japan. \n \n Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?",
+    description: "I co-organized the second workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 7) at the 11th Language Resources and Evaluation Conference (LREC 2018) in Miyazaki, Japan. \n \n 'Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?'",
     link: "https://www.ccl.kuleuven.be/ISINLP2/",
     imageUrl: "/website/host3.jpg"
   },
@@ -582,11 +622,11 @@ export const TALKS: Talk[] = [
     date: "2018-01-26",
     location: "Nijmegen, The Netherlands",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metrics and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system."
+    description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. \n \n 'In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metrics and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system.'"
   },
   {
     id: 'media4',
-    title: "Lanakense Ontwikkelt Pictogrammentaal en Geeft Mensen met een Mentale Beperking een Stem",
+    title: "Lanakense ontwikkelt pictogrammentaal en geeft mensen met een mentale beperking een stem [NL]",
     event: "TV Limburg",
     date: "2018-01-14",
     location: "Remote",
@@ -596,7 +636,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media3',
-    title: "Interview for Nieuwe Feiten",
+    title: "Interview 'Nieuwe Feiten' [NL]",
     event: "Radio 1",
     date: "2018-01-08",
     location: "Remote",
@@ -606,17 +646,17 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk21',
-    title: "Taaltechnologie ontwikkelen voor en met mensen met een verstandelijke beperking",
+    title: "Taaltechnologie ontwikkelen voor en met mensen met een verstandelijke beperking [NL]",
     event: "COM@Modem Dag",
     date: "2017-11-30",
     location: "Geel, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
     imageUrl: "/website/academictalk12.jpg"
   },
   {
     id: 'media2',
-    title: "Lanakense Vindt Systeem uit dat Tekst Vertaalt naar Pictogrammen",
+    title: "Lanakense vindt systeem uit dat tekst vertaalt naar pictogrammen [NL]",
     event: "Het Belang van Limburg",
     date: "2017-11-10",
     location: "Remote",
@@ -641,7 +681,7 @@ export const TALKS: Talk[] = [
     date: "2017-10-10",
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. Social media websites have radically changed the way in which we access and share information. However, people with Intellectual Disabilities (ID) have very limited access to the currently available technological tools, such as email clients or Facebook. We describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) technologies within the framework of a contextaware Accessibility Layer. More particularly, in this paper, we will focus on the set of tools that translate written text into pictographs and vice versa. Additionally, we will explain how the different pilot studies that are conducted within the project guide us in improving our technologies."
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'Social media websites have radically changed the way in which we access and share information. However, people with Intellectual Disabilities (ID) have very limited access to the currently available technological tools, such as email clients or Facebook. We describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) technologies within the framework of a contextaware Accessibility Layer. More particularly, in this paper, we will focus on the set of tools that translate written text into pictographs and vice versa. Additionally, we will explain how the different pilot studies that are conducted within the project guide us in improving our technologies.'"
   },
   {
     id: 'academictalk19',
@@ -650,7 +690,7 @@ export const TALKS: Talk[] = [
     date: "2017-09-14",
     location: "Sheffield, UK",
     type: 'Academic & Professional',
-    description: "We present a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies.",
+    description: "Presentation in collaboration with Jo Daems, Annelies De Vliegher, Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'We present a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies.'",
     imageUrl: "/website/academictalk10.jpg"
   },
   {
@@ -669,7 +709,7 @@ export const TALKS: Talk[] = [
     date: "2017-06-22",
     location: "Liège, Belgium",
     type: 'Academic & Professional',
-    description: "In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. Our evaluations show a large improvement over the baseline.",
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. Our evaluations show a large improvement over the baseline.'",
   },
   {
     id: 'media1',
@@ -683,12 +723,12 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk17',
-    title: "E-Inclusion Through Pictographs",
+    title: "E-inclusie door middel van pictogrammen [NL]",
     event: "Uitreiking Pioniersprijs en Maatschappijprijs Groep Humane Wetenschappen",
     date: "2017-05-22",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
     imageUrl: "/website/award14.jpg"
   },
     {
@@ -698,7 +738,7 @@ export const TALKS: Talk[] = [
     date: "2017-05-03",
     location: "Örebro, Sweden",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs. Our baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave our end users confused and distracted. \n \n In order to formulate a set of objectives for pictograph output simplification, we study a number of guidelines and inspiration sources: the Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the “Klare Taal” checklist for clear language. We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations using gold standard simplifications. The system does not perform any unnecessary syntactic simplification operations and high accuracy scores were obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Simplification systems are ideally tested with the intended users. Future evaluations within the framework of the European Able to Include project will involve human judgements. We expect these experiments to reveal the merits and disadvantages of our proposed solutions.",
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs. Our baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave our end users confused and distracted. \n \n In order to formulate a set of objectives for pictograph output simplification, we study a number of guidelines and inspiration sources: the Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the “Klare Taal” checklist for clear language. We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations using gold standard simplifications. The system does not perform any unnecessary syntactic simplification operations and high accuracy scores were obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Simplification systems are ideally tested with the intended users. Future evaluations within the framework of the European Able to Include project will involve human judgements. We expect these experiments to reveal the merits and disadvantages of our proposed solutions.'",
     imageUrl: "/website/academictalk9.jpg",
   },
   {
@@ -708,7 +748,7 @@ export const TALKS: Talk[] = [
     date: "2017-05-03",
     location: "Örebro, Sweden",
     type: 'Academic & Professional',
-    description: "Poster in collaboration with Ineke Schuurman, Annelies De Vliegher, and Jo Daems, presented by me. People with Intellectual Disabilities (ID) currently have very limited access to the information society and social media websites. Not being able to access or use information technology is a major form of social exclusion. The Able to Include project aims to overcome this problem by developing a set of technologies that can improve the daily lives of people with ID. One such technology is the Picto translation system, which translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs, and vice versa. At the time of developing the Picto system, a number of technical decisions had to be made. In order to create a truly useful tool that is tailored toward the target group, the end users' feedback turned out to be indispensable. \n \n Within the project, three types of pilot studies are carried out. One concerns 'Leisure within the Information Society', another one 'Mobility', and the third one 'Labour Integration'. These pilots allow, through the interaction with real users, for a permanent adjustment of the project, especially of the tools and resources involved. \n \n The results of the Flemish pilot studies are used to adapt and improve the Dutch Picto translation technology. Testing is a particularly long process, especially since it requires very small steps to be taken. However, we found that, if that time is spent meaningfully and a solid methodology is adopted, the feedback that is given by the end users can be exceptionally valuable. For instance, they thought the initial pictograph output was too long and complex, so a simplification module was added. There are many examples of how the users' opinions influence our technical decisions. \n \n The users are enthusiastic about being part of the project. They are eager to learn more about the technologies and positive about accessing Facebook through them. After all, they are the experts, and when new technologies are developed for them, they should, ideally, be involved from the very start.", 
+    description: "Poster in collaboration with Ineke Schuurman, Annelies De Vliegher, and Jo Daems, presented by me. \n \n 'People with Intellectual Disabilities (ID) currently have very limited access to the information society and social media websites. Not being able to access or use information technology is a major form of social exclusion. The Able to Include project aims to overcome this problem by developing a set of technologies that can improve the daily lives of people with ID. One such technology is the Picto translation system, which translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs, and vice versa. At the time of developing the Picto system, a number of technical decisions had to be made. In order to create a truly useful tool that is tailored toward the target group, the end users' feedback turned out to be indispensable. \n \n Within the project, three types of pilot studies are carried out. One concerns 'Leisure within the Information Society', another one 'Mobility', and the third one 'Labour Integration'. These pilots allow, through the interaction with real users, for a permanent adjustment of the project, especially of the tools and resources involved. \n \n The results of the Flemish pilot studies are used to adapt and improve the Dutch Picto translation technology. Testing is a particularly long process, especially since it requires very small steps to be taken. However, we found that, if that time is spent meaningfully and a solid methodology is adopted, the feedback that is given by the end users can be exceptionally valuable. For instance, they thought the initial pictograph output was too long and complex, so a simplification module was added. There are many examples of how the users' opinions influence our technical decisions. \n \n The users are enthusiastic about being part of the project. They are eager to learn more about the technologies and positive about accessing Facebook through them. After all, they are the experts, and when new technologies are developed for them, they should, ideally, be involved from the very start.'", 
     imageUrl: "/website/academictalk8.jpg",
   },
   {
@@ -729,12 +769,12 @@ export const TALKS: Talk[] = [
     date: "2017-02-24",
     location: "Louvain-la-Neuve, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. We describe, demonstrate and evaluate a Text-to-Pictograph translation system that is used in an online platform for Augmentative and Alternative Communication (AAC), which is intended for people who are not able to read and write, but who still want to communicate with the outside world (Vandeghinste et al., 2015). The system is set up to translate from Dutch, English and Spanish text into Sclera and Beta, two publicly available pictograph sets consisting of several thousands of pictographs each. We have linked large amounts of these pictographs to synsets or combinations of synsets in WordNets, lexical-semantic databases. We also describe the other direction and how it works to generate text from sequences of pictographs (Sevens et al., 2015).",
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'We describe, demonstrate and evaluate a Text-to-Pictograph translation system that is used in an online platform for Augmentative and Alternative Communication (AAC), which is intended for people who are not able to read and write, but who still want to communicate with the outside world (Vandeghinste et al., 2015). The system is set up to translate from Dutch, English and Spanish text into Sclera and Beta, two publicly available pictograph sets consisting of several thousands of pictographs each. We have linked large amounts of these pictographs to synsets or combinations of synsets in WordNets, lexical-semantic databases. We also describe the other direction and how it works to generate text from sequences of pictographs (Sevens et al., 2015).'",
     link: "https://cental.uclouvain.be/team/seminaires/seminaire2016-2017/2017.02.24_sevens_slides.pdf"
   },
   {
     id: 'academictalk13',
-    title: "De Meerwaarde van Pictogrammen en Klare Taal in een Juridische Context",
+    title: "De meerwaarde van pictogrammen en klare taal in een juridische context [NL]",
     event: "Op.Recht.Mechelen: Justitie en Management",
     date: "2017-02-10",
     location: "Mechelen, Belgium",
@@ -758,7 +798,7 @@ export const TALKS: Talk[] = [
     date: "2017-02-10",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave the end users confused and distracted. \n \n We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process, using the Alpino parser for preprocessing. The Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the 'Klare Taal' checklist for clear language serve as an inspiration source. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations of the simplification module using gold standard simplifications. The system does not apply any unnecessary simplification operations and high accuracy scores are obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Future evaluations will involve human judgments. ", 
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave the end users confused and distracted. \n \n We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process, using the Alpino parser for preprocessing. The Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the 'Klare Taal' checklist for clear language serve as an inspiration source. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations of the simplification module using gold standard simplifications. The system does not apply any unnecessary simplification operations and high accuracy scores are obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Future evaluations will involve human judgments.'", 
   },
   {
     id: 'academictalk11',
@@ -767,7 +807,7 @@ export const TALKS: Talk[] = [
     date: "2016-09-16",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. Social media websites have radically changed the way in which we access and share information. However, people with Intellectual Disabilities (ID) have very limited access to the currently available technological tools, such as email clients or Facebook. We describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) technologies within the framework of a contextaware Accessibility Layer. More particularly, in this paper, we will focus on the set of tools that translate written text into pictographs and vice versa. Additionally, we will explain how the different pilot studies that are conducted within the project guide us in improving our technologies."
+    description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'Social media websites have radically changed the way in which we access and share information. However, people with Intellectual Disabilities (ID) have very limited access to the currently available technological tools, such as email clients or Facebook. We describe how the Able to Include project is changing this situation, using various Natural Language Processing (NLP) technologies within the framework of a contextaware Accessibility Layer. More particularly, in this paper, we will focus on the set of tools that translate written text into pictographs and vice versa. Additionally, we will explain how the different pilot studies that are conducted within the project guide us in improving our technologies.'"
   },
   {
     id: 'academictalk10',
@@ -776,7 +816,7 @@ export const TALKS: Talk[] = [
     date: "2016-09-06",
     location: "Lancaster, UK",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. In order to be included in today's society, it is becoming increasingly important to be able to use the current available technological tools. The number of apps is growing exponentially, but very few are really accessible to people with Intellectual Disabilities (ID). However, users indicated very clearly their desire to interact with their friends and family on social media. The Able-to-Include project seeks to improve the lives of people with ID. Able-to-Include is creating a context-aware Accessibility Layer based on three key technologies that can improve the daily tasks of people with ID and help them interact with the Information Society. These technologies are a text simplifier, pictograph translation technologies, and text-to-speech funtionalities. The integration of this Accessibility Layer with existing ICT tools will be tested in different pilots in Spain, Belgium, and the UK. Within the Able-to-Include project, KU Leuven is responsible for the development of the Text-to-Pictograph and Pictograph-to-Text translation tools. The Text-to-Pictograph translation tool translates Dutch, English, and Spanish text into a series of Sclera or Beta pictographs. Additional to a shallow source language analysis, we use WordNets to link pictographs to groups of synonyms and retrieve appropriate or semantically related pictographs in the translation process. The system allows social media text to be converted into pictographs with a single tap. The Pictograph-to-Text translation system provides help in constructing Dutch, English, and Spanish textual messages by allowing the user to introduce a series of pictographs and translates these messages into natural language using WordNet synsets and a trigram language model. So far, we have developed two different input methods. When using social media websites, users have access to the Accessibility Layer to construct pictograph messages using a pictograph hierarchy and a pictograph predictor. Their messages will be converted to text, which can be posted on the website.", 
+    description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'In order to be included in today's society, it is becoming increasingly important to be able to use the current available technological tools. The number of apps is growing exponentially, but very few are really accessible to people with Intellectual Disabilities (ID). However, users indicated very clearly their desire to interact with their friends and family on social media. The Able-to-Include project seeks to improve the lives of people with ID. Able-to-Include is creating a context-aware Accessibility Layer based on three key technologies that can improve the daily tasks of people with ID and help them interact with the Information Society. These technologies are a text simplifier, pictograph translation technologies, and text-to-speech funtionalities. The integration of this Accessibility Layer with existing ICT tools will be tested in different pilots in Spain, Belgium, and the UK. Within the Able-to-Include project, KU Leuven is responsible for the development of the Text-to-Pictograph and Pictograph-to-Text translation tools. The Text-to-Pictograph translation tool translates Dutch, English, and Spanish text into a series of Sclera or Beta pictographs. Additional to a shallow source language analysis, we use WordNets to link pictographs to groups of synonyms and retrieve appropriate or semantically related pictographs in the translation process. The system allows social media text to be converted into pictographs with a single tap. The Pictograph-to-Text translation system provides help in constructing Dutch, English, and Spanish textual messages by allowing the user to introduce a series of pictographs and translates these messages into natural language using WordNet synsets and a trigram language model. So far, we have developed two different input methods. When using social media websites, users have access to the Accessibility Layer to construct pictograph messages using a pictograph hierarchy and a pictograph predictor. Their messages will be converted to text, which can be posted on the website.'", 
     imageUrl: "/website/academictalk7.jpg"
   },
  {
@@ -786,7 +826,7 @@ export const TALKS: Talk[] = [
     date: "2016-08-11",
     location: "Berlin, Germany",
     type: 'Academic & Professional',
-    description: "Poster in collaboration with Gilles Jacobs, Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. We describe the implementation of a Word Sense Disambiguation (WSD) tool in a Dutch Text-to-Pictograph translation system, which converts textual messages into sequences of pictographic images. The system is used in an online platform for Augmentative and Alternative Communication (AAC). In the original translation process, the appropriate sense of a word was not disambiguated before converting it into a pictograph. This often resulted in incorrect translations. The implementation of a WSD tool provides a better semantic understanding of the input messages.",
+    description: "Poster in collaboration with Gilles Jacobs, Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'We describe the implementation of a Word Sense Disambiguation (WSD) tool in a Dutch Text-to-Pictograph translation system, which converts textual messages into sequences of pictographic images. The system is used in an online platform for Augmentative and Alternative Communication (AAC). In the original translation process, the appropriate sense of a word was not disambiguated before converting it into a pictograph. This often resulted in incorrect translations. The implementation of a WSD tool provides a better semantic understanding of the input messages.'",
     imageUrl: "/website/academictalk6.png"
   },
   {
@@ -796,7 +836,7 @@ export const TALKS: Talk[] = [
     date: "2016-05-23",
     location: "Portoroz, Slovenia",
     type: 'Hosting',
-    description: "I co-organized the first workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 23) at the 10th Language Resources and Evaluation Conference (LREC 2016) in Portoroz, Slovenia. \n \n Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?",
+    description: "I co-organized the first workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 23) at the 10th Language Resources and Evaluation Conference (LREC 2016) in Portoroz, Slovenia. \n \n 'Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?'",
     link: "https://www.ccl.kuleuven.be/ISINLP/",
     imageUrl: "/website/host1.jpg" 
   },
@@ -807,12 +847,12 @@ export const TALKS: Talk[] = [
     date: "2016-05-23",
     location: "Portoroz, Slovenia",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. We present the first version of an automated spelling correction system for Dutch Internet users with Intellectual Disabilities (ID). The normalization of ill-formed messages is an important preprocess- ing step before any conventional Natural Language Processing (NLP) process can be applied. As such, we describe the effects of automated correction of Dutch ID text within the larger framework of a Text-to-Pictograph translation system. The present study consists of two main parts. First, we thoroughly analyze email messages that have been written by users with cognitive disabilities in or- der to gain insights on how to develop solutions that are specifically tailored to their needs. We then present a new, generally applicable approach toward context-sensitive spelling correction, based on character-level fuzzy matching techniques. The resulting system shows significant improvements, although further research is still needed.",
+    description: "Presentation in collaboration with Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'We present the first version of an automated spelling correction system for Dutch Internet users with Intellectual Disabilities (ID). The normalization of ill-formed messages is an important preprocess- ing step before any conventional Natural Language Processing (NLP) process can be applied. As such, we describe the effects of automated correction of Dutch ID text within the larger framework of a Text-to-Pictograph translation system. The present study consists of two main parts. First, we thoroughly analyze email messages that have been written by users with cognitive disabilities in or- der to gain insights on how to develop solutions that are specifically tailored to their needs. We then present a new, generally applicable approach toward context-sensitive spelling correction, based on character-level fuzzy matching techniques. The resulting system shows significant improvements, although further research is still needed.'",
     imageUrl: "/website/host2.jpg"
   },
   {
     id: 'media5',
-    title: "Vertaalprogramma Zet Tekst om in Pictogrammen en Omgekeerd",
+    title: "Vertaalprogramma zet tekst om in pictogrammen en omgekeerd [NL]",
     event: "Campuskrant KU Leuven",
     date: "2016-03-23",
     location: "Remote",
@@ -827,12 +867,12 @@ export const TALKS: Talk[] = [
     date: "2015-12-18",
     location: "Amsterdam, The Netherlands",
     type: 'Academic & Professional',
-    description: "Poster in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. This poster addresses the challenge of translating sequences of pictographs (often used in Augmentative and Alternative Communication, or AAC) into grammatically correct natural language. The researchers focus on bridging the gap between symbol-based communication—which often lacks formal grammar—and spoken language. The poster details a method for generating natural language sentences from these pictographs, designed to assist individuals with communication disabilities or to facilitate communication in specific contexts, such as translation for refugees.",
+    description: "Poster in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'This poster addresses the challenge of translating sequences of pictographs (often used in Augmentative and Alternative Communication, or AAC) into grammatically correct natural language. The researchers focus on bridging the gap between symbol-based communication—which often lacks formal grammar—and spoken language. The poster details a method for generating natural language sentences from these pictographs, designed to assist individuals with communication disabilities or to facilitate communication in specific contexts, such as translation for refugees.'",
     imageUrl: "/website/academictalk4.png"
   },
   {
     id: 'scicomm2',
-    title: "Praten met Prentjes",
+    title: "Praten met prentjes [NL]",
     event: "The Big Draw Belgium",
     date: "2015-10-08",
     location: "Leuven, Belgium",
@@ -846,7 +886,7 @@ export const TALKS: Talk[] = [
     date: "2015-06-21",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Poster in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links.",
+    description: "Poster in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links.'",
     imageUrl: "/website/award8.jpg",
     gallery: ["/website/academictalk5.png"]  
   },
@@ -857,7 +897,7 @@ export const TALKS: Talk[] = [
     date: "2015-05-08",
     location: "Bryggen, Norway",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. Technology can improve life of people with disabilities considerably. For people with intellectual or developmental disabilities (IDD), social exclusion is a problem, as they can not do like their peers, use ICT (email, social media), especially when they are unable to write or read well. Therefore the European project Able-To-Include (CIF-framework) aims to improve their living conditions in this respect. Its goal is to build an ICT 'accessibility layer' that is based on three key technologies: automatic text simplification, text-to-speech, and text-to-pictograph translation (including pictograph-to-text and pictograph-to-pictograph translation). For the latter, we are currently serving three natural languages (Dutch, English and Spanish), and two pictographic languages (Beta and Sclera), but the tools are in se language-independent. New languages can be added relatively easily, provided that the necessary linguistic tools and resources (such as a part-of-speech tagger, a lemmatizer and lexical-semantic database à la WordNet) are available. The same holds for pictographic languages, the main condition being that there is a facility to express 'verbs'. \n \n We evaluate the system by automatic techniques drawn from the field of machine translation, but we also rely on comments by our users, i.e. people with IDD and their care givers, in order to refine the tool. \n \n Our tool contributes to the e-inclusion of people with intellectual disabilities. Moreover, augmenting written text with pictographic images allows organizations and companies to easily reach out to a large group of people that previously had none or only very limited access to digital written content.",
+    description: "Presentation in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'Technology can improve life of people with disabilities considerably. For people with intellectual or developmental disabilities (IDD), social exclusion is a problem, as they can not do like their peers, use ICT (email, social media), especially when they are unable to write or read well. Therefore the European project Able-To-Include (CIF-framework) aims to improve their living conditions in this respect. Its goal is to build an ICT 'accessibility layer' that is based on three key technologies: automatic text simplification, text-to-speech, and text-to-pictograph translation (including pictograph-to-text and pictograph-to-pictograph translation). For the latter, we are currently serving three natural languages (Dutch, English and Spanish), and two pictographic languages (Beta and Sclera), but the tools are in se language-independent. New languages can be added relatively easily, provided that the necessary linguistic tools and resources (such as a part-of-speech tagger, a lemmatizer and lexical-semantic database à la WordNet) are available. The same holds for pictographic languages, the main condition being that there is a facility to express 'verbs'. \n \n We evaluate the system by automatic techniques drawn from the field of machine translation, but we also rely on comments by our users, i.e. people with IDD and their care givers, in order to refine the tool. \n \n Our tool contributes to the e-inclusion of people with intellectual disabilities. Moreover, augmenting written text with pictographic images allows organizations and companies to easily reach out to a large group of people that previously had none or only very limited access to digital written content.'",
     imageUrl: "/website/academictalk2.jpg",
   },
   {
@@ -867,7 +907,7 @@ export const TALKS: Talk[] = [
     date: "2015-02-06",
     location: "Antwerp; Belgium",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links."
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links.'"
   },
   {
     id: 'academictalk1',
@@ -876,7 +916,7 @@ export const TALKS: Talk[] = [
     date: "2014-09-24",
     location: "Dublin, Ireland",
     type: 'Academic & Professional',
-    description: "Poster presentation in collaboration with Vincent Vandeghinste and Frank Van Eynde, presented by me. Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages' synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3).",
+    description: "Poster presentation in collaboration with Vincent Vandeghinste and Frank Van Eynde, presented by me. \n \n 'Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages' synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3).'",
     imageUrl: "/website/academictalk1.jpg"
   }
 ];
