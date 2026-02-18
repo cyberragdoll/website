@@ -1428,7 +1428,7 @@ export const AWARDS: Award[] = [
 ];
 
 export const ART_PIECES: ArtPiece[] = [
-  { id: 'art1', title: "The Weaver of Thoughts", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/website/art1.jpg", imageUrl: "/website/art1.jpg", description: "A whimsical depiction of how ideas interconnect in the human mind." },
+  { id: 'art1', title: "The Weaver of Thoughts", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/website/art1.jpg", imageUrl: "/website/art1_Alt.jpg", description: "A whimsical depiction of how ideas interconnect in the human mind." },
   { id: 'art2', title: "Starlight Library", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/website/art2.jpg", imageUrl: "/website/art2.jpg", description: "Imagining a place where books contain the essence of distant stars." },
   { id: 'art3', title: "Midnight Tea", medium: "Pencil", year: 2024, category: 'Traditional art', thumbnailUrl: "/website/art3.jpg", imageUrl: "/website/art3.jpg", description: "The quiet comfort of a late-night creative session." },
   { id: 'art4', title: "Bloom of Logic", medium: "Procreate", year: 2024, category: 'Digital art', thumbnailUrl: "/website/art4.jpg", imageUrl: "/website/art4.jpg", description: "A fusion of organic growth and mathematical patterns." },
