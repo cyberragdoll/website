@@ -5,7 +5,7 @@ export const PUBLICATIONS: Publication[] = [
     id: 'other3',
     title: "Aan Frank [NL]",
     authors: "Leen Sevens",
-    year: 2019,
+    year: 2022,
     venue: "Liber Amicorum Francisci Affinii",
     type: 'Other',
     link: "https://ccl.kuleuven.be/~vincent/ccl/LiberAmicorum.pdf",
