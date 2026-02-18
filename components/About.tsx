@@ -115,7 +115,7 @@ const About: React.FC = () => {
                 <img 
                   src="/website/profile.jpg" 
                   alt="Leen" 
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover grayscale-[0%] hover:grayscale-0 transition-all duration-700"
                   onError={(e) => {
                     e.currentTarget.src = "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=800";
                   }}
