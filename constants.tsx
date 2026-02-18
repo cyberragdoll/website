@@ -1451,6 +1451,6 @@ export const ART_PIECES: ArtPiece[] = [
   { id: 'art21', title: "London Fog near the Thames", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/website/art21.jpg", imageUrl: "/website/art21.jpg", description: "Atmospheric study of the South Bank." },
   { id: 'art22', title: "Small Corner in Brussels", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/website/art22.jpg", imageUrl: "/website/art22.jpg", description: "Finding beauty in everyday urban decay." },
   { id: 'art23', title: "The Red Tram", medium: "Procreate", year: 2019, category: 'Digital art', thumbnailUrl: "/website/art23.jpg", imageUrl: "/website/art23.jpg", description: "Lisbon's iconic transport navigating a steep hill." },
-  { id: 'art24', title: "The Yellow Tram", medium: "Pencil", year: 2018, category: 'Traditional art', thumbnailUrl: "/website/art23.jpg", imageUrl: "/website/art23.jpg", description: "Lisbon's iconic transport navigating a steep hill." }
+  { id: 'art24', title: "The Yellow Tram", medium: "Pencil", year: 2018, category: 'Traditional art', thumbnailUrl: "/website/art24.jpg", imageUrl: "/website/art24.jpg", description: "Lisbon's iconic transport navigating a steep hill." }
 
  ];
