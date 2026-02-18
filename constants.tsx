@@ -893,7 +893,7 @@ export const TALKS: Talk[] = [
     date: "2018-05-31",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "Workshop in collaboration with Tom Vandevelde and Bram De Ridder. \n \n 'Every young researcher is confronted with similar problems. How do I deal with the different deadlines? Help, I've got writer's block! What if I can't see the next step? Who do I talk to? In the session on 'Research', we tackle common problems that are too often ignored. We don't just put these issues out in the open, we also work together to come up with the right solutions for each of these problems. The famous PhD Comics will add a pinch of humor.'
+    description: "Workshop in collaboration with Tom Vandevelde and Bram De Ridder. \n \n 'Every young researcher is confronted with similar problems. How do I deal with the different deadlines? Help, I've got writer's block! What if I can't see the next step? Who do I talk to? In the session on 'Research', we tackle common problems that are too often ignored. We don't just put these issues out in the open, we also work together to come up with the right solutions for each of these problems. The famous PhD Comics will add a pinch of humor.'"
   },
   {
     id: 'host2',
