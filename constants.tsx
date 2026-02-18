@@ -3,7 +3,7 @@ import { Publication, Talk, ArtPiece, Award } from './types';
 export const PUBLICATIONS: Publication[] = [
   {
     id: 'other3',
-    title: "Aan Frank [NL]",
+    title: "Aan Frank ⁽ᴺᴸ⁾",
     authors: "Leen Sevens",
     year: 2022,
     venue: "Liber Amicorum Francisci Affinii",
