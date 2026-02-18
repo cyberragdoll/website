@@ -23,7 +23,7 @@ export const PUBLICATIONS: Publication[] = [
   },   
   {
     id: 'other2',
-    title: "Chatten zonder letters [NL]",
+    title: "Chatten zonder letters ⁽ᴺᴸ⁾",
     authors: "Leen Sevens",
     year: 2019,
     venue: "EOS Wetenschap",
@@ -93,7 +93,7 @@ export const PUBLICATIONS: Publication[] = [
   },  
   {
     id: 'childrensbook3',
-    title: "Katwalk [NL]",
+    title: "Katwalk ⁽ᴺᴸ⁾",
     authors: "An Brouns (author), Leen Sevens (illustrator)",
     year: 2017,
     venue: "Uitgeverij Het Punt",
@@ -102,7 +102,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'other1',
-    title: "Kom naar buiten met je doctoraatsonderzoek! [NL]",
+    title: "Kom naar buiten met je doctoraatsonderzoek! ⁽ᴺᴸ⁾",
     authors: "Leen Sevens",
     year: 2017,
     venue: "KU Leuven Blogt",
@@ -222,7 +222,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'childrensbook2',
-    title: "Dromeria: Lode [NL]",
+    title: "Dromeria: Lode ⁽ᴺᴸ⁾",
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2015,
     venue: "Uitgeverij Het Punt",
@@ -252,7 +252,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'childrensbook1',
-    title: "Dromeria: Biggie [NL]",
+    title: "Dromeria: Biggie ⁽ᴺᴸ⁾",
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2013,
     venue: "Uitgeverij Het Punt",
@@ -265,7 +265,7 @@ export const PUBLICATIONS: Publication[] = [
 export const TALKS: Talk[] = [
   {
     id: 'academictalk48',
-    title: "Skills voor de 21ste eeuw: Efficiënt en verantwoord studeren met GenAI [NL]",
+    title: "Skills voor de 21ste eeuw: Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2026-04-27",
     location: "Leuven, Belgium",
@@ -274,7 +274,7 @@ export const TALKS: Talk[] = [
   },   
   {
     id: 'academictalk44',
-    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "LUCA School of Arts",
     date: "2026-03-26",
     location: "Remote",
@@ -283,7 +283,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk47',
-    title: "With Great Power Comes Great Study Skills - Efficiënt en verantwoord studeren met GenAI [NL]",
+    title: "With Great Power Comes Great Study Skills - Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
     event: "Dag van de Studentenbegeleider @ KU Leuven",
     date: "2026-03-19",
     location: "Leuven, Belgium",
@@ -302,7 +302,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'host7',
-    title: "The Big Blend V [NL]",
+    title: "The Big Blend V ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2026-03-13",
     location: "Leuven, Belgium",
@@ -333,7 +333,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk29',
-    title: "GenAI en begrijpelijke taal [NL]",
+    title: "GenAI en begrijpelijke taal ⁽ᴺᴸ⁾",
     event: "Colloquium Begrijpelijke Rechtstaal",
     date: "2025-05-20",
     location: "Brussels, Belgium",
@@ -353,7 +353,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk43',
-    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "LUCA School of Arts",
     date: "2025-03-28",
     location: "Remote",
@@ -384,7 +384,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk32',
-    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2025-02-24",
     location: "Leuven, Belgium",
@@ -404,7 +404,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk38',
-    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2024-12-16",
     location: "Leuven, Belgium",
@@ -433,7 +433,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media10',
-    title: "Panel boekvoorstelling 'In alle talen' [NL]",
+    title: "Panel boekvoorstelling 'In alle talen' ⁽ᴺᴸ⁾",
     event: "CLT 50",
     date: "2024-11-08",
     location: "Leuven, Belgium",
@@ -444,7 +444,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk41',
-    title: "Tussen mens en machine - De rol van GenAI in taalonderwijs [NL]",
+    title: "Tussen mens en machine - De rol van GenAI in taalonderwijs ⁽ᴺᴸ⁾",
     event: "NVT-net Colloquium AI",
     date: "2024-10-18",
     location: "Brussels, Belgium",
@@ -465,7 +465,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk48',
-    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "FEB @ KU Leuven",
     date: "2024-08-21",
     location: "Brussels, Belgium",
@@ -475,7 +475,7 @@ export const TALKS: Talk[] = [
   },   
   {
     id: 'academictalk34',
-    title: "Tussen mens en machine - De rol van GenAI in taalonderwijs [NL]",
+    title: "Tussen mens en machine - De rol van GenAI in taalonderwijs ⁽ᴺᴸ⁾",
     event: "Inspiratiedag Taalonderwijs (CLT 50)",
     date: "2024-06-21",
     location: "Leuven, Belgium",
@@ -485,7 +485,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk28',
-    title: "De toekomst van taalbeleid en -onderwijs in tijden van GenAI [NL]",
+    title: "De toekomst van taalbeleid en -onderwijs in tijden van GenAI ⁽ᴺᴸ⁾",
     event: "Forumdag Taalbeleid Hoger Onderwijs",
     date: "2024-05-31",
     location: "Leuven, Belgium",
@@ -494,7 +494,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk40',
-    title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC [NL]",
+    title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC ⁽ᴺᴸ⁾",
     event: "FRC @ KU Leuven",
     date: "2024-04-23",
     location: "Remote",
@@ -503,7 +503,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'host9',
-    title: "Dag van de Onderwijsondersteuner: GenAI - Uitdagingen en kansen [NL]",
+    title: "Dag van de Onderwijsondersteuner: GenAI - Uitdagingen en kansen ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2024-04-26",
     location: "Leuven, Belgium",
@@ -513,7 +513,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk51',
-    title: "The basics van GenAI: van A tot GPT! [NL]",
+    title: "The basics van GenAI: van A tot GPT! ⁽ᴺᴸ⁾",
     event: "Dag van de Onderwijsondersteuner @ KU Leuven",
     date: "2024-04-26",
     location: "Leuven, Belgium",
@@ -523,7 +523,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'media9',
-    title: "Onderwijsmaker in de kijker: Leen Sevens [NL]",
+    title: "Onderwijsmaker in de kijker: Leen Sevens ⁽ᴺᴸ⁾",
     event: "Samen Onderwijs Maken Leuven",
     date: "2024-04-16",
     location: "Remote",
@@ -544,7 +544,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk39',
-    title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC [NL]",
+    title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC ⁽ᴺᴸ⁾",
     event: "FRC @ KU Leuven",
     date: "2024-03-27",
     location: "Leuven, Belgium",
@@ -554,7 +554,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'host6',
-    title: "The Big Blend IV [NL]",
+    title: "The Big Blend IV ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2024-03-22",
     location: "Leuven, Belgium",
@@ -565,7 +565,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk30',
-    title: "AI-cademisch onderwijs onder de loep [NL]",
+    title: "AI-cademisch onderwijs onder de loep ⁽ᴺᴸ⁾",
     event: "SOM - Afterwork: AI in Onderwijs",
     date: "2024-03-18",
     location: "Leuven, Belgium",
@@ -575,7 +575,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk37',
-    title: "Aan de slag met GenAI [NL]",
+    title: "Aan de slag met GenAI ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2023-12-19",
     location: "Remote",
@@ -584,7 +584,7 @@ export const TALKS: Talk[] = [
   },    
   {
     id: 'academictalk36',
-    title: "Aan de slag met GenAI [NL]",
+    title: "Aan de slag met GenAI ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2023-12-18",
     location: "Leuven, Belgium",
@@ -594,7 +594,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media11',
-    title: "Panel Generatieve AI-dag [NL]",
+    title: "Panel Generatieve AI-dag ⁽ᴺᴸ⁾",
     event: "UCLL Management",
     date: "2023-10-06",
     location: "Leuven, Belgium",
@@ -614,7 +614,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk50',
-    title: "Hoe kan je evoluties uit de maatschappij en beroepsdomeinen integreren in curricula? [NL]",
+    title: "Hoe kan je evoluties uit de maatschappij en beroepsdomeinen integreren in curricula? ⁽ᴺᴸ⁾",
     event: "Dag van de Onderwijsondersteuner @ KU Leuven",
     date: "2023-05-05",
     location: "Leuven, Belgium",
@@ -623,7 +623,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'host5',
-    title: "The Big Blend III [NL]",
+    title: "The Big Blend III ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2023-03-31",
     location: "Leuven, Belgium",
@@ -656,7 +656,7 @@ export const TALKS: Talk[] = [
   },
    {
     id: 'media7',
-    title: "Word je docent binnenkort een robot? [NL]",
+    title: "Word je docent binnenkort een robot? ⁽ᴺᴸ⁾",
     event: "AI AI AI Podcast",
     date: "2023-02-13",
     location: "Remote",
@@ -687,7 +687,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk27',
-    title: "Student vs. docent - Feedback over de toekomst van blended onderwijs in HW [NL]",
+    title: "Student vs. docent - Feedback over de toekomst van blended onderwijs in HW ⁽ᴺᴸ⁾",
     event: "The Big Blend II (KU Leuven)",
     date: "2021-12-10",
     location: "Leuven, Belgium",
@@ -697,7 +697,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host4',
-    title: "The Big Blend II [NL]",
+    title: "The Big Blend II ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2021-12-10",
     location: "Leuven, Belgium",
@@ -708,7 +708,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media6',
-    title: "Speeddate met Leen Sevens: 'Ooit wil ik Klingon leren' [NL]",
+    title: "Speeddate met Leen Sevens: 'Ooit wil ik Klingon leren' ⁽ᴺᴸ⁾",
     event: "Sonar (Magazine KU Leuven)",
     date: "2021-06-02",
     location: "Remote",
@@ -719,7 +719,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk26',
-    title: "Feedback van studenten over afstandsonderwijs [NL]",
+    title: "Feedback van studenten over afstandsonderwijs ⁽ᴺᴸ⁾",
     event: "The Big Blend I (KU Leuven)",
     date: "2020-12-04",
     location: "Leuven, Belgium",
@@ -729,7 +729,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host3',
-    title: "The Big Blend I [NL]",
+    title: "The Big Blend I ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2020-12-04",
     location: "Leuven, Belgium",
@@ -740,7 +740,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm11',
-    title: "Praten met prentjes [NL]",
+    title: "Praten met prentjes ⁽ᴺᴸ⁾",
     event: "Kinderuniversiteit",
     date: "2020-10-03",
     location: "Leuven, Belgium",
@@ -751,7 +751,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk49',
-    title: "De robot, docent van de toekomst? Een technorealistische kijk op artificial intelligence in het hoger onderwijs [NL]",
+    title: "De robot, docent van de toekomst? Een technorealistische kijk op artificial intelligence in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "Dag van de Onderwijsondersteuner @ KU Leuven",
     date: "2020-02-06",
     location: "Leuven, Belgium",
@@ -761,7 +761,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'scicomm21',
-    title: "De do's en don'ts van presenteren: PollEverywhere-editie [NL]",
+    title: "De do's en don'ts van presenteren: PollEverywhere-editie ⁽ᴺᴸ⁾",
     event: "Expertisenetwerk Informatiegeletterdheid @ KU Leuven",
     date: "2019-12-12",
     location: "Leuven, Belgium",
@@ -770,7 +770,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk24',
-    title: "Words Divide, Pictographs Unite [NL]",
+    title: "Words Divide, Pictographs Unite ⁽ᴺᴸ⁾",
     event: "KU Leuven Campus Antwerp",
     date: "2019-11-14",
     location: "Antwerp, Belgium",
@@ -780,7 +780,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm14',
-    title: "Chatten zonder letters [NL]",
+    title: "Chatten zonder letters ⁽ᴺᴸ⁾",
     event: "VRT Taalavond",
     date: "2019-10-10",
     location: "Antwerp, Belgium",
@@ -791,7 +791,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm13',
-    title: "Chatten zonder letters [NL]",
+    title: "Chatten zonder letters ⁽ᴺᴸ⁾",
     event: "De Vlaamse PhD Cup: Final Round",
     date: "2019-10-06",
     location: "Brussels, Belgium",
@@ -801,7 +801,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm12',
-    title: "Chatten zonder letters [NL]",
+    title: "Chatten zonder letters ⁽ᴺᴸ⁾",
     event: "De Vlaamse PhD Cup: Semi-final Round",
     date: "2019-09-25",
     location: "Brussels, Belgium",
@@ -811,7 +811,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk25',
-    title: "Praten met prentjes [NL]",
+    title: "Praten met prentjes ⁽ᴺᴸ⁾",
     event: "KU Leuven Campus Antwerp",
     date: "2019-09-19",
     location: "Antwerp, Belgium",
@@ -829,7 +829,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm10',
-    title: "Praten met prentjes [NL]",
+    title: "Praten met prentjes ⁽ᴺᴸ⁾",
     event: "Ervaringsdagen",
     date: "2019-05-16",
     location: "Lanaken, Belgium",
@@ -858,7 +858,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm9',
-    title: "Spelen met taal en computers [NL]",
+    title: "Spelen met taal en computers ⁽ᴺᴸ⁾",
     event: "Dag van de Wetenschap",
     date: "2018-11-25",
     location: "Leuven, Belgium",
@@ -868,7 +868,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm6',
-    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking [NL]",
+    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
     event: "Science Slam @ Boekenbeurs Antwerpen",
     date: "2018-11-08",
     location: "Antwerpen, Belgium",
@@ -878,7 +878,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm7',
-    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking [NL]",
+    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
     event: "VIP Opening Event @ Boekenbeurs Antwerpen",
     date: "2018-10-27",
     location: "Antwerpen, Belgium",
@@ -938,7 +938,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media4',
-    title: "Lanakense ontwikkelt pictogrammentaal en geeft mensen met een mentale beperking een stem [NL]",
+    title: "Lanakense ontwikkelt pictogrammentaal en geeft mensen met een mentale beperking een stem ⁽ᴺᴸ⁾",
     event: "TV Limburg",
     date: "2018-01-14",
     location: "Remote",
@@ -948,7 +948,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media3',
-    title: "Interview 'Nieuwe Feiten' [NL]",
+    title: "Interview 'Nieuwe Feiten' ⁽ᴺᴸ⁾",
     event: "Radio 1",
     date: "2018-01-08",
     location: "Remote",
@@ -958,7 +958,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk21',
-    title: "Taaltechnologie ontwikkelen voor en met mensen met een verstandelijke beperking [NL]",
+    title: "Taaltechnologie ontwikkelen voor en met mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
     event: "COM@Modem Dag",
     date: "2017-11-30",
     location: "Geel, Belgium",
@@ -968,7 +968,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media2',
-    title: "Lanakense vindt systeem uit dat tekst vertaalt naar pictogrammen [NL]",
+    title: "Lanakense vindt systeem uit dat tekst vertaalt naar pictogrammen ⁽ᴺᴸ⁾",
     event: "Het Belang van Limburg",
     date: "2017-11-10",
     location: "Remote",
@@ -1035,7 +1035,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk17',
-    title: "E-inclusie door middel van pictogrammen [NL]",
+    title: "E-inclusie door middel van pictogrammen ⁽ᴺᴸ⁾",
     event: "Uitreiking Pioniersprijs en Maatschappijprijs Groep Humane Wetenschappen",
     date: "2017-05-22",
     location: "Leuven, Belgium",
@@ -1086,7 +1086,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk13',
-    title: "De meerwaarde van pictogrammen en klare taal in een juridische context [NL]",
+    title: "De meerwaarde van pictogrammen en klare taal in een juridische context ⁽ᴺᴸ⁾",
     event: "Op.Recht.Mechelen: Justitie en Management",
     date: "2017-02-10",
     location: "Mechelen, Belgium",
@@ -1164,7 +1164,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media5',
-    title: "Vertaalprogramma zet tekst om in pictogrammen en omgekeerd [NL]",
+    title: "Vertaalprogramma zet tekst om in pictogrammen en omgekeerd ⁽ᴺᴸ⁾",
     event: "Campuskrant KU Leuven",
     date: "2016-03-23",
     location: "Remote",
@@ -1184,7 +1184,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm2',
-    title: "Praten met prentjes [NL]",
+    title: "Praten met prentjes ⁽ᴺᴸ⁾",
     event: "The Big Draw Belgium",
     date: "2015-10-08",
     location: "Leuven, Belgium",
