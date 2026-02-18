@@ -502,7 +502,7 @@ export const TALKS: Talk[] = [
     description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor ‘Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC’. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'"
   },  
   {
-    id: 'host8',
+    id: 'host9',
     title: "Dag van de Onderwijsondersteuner: GenAI - Uitdagingen en kansen [NL]",
     event: "KU Leuven",
     date: "2024-04-26",
@@ -603,7 +603,7 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/media9.jpg"
   },
   {
-    id: 'scicomm25',
+    id: 'scicomm26',
     title: "Getting Out There as a Science Communicator",
     event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
     date: "2023-06-08",
