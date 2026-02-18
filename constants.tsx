@@ -307,7 +307,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk32',
-    title: "Tussen Mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
     event: "KU Leuven",
     date: "2025-02-24",
     location: "Leuven, Belgium",
@@ -317,7 +317,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk38',
-    title: "Tussen Mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
     event: "KU Leuven",
     date: "2024-12-16",
     location: "Leuven, Belgium",
