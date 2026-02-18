@@ -690,7 +690,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm14',
-    title: "Wetenschapspitch over de Picto-vertaaltechnologie [NL]",
+    title: "Chatten zonder letters [NL]",
     event: "VRT Taalavond",
     date: "2019-10-10",
     location: "Antwerp, Belgium",
