@@ -1,6 +1,16 @@
 import { Publication, Talk, ArtPiece, Award } from './types';
 
 export const PUBLICATIONS: Publication[] = [
+ {
+    id: 'other4',
+    title: "MOOC: 'AI to Understand and Connect People' ⁽ᴱᴺ⁾",
+    authors: "David Frost Cruz, Leen Sevens",
+    year: 2025,
+    venue: "KULeuvenX @ edX",
+    type: 'Other',
+    link: "https://www.edx.org/learn/humanities/ku-leuven-ai-to-understand-and-connect-people-a-course-for-humanities-and-social-sciences-professionals",
+    abstract: "Led by David Frost Cruz, with my involvement as daily supervisor and active collaborator, including the development of supporting learning materials. I am currently responsible for its follow-up and further implementation. \n \n 'The Humanities and Social Sciences are essential for understanding the past, present, and future of our society. Artificial Intelligence (AI) is transforming many aspects of life, including the ways we relate to one another, and is increasingly shaping the disciplines that help us explore what it means to be human. To you help you grasp the potential and impact of AI in the Humanities and Social Sciences, this course introduces the core concepts, challenges, and applications of AI in these fields. \n \n Across 8 modules, you will learn introductory concepts of AI and how they are applied in various fields of the Humanities and Social Sciences. Tailored to professionals across a range of disciplines, the key features of this course are: \n \n Comprehensive, yet accessible learning \n \n Learn about AI concepts such as Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing (NLP) in an engaging and straightforward way. \n \n Explore AI’s impact on the Humanities and Social Sciences \n \n Discover how AI is influencing society and shaping its adoption in various disciplines, including arts, cultural heritage, education, ethics, law, public policy, regulation, and more. The course also highlights how these disciplines contribute to the development and responsible implementation of AI technologies. \n \n Expert-based course \n \n Learn from a group of experts, professors, and researchers who share different theoretical frameworks and use-case examples of how AI is used for humor, arts, cultural heritage, aesthetics, education, and more. \n \n By the end of this course, you will have developed a foundational understanding of AI and gained practical insights into how it can be applied in the Humanities and Social Sciences. \n \n The knowledge you gain in this course will help you integrate AI into your daily work and prepare you for more advanced, technical AI training. Are you ready to start? \n \n This MOOC is a collaboration between KU Leuven and VAIA.'" 
+  },
   {
     id: 'other3',
     title: "Aan Frank ⁽ᴺᴸ⁾",
@@ -202,8 +212,8 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca4',
-    title: "Translating Text into Pictographs",
-    authors: "Vincent Vandeghinste, Ineke Schuurman, Leen Sevens, Frank Van Eynde ⁽ᴱᴺ⁾",
+    title: "Translating Text into Pictographs ⁽ᴱᴺ⁾",
+    authors: "Vincent Vandeghinste, Ineke Schuurman, Leen Sevens, Frank Van Eynde",
     year: 2015,
     venue: "Natural Language Engineering, Vol. 23 (2), p. 217-244, Cambridge University Press",
     type: 'Academic',
@@ -485,7 +495,7 @@ export const TALKS: Talk[] = [
     date: "2024-11-08",
     location: "Leuven, Belgium",
     type: 'Media & Interviews',
-    description: "Panel participant at the book launch of In alle talen, a publication exploring the art of language learning and multilingualism, where language learners shared their experiences and perspectives on engaging with languages in everyday life and society.",
+    description: "Panel participant at the book launch of 'In alle talen' (CLT), a publication exploring the art of language learning and multilingualism, where language learners shared their experiences and perspectives on engaging with languages in everyday life and society.",
     imageUrl: "/website/media7.jpeg",
     gallery: ["/website/media8.jpg"]
   },
@@ -905,6 +915,36 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/scicomm2.jpg"
   },
   {
+    id: 'scicomm27',
+    title: "Picto in zelfredzaamheidscursus voor anderstaligen ⁽ᴺᴸ⁾",
+    event: "Welzijnscampus Nieuwenbos",
+    date: "2019-05-08",
+    location: "Kortrijk, Belgium",
+    type: 'science communication',
+    description: "Workshop for non-native speakers in the Brussels metropolitan area on using pictogram-based communication tools in self-reliance courses, focusing on accessibility, everyday communication, and visual support for language learning.",
+    imageUrl: "/website/scicomm20.jpg"
+  },
+  {
+    id: 'academictalk61',
+    title: "The Picto Project: Conclusions and Lessons Learned ⁽ᴱᴺ⁾",
+    event: "VUB Artificial Intelligence Lab",
+    date: "2019-02-27",
+    location: "Brussels, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture at the VUB Artificial Intelligence Lab (Vrije Universiteit Brussel), presenting the conclusions of the Picto project on automatic translation between pictographs and text. The talk addressed technological developments, linguistic challenges, and broader implications for accessibility, inclusion, and AI-driven communication support.",
+    imageUrl: "/website/academictalk36.png"
+  },
+  {
+    id: 'academictalk62',
+    title: "The Picto Project: Conclusions and Lessons Learned ⁽ᴱᴺ⁾",
+    event: "Computational Linguistics in the Netherlands (CLIN29)",
+    date: "2019-01-31",
+    location: "Groningen, The Netherlands",
+    type: 'Academic & Professional',
+    description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n We presented the conclusions of the Picto project on automatic translation between pictographs and text. The talk addressed technological developments, linguistic challenges, and broader implications for accessibility, inclusion, and AI-driven communication support.",
+    link: "https://ivdnt.org/wp-content/uploads/2020/06/CLIN29-ThePictoProject.pdf"
+  },
+  {
     id: 'academictalk23',
     title: "Public PhD Defense ⁽ᴱᴺ⁾",
     event: "KU Leuven",
@@ -1287,6 +1327,15 @@ export const TALKS: Talk[] = [
     location: "Antwerp; Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links.'"
+  },
+  {
+    id: 'academictalk60',
+    title: "Able-To-Include: Automatic Translation from Pictographs to Text and Vice Versa ⁽ᴱᴺ⁾",
+    event: "ComForT Research Group Seminar @ KU Leuven",
+    date: "2014-12-03",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "'The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an “accessibility layer” that is based on three key technologies, automatic translation from pictographs to text and vice versa being one of them. The process of building the English and Spanish variants of the original Dutch Text2Picto tool leads us into the domain of WordNet linking, while trigram language models play a key role in the development of the Picto2Text tool.'"
   },
   {
     id: 'academictalk1',
