@@ -263,6 +263,15 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const TALKS: Talk[] = [
+ {
+    id: 'academictalk57',
+    title: "Workshop 'GenAI in Education' ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    event: "Teaching @ KU Leuven",
+    date: "2026-04-30",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this session, we focus on the do's and don'ts of generative AI in education at KU Leuven. We reflect on university guidelines and recommendations, exchange experiences, and discuss both opportunities and risks. Through interactive statements, we engage in dialogue on themes such as assessment practices, the role of AI in skills development, and the place GenAI can (or should not) take in teaching and learning. The session creates space to share experiences, learn from one another, and collectively reflect on a positive yet critical integration of AI. For those already working with GenAI, it offers an opportunity to inspire colleagues with concrete examples from practice; for those still exploring, it provides insights and practical takeaways.'" 
+ }, 
   {
     id: 'academictalk48',
     title: "Skills voor de 21ste eeuw: Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
@@ -322,6 +331,16 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'academictalk56',
+    title: "Workshop 'GenAI in Education' ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    event: "Teaching @ KU Leuven",
+    date: "2025-12-18",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this session, we focus on the do's and don'ts of generative AI in education at KU Leuven. We reflect on university guidelines and recommendations, exchange experiences, and discuss both opportunities and risks. Through interactive statements, we engage in dialogue on themes such as assessment practices, the role of AI in skills development, and the place GenAI can (or should not) take in teaching and learning. The session creates space to share experiences, learn from one another, and collectively reflect on a positive yet critical integration of AI. For those already working with GenAI, it offers an opportunity to inspire colleagues with concrete examples from practice; for those still exploring, it provides insights and practical takeaways.'",
+    imageUrl: "/website/academictalk33.jpg"
+  }, 
+  {
     id: 'academictalk42',
     title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond ⁽ᴱᴺ⁾",
     event: "1st AIHUMS (101) Workshop (Una Europa)",
@@ -351,6 +370,15 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "This AI Café, organized by Leuven.AI, featured insightful talks and discussions on the AI courses offered by KU Leuven to promote AI literacy among students and the broader community. The speakers shared their experiences and insights on the importance of AI literacy and how KU Leuven's AI courses are designed to equip students with the necessary skills and knowledge.",
   },
+  {
+    id: 'academictalk55',
+    title: "Workshop 'GenAI in Education' ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    event: "Teaching @ KU Leuven",
+    date: "2025-04-24",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this introductory session, we will discuss the opportunities and challenges of generative AI for education. Together, we will explore tools and good practices that encourage a positive yet critical integration of AI into teaching practice. For those already familiar with GenAI in their courses, the session will also offer opportunities to inspire and exchange ideas with colleagues.'"
+  }, 
   {
     id: 'academictalk43',
     title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
@@ -383,8 +411,18 @@ export const TALKS: Talk[] = [
     description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten, focusing on the use of GenAI in higher education. The session addressed practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice."
   },  
   {
+    id: 'academictalk58',
+    title: "So Prompt Me Maybe? ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    event: "Tech Tapas @ KU Leuven",
+    date: "2025-02-25",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Interactive table host at Tech Tapas, where students could drop by with questions and explore how generative AI can be used to spark ideas, improve study strategies, and support learning in practical ways. The session emphasized hands-on tips and responsible use of GenAI in line with KU Leuven guidelines.",
+    imageUrl: "/website/academictalk34.jpg"
+  },
+  {
     id: 'academictalk32',
-    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
+    title: "The Hitchhiker's Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2025-02-24",
     location: "Leuven, Belgium",
@@ -401,6 +439,15 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "Invited presentation at the team day of Vlaamse AI Academie (VAIA), highlighting AI initiatives at KU Leuven with a particular focus on the collaboration between KU Leuven and VAIA in the development of a MOOC on AI and the Humanities. The session showcased institutional strategy, educational innovation, and cross-sector partnership in AI education.",
     imageUrl: "/website/academictalk31.jpg"
+  },  
+  {
+    id: 'academictalk54',
+    title: "Workshop 'GenAI in Education' ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    event: "Teaching @ KU Leuven",
+    date: "2024-12-17",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this introductory session, we will discuss the opportunities and challenges of generative AI for education. Together, we will explore tools and good practices that encourage a positive yet critical integration of AI into teaching practice. For those already familiar with GenAI in their courses, the session will also offer opportunities to inspire and exchange ideas with colleagues.'"
   },  
   {
     id: 'academictalk38',
@@ -441,6 +488,16 @@ export const TALKS: Talk[] = [
     description: "Panel participant at the book launch of In alle talen, a publication exploring the art of language learning and multilingualism, where language learners shared their experiences and perspectives on engaging with languages in everyday life and society.",
     imageUrl: "/website/media7.jpeg",
     gallery: ["/website/media8.jpg"]
+  },
+  {
+    id: 'academictalk59',
+    title: "So Prompt Me Maybe? ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    event: "Tech Tapas @ KU Leuven",
+    date: "2024-10-29",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Interactive table host at Tech Tapas, where students could drop by with questions and explore how generative AI can be used to spark ideas, improve study strategies, and support learning in practical ways. The session emphasized hands-on tips and responsible use of GenAI in line with KU Leuven guidelines.",
+    imageUrl: "/website/academictalk35.jpg"
   },
   {
     id: 'academictalk41',
@@ -492,6 +549,16 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "I gave the closing speech at the Forum Day on Language Policy in Higher Education (topic: 'Toward a High-Tech Language Policy?'), where I wrapped up and reflected on the day's main insights."
   },
+ {
+    id: 'academictalk53',
+    title: "Workshop 'GenAI in Education' ⁽ᴱᴺ⁾",
+    event: "Teaching @ KU Leuven",
+    date: "2024-05-23",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Lien Castelein. \n \n 'In this session, we will discuss the opportunities and challenges of GenAI for education. Together, we will explore tools and good practices that challenge you to implement AI in your educational practice in a positive, yet critical way.'",
+    imageUrl: "/website/academictalk32.jpg"
+  },  
   {
     id: 'academictalk40',
     title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC ⁽ᴺᴸ⁾",
