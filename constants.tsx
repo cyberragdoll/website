@@ -263,6 +263,34 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const TALKS: Talk[] = [
+   {
+    id: 'academictalk44',
+    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    event: "LUCA School of Arts",
+    date: "2026-03-26",
+    location: "Remote",
+    type: 'Academic & Professional',
+    description: "Invited lecture for the 'Teaching Qualification' (Onderwijsrijbewijs) trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addresses practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices."
+  },  
+  {
+    id: 'academictalk47',
+    title: "With great power comes great study skills - Efficiënt en verantwoord studeren met GenAI [NL]",
+    event: "Dag van de Studentenbegeleider @ KU Leuven",
+    date: "2026-03-19",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Liese Luijten. \n \n 'In deze sessie verkennen we hoe GenAI studenten kan ondersteunen bij efficiënt en verantwoord studeren, in lijn met de geldende richtlijnen aan KU Leuven. Leen Sevens en Liese Luijten tonen ons concrete use cases waarin GenAI kan bijdragen aan gepersonaliseerd leren, instant feedback, schrijf- en studieondersteuning, en het overwinnen van leer- en denkdrempels. Daarbij plaatsen ze telkens kritische kanttekeningen rond betrouwbaarheid, afhankelijkheid en academische integriteit. De focus ligt in deze sessie expliciet op GenAI als ondersteunend hulpmiddel dat zelfregulatie en leerprocessen versterkt, zonder het eigen kunnen van de student te ondergraven. De sessie biedt studentenbegeleiders inspiratie om studenten te adviseren over zinvol, kritisch en transparant gebruik van GenAI in hun studiepraktijk.",
+    link: "https://www.kuleuven.be/onderwijs/learninglab/netwerk-studentenbegeleiders/dag-van-de-studentenbegeleider",
+  },  
+  {
+    id: 'academictalk46',
+    title: "Once Upon a Prompt - The Opportunities and Risks of GenAI in Higher Education",
+    event: "FEB @ KU Leuven",
+    date: "2026-03-19",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten, focusing on the use of GenAI in higher education. The session addresses practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice."
+  },  
   {
     id: 'host7',
     title: "The Big Blend V [NL]",
@@ -285,6 +313,16 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'academictalk42',
+    title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond",
+    event: "1st AIHUMS (101) Workshop (Una Europa)",
+    date: "2025-10-03",
+    location: "Remote",
+    type: 'Academic & Professional',
+    description: "Invited talk within a Una Europa workshop on Artificial Intelligence & the Humanities (101): Developing a Humanities Syllabus for AI & the Digital, contributing to discussions on integrating AI into Humanities and Social Sciences education. The project engaged with findings from a large European survey on AI and teaching, introduced practical AI toolkits for course design, and explored the development of a model syllabus for introductory AI literacy in the humanities.",
+    imageUrl: "/website/academictalk26.jpg"
+  },  
+  {
     id: 'academictalk29',
     title: "GenAI en begrijpelijke taal [NL]",
     event: "Colloquium Begrijpelijke Rechtstaal",
@@ -304,6 +342,16 @@ export const TALKS: Talk[] = [
     description: "This AI Café, organized by Leuven.AI, featured insightful talks and discussions on the AI courses offered by KU Leuven to promote AI literacy among students and the broader community. The speakers shared their experiences and insights on the importance of AI literacy and how KU Leuven's AI courses are designed to equip students with the necessary skills and knowledge.",
   },
   {
+    id: 'academictalk43',
+    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    event: "LUCA School of Arts",
+    date: "2025-03-28",
+    location: "Remote",
+    type: 'Academic & Professional',
+    description: "Invited lecture for the 'Teaching Qualification' (Onderwijsrijbewijs) trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addressed practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices.",
+    imageUrl: "/website/academictalk27.jpg"
+  },  
+  {
     id: 'scicomm19',
     title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
@@ -316,8 +364,17 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'academictalk45',
+    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education",
+    event: "FEB @ KU Leuven",
+    date: "2025-03-05",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten, focusing on the use of GenAI in higher education. The session addressed practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice."
+  },  
+  {
     id: 'academictalk32',
-    title: "Tussen mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
     event: "KU Leuven",
     date: "2025-02-24",
     location: "Leuven, Belgium",
@@ -354,6 +411,27 @@ export const TALKS: Talk[] = [
     description: "Invited webinar within the FEBinars series of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten. We introduced educational innovation methods and technologies, with a focus on the practical do's and don'ts of using generative AI in higher education. The session addressed opportunities for teaching and learning alongside risks such as bias, reliability of output, and responsible use.",
     imageUrl: "/website/academictalk18.jpg"
   },
+  {
+    id: 'media10',
+    title: "Panel boekvoorstelling 'In alle talen' [NL]",
+    event: "CLT 50",
+    date: "2024-11-08",
+    location: "Leuven, Belgium",
+    type: 'Media & Interviews',
+    description: "Panel participant at the book launch of In alle talen, a publication exploring the art of language learning and multilingualism, where language learners shared their experiences and perspectives on engaging with languages in everyday life and society.",
+    imageUrl: "/website/media7.jpeg",
+    gallery: ["/website/media8.jpg"]
+  },
+  {
+    id: 'academictalk41',
+    title: "Tussen mens en machine - De rol van GenAI in taalonderwijs [NL]",
+    event: "NVT-net Colloquium AI",
+    date: "2024-10-18",
+    location: "Brussels, Belgium",
+    type: 'Academic & Professional',
+    description: "'In een tijdperk waar technologische innovaties, en in het bijzonder GenAI, razendsnel evolueren, staat ons onderwijs voor nieuwe uitdagingen en kansen. In deze lezing verkennen we de delicate balans tussen het omarmen van GenAI in het (Nederlandse) taalonderwijs en het behouden van een kritische, bewuste en menselijke aanpak. We duiken in de kansen die GenAI biedt voor het verrijken van de leerervaring van onze studenten, alsook de inherente risico's die gepaard gaan met een te grote afhankelijkheid van dergelijke technologieën. \n \n We staan stil bij de vraagstukken rond het evalueren van de taalvaardigheden van studenten in een tijd waarin technologie een steeds grotere rol speelt. Hoe kunnen we er zeker van zijn dat zij aan het einde van hun leertraject in staat zijn zich uit te drukken in een (vreemde) taal, zelfstandig en niet noodzakelijk geassisteerd door technologische hulpmiddelen? \n \n Verder verkennen we hoe GenAI kan dienen als een krachtige bondgenoot in ons eigen onderwijsproces. We zullen onderzoeken hoe docenten optimaal gebruik kunnen maken van de voordelen en nieuwe werkvormen die GenAI te bieden heeft, zonder daarbij de essentie van ons vakgebied te ontmenselijken. \n \n Aan de hand van inspirerende voorbeelden, praktische tips en inzichten in hoe KU Leuven navigeert door de steeds evoluerende technojungle, zullen we in deze sessie licht werpen op effectieve strategieën voor het integreren van GenAI in het taalonderwijs. Samen gaan we op zoek naar de juiste tools en het inzicht om GenAI op een goede manier te benaderen, zodat zowel docenten als studenten het maximale uit deze revolutionaire technologie kunnen halen, zonder daarbij de menselijke touch te verliezen.'",
+    imageUrl: "/website/academictalk25.jpg"
+  },  
   {
     id: 'media8',
     title: "My Career Journey as an Educational Innovation Staff Member at the Humanities and Social Sciences Group at KU Leuven",
@@ -463,6 +541,16 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
     imageUrl: "/website/academictalk20.jpg"
+  },
+  {
+    id: 'media11',
+    title: "Panel Generatieve AI-dag [NL]",
+    event: "UCLL Management",
+    date: "2023-10-06",
+    location: "Leuven, Belgium",
+    type: 'Media & Interviews',
+    description: "Panel participant at the Generative AI Day for Management lecturers by UCLL (Leuven and Limburg regions), a professional development event bringing together approximately 150 educators across diverse disciplines. The panel focused on exploring the implications of GenAI for higher education, alongside shared knowledge-building and hands-on experimentation with AI tools.",
+    imageUrl: "/website/media9.jpg"
   },
   {
     id: 'host5',
