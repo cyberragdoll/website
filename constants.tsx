@@ -2,6 +2,16 @@ import { Publication, Talk, ArtPiece, Award } from './types';
 
 export const PUBLICATIONS: Publication[] = [
   {
+    id: 'other3',
+    title: "Aan Frank [NL]",
+    authors: "Leen Sevens",
+    year: 2019,
+    venue: "Liber Amicorum Francisci Affinii",
+    type: 'Other',
+    link: "https://ccl.kuleuven.be/~vincent/ccl/LiberAmicorum.pdf",
+    abstract: "Deze bundel bevat vrije bijdragen van verschillende auteurs naar aanleiding van het emeritaat van Prof. Dr. Frank Van Eynde, professor in de formele en computationele taalkunde, verbonden aan het Centrum voor Computerlinguïstiek (CCL), KU Leuven."
+  },
+  {
     id: 'aca20',
     title: "Can Pictograph Translation Technologies Facilitate Communication and Integration in Migration Settings?",
     authors: "Bram Bulté, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman, Frank Van Eynde",
@@ -13,7 +23,7 @@ export const PUBLICATIONS: Publication[] = [
   },   
   {
     id: 'other2',
-    title: "Chatten Zonder Letters",
+    title: "Chatten zonder letters [NL]",
     authors: "Leen Sevens",
     year: 2019,
     venue: "EOS Wetenschap",
@@ -83,7 +93,7 @@ export const PUBLICATIONS: Publication[] = [
   },  
   {
     id: 'childrensbook3',
-    title: "Katwalk",
+    title: "Katwalk [NL]",
     authors: "An Brouns (author), Leen Sevens (illustrator)",
     year: 2017,
     venue: "Uitgeverij Het Punt",
@@ -92,7 +102,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'other1',
-    title: "Kom Naar Buiten Met Je Doctoraatsonderzoek!",
+    title: "Kom naar buiten met je doctoraatsonderzoek! [NL]",
     authors: "Leen Sevens",
     year: 2017,
     venue: "KU Leuven Blogt",
@@ -212,7 +222,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'childrensbook2',
-    title: "Dromeria: Lode",
+    title: "Dromeria: Lode [NL]",
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2015,
     venue: "Uitgeverij Het Punt",
@@ -242,7 +252,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'childrensbook1',
-    title: "Dromeria: Biggie",
+    title: "Dromeria: Biggie [NL]",
     authors: "Marc Geyens (author), Leen Sevens (illustrator)",
     year: 2013,
     venue: "Uitgeverij Het Punt",
@@ -493,7 +503,7 @@ export const TALKS: Talk[] = [
     event: "Afscheidslezing Frank Van Eynde @ KU Leuven",
     date: "2022-12-07",
     location: "Leuven, Belgium",
-    type: 'Academic & Professional',
+    type: 'science communication',
     description: "Invited pitch presentation at the farewell lecture of Professor Frank Van Eynde, celebrating his emeritus status, where I presented my PhD Cup pitch as part of the academic tribute to his career and mentorship.",
     imageUrl: "/website/academictalk24.jpg"
   },
