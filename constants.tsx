@@ -49,7 +49,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "PhD Thesis, LOT Publications",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/518329",
-    abstract: "In order to improve the accessibility of the Internet for people with an intellectual disability (ID), we develop a set of tools that automatically translate Dutch natural language text into pictographs and vice versa, allowing people with limited literacy skills to read and write status updates, emails, and chat messages in online environments. \n \n For the conversion of texts into pictographs, we start from an existing system. We evaluate the baseline Text-to-Pictograph translation system using a combination of automated metrics, manual assessments, and user studies, and we propose three major improvements: We create a spelling correction tool for people with ID, we develop a syntactic simplification tool and a temporality detection module, and we implement a word sense disambiguation tool for improved semantic analysis. The added value of each of these components is evaluated in depth. \n \n Conversely, the Pictograph-to-Text translation tool provides help in constructing textual messages by allowing the user to input a series of pictographs, and translates these messages into natural language text. The challenge in Pictograph-to-Text translation is twofold. The first task concerns the development of an accessible interface that allows people with ID to find the pictographs of their choice. The second task is the actual development of the Pictograph-to-Text translation engine. We discuss a variety of approaches, including language modelling and (neural) machine translation techniques, toward the generation of rich natural language text from underspecified pictograph input."  
+    abstract: "In order to improve the accessibility of the Internet for people with an intellectual disability (ID), we develop a set of tools that automatically translate Dutch natural language text into pictographs and vice versa, allowing people with limited literacy skills to read and write status updates, emails, and chat messages in online environments. \n \n For the conversion of texts into pictographs, we start from an existing system. We evaluate the baseline Text-to-Pictograph translation system using a combination of automated metricks, manual assessments, and user studies, and we propose three major improvements: We create a spelling correction tool for people with ID, we develop a syntactic simplification tool and a temporality detection module, and we implement a word sense disambiguation tool for improved semantic analysis. The added value of each of these components is evaluated in depth. \n \n Conversely, the Pictograph-to-Text translation tool provides help in constructing textual messages by allowing the user to input a series of pictographs, and translates these messages into natural language text. The challenge in Pictograph-to-Text translation is twofold. The first task concerns the development of an accessible interface that allows people with ID to find the pictographs of their choice. The second task is the actual development of the Pictograph-to-Text translation engine. We discuss a variety of approaches, including language modelling and (neural) machine translation techniques, toward the generation of rich natural language text from underspecified pictograph input."  
   },    
   {
     id: 'aca16',
@@ -285,6 +285,15 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/academictalk15.jpg",
   },
   {
+    id: 'academictalk31',
+    title: "Of Bots and Books - Developing a MOOC on AI & the Humanities",
+    event: "AI Café @ KU Leuven",
+    date: "2025-04-28",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "This AI Café, organized by Leuven.AI, featured insightful talks and discussions on the AI courses offered by KU Leuven to promote AI literacy among students and the broader community. The speakers shared their experiences and insights on the importance of AI literacy and how KU Leuven's AI courses are designed to equip students with the necessary skills and knowledge.",
+  },
+  {
     id: 'scicomm19',
     title: "Jury Member for Falling Walls Lab Leuven",
     event: "KU Leuven",
@@ -297,6 +306,45 @@ export const TALKS: Talk[] = [
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
+    id: 'academictalk32',
+    title: "Tussen Mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    event: "KU Leuven",
+    date: "2025-02-24",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for the course 'Studium Generale' at KU Leuven, focusing on the opportunities and challenges of AI in education. The session combined practical do's and don'ts for students, covering responsible use, risks such as bias, misinformation, and environmental impact, with an overview of KU Leuven's institutional approach to AI in teaching and learning.",
+    imageUrl: "/website/academictalk17.png"
+  },
+  {
+    id: 'academictalk38',
+    title: "Tussen Mens en machine - De opportuniteiten en risico's van GenAI in het hoger onderwijs [NL]",
+    event: "KU Leuven",
+    date: "2024-12-16",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
+    imageUrl: "/website/academictalk22.png"
+  },  
+  {
+    id: 'academictalk35',
+    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education",
+    event: "LUCAS @ KU Leuven",
+    date: "2024-12-13",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for LUCAS (Interdisciplinary Research Centre for Care Research and Consultancy at KU Leuven), delivered during the team day, focusing on the use of artificial intelligence in academic and professional contexts. The session introduced opportunities, practical applications, and critical considerations of AI for interdisciplinary research and practice."
+  },
+  {
+    id: 'academictalk33',
+    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education",
+    event: "FEBinar @ KU Leuven",
+    date: "2024-11-28",
+    location: "Remote",
+    type: 'Academic & Professional',
+    description: "Invited webinar within the FEBinars series of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten. We introduced educational innovation methods and technologies, with a focus on the practical do's and don'ts of using generative AI in higher education. The session addressed opportunities for teaching and learning alongside risks such as bias, reliability of output, and responsible use.",
+    imageUrl: "/website/academictalk18.jpg"
+  },
+  {
     id: 'media8',
     title: "My Career Journey as an Educational Innovation Staff Member at the Humanities and Social Sciences Group at KU Leuven",
     event: "#100PhDAlumniVoices",
@@ -306,6 +354,16 @@ export const TALKS: Talk[] = [
     description: "Video description: 'Watch the #100PhDAlumniVoices session by Leen Sevens, PhD in Computational Linguistics. #100PhDAlumniVoices is a web series connecting PhD alumni with current students to discuss diverse career paths post-PhD. Episodes include conversations between alumni and a moderator, followed by Q&A sessions for students.'",
     link: "https://connect.kuleuven.cloud/page/global-talks-phdalum-ghum-kuleuven",
     imageUrl: "/website/media6.png"
+  },
+  {
+    id: 'academictalk34',
+    title: "Tussen mens en machine - De rol van GenAI in taalonderwijs [NL]",
+    event: "Inspiratiedag Taalonderwijs (CLT 50)",
+    date: "2024-06-21",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture at the CLT Inspiration Day at the Faculty Club in Leuven, a professional development event bringing together educators for keynotes, poster presentations, workshops, and the exchange of best practices in language education. The session contributed to ongoing dialogue on innovation and quality in language teaching.",
+    imageUrl: "/website/academictalk19.png"
   },
   {
     id: 'academictalk28',
@@ -323,7 +381,7 @@ export const TALKS: Talk[] = [
     date: "2024-04-16",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "'Wat is je rol in het Leuvense onderwijsveld? \n \n Onderwijsinnovator aan de Groep Humane Wetenschappen van KU Leuven met een hart voor educatieve technologie en artificial intelligence. \n \n Wat betekent Samen Onderwijs Maken (SOM) voor jou? \n \n 'Samen Onderwijs Maken' staat voor een krachtig netwerk waarin diverse onderwijspartners hun expertise bundelen. Van het uitwisselen van innovatieve ideeën, tot het bedenken van oplossingen voor gemeenschappelijke uitdagingen over de gehele breedte van het onderwijsspectrum. Van kleuteronderwijs tot volwassenenonderwijs. Van beleidsnota's tot praktijk. Door samen te werken, versterken we het onderwijs in zijn geheel en zorgen we voor een vruchtbare bodem voor innovatie. \n \n Wat kan er volgens jou anders in het onderwijs? \n \n Binnen het brede spectrum van ons onderwijs kan er meer aandacht worden besteed aan een snelle, veilige en effectieve integratie van nieuwe technologieën, zoals GenAI. Het is belangrijk dat zowel de risico's als de opportuniteiten worden belicht. GenAI biedt bijvoorbeeld unieke kansen voor het personaliseren van het leerproces, wat kan bijdragen aan een inclusiever onderwijs. Door zowel studenten als onderwijzend personeel tijdig te sensibiliseren, kunnen we de kracht van nieuwe technologieën optimaal benutten en werken aan een toekomstbestendig onderwijssysteem. \n \n Waarvoor mogen onderwijsmakers jou contacteren? \n \n Mijn passie ligt bij het benutten van educatieve technologie als katalysator voor onderwijsinnovatie. Mijn enthousiasme wordt vooral gewekt door taaltechnologie en de manieren waarop digitalisering kan bijdragen aan verhoogde personalisatie binnen ons onderwijs. Samen kunnen we op zoek gaan naar nieuwe, effectieve onderwijsmethoden die aansluiten bij de unieke talenten en behoeften van elke student... én docent! \n \n Wat maakt voor jou het beroep van leraar zo mooi? \n \n Als onderwijsinnovator aan de Groep Humane Wetenschappen sta ik elke dag in contact met gedreven docenten en onderwijsondersteuners. Zij zijn voortdurend op zoek naar de meest effectieve methodes om studenten te betrekken, activeren en begeesteren. Hoewel mijn enthousiasme voor technologie groot is, vind ik het fantastisch dat het menselijke aspect steeds de kern blijft van ons onderwijs. Zo kunnen onze docenten onderwijs bieden dat niet alleen informeert, maar ook inspireert en transformeert.'",
+    description: "Wat is je rol in het Leuvense onderwijsveld? \n \n Onderwijsinnovator aan de Groep Humane Wetenschappen van KU Leuven met een hart voor educatieve technologie en artificial intelligence. \n \n Wat betekent Samen Onderwijs Maken (SOM) voor jou? \n \n 'Samen Onderwijs Maken' staat voor een krachtig netwerk waarin diverse onderwijspartners hun expertise bundelen. Van het uitwisselen van innovatieve ideeën, tot het bedenken van oplossingen voor gemeenschappelijke uitdagingen over de gehele breedte van het onderwijsspectrum. Van kleuteronderwijs tot volwassenenonderwijs. Van beleidsnota's tot praktijk. Door samen te werken, versterken we het onderwijs in zijn geheel en zorgen we voor een vruchtbare bodem voor innovatie. \n \n Wat kan er volgens jou anders in het onderwijs? \n \n Binnen het brede spectrum van ons onderwijs kan er meer aandacht worden besteed aan een snelle, veilige en effectieve integratie van nieuwe technologieën, zoals GenAI. Het is belangrijk dat zowel de risico's als de opportuniteiten worden belicht. GenAI biedt bijvoorbeeld unieke kansen voor het personaliseren van het leerproces, wat kan bijdragen aan een inclusiever onderwijs. Door zowel studenten als onderwijzend personeel tijdig te sensibiliseren, kunnen we de kracht van nieuwe technologieën optimaal benutten en werken aan een toekomstbestendig onderwijssysteem. \n \n Waarvoor mogen onderwijsmakers jou contacteren? \n \n Mijn passie ligt bij het benutten van educatieve technologie als katalysator voor onderwijsinnovatie. Mijn enthousiasme wordt vooral gewekt door taaltechnologie en de manieren waarop digitalisering kan bijdragen aan verhoogde personalisatie binnen ons onderwijs. Samen kunnen we op zoek gaan naar nieuwe, effectieve onderwijsmethoden die aansluiten bij de unieke talenten en behoeften van elke student... én docent! \n \n Wat maakt voor jou het beroep van leraar zo mooi? \n \n Als onderwijsinnovator aan de Groep Humane Wetenschappen sta ik elke dag in contact met gedreven docenten en onderwijsondersteuners. Zij zijn voortdurend op zoek naar de meest effectieve methodes om studenten te betrekken, activeren en begeesteren. Hoewel mijn enthousiasme voor technologie groot is, vind ik het fantastisch dat het menselijke aspect steeds de kern blijft van ons onderwijs. Zo kunnen onze docenten onderwijs bieden dat niet alleen informeert, maar ook inspireert en transformeert.",
     imageUrl: "/website/media5.jpg"
   },
   {
@@ -357,6 +415,25 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: ' Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do’s en don’ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
     imageUrl: "/website/academictalk16.jpg"
+  },
+  {
+    id: 'academictalk37',
+    title: "Aan de slag met GenAI [NL]",
+    event: "KU Leuven",
+    date: "2023-12-19",
+    location: "Remote",
+    type: 'Academic & Professional',
+    description: "'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'"
+  },    
+  {
+    id: 'academictalk36',
+    title: "Aan de slag met GenAI [NL]",
+    event: "KU Leuven",
+    date: "2023-12-18",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
+    imageUrl: "/website/academictalk20.jpg"
   },
   {
     id: 'host5',
@@ -467,7 +544,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm21',
-    title: "De Do's en don'ts van presenteren: PollEverywhere-editie [NL]",
+    title: "De do's en don'ts van presenteren: PollEverywhere-editie [NL]",
     event: "Expertisenetwerk Informatiegeletterdheid @ KU Leuven",
     date: "2019-12-12",
     location: "Leuven, Belgium",
@@ -622,7 +699,7 @@ export const TALKS: Talk[] = [
     date: "2018-01-26",
     location: "Nijmegen, The Netherlands",
     type: 'Academic & Professional',
-    description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. \n \n 'In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metrics and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system.'"
+    description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. \n \n 'In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metricks and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system.'"
   },
   {
     id: 'media4',
