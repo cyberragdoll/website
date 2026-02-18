@@ -274,7 +274,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk47',
-    title: "With great power comes great study skills - Efficiënt en verantwoord studeren met GenAI [NL]",
+    title: "With Great Power Comes Great Study Skills - Efficiënt en verantwoord studeren met GenAI [NL]",
     event: "Dag van de Studentenbegeleider @ KU Leuven",
     date: "2026-03-19",
     location: "Leuven, Belgium",
