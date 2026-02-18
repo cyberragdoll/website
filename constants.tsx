@@ -289,7 +289,7 @@ export const TALKS: Talk[] = [
     date: "2026-03-19",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten, focusing on the use of GenAI in higher education. The session addresses practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice."
+    description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, focusing on the use of GenAI in higher education. The session addresses practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice."
   },  
   {
     id: 'host7',
