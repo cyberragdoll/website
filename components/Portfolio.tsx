@@ -15,7 +15,7 @@ const Portfolio: React.FC = () => {
   const getBadgeStyles = (category: ArtPiece['category']) => {
     switch (category) {
       case 'Digital art': return 'bg-sky-50 text-sky-700 border-sky-100';
-      case 'Painting': return 'bg-rose-50 text-rose-700 border-rose-100';
+      case 'Traditional art': return 'bg-rose-50 text-rose-700 border-rose-100';
       case 'Urban sketching': return 'bg-amber-50 text-amber-700 border-amber-100';
       case 'Comics': return 'bg-indigo-50 text-indigo-700 border-indigo-100';
       default: return 'bg-slate-50 text-slate-700 border-slate-100';
