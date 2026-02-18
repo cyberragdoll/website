@@ -375,6 +375,15 @@ export const TALKS: Talk[] = [
     description: "I gave the closing speech at the Forum Day on Language Policy in Higher Education (topic: 'Toward a High-Tech Language Policy?'), where I wrapped up and reflected on the day's main insights."
   },
   {
+    id: 'academictalk40',
+    title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC [NL]",
+    event: "FRC @ KU Leuven",
+    date: "2024-04-23",
+    location: "Remote",
+    type: 'Academic & Professional',
+    description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor ‘Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC’. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'"
+  },  
+  {
     id: 'media9',
     title: "Onderwijsmaker in de kijker: Leen Sevens [NL]",
     event: "Samen Onderwijs Maken Leuven",
@@ -395,6 +404,16 @@ export const TALKS: Talk[] = [
     imageUrl: "/website/scicomm14.png",
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
+  {
+    id: 'academictalk39',
+    title: "Van codex tot chatbot - Een crashcourse over GenAI en onderwijs aan FRC [NL]",
+    event: "FRC @ KU Leuven",
+    date: "2024-03-27",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor ‘Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC’. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'",
+    imageUrl: "/website/academictalk23.jpg"
+  },  
   {
     id: 'host6',
     title: "The Big Blend IV [NL]",
@@ -467,6 +486,16 @@ export const TALKS: Talk[] = [
     description: "Podcast description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?'",
     link: "https://open.spotify.com/episode/0eyXI2q9sHt4H47aKPYSzZ",
     imageUrl: "/website/media3.jpg"
+  },
+  {
+    id: 'scicomm22',
+    title: "Breaking the Wall of Illiteracy",
+    event: "Afscheidslezing Frank Van Eynde @ KU Leuven",
+    date: "2022-12-07",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited pitch presentation at the farewell lecture of Professor Frank Van Eynde, celebrating his emeritus status, where I presented my PhD Cup pitch as part of the academic tribute to his career and mentorship.",
+    imageUrl: "/website/academictalk24.jpg"
   },
   {
     id: 'scicomm15',
