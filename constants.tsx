@@ -13,7 +13,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca20',
-    title: "Can Pictograph Translation Technologies Facilitate Communication and Integration in Migration Settings?",
+    title: "Can Pictograph Translation Technologies Facilitate Communication and Integration in Migration Settings? ⁽ᴱᴺ⁾",
     authors: "Bram Bulté, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman, Frank Van Eynde",
     year: 2021,
     venue: "Computational Linguistics in the Netherlands Journal, Vol. 11, p. 189-212",
@@ -33,7 +33,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca19',
-    title: "Automating Lexical Simplification in Dutch",
+    title: "Automating Lexical Simplification in Dutch ⁽ᴱᴺ⁾",
     authors: "Bram Bulté, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman, Frank Van Eynde",
     year: 2018,
     venue: "Computational Linguistics in the Netherlands Journal, Vol. 8, p. 24-48",
@@ -43,7 +43,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca18',
-    title: "Dutch Colour Terms",
+    title: "Dutch Colour Terms ⁽ᴱᴺ⁾",
     authors: "Frank Van Eynde, Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
     year: 2018,
     venue: "A Coat of Many Colours. Vriendenboek voor Dany Jaspers, p. 1-13",
@@ -53,7 +53,7 @@ export const PUBLICATIONS: Publication[] = [
   },   
   {
     id: 'aca17',
-    title: "Words Divide, Pictographs Unite: Pictograph Communication Technologies for People with an Intellectual Disability",
+    title: "Words Divide, Pictographs Unite: Pictograph Communication Technologies for People with an Intellectual Disability ⁽ᴱᴺ⁾",
     authors: "Leen Sevens",
     year: 2018,
     venue: "PhD Thesis, LOT Publications",
@@ -63,7 +63,7 @@ export const PUBLICATIONS: Publication[] = [
   },    
   {
     id: 'aca16',
-    title: "Pictograph Translation Technologies for People with Limited Literacy",
+    title: "Pictograph Translation Technologies for People with Limited Literacy ⁽ᴱᴺ⁾",
     authors: "Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
     year: 2018,
     venue: "CLARIN Annual Conference Proceedings, p. 190-193",
@@ -73,7 +73,7 @@ export const PUBLICATIONS: Publication[] = [
   },  
   {
     id: 'aca15',
-    title: "Less is More: A Rule-Based Syntactic Simplification Module for Improved Text-to-Pictograph Translation",
+    title: "Less is More: A Rule-Based Syntactic Simplification Module for Improved Text-to-Pictograph Translation ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2018,
     venue: "Data and Knowledge Engineering, Vol. 117, p. 264-289",
@@ -83,7 +83,7 @@ export const PUBLICATIONS: Publication[] = [
   },    
   {
     id: 'aca14',
-    title: "Involving People with an Intellectual Disability in the Development of Pictograph Translation Technologies for Social Media Use",
+    title: "Involving People with an Intellectual Disability in the Development of Pictograph Translation Technologies for Social Media Use ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2018,
     venue: "Language and the New (Instant) Media, p. 57-68, Presses Universitaires de Louvain",
@@ -112,7 +112,7 @@ export const PUBLICATIONS: Publication[] = [
   },  
   {
     id: 'aca13',
-    title: "E-Including the Illiterate",
+    title: "E-Including the Illiterate ⁽ᴱᴺ⁾",
     authors: "Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
     year: 2017,
     venue: "IEEE Potentials, Vol. 36, p. 29-33",
@@ -122,7 +122,7 @@ export const PUBLICATIONS: Publication[] = [
   },  
   {
     id: 'aca12',
-    title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities",
+    title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Jo Daems, Annelies De Vliegher, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2017,
     venue: "Harnessing the Power of Technology to Improve Lives, p. 870-877",
@@ -132,7 +132,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca11',
-    title: "Simplified Text-to-Pictograph Translation for People with Intellectual Disabilities",
+    title: "Simplified Text-to-Pictograph Translation for People with Intellectual Disabilities ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2017,
     venue: "Proceedings of the 22nd International Conference on Natural Language & Information Systems, p. 185-196, Springer International Publishing",
@@ -142,7 +142,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca10',
-    title: "Able to Read my Mail: An Accessible E-mail Client with Assistive Technology",
+    title: "Able to Read my Mail: An Accessible E-mail Client with Assistive Technology ⁽ᴱᴺ⁾",
     authors: "Horacio Saggion, Daniel Ferrés, Leen Sevens, Ineke Schuurman",
     year: 2017,
     venue: "Proceedings of the 14th International Web4All Conference, p. 1-4, Association for Computing Machinery",
@@ -152,7 +152,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca9',
-    title: "The CLIN27 Shared Task: Translating Historical Text to Contemporary Language for Improving Automatic Linguistic Annotation",
+    title: "The CLIN27 Shared Task: Translating Historical Text to Contemporary Language for Improving Automatic Linguistic Annotation ⁽ᴱᴺ⁾",
     authors: "Erik Tjong Kim Sang et al. (incl. Leen Sevens, Tom Vanallemeersch)",
     year: 2017,
     venue: "Computational Linguistics in the Netherlands Journal, Vol. 7, p. 53-64",
@@ -162,7 +162,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca8',
-    title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities",
+    title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2016,
     venue: "Proceedings of 1st Workshop on Improving Social Inclusion using NLP: Tools and Resources, p. 11-19, ELRA Language Resources Association",
@@ -172,7 +172,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca7',
-    title: "Improving Text-to-Pictograph Translation Through Word Sense Disambiguation",
+    title: "Improving Text-to-Pictograph Translation Through Word Sense Disambiguation ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Gilles Jacobs, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2016,
     venue: "Proceedings of the 5th Joint Conference on Lexical and Computational Semantics, p. 131-135, Association for Computational Linguistics",
@@ -182,7 +182,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca6',
-    title: "E-Inclusion of Functionally Illiterate Users by the use of Language Technology",
+    title: "E-Inclusion of Functionally Illiterate Users by the use of Language Technology ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, John J. O' Flaherty, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2016,
     venue: "Proceedings of the 2nd Conference on Engineering4Society, Vol. 2, p. 91-95, Institute of Electrical and Electronics Engineers (IEEE)",
@@ -192,7 +192,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca5',
-    title: "Towards Integrating People with Intellectual Disabilities in the Digital World",
+    title: "Towards Integrating People with Intellectual Disabilities in the Digital World ⁽ᴱᴺ⁾",
     authors: "Jaime Medina Maestro, Horacio Saggion, Ineke Schuurman, Leen Sevens, John O'Flaherty, Annelies De Vliegher, Jo Daems",
     year: 2016,
     venue: "Proceedings of the 7th International Workshop on Intelligent Environments Supporting Healthcare and Well-being, p. 348-357",
@@ -203,7 +203,7 @@ export const PUBLICATIONS: Publication[] = [
   {
     id: 'aca4',
     title: "Translating Text into Pictographs",
-    authors: "Vincent Vandeghinste, Ineke Schuurman, Leen Sevens, Frank Van Eynde",
+    authors: "Vincent Vandeghinste, Ineke Schuurman, Leen Sevens, Frank Van Eynde ⁽ᴱᴺ⁾",
     year: 2015,
     venue: "Natural Language Engineering, Vol. 23 (2), p. 217-244, Cambridge University Press",
     type: 'Academic',
@@ -212,7 +212,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca3',
-    title: "Extending a Dutch Text-to-Pictograph Converter to English and Spanish",
+    title: "Extending a Dutch Text-to-Pictograph Converter to English and Spanish ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2015,
     venue: "Proceedings of the 6th Workshop on Speech and Language Processing for Assistive Technologies, p. 110-117, Association for Computational Linguistics",
@@ -232,7 +232,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca2',
-    title: "Natural Language Generation from Pictographs",
+    title: "Natural Language Generation from Pictographs ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2015,
     venue: "Proceedings of the 15th European Workshop on Natural Language Generation, p. 71-75, Association for Computational Linguistics",
@@ -242,7 +242,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca1',
-    title: "Improving the Precision of Synset Links Between Cornetto and Princeton WordNet",
+    title: "Improving the Precision of Synset Links Between Cornetto and Princeton WordNet ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Frank Van Eynde",
     year: 2014,
     venue: "Proceedings of the Workshop on Lexical and Grammatical Resources for Language Processing, p. 120-126, Association for Computational Linguistics",
@@ -293,7 +293,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk46',
-    title: "Once Upon a Prompt - The Opportunities and Risks of GenAI in Higher Education",
+    title: "Once Upon a Prompt - The Opportunities and Risks of GenAI in Higher Education ⁽ᴱᴺ⁾",
     event: "FEB @ KU Leuven",
     date: "2026-03-19",
     location: "Leuven, Belgium",
@@ -313,7 +313,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm20',
-    title: "Jury Member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2026-03-11",
     location: "Leuven, Belgium",
@@ -323,7 +323,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk42',
-    title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond",
+    title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond ⁽ᴱᴺ⁾",
     event: "1st AIHUMS (101) Workshop (Una Europa)",
     date: "2025-10-03",
     location: "Remote",
@@ -344,7 +344,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk31',
-    title: "Of Bots and Books - Developing a MOOC on AI & the Humanities",
+    title: "Of Bots and Books - Developing a MOOC on AI & the Humanities ⁽ᴱᴺ⁾",
     event: "AI Café @ KU Leuven",
     date: "2025-04-28",
     location: "Leuven, Belgium",
@@ -363,7 +363,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'scicomm19',
-    title: "Jury Member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2025-03-25",
     location: "Leuven, Belgium",
@@ -375,7 +375,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk45',
-    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education",
+    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education ⁽ᴱᴺ⁾",
     event: "FEB @ KU Leuven",
     date: "2025-03-05",
     location: "Leuven, Belgium",
@@ -394,7 +394,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk52',
-    title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond",
+    title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond ⁽ᴱᴺ⁾",
     event: "VAIA Team Day",
     date: "2025-02-05",
     location: "Leuven, Belgium",
@@ -414,7 +414,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'academictalk35',
-    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education",
+    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education ⁽ᴱᴺ⁾",
     event: "LUCAS @ KU Leuven",
     date: "2024-12-13",
     location: "Leuven, Belgium",
@@ -423,7 +423,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk33',
-    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education",
+    title: "Between Man and Machine - The Opportunities and Risks of GenAI in Higher Education ⁽ᴱᴺ⁾",
     event: "FEBinar @ KU Leuven",
     date: "2024-11-28",
     location: "Remote",
@@ -454,7 +454,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'media8',
-    title: "My Career Journey as an Educational Innovation Staff Member at the Humanities and Social Sciences Group at KU Leuven",
+    title: "My Career Journey as an Educational Innovation Staff Member at the Humanities and Social Sciences Group at KU Leuven ⁽ᴱᴺ⁾",
     event: "#100PhDAlumniVoices",
     date: "2024-10-11",
     location: "Remote",
@@ -533,7 +533,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm18',
-    title: "Jury Member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2024-03-28",
     location: "Leuven, Belgium",
@@ -604,7 +604,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm26',
-    title: "Getting Out There as a Science Communicator",
+    title: "Getting Out There as a Science Communicator ⁽ᴱᴺ⁾",
     event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
     date: "2023-06-08",
     location: "Kortrijk, Belgium",
@@ -634,7 +634,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm23',
-    title: "Beyond the Manuscripts and Microscopes - Experimenting with Effective #SciComm",
+    title: "Beyond the Manuscripts and Microscopes - Experimenting with Effective #SciComm ⁽ᴱᴺ⁾",
     event: "Kulak Onderzoeksdag",
     date: "2024-03-25",
     location: "Kortrijk, Belgium",
@@ -645,7 +645,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm17',
-    title: "Jury Member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2023-03-22",
     location: "Leuven, Belgium",
@@ -667,7 +667,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm22',
-    title: "Breaking the Wall of Illiteracy",
+    title: "Breaking the Wall of Illiteracy ⁽ᴱᴺ⁾",
     event: "Afscheidslezing Frank Van Eynde @ KU Leuven",
     date: "2022-12-07",
     location: "Leuven, Belgium",
@@ -677,7 +677,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm15',
-    title: "Jury Member for the 3 Minute Thesis competition",
+    title: "Jury Member for the 3 Minute Thesis Competition ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2022-11-27",
     location: "Leuven, Belgium",
@@ -820,7 +820,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm25',
-    title: "Breaking Down the Wall of Bad Science Communication",
+    title: "Breaking Down the Wall of Bad Science Communication ⁽ᴱᴺ⁾",
     event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
     date: "2019-05-28",
     location: "Leuven, Belgium",
@@ -839,7 +839,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk23',
-    title: "Public PhD Defense",
+    title: "Public PhD Defense ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2018-12-14",
     location: "Leuven, Belgium",
@@ -849,7 +849,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm8',
-    title: "Pictographs to the Rescue!",
+    title: "Pictographs to the Rescue! ⁽ᴱᴺ⁾",
     event: "Microbes & Booze",
     date: "2018-12-12",
     location: "Leuven, Belgium",
@@ -888,7 +888,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm24',
-    title: "How Do You Do (It)? - Research",
+    title: "How Do You Do (It)? - Research ⁽ᴱᴺ⁾",
     event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
     date: "2018-05-31",
     location: "Leuven, Belgium",
@@ -897,7 +897,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host2',
-    title: "The 2nd Workshop on Improving Social Inclusion: Tools and Resources (ISI-NLP)",
+    title: "The 2nd Workshop on Improving Social Inclusion: Tools and Resources (ISI-NLP) ⁽ᴱᴺ⁾",
     event: "The 11th Language Resources and Evaluation Conference (LREC 2018)",
     date: "2018-05-07",
     location: "Miyazaki, Japan",
@@ -908,7 +908,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm16',
-    title: "Jury Member for Falling Walls Lab Leuven",
+    title: "Jury Member for Falling Walls Lab Leuven ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2018-03-29",
     location: "Leuven, Belgium",
@@ -919,7 +919,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm5',
-    title: "The @rt of Effective #Science Communication: Do's and Don'ts",
+    title: "The @rt of Effective #Science Communication: Do's and Don'ts ⁽ᴱᴺ⁾",
     event: "Kulak Research Day",
     date: "2018-03-09",
     location: "Kortrijk, Belgium",
@@ -929,7 +929,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk22',
-    title: "Pictograph-to-Text Translation for Augmented and Alternative Communication",
+    title: "Pictograph-to-Text Translation for Augmented and Alternative Communication ⁽ᴱᴺ⁾",
     event: "Computational Linguistics in the Netherlands Conference (CLIN28)",
     date: "2018-01-26",
     location: "Nijmegen, The Netherlands",
@@ -978,7 +978,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm4',
-    title: "Breaking the Wall of Illiteracy",
+    title: "Breaking the Wall of Illiteracy ⁽ᴱᴺ⁾",
     event: "Falling Walls Lab Berlin",
     date: "2017-11-08",
     location: "Berlin, Germany",
@@ -988,7 +988,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk20',
-    title: "E-Inclusion Through Pictographs",
+    title: "E-Inclusion Through Pictographs ⁽ᴱᴺ⁾",
     event: "LT Industry Summit",
     date: "2017-10-10",
     location: "Brussels, Belgium",
@@ -997,7 +997,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk19',
-    title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities",
+    title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     event: "Association for the Advancement of Assistive Technology in Europe Conference (AAATE 2017)",
     date: "2017-09-14",
     location: "Sheffield, UK",
@@ -1007,7 +1007,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm3',
-    title: "What We Learn with Pleasure, We Never Forget",
+    title: "What We Learn with Pleasure, We Never Forget ⁽ᴱᴺ⁾",
     event: "Let's Talk Science",
     date: "2017-07-06",
     location: "Ghent, Belgium",
@@ -1016,7 +1016,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk18',
-    title: "Simplified Text-to-Pictograph Translation for People with Intellectual Disabilities",
+    title: "Simplified Text-to-Pictograph Translation for People with Intellectual Disabilities ⁽ᴱᴺ⁾",
     event: "International Conference on Applications of Natural Language to Information Systems (NLDB 2017)",
     date: "2017-06-22",
     location: "Liège, Belgium",
@@ -1025,7 +1025,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'media1',
-    title: "Computational Linguist Leen Sevens Talks To Durtti About Her Groundbreaking Pictograph Translation Technology",
+    title: "Computational Linguist Leen Sevens Talks To Durtti About Her Groundbreaking Pictograph Translation Technology ⁽ᴱᴺ⁾",
     event: "Durtti",
     date: "2017-05-31",
     location: "Remote",
@@ -1045,7 +1045,7 @@ export const TALKS: Talk[] = [
   },
     {
     id: 'academictalk16',
-    title: "Make it Simple, But Significant: Improved Text-to-Pictograph Translation for People with Intellectual Disabilities",
+    title: "Make it Simple, But Significant: Improved Text-to-Pictograph Translation for People with Intellectual Disabilities ⁽ᴱᴺ⁾",
     event: "Nordic Network on Disability Research Conference (NNDR14)",
     date: "2017-05-03",
     location: "Örebro, Sweden",
@@ -1055,7 +1055,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk15',
-    title: "Unity is Strength: How User Feedback Influences Technical Decisions in the Able to Include Project",
+    title: "Unity is Strength: How User Feedback Influences Technical Decisions in the Able to Include Project ⁽ᴱᴺ⁾",
     event: "Nordic Network on Disability Research Conference (NNDR14)",
     date: "2017-05-03",
     location: "Örebro, Sweden",
@@ -1065,7 +1065,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm1',
-    title: "Breaking the Wall of Illiteracy",
+    title: "Breaking the Wall of Illiteracy ⁽ᴱᴺ⁾",
     event: "Falling Walls Lab Leuven",
     date: "2017-03-15",
     location: "Leuven, Belgium",
@@ -1076,7 +1076,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk14',
-    title: "Text-to-Pictograph Translation and Vice Versa for People with Intellectual Disabilities",
+    title: "Text-to-Pictograph Translation and Vice Versa for People with Intellectual Disabilities ⁽ᴱᴺ⁾",
     event: "Séminaires du CENTAL",
     date: "2017-02-24",
     location: "Louvain-la-Neuve, Belgium",
@@ -1095,7 +1095,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host8',
-    title: "Computational Linguistics in the Netherlands Conference (CLIN27)",
+    title: "Computational Linguistics in the Netherlands Conference (CLIN27) ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2017-02-10",
     location: "Leuven, Belgium",
@@ -1105,7 +1105,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk12',
-    title: "Syntactic Simplification for Improved Text-to-Pictograph Translation",
+    title: "Syntactic Simplification for Improved Text-to-Pictograph Translation ⁽ᴱᴺ⁾",
     event: "Computational Linguistics in the Netherlands Conference (CLIN27)",
     date: "2017-02-10",
     location: "Leuven, Belgium",
@@ -1114,7 +1114,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk11',
-    title: "E-Inclusion of Functionally Illiterate Users by the use of Language Technology",
+    title: "E-Inclusion of Functionally Illiterate Users by the use of Language Technology ⁽ᴱᴺ⁾",
     event: "Engineering4Society",
     date: "2016-09-16",
     location: "Leuven, Belgium",
@@ -1123,7 +1123,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk10',
-    title: "Pictographs to the Rescue! Social Media for Functionally Illiterate Users",
+    title: "Pictographs to the Rescue! Social Media for Functionally Illiterate Users ⁽ᴱᴺ⁾",
     event: "Lancaster Disability Studies Conference",
     date: "2016-09-06",
     location: "Lancaster, UK",
@@ -1133,7 +1133,7 @@ export const TALKS: Talk[] = [
   },
  {
     id: 'academictalk9',
-    title: "Improving Text-to-Pictograph Translation Through Word Sense Disambiguation",
+    title: "Improving Text-to-Pictograph Translation Through Word Sense Disambiguation ⁽ᴱᴺ⁾",
     event: "The 5th Joint Conference on Lexical and Computational Semantics (*SEM)",
     date: "2016-08-11",
     location: "Berlin, Germany",
@@ -1143,7 +1143,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'host1',
-    title: "The 1st Workshop on Improving Social Inclusion: Tools and Resources (ISI-NLP)",
+    title: "The 1st Workshop on Improving Social Inclusion: Tools and Resources (ISI-NLP) ⁽ᴱᴺ⁾",
     event: "The 10th Language Resources and Evaluation Conference (LREC 2016)",
     date: "2016-05-23",
     location: "Portoroz, Slovenia",
@@ -1154,7 +1154,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk8',
-    title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities",
+    title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     event: "The 10th Language Resources and Evaluation Conference (LREC 2016)",
     date: "2016-05-23",
     location: "Portoroz, Slovenia",
@@ -1174,7 +1174,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk7',
-    title: "Natural Language Generation from Pictographs",
+    title: "Natural Language Generation from Pictographs ⁽ᴱᴺ⁾",
     event: "Computational Linguistics in the Netherlands Conference (CLIN26)",
     date: "2015-12-18",
     location: "Amsterdam, The Netherlands",
@@ -1193,7 +1193,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk5',
-    title: "Extending a Dutch Text-to-Pictograph Converter to English and Spanish",
+    title: "Extending a Dutch Text-to-Pictograph Converter to English and Spanish ⁽ᴱᴺ⁾",
     event: "LOT Summer School",
     date: "2015-06-21",
     location: "Leuven, Belgium",
@@ -1204,7 +1204,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk4',
-    title: "Automatic Translation with Pictographs to Serve People with IDD",
+    title: "Automatic Translation with Pictographs to Serve People with IDD ⁽ᴱᴺ⁾",
     event: "Nordic Network on Disability Research Conference (NNDR13)",
     date: "2015-05-08",
     location: "Bryggen, Norway",
@@ -1214,7 +1214,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk3',
-    title: "Text-To-Pictograph Translation for Six Language Pairs",
+    title: "Text-To-Pictograph Translation for Six Language Pairs ⁽ᴱᴺ⁾",
     event: "Computational Linguistics in the Netherlands Conference (CLIN25)",
     date: "2015-02-06",
     location: "Antwerp; Belgium",
@@ -1223,7 +1223,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk1',
-    title: "Improving the Precision of Synset Links Between Cornetto and Princeton WordNet",
+    title: "Improving the Precision of Synset Links Between Cornetto and Princeton WordNet ⁽ᴱᴺ⁾",
     event: "The Workshop on Lexical and Grammatical Resources for Language Processing",
     date: "2014-09-24",
     location: "Dublin, Ireland",
