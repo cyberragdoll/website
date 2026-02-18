@@ -32,7 +32,7 @@ const Portfolio: React.FC = () => {
     return () => window.removeEventListener('keydown', handleEsc);
   }, []);
 
-  const categories: ArtFilter[] = ['all', 'Digital art', 'Painting', 'Urban sketching', 'Comics'];
+  const categories: ArtFilter[] = ['all', 'Digital art', 'Traditional art', 'Urban sketching', 'Comics'];
 
   return (
     <div className="animate-in slide-in-from-bottom-4 duration-700">
