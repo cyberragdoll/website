@@ -49,7 +49,7 @@ const Portfolio: React.FC = () => {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-rose-500"></span>
                   </span>
-                  <p className="text-[10px] uppercase tracking-widest text-rose-600 font-bold">Click to enlarge</p>
+                  <p className="text-[10px] uppercase tracking-widest text-rose-600 font-bold">Click for details</p>
                 </div>
               </div>
             </div>
