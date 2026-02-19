@@ -20,11 +20,11 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
               </h2>
             </div>
             
-            <h1 className="text-2xl md:text-[2.75rem] font-serif font-bold text-slate-900 leading-[1.2] max-w-2xl text-center mx-auto lg:mx-0 lg:w-full">
+            <h2 className="text-3xl md:text-[2.75rem] font-serif font-bold text-slate-900 leading-[1.2] max-w-2xl text-center mx-auto lg:mx-0 lg:w-full">
               Innovating at the crossroads<br />
               of <span className="text-sky-500">AI</span>, <span className="text-amber-500">humanities</span>, <br />
               and <span className="text-rose-500">creativity</span>.
-            </h1>
+            </h2>
           </div>
           
           <p className="text-base md:text-[1.1rem] text-slate-600 leading-relaxed max-w-full border-l-2 border-sky-400 pl-6 text-left mx-auto lg:mx-0">
