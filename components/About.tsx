@@ -5,17 +5,17 @@ const About: React.FC = () => {
     {
       period: "2009 — 2012 @ Faculty of Arts (KU Leuven)",
       title: "BA in Language & Literature (French & Spanish)",
-      description: "Building a strong foundation in languages, culture, and literary analysis."
+      description: "[Magna Cum Laude] Building a strong foundation in languages, culture, and literary analysis."
     },
     {
       period: "2012 — 2013 @ Faculty of Arts (KU Leuven)",
       title: "MA in Linguistics (Computational & Variational Linguistics)",
-      description: "Bridging linguistic theory with computational methods and research."
+      description: "[Magna Cum Laude] Bridging linguistic theory with computational methods and research."
     },
     {
       period: "2013 — 2014 @ Department of Computer Science (KU Leuven)",
       title: "MA in Artificial Intelligence (Speech & Language Technology)",
-      description: "From theory to practice in modern language-focused AI systems."
+      description: "[Summa Cum Laude] From theory to practice in modern language-focused AI systems."
     },
     {
       period: "2014 — 2019 @ Centre for Computational Linguistics (KU Leuven)",
