@@ -1,6 +1,16 @@
 import { Publication, Talk, ArtPiece, Award } from './types';
 
 export const PUBLICATIONS: Publication[] = [
+  {
+    id: 'aca21',
+    title: "A Strong Start: Designing a Positioning Test for Bachelor Students in the Humanities and Social Sciences ⁽ᴱᴺ⁾",
+    authors: "Ena Coenen, Leen Sevens",
+    year: 2026,
+    venue: "Manuscript under review",
+    type: 'Academic',
+    link: "",
+    abstract: "Manuscript under review."
+ },   
  {
     id: 'other4',
     title: "MOOC: 'AI to Understand and Connect People' ⁽ᴱᴺ⁾",
