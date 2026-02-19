@@ -169,7 +169,8 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Proceedings of the 14th International Web4All Conference, p. 1-4, Association for Computing Machinery",
     type: 'Academic',
     link: "https://dl.acm.org/doi/epdf/10.1145/3058555.3058567",
-    abstract: "The Able to Include project aims at improving the living conditions of people with intellectual or developmental disabilities (IDD) in key areas of society. One of its focus points concerns improving the integration of people with IDD in the workplace by introducing accessible Web-based tools. This paper describes one of the tools developed as result of the project: an e-mail client with text simplification and other assistive technologies which makes information transmitted over the Internet more understandable to people with IDD therefore facilitating their labor integration. The accessible Web e-mail client has been developed following a User-Centered Design and tested with people with IDD. The results so far are encouraging."
+    abstract: "The Able to Include project aims at improving the living conditions of people with intellectual or developmental disabilities (IDD) in key areas of society. One of its focus points concerns improving the integration of people with IDD in the workplace by introducing accessible Web-based tools. This paper describes one of the tools developed as result of the project: an e-mail client with text simplification and other assistive technologies which makes information transmitted over the Internet more understandable to people with IDD therefore facilitating their labor integration. The accessible Web e-mail client has been developed following a User-Centered Design and tested with people with IDD. The results so far are encouraging.",
+    imageUrl: "/website/award15.jpg",
   },
   {
     id: 'aca9',
