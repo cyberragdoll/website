@@ -146,7 +146,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Jo Daems, Annelies De Vliegher, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2017,
-    venue: "Harnessing the Power of Technology to Improve Lives, p. 870-877",
+    venue: "Studies in Health Technology and Informatics, Vol.242: Harnessing the Power of Technology to Improve Lives, p. 870-877",
     type: 'Academic',
     link: "https://ebooks.iospress.nl/publication/47371",
     abstract: "This paper presents a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies."
