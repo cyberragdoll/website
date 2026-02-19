@@ -26,7 +26,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           </div>
           
           <p className="text-base md:text-[1.1rem] text-slate-600 leading-relaxed max-w-full border-l-2 border-sky-400 pl-6 text-left mx-auto lg:mx-0">
-          I'm Dr. Leen Sevens, a Belgian computational linguist working in educational technology within the Humanities and Social Sciences Group at KU Leuven. My work explores educational innovation in higher education, with a strong focus on how technology can be used responsibly, creatively, and in a human-centered way. I'm also an artist, translating curiosity into drawings when language runs out. :)
+          I'm Dr. Leen Sevens, a Belgian computational linguist working in educational technology within the Humanities and Social Sciences Group at KU Leuven. My work explores educational innovation in higher education, with a strong focus on how technology can meaningfully support learning, teaching, and assessment in responsible and human-centered ways. I'm also an artist, translating everyday curiosity into drawings when language runs out. :)
           </p>
           {/* Explore Strip (Desktop/Tablet) */}
           <div className="hidden lg:flex pt-4 flex-row items-center justify-start gap-x-4 border-t border-slate-100 w-full">
