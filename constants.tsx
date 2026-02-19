@@ -19,7 +19,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "KULeuvenX @ edX",
     type: 'Other',
     link: "https://www.edx.org/learn/humanities/ku-leuven-ai-to-understand-and-connect-people-a-course-for-humanities-and-social-sciences-professionals",
-    abstract: "Led by David Frost Cruz, with my involvement as daily supervisor and active collaborator, including the development of supporting learning materials. I am currently responsible for its follow-up and further implementation. \n \n 'The Humanities and Social Sciences are essential for understanding the past, present, and future of our society. Artificial Intelligence (AI) is transforming many aspects of life, including the ways we relate to one another, and is increasingly shaping the disciplines that help us explore what it means to be human. To you help you grasp the potential and impact of AI in the Humanities and Social Sciences, this course introduces the core concepts, challenges, and applications of AI in these fields. \n \n Across 8 modules, you will learn introductory concepts of AI and how they are applied in various fields of the Humanities and Social Sciences. Tailored to professionals across a range of disciplines, the key features of this course are: \n \n Comprehensive, yet accessible learning \n \n Learn about AI concepts such as Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing (NLP) in an engaging and straightforward way. \n \n Explore AI’s impact on the Humanities and Social Sciences \n \n Discover how AI is influencing society and shaping its adoption in various disciplines, including arts, cultural heritage, education, ethics, law, public policy, regulation, and more. The course also highlights how these disciplines contribute to the development and responsible implementation of AI technologies. \n \n Expert-based course \n \n Learn from a group of experts, professors, and researchers who share different theoretical frameworks and use-case examples of how AI is used for humor, arts, cultural heritage, aesthetics, education, and more. \n \n By the end of this course, you will have developed a foundational understanding of AI and gained practical insights into how it can be applied in the Humanities and Social Sciences. \n \n The knowledge you gain in this course will help you integrate AI into your daily work and prepare you for more advanced, technical AI training. Are you ready to start? \n \n This MOOC is a collaboration between KU Leuven and VAIA.'" 
+    abstract: "Led by David Frost Cruz, with my involvement as daily supervisor and active collaborator, including the development of supporting learning materials. I am currently responsible for its follow-up and further implementation. \n \n 'The Humanities and Social Sciences are essential for understanding the past, present, and future of our society. Artificial Intelligence (AI) is transforming many aspects of life, including the ways we relate to one another, and is increasingly shaping the disciplines that help us explore what it means to be human. To you help you grasp the potential and impact of AI in the Humanities and Social Sciences, this course introduces the core concepts, challenges, and applications of AI in these fields. \n \n Across 8 modules, you will learn introductory concepts of AI and how they are applied in various fields of the Humanities and Social Sciences. Tailored to professionals across a range of disciplines, the key features of this course are: \n \n Comprehensive, yet accessible learning. Learn about AI concepts such as Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing (NLP) in an engaging and straightforward way. \n \n Explore AI's impact on the Humanities and Social Sciences. Discover how AI is influencing society and shaping its adoption in various disciplines, including arts, cultural heritage, education, ethics, law, public policy, regulation, and more. The course also highlights how these disciplines contribute to the development and responsible implementation of AI technologies. \n \n Expert-based course. Learn from a group of experts, professors, and researchers who share different theoretical frameworks and use-case examples of how AI is used for humor, arts, cultural heritage, aesthetics, education, and more. \n \n By the end of this course, you will have developed a foundational understanding of AI and gained practical insights into how it can be applied in the Humanities and Social Sciences. \n \n The knowledge you gain in this course will help you integrate AI into your daily work and prepare you for more advanced, technical AI training. Are you ready to start? \n \n This MOOC is a collaboration between KU Leuven and VAIA.'" 
   },
   {
     id: 'other3',
@@ -88,7 +88,7 @@ export const PUBLICATIONS: Publication[] = [
     year: 2018,
     venue: "CLARIN Annual Conference Proceedings, p. 190-193",
     type: 'Academic',
-    link: "https://core.ac.uk/download/pdf/572206779.pdf#page=197",
+    link: "https://ris.utwente.nl/ws/portalfiles/portal/63914792/CE_2018_1292_CLARIN2018_ConferenceProceedings.pdf#page=197",
     abstract: "We present a set of Pictograph Translation Technologies, which automatically translates natural language text into pictographs, as well as pictograph sequences into natural language text. These translation technologies are combined with sentence simplification and an advanced spelling correction mechanism. The goal of these technologies is to enable people with a low level of literacy in a certain language to have access to information available in that language, and to allow these people to participate in online social life by writing natural language messages through pictographic input. The technologies and demonstration system will be added to the CLARIN infrastructure at the Dutch Language Institute in the course of this year, and have been presented on Tour De CLARIN."
   },  
   {
@@ -305,7 +305,7 @@ export const TALKS: Talk[] = [
   },   
   {
     id: 'academictalk44',
-    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
+    title: "The Hitchhiker's Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "LUCA School of Arts",
     date: "2026-03-26",
     location: "Remote",
@@ -403,7 +403,7 @@ export const TALKS: Talk[] = [
   }, 
   {
     id: 'academictalk43',
-    title: "The Hitchhiker’s Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
+    title: "The Hitchhiker's Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "LUCA School of Arts",
     date: "2025-03-28",
     location: "Remote",
@@ -588,7 +588,7 @@ export const TALKS: Talk[] = [
     date: "2024-04-23",
     location: "Remote",
     type: 'Academic & Professional',
-    description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor ‘Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC’. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'"
+    description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor 'Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC'. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'"
   },  
   {
     id: 'host9',
@@ -638,7 +638,7 @@ export const TALKS: Talk[] = [
     date: "2024-03-27",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor ‘Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC’. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'",
+    description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor 'Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC'. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'",
     imageUrl: "/website/academictalk23.jpg"
   },  
   {
@@ -659,7 +659,7 @@ export const TALKS: Talk[] = [
     date: "2024-03-18",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: ' Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do’s en don’ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
+    description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: ' Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do's en don'ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
     imageUrl: "/website/academictalk16.jpg"
   },
   {
@@ -823,7 +823,7 @@ export const TALKS: Talk[] = [
     date: "2020-12-04",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer the first edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat krijg je als docenten en ondersteuners hun ervaringen en expertise over blended leren samenbrengen? The Big Blend, ofwel een dynamisch online event met getuigenissen uit de Groep Humane Wetenschappen. Meer dan 172 deelnemers van 19 faculteiten en diensten popten op in de Microsoft Teams-meeting op vrijdag 4 december 2020 om zich door hun collega’s te laten inspireren.'",
+    description: "Co-organizer the first edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat krijg je als docenten en ondersteuners hun ervaringen en expertise over blended leren samenbrengen? The Big Blend, ofwel een dynamisch online event met getuigenissen uit de Groep Humane Wetenschappen. Meer dan 172 deelnemers van 19 faculteiten en diensten popten op in de Microsoft Teams-meeting op vrijdag 4 december 2020 om zich door hun collega's te laten inspireren.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-terugblik",
     imageUrl: "/website/host4.png"
   },
@@ -973,7 +973,7 @@ export const TALKS: Talk[] = [
     date: "2018-12-12",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "Presentation for the Microbes & Booze lecture series. The monthly ‘Microbes and Booze’ seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
+    description: "Presentation for the Microbes & Booze lecture series. The monthly 'Microbes and Booze' seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
   },
   {
     id: 'scicomm9',
