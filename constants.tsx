@@ -118,7 +118,8 @@ export const PUBLICATIONS: Publication[] = [
     year: 2017,
     venue: "Uitgeverij Het Punt",
     type: 'Children’s books',
-    abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit."
+    abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit.",
+    imageUrl: "/website/academictalk33.jpg"
   },
   {
     id: 'other1',
