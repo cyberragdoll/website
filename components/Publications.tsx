@@ -12,6 +12,14 @@ const Publications: React.FC = () => {
     .filter(p => filter === 'all' || p.type === filter)
     .sort((a, b) => b.year - a.year);
 
+// Helper to get all available images for a publication
+const getPublicationImages = (pub: Publication) => {
+  const images: string[] = [];
+  if (pub.imageUrl) images.push(pub.imageUrl);
+  if (pub.gallery) images.push(...pub.gallery);
+  return images.slice(0, 4); // optional: keep/remove this limit
+};
+  
   const getBadgeStyles = (type: Publication['type']) => {
     switch (type) {
       case 'Academic': return 'bg-sky-50 text-sky-700 border-sky-100';
@@ -124,6 +132,28 @@ const Publications: React.FC = () => {
                 <p className="text-slate-600 leading-relaxed whitespace-pre-line">{selectedPub.abstract}</p>
               </div>
             )}
+            {getPublicationImages(selectedPub).length > 0 && (
+  <div className="space-y-6 pt-4 border-t border-slate-50">
+    <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">
+      Photos
+    </h4>
+
+    <div className="flex flex-col gap-6">
+      {getPublicationImages(selectedPub).map((url, i) => (
+        <div
+          key={i}
+          className="flex justify-center rounded-2xl overflow-hidden shadow-sm border border-slate-100"
+        >
+          <img
+            src={url}
+            className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            alt={`Publication image ${i + 1}`}
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+)}
             <div className="pt-6">
                {selectedPub.link && (
                  <a href={selectedPub.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center space-x-2 px-8 py-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest rounded-xl hover:bg-sky-600 transition-all shadow-lg">
