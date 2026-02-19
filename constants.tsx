@@ -119,7 +119,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Uitgeverij Het Punt",
     type: 'Children’s books',
     abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit.",
-    imageUrl: "/website/academictalk33.jpg"
+    imageUrl: "/website/childrensbook3.jpg"
   },
   {
     id: 'other1',
@@ -248,8 +248,8 @@ export const PUBLICATIONS: Publication[] = [
     year: 2015,
     venue: "Uitgeverij Het Punt",
     type: 'Children’s books',
-    link: "",
-    abstract: "In Dromeria: Biggie hebben we al vele inwoners van Dromeria leren kennen. Nu is het de beurt aan de verstrooide postbode Lode!"
+    abstract: "In Dromeria: Biggie hebben we al vele inwoners van Dromeria leren kennen. Nu is het de beurt aan de verstrooide postbode Lode!",
+    imageUrl: "/website/childrensbook2.jpg"
   },
   {
     id: 'aca2',
@@ -279,7 +279,8 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Uitgeverij Het Punt",
     type: 'Children’s books',
     link: "",
-    abstract: "In Dromeria woont Biggie samen met vele andere leuke dieren. Wil je weten wat daar allemaal gebeurt? Lees dan snel dit boekje en ontdek welke grappige streken Biggie nu weer uithaalt..."
+    abstract: "In Dromeria woont Biggie samen met vele andere leuke dieren. Wil je weten wat daar allemaal gebeurt? Lees dan snel dit boekje en ontdek welke grappige streken Biggie nu weer uithaalt...",
+    imageUrl: "/website/childrensbook1.jpg"
   },
 ];
 
