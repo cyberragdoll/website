@@ -22,7 +22,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             
             <h1 className="text-2xl md:text-[2.75rem] font-serif font-bold text-slate-900 leading-[1.2] max-w-2xl text-center mx-auto lg:mx-0 lg:w-full">
               Innovating at the crossroads<br />
-              between <span className="text-sky-500">AI</span>, <span className="text-amber-500">humanities</span>, <br />
+              of <span className="text-sky-500">AI</span>, <span className="text-amber-500">humanities</span>, <br />
               and <span className="text-rose-500">creativity</span>.
             </h1>
           </div>
