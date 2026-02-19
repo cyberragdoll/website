@@ -20,7 +20,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
               </h2>
             </div>
             
-            <h2 className="text-3xl md:text-[2.75rem] font-serif font-bold text-slate-900 leading-[1.2] max-w-2xl text-center mx-auto lg:mx-0 lg:w-full">
+            <h2 className="text-3xl md:text-[2.75rem] font-serif font-bold text-slate-900 leading-[1.2] text-center mx-auto lg:mx-0 lg:w-full">
               Innovating at the <br /> 
               crossroads of <span className="text-sky-500">AI</span>,<br />
               <span className="text-amber-500">humanities</span>, and <span className="text-rose-500">creativity</span>.
