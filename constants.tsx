@@ -205,7 +205,7 @@ export const PUBLICATIONS: Publication[] = [
   {
     id: 'aca6',
     title: "E-Inclusion of Functionally Illiterate Users by the Use of Language Technology ⁽ᴱᴺ⁾",
-    authors: "Leen Sevens, John J. O' Flaherty, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
+    authors: "Leen Sevens, John O' Flaherty, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2016,
     venue: "Proceedings of the 2nd Conference on Engineering4Society, Vol. 2, p. 91-95, Institute of Electrical and Electronics Engineers (IEEE)",
     type: 'Academic',
