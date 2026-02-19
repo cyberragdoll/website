@@ -136,7 +136,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "E-Including the Illiterate ⁽ᴱᴺ⁾",
     authors: "Vincent Vandeghinste, Leen Sevens, Ineke Schuurman",
     year: 2017,
-    venue: "IEEE Potentials, Vol. 36, p. 29-33",
+    venue: "IEEE Potentials, Vol. 36, p. 29-33, Institute of Electrical and Electronics Engineers (IEEE)",
     type: 'Academic',
     link: "https://ieeexplore.ieee.org/document/7814401",
     abstract: "In present-day society, we communicate over the Internet in several media forms. We put videos and images online, listen to music made by famous bands or by our friends, and read and write a lot of text. Never in the history of mankind have we produced more text than at this present moment, so being able to read and write is an important way of taking part in our society. We tend to forget that, even in our educated communities, not all people can read or write and there exist several degrees of literateness. People with reduced cognitive capacities and those migrating from cultures with a different language, or even a completely different writing system, are excluded from fully taking part in written online communication: they are e-excluded."
@@ -187,7 +187,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2016,
-    venue: "Proceedings of 1st Workshop on Improving Social Inclusion using NLP: Tools and Resources, p. 11-19, ELRA Language Resources Association",
+    venue: "Proceedings of the 1st Workshop on Improving Social Inclusion using NLP: Tools and Resources, p. 11-19, ELRA Language Resources Association",
     type: 'Academic',
     link: "https://lirias.kuleuven.be/retrieve/390119",
     abstract: "We present the first version of an automated spelling correction system for Dutch Internet users with Intellectual Disabilities (ID). The normalization of ill-formed messages is an important preprocessing step before any conventional Natural Language Processing (NLP) process can be applied. As such, we describe the effects of automated correction of Dutch ID text within the larger framework of a Text-to-Pictograph translation system. The present study consists of two main parts. First, we thoroughly analyze email messages that have been written by users with cognitive disabilities in order to gain insights on how to develop solutions that are specifically tailored to their needs. We then present a new, generally applicable approach toward context-sensitive spelling correction, based on character-level fuzzy matching techniques. The resulting system shows significant improvements, although further research is still needed."
@@ -204,7 +204,7 @@ export const PUBLICATIONS: Publication[] = [
   },
   {
     id: 'aca6',
-    title: "E-Inclusion of Functionally Illiterate Users by the use of Language Technology ⁽ᴱᴺ⁾",
+    title: "E-Inclusion of Functionally Illiterate Users by the Use of Language Technology ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, John J. O' Flaherty, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2016,
     venue: "Proceedings of the 2nd Conference on Engineering4Society, Vol. 2, p. 91-95, Institute of Electrical and Electronics Engineers (IEEE)",
