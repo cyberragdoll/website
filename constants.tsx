@@ -96,7 +96,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Less is More: A Rule-Based Syntactic Simplification Module for Improved Text-to-Pictograph Translation ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Vincent Vandeghinste, Ineke Schuurman, Frank Van Eynde",
     year: 2018,
-    venue: "Data and Knowledge Engineering, Vol. 117, p. 264-289",
+    venue: "Data and Knowledge Engineering, Vol. 117, p. 264-289, Elsevier",
     type: 'Academic',
     link: "https://www.sciencedirect.com/science/article/abs/pii/S0169023X17304974",
     abstract: "In order to enable or facilitate online communication for people with an intellectual disability, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. By using recursion and applying the simplification operations in a logical way, only one syntactic parse is needed per message. Promising results are obtained."
@@ -146,7 +146,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "Building an Accessible Pictograph Interface for Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
     authors: "Leen Sevens, Jo Daems, Annelies De Vliegher, Ineke Schuurman, Vincent Vandeghinste, Frank Van Eynde",
     year: 2017,
-    venue: "Studies in Health Technology and Informatics, Vol.242: Harnessing the Power of Technology to Improve Lives, p. 870-877",
+    venue: "Studies in Health Technology and Informatics, Vol.242: Harnessing the Power of Technology to Improve Lives, p. 870-877, IOS Press",
     type: 'Academic',
     link: "https://ebooks.iospress.nl/publication/47371",
     abstract: "This paper presents a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies."
