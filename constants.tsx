@@ -98,7 +98,7 @@ export const PUBLICATIONS: Publication[] = [
     year: 2018,
     venue: "Data and Knowledge Engineering, Vol. 117, p. 264-289",
     type: 'Academic',
-    link: "https://www.academia.edu/download/89444091/j.datak.2018.05.00120220810-1-1n04lej.pdf",
+    link: "https://www.academia.edu/84409042/Less_is_more_A_rule_based_syntactic_simplification_module_for_improved_text_to_pictograph_translation",
     abstract: "In order to enable or facilitate online communication for people with an intellectual disability, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation. As a result, long and complex input sentences lead to long and complex pictograph translations, leaving the end users confused and distracted. To overcome these problems, we developed a rule-based simplification system for Dutch Text-to-Pictograph translation. By using recursion and applying the simplification operations in a logical way, only one syntactic parse is needed per message. Promising results are obtained."
   },    
   {
