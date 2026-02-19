@@ -21,9 +21,9 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             </div>
             
             <h2 className="text-3xl md:text-[2.75rem] font-serif font-bold text-slate-900 leading-[1.2] max-w-2xl text-center mx-auto lg:mx-0 lg:w-full">
-              Innovating at the crossroads<br />
-              of <span className="text-sky-500">AI</span>, <span className="text-amber-500">humanities</span>, <br />
-              and <span className="text-rose-500">creativity</span>.
+              Innovating at the <br /> 
+              crossroads of <span className="text-sky-500">AI</span>,<br />
+              <span className="text-amber-500">humanities</span>, and <span className="text-rose-500">creativity</span>.
             </h2>
           </div>
           
@@ -120,22 +120,21 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:border-sky-100 transition-all duration-500">
           <h3 className="text-xl font-serif font-bold text-sky-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Academic Background</h3>
           <p className="text-slate-600 text-sm leading-relaxed text-left">
-            Trained in computational linguistics with a strong grounding in educational technology, I work at the intersection of AI, language, and higher education—exploring how human expertise and intelligent systems can meaningfully support learning, teaching, and assessment.
+            Trained in computational linguistics with a strong grounding in educational technology, I work at the intersection of AI, language, and higher education, exploring how human expertise and intelligent systems can meaningfully support learning, teaching, and assessment.
           </p>
         </div>
 
         <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:border-amber-100 transition-all duration-500">
           <h3 className="text-xl font-serif font-bold text-amber-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Speaking</h3>
           <p className="text-slate-600 text-sm leading-relaxed text-left">
-            I speak on the responsible, creative, and humane use of AI in higher education, with a focus on writing, assessment, visual communication, and how educators and students can work with AI rather than around it.
+            I love speaking about responsible, inclusive, and humane use of technology. Clear, thoughtful science communication is at the heart of what I do. I'm passionate about making complex technologies understandable, meaningful, and useful in real contexts.         
           </p>
         </div>
 
         <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:border-rose-100 transition-all duration-500">
           <h3 className="text-xl font-serif font-bold text-rose-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Artistic Philosophy</h3>
           <p className="text-slate-600 text-sm leading-relaxed text-left">
-            My work is driven by curiosity and a love for small, everyday moments. Through urban sketching, painting, and illustrated stories, I explore ways of making the world feel approachable—especially for children—by turning observation, science, and imagination into something tangible and playful.
-          </p>
+            I am driven by curiosity and a love for small, everyday moments. Through urban sketching, painting, and illustrated stories, I explore ways to make the world feel more approachable, especially for children, by turning observation, science, and imagination into something tangible and playful.          </p>
         </div>
       </section>
     </div>
