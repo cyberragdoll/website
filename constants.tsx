@@ -660,7 +660,7 @@ export const TALKS: Talk[] = [
     date: "2024-03-18",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: ' Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do's en don'ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
+    description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: 'Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do's en don'ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
     imageUrl: "/website/academictalk16.jpg"
   },
   {
