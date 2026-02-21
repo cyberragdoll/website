@@ -530,7 +530,8 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
     description: "'In een tijdperk waar technologische innovaties, en in het bijzonder GenAI, razendsnel evolueren, staat ons onderwijs voor nieuwe uitdagingen en kansen. In deze lezing verkennen we de delicate balans tussen het omarmen van GenAI in het (Nederlandse) taalonderwijs en het behouden van een kritische, bewuste en menselijke aanpak. We duiken in de kansen die GenAI biedt voor het verrijken van de leerervaring van onze studenten, alsook de inherente risico's die gepaard gaan met een te grote afhankelijkheid van dergelijke technologieën. \n \n We staan stil bij de vraagstukken rond het evalueren van de taalvaardigheden van studenten in een tijd waarin technologie een steeds grotere rol speelt. Hoe kunnen we er zeker van zijn dat zij aan het einde van hun leertraject in staat zijn zich uit te drukken in een (vreemde) taal, zelfstandig en niet noodzakelijk geassisteerd door technologische hulpmiddelen? \n \n Verder verkennen we hoe GenAI kan dienen als een krachtige bondgenoot in ons eigen onderwijsproces. We zullen onderzoeken hoe docenten optimaal gebruik kunnen maken van de voordelen en nieuwe werkvormen die GenAI te bieden heeft, zonder daarbij de essentie van ons vakgebied te ontmenselijken. \n \n Aan de hand van inspirerende voorbeelden, praktische tips en inzichten in hoe KU Leuven navigeert door de steeds evoluerende technojungle, zullen we in deze sessie licht werpen op effectieve strategieën voor het integreren van GenAI in het taalonderwijs. Samen gaan we op zoek naar de juiste tools en het inzicht om GenAI op een goede manier te benaderen, zodat zowel docenten als studenten het maximale uit deze revolutionaire technologie kunnen halen, zonder daarbij de menselijke touch te verliezen.'",
-    imageUrl: "/website/academictalk25.jpg"
+    imageUrl: "/website/academictalk25.jpg",
+    link: "/website/Presentation_NVT.pdf"
   },  
   {
     id: 'media8',
@@ -701,7 +702,8 @@ export const TALKS: Talk[] = [
     location: "Kortrijk, Belgium",
     type: 'science communication',
     description: "Invited talk for Kulak staff on practical techniques for communicating research clearly and effectively.",
-    imageUrl: "/website/scicomm19.jpg"
+    imageUrl: "/website/scicomm19.jpg",
+    link: "/website/Presentation_Kulak2.pdf"
   },
   {
     id: 'academictalk50',
@@ -732,7 +734,8 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "Event description: 'We have invited dr. Leen Sevens, PhD in Computational Linguistics & MSc in Artificial Intelligence, to deliver the keynote lecture during the Research Afternoon. Dr. Sevens is specialized in how to communicate research successfully and creatively to the outer world. This lecture, full of valuable tips, tricks & lessons learnt, will send you home feeling inspired and ready to take your first/next steps towards becoming a resourceful science communicator yourself.'",
     imageUrl: "/website/scicomm17.jpg",
-    gallery: ["/website/scicomm18.jpg"]
+    gallery: ["/website/scicomm18.jpg"],
+    link: "/website/Presentation_Kulak1.pdf"
   },
   {
     id: 'scicomm17',
