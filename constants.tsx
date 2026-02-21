@@ -817,7 +817,7 @@ export const TALKS: Talk[] = [
     title: "Feedback van studenten over afstandsonderwijs ⁽ᴺᴸ⁾",
     event: "The Big Blend I @ KU Leuven",
     date: "2020-12-04",
-    location: "Leuven, Belgium",
+    location: "Remote",
     type: 'Academic & Professional',
     description: "Event report: 'Hoe ervaren studenten blended onderwijs? Leen Sevens van de Groepsdiensten Humane Wetenschappen licht een tipje van de sluier van een grootscheepse studentenbevraging. Als het van hen afhangt, zal deze onderwijsvorm in de toekomst een rol van betekenis blijven spelen. Zelf koos Leen voor een gedurfde blend tussen een online livesessie en handgeschreven slides.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-terugblik"
@@ -827,7 +827,7 @@ export const TALKS: Talk[] = [
     title: "The Big Blend I ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2020-12-04",
-    location: "Leuven, Belgium",
+    location: "Remote",
     type: 'Hosting',
     description: "Co-organizer the first edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat krijg je als docenten en ondersteuners hun ervaringen en expertise over blended leren samenbrengen? The Big Blend, ofwel een dynamisch online event met getuigenissen uit de Groep Humane Wetenschappen. Meer dan 172 deelnemers van 19 faculteiten en diensten popten op in de Microsoft Teams-meeting op vrijdag 4 december 2020 om zich door hun collega's te laten inspireren.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-terugblik",
