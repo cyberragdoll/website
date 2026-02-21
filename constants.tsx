@@ -952,7 +952,7 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "Invited lecture at the VUB Artificial Intelligence Lab (Vrije Universiteit Brussel), presenting the conclusions of the Picto project on automatic translation between pictographs and text. The talk addressed technological developments, linguistic challenges, and broader implications for accessibility, inclusion, and AI-driven communication support.",
     imageUrl: "/website/academictalk36.png",
-    link: "/website/Publication_Picto2.pdf"
+    link: "/website/Presentation_Picto2.pdf"
   },
   {
     id: 'academictalk62',
