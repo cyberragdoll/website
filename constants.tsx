@@ -562,7 +562,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Invited lecture at the CLT Inspiration Day at the Faculty Club in Leuven, a professional development event bringing together educators for keynotes, poster presentations, workshops, and the exchange of best practices in language education. The session contributed to ongoing dialogue on innovation and quality in language teaching.",
-    imageUrl: "/website/academictalk19.png"
+    imageUrl: "/website/academictalk19.png",
+    link: "/website/Presentation_CLT.pdf",
   },
   {
     id: 'academictalk28',
