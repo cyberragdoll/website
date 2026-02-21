@@ -972,7 +972,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "'Never in the history of mankind have we produced more text than at this present moment. Being able to read and write is an important way of taking part in our society. However, we tend to forget that, even in our educated communities, there exist several degrees of literacy. Written text on the Internet creates a barrier between people with and without an intellectual disability. As a result, people with reading and writing difficulties are e-excluded. Schools and day centres for people with an intellectual disability use specialised picture systems, called pictographs, that depict everyday activities and objects, to enable accessible written communication between children or adults with an intellectual disability and their environment. In my dissertation, I transfer these pictographs to social media platforms and email, by developing natural language processing tools that automatically translate natural language text into pictographs and vice versa for people with an intellectual disability, allowing them to read and write status updates, emails, and chat messages in online environments.'",
-    imageUrl: "/website/academictalk13.jpg"
+    imageUrl: "/website/academictalk13.jpg",
+    link: "/website/Presentation_Picto3.pdf"
   },
   {
     id: 'scicomm8',
