@@ -299,10 +299,10 @@ export const TALKS: Talk[] = [
     id: 'academictalk48',
     title: "Skills voor de 21ste eeuw: Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
     event: "KU Leuven",
-    date: "2026-04-27",
+    date: "2026-04-24",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture within the course 'Skills voor de 21ste eeuw' (Skills for the 21st Century, Faculty of Science, KU Leuven), focusing on digital and entrepreneurial skills through hands-on introduction to generative AI tools. The session explores practical applications of GenAI for entrepreneurship, including creative problem-solving, workflow support, and responsible use in real-world contexts."
+    description: "Invited lecture within the course 'Skills voor de 21ste eeuw' ('Skills for the 21st Century', Faculty of Science, KU Leuven), focusing on digital and entrepreneurial skills through hands-on introduction to generative AI tools. The session explores practical applications of GenAI for entrepreneurship, including creative problem-solving, workflow support, and responsible use in real-world contexts."
   },   
   {
     id: 'academictalk44',
@@ -311,7 +311,7 @@ export const TALKS: Talk[] = [
     date: "2026-03-26",
     location: "Remote",
     type: 'Academic & Professional',
-    description: "Invited lecture for the 'Teaching Qualification' (Onderwijsrijbewijs) trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addresses practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices."
+    description: "Invited lecture for the 'Onderwijsrijbewijs' ('Teaching Qualification') trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addresses practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices."
   },  
   {
     id: 'academictalk47',
@@ -366,11 +366,11 @@ export const TALKS: Talk[] = [
   {
     id: 'academictalk42',
     title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond ⁽ᴱᴺ⁾",
-    event: "1st AIHUMS (101) Workshop (Una Europa)",
+    event: "1st AIHUMS101 Workshop (Una Europa)",
     date: "2025-10-03",
     location: "Remote",
     type: 'Academic & Professional',
-    description: "Invited talk within a Una Europa workshop on Artificial Intelligence & the Humanities (101): Developing a Humanities Syllabus for AI & the Digital, contributing to discussions on integrating AI into Humanities and Social Sciences education. The project engaged with findings from a large European survey on AI and teaching, introduced practical AI toolkits for course design, and explored the development of a model syllabus for introductory AI literacy in the humanities.",
+    description: "Invited talk within a Una Europa workshop on Artificial Intelligence & the Humanities (101): Developing a Humanities Syllabus for AI & the Digital, contributing to discussions on integrating AI into Humanities and Social Sciences education.",
     imageUrl: "/website/academictalk26.jpg"
   },  
   {
@@ -409,7 +409,7 @@ export const TALKS: Talk[] = [
     date: "2025-03-28",
     location: "Remote",
     type: 'Academic & Professional',
-    description: "Invited lecture for the 'Teaching Qualification' (Onderwijsrijbewijs) trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addressed practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices.",
+    description: "Invited lecture for the 'Onderwijsrijbewijs' ('Teaching Qualification') trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addressed practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices.",
     imageUrl: "/website/academictalk27.jpg"
   },  
   {
@@ -479,7 +479,7 @@ export const TALKS: Talk[] = [
     date: "2024-12-16",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
+    description: "Workshop in collaboration with Liese Luijten. \n \n 'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
     imageUrl: "/website/academictalk22.png"
   },  
   {
