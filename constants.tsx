@@ -871,7 +871,8 @@ export const TALKS: Talk[] = [
     location: "Antwerp, Belgium",
     type: 'Academic & Professional',
     description: "Guest lecture about pictograph translation technologies for the course 'Communicatiewetenschap' at the Faculty of Arts in Antwerp.",
-    imageUrl: "/website/academictalk14.jpg"
+    imageUrl: "/website/academictalk14.jpg",
+    link: "/website/Presentation_Picto.pdf"
   },
   {
     id: 'scicomm14',
