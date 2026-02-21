@@ -840,7 +840,7 @@ export const TALKS: Talk[] = [
     date: "2020-10-03",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "Kinderuniversiteit (Children's University) is an educational outreach initiative that introduces children to university life through engaging lectures, workshops, and hands-on activities, inspiring curiosity and a love for science and learning from an early age.",
+    description: "'Kinderuniversiteit' ('Children's University') is an educational outreach initiative that introduces children to university life through engaging lectures, workshops, and hands-on activities, inspiring curiosity and a love for science and learning from an early age.",
     imageUrl: "/website/scicomm7.jpg",
     gallery: ["/website/scicomm8.jpg"] 
   },
