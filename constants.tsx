@@ -783,7 +783,7 @@ export const TALKS: Talk[] = [
   {
     id: 'academictalk27',
     title: "Student vs. docent - Feedback over de toekomst van blended onderwijs in HW ⁽ᴺᴸ⁾",
-    event: "The Big Blend II (KU Leuven)",
+    event: "The Big Blend II @ KU Leuven",
     date: "2021-12-10",
     location: "Remote",
     type: 'Academic & Professional',
@@ -815,7 +815,7 @@ export const TALKS: Talk[] = [
   {
     id: 'academictalk26',
     title: "Feedback van studenten over afstandsonderwijs ⁽ᴺᴸ⁾",
-    event: "The Big Blend I (KU Leuven)",
+    event: "The Big Blend I @ KU Leuven",
     date: "2020-12-04",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
