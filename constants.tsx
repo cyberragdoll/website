@@ -729,7 +729,7 @@ export const TALKS: Talk[] = [
   {
     id: 'scicomm23',
     title: "Beyond the Manuscripts and Microscopes - Experimenting with Effective #SciComm ⁽ᴱᴺ⁾",
-    event: "Kulak Onderzoeksdag",
+    event: "Kulak Research Day",
     date: "2024-03-25",
     location: "Kortrijk, Belgium",
     type: 'science communication',
@@ -1016,7 +1016,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm24',
-    title: "How Do You Do (It)? - Research ⁽ᴱᴺ⁾",
+    title: "How Do You Do (It) in Research? ⁽ᴱᴺ⁾",
     event: "How Do You Do (It)? @ Faculty of Arts (KU Leuven)",
     date: "2018-05-31",
     location: "Leuven, Belgium",
@@ -1030,7 +1030,7 @@ export const TALKS: Talk[] = [
     date: "2018-05-07",
     location: "Miyazaki, Japan",
     type: 'Hosting',
-    description: "I co-organized the second workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 7) at the 11th Language Resources and Evaluation Conference (LREC 2018) in Miyazaki, Japan. \n \n 'Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?'",
+    description: "Co-organizer of the second workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 7) at the 11th Language Resources and Evaluation Conference (LREC 2018) in Miyazaki, Japan. \n \n 'Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?'",
     link: "https://www.ccl.kuleuven.be/ISINLP2/",
     imageUrl: "/website/host3.jpg"
   },
