@@ -982,7 +982,7 @@ export const TALKS: Talk[] = [
     date: "2018-12-12",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "Presentation for the Microbes & Booze lecture series. The monthly 'Microbes and Booze' seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
+    description: "Presentation for the 'Microbes & Booze' lecture series. The monthly Microbes and Booze seminars stimulate strong interaction between different labs of the center in a very informal atmosphere."
   },
   {
     id: 'scicomm9',
@@ -991,27 +991,27 @@ export const TALKS: Talk[] = [
     date: "2018-11-25",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "Dag van de Wetenschap (Science Day) is an annual public outreach event in which universities, research institutions, and science organisations open their doors to the public, offering hands-on activities, demonstrations, workshops, and talks to make scientific research accessible, engaging, and relevant for a broad audience.",
+    description: "'Dag van de Wetenschap' ('Science Day') is an annual public outreach event in which universities, research institutions, and science organisations open their doors to the public, offering hands-on activities, demonstrations, workshops, and talks to make scientific research accessible, engaging, and relevant for a broad audience.",
     imageUrl: "/website/scicomm6.jpg"
   },
   {
     id: 'scicomm6',
     title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
-    event: "Science Slam @ Boekenbeurs Antwerpen",
+    event: "Science Slam @ Boekenbeurs van Antwerpen",
     date: "2018-11-08",
-    location: "Antwerpen, Belgium",
+    location: "Antwerp, Belgium",
     type: 'science communication',
-    description: "Winner of KU Leuven's Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
+    description: "Winner of KU Leuven's Science Slam at the 'Boekenbeurs van Antwerpen' ('Antwerp Book Fair'), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
     imageUrl: "/website/award6.jpg"
   },
   {
     id: 'scicomm7',
     title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
-    event: "VIP Opening Event @ Boekenbeurs Antwerpen",
+    event: "VIP Opening Event @ Boekenbeurs van Antwerpen",
     date: "2018-10-27",
-    location: "Antwerpen, Belgium",
+    location: "Antwerp, Belgium",
     type: 'science communication',
-    description: "Speaker at the VIP opening event of the ntwerp Book Fair (Boekenbeurs van Antwerpen) as a representative of KU Leuven.",
+    description: "Speaker at the VIP opening event of the 'Boekenbeurs van Antwerpen' ('Antwerp Book Fair') as a representative of KU Leuven.",
     imageUrl: "/website/scicomm5.jpg"
   },
   {
