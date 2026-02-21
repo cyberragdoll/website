@@ -479,7 +479,7 @@ export const TALKS: Talk[] = [
     date: "2024-12-16",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Workshop in collaboration with Liese Luijten. \n \n 'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
+    description: "Workshop in collaboration with Liese Luijten. \n \n 'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI-toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands-on met prompts experimenteren om AI ten volle te benutten . Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
     imageUrl: "/website/academictalk22.png"
   },  
   {
@@ -489,7 +489,7 @@ export const TALKS: Talk[] = [
     date: "2024-12-13",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture for LUCAS (Interdisciplinary Research Centre for Care Research and Consultancy at KU Leuven), delivered during the team day, focusing on the use of artificial intelligence in academic and professional contexts. The session introduced opportunities, practical applications, and critical considerations of AI for interdisciplinary research and practice."
+    description: "Invited lecture for LUCAS (Interdisciplinary Research Centre for Care Research and Consultancy at KU Leuven), focusing on the use of artificial intelligence in academic and professional contexts. The session introduced opportunities, practical applications, and critical considerations of AI for research and teaching."
   },
   {
     id: 'academictalk33',
@@ -603,7 +603,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk51',
-    title: "The basics van GenAI: van A tot GPT! ⁽ᴺᴸ⁾",
+    title: "De basics van GenAI: van A tot GPT! ⁽ᴺᴸ⁾",
     event: "Dag van de Onderwijsondersteuner @ KU Leuven",
     date: "2024-04-26",
     location: "Leuven, Belgium",
@@ -730,8 +730,8 @@ export const TALKS: Talk[] = [
     location: "Kortrijk, Belgium",
     type: 'science communication',
     description: "Event description: 'We have invited dr. Leen Sevens, PhD in Computational Linguistics & MSc in Artificial Intelligence, to deliver the keynote lecture during the Research Afternoon. Dr. Sevens is specialized in how to communicate research successfully and creatively to the outer world. This lecture, full of valuable tips, tricks & lessons learnt, will send you home feeling inspired and ready to take your first/next steps towards becoming a resourceful science communicator yourself.'",
-    imageUrl: "/website/academictalk24.jpg",
-    gallery: ["/website/academictalk24.jpg"]
+    imageUrl: "/website/scicomm17.jpg",
+    gallery: ["/website/scicomm18.jpg"]
   },
   {
     id: 'scicomm17',
