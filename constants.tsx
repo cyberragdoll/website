@@ -692,7 +692,7 @@ export const TALKS: Talk[] = [
     date: "2023-10-06",
     location: "Leuven, Belgium",
     type: 'Media & Interviews',
-    description: "Panel participant at the Generative AI Day for Management lecturers by UCLL (Leuven and Limburg regions), a professional development event bringing together approximately 150 educators across diverse disciplines. The panel focused on exploring the implications of GenAI for higher education, alongside shared knowledge-building and hands-on experimentation with AI tools.",
+    description: "Panel participant at the Generative AI Day for Management lecturers by UCLL (Leuven and Limburg regions), a professional development event bringing together approximately 150 educators across diverse disciplines. The panel focused on exploring the implications of GenAI for higher education.",
     imageUrl: "/website/media9.jpg"
   },
   {
@@ -702,7 +702,7 @@ export const TALKS: Talk[] = [
     date: "2023-06-08",
     location: "Kortrijk, Belgium",
     type: 'science communication',
-    description: "Invited talk for Kulak staff on practical techniques for communicating research clearly and effectively.",
+    description: "Invited talk for PhD students on practical techniques for communicating research clearly and effectively.",
     imageUrl: "/website/scicomm19.jpg",
     link: "/website/Presentation_Kulak2.pdf"
   },
@@ -722,7 +722,7 @@ export const TALKS: Talk[] = [
     date: "2023-03-31",
     location: "Leuven, Belgium",
     type: 'Hosting',
-    description: "Co-organizer and panel moderator of the fourth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze derde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
+    description: "Co-organizer and panel moderator of the third edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze derde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-III",
     imageUrl: "/website/host4.png"
   },
@@ -751,19 +751,19 @@ export const TALKS: Talk[] = [
   },
    {
     id: 'media7',
-    title: "Word je docent binnenkort een robot? ⁽ᴺᴸ⁾",
+    title: "Wordt je docent binnenkort een robot? ⁽ᴺᴸ⁾",
     event: "AI AI AI Podcast",
     date: "2023-02-13",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Podcast description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?'",
+    description: "Podcast in collaboration with Lien Castelein. Description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?'",
     link: "https://open.spotify.com/episode/0eyXI2q9sHt4H47aKPYSzZ",
     imageUrl: "/website/media3.jpg"
   },
   {
     id: 'scicomm22',
     title: "Breaking the Wall of Illiteracy ⁽ᴱᴺ⁾",
-    event: "Afscheidslezing Frank Van Eynde @ KU Leuven",
+    event: "Farewell Lecture of Frank Van Eynde @ KU Leuven",
     date: "2022-12-07",
     location: "Leuven, Belgium",
     type: 'science communication',
