@@ -777,7 +777,7 @@ export const TALKS: Talk[] = [
     date: "2022-11-27",
     location: "Leuven, Belgium",
     type: 'science communication',
-    description: "Jury member for the Belgian preselections of the '3 Minute Thesis' competition at KU Leuven, organized during 'Dag van de Wetenschap' (Science Day).",
+    description: "Jury member for the Belgian preselections of the '3 Minute Thesis' competition at KU Leuven, organized during 'Dag van de Wetenschap' ('Science Day').",
     imageUrl: "/website/scicomm11.jpg"
   },
   {
@@ -785,7 +785,7 @@ export const TALKS: Talk[] = [
     title: "Student vs. docent - Feedback over de toekomst van blended onderwijs in HW ⁽ᴺᴸ⁾",
     event: "The Big Blend II (KU Leuven)",
     date: "2021-12-10",
-    location: "Leuven, Belgium",
+    location: "Remote",
     type: 'Academic & Professional',
     description: "Event report: 'De immer bevlogen Leen Sevens gaf ons tijdens The Big Blend een inkijk in een grootscheepse bevraging bij ruim 3.000 studenten en 390 docenten die de stafmedewerker onderwijsinnovatie in deskundige banen leidde. Wat kunnen we zoal uit het onderzoek afleiden? Gezien de alomtegenwoordigheid van het coronavirus, hoeft het niet te verbazen dat slechts een bescheiden minderheid van de contactmomenten op de campus heeft plaatsgevonden. Tegelijkertijd valt de hoge interactiviteit hierbij op, in meerdere mate zelfs dan bij de vakken die volledig digitaal zijn verlopen. Wanneer we dan inzoomen op dat online onderwijs, kunnen de meeste elementen daarvan op veel bijval rekenen. Docenten geven hierbij weliswaar aan dat ze in de toekomst verkiezen om aan een fysiek publiek les te geven. Studenten raden op hun beurt de inzet van verouderde lesopnames ten stelligste af. Als het op digitale presentaties aankomt, merken ze dan weer op dat uiteenzettingen op de campus meer oefenkansen voor demonstratieskills bieden. Online onderwijs heeft met andere woorden voor- en nadelen. Studenten benadrukken vooral de flexibiliteit als pluspunt, maar tonen zich toch bezorgd om de studiebelasting en het gebrek aan sociaal contact. Voor docenten is de tijdsbelasting eveneens een aandachtspunt. Zij prijzen aan de andere kant de vele ervaringen met digitale tools en onderwijsdesign die ze hebben opgedaan.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-II"
@@ -795,7 +795,7 @@ export const TALKS: Talk[] = [
     title: "The Big Blend II ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2021-12-10",
-    location: "Leuven, Belgium",
+    location: "Remote",
     type: 'Hosting',
     description: "Co-organizer of the second edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Het einde van de werkweek was nog nooit zo leuk als op vrijdag 10 december 2021 tijdens The Big Blend II. Toen injecteerden enkele docenten en ondersteuners van de Groep Humane Wetenschappen een honderdtal deelnemers met een prikkelende inspiratieboostershot. Ze vertelden er onder meer hoe ze met behulp van educatieve tools in dialoog en interactie zijn gegaan met studenten én elkaar.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-II",
