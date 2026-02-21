@@ -930,7 +930,7 @@ export const TALKS: Talk[] = [
     date: "2019-05-16",
     location: "Lanaken, Belgium",
     type: 'science communication',
-    description: "The Ervaringsdagen (Experience Days) in Lanaken are educational awareness events, organised by the municipal Welfare Service and the Advisory Council for People with Disabilities, where children and adults take part in interactive workshops that simulate everyday experiences of living with a disability. Held at the Lanaken Cultural Centre, these activities aim to foster understanding, empathy, and inclusive attitudes.",
+    description: "The 'Ervaringsdagen' ('Experience Days') in Lanaken are educational awareness events, organised by the municipal Welfare Service and the Advisory Council for People with Disabilities, where children and adults take part in interactive workshops that simulate everyday experiences of living with a disability. Held at the Lanaken Cultural Centre, these activities aim to foster understanding, empathy, and inclusive attitudes.",
     imageUrl: "/website/scicomm2.jpg"
   },
   {
@@ -938,7 +938,7 @@ export const TALKS: Talk[] = [
     title: "Picto in zelfredzaamheidscursus voor anderstaligen ⁽ᴺᴸ⁾",
     event: "Welzijnscampus Nieuwenbos",
     date: "2019-05-08",
-    location: "Kortrijk, Belgium",
+    location: "Dilbeek, Belgium",
     type: 'science communication',
     description: "Workshop for non-native speakers in the Brussels metropolitan area on using pictogram-based communication tools in self-reliance courses, focusing on accessibility, everyday communication, and visual support for language learning.",
     imageUrl: "/website/scicomm20.jpg"
@@ -951,7 +951,8 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
     description: "Invited lecture at the VUB Artificial Intelligence Lab (Vrije Universiteit Brussel), presenting the conclusions of the Picto project on automatic translation between pictographs and text. The talk addressed technological developments, linguistic challenges, and broader implications for accessibility, inclusion, and AI-driven communication support.",
-    imageUrl: "/website/academictalk36.png"
+    imageUrl: "/website/academictalk36.png",
+    link: "/website/Publication_Picto2.pdf"
   },
   {
     id: 'academictalk62',
