@@ -123,7 +123,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         </div>
 
         <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:border-amber-100 transition-all duration-500">
-          <h3 className="text-xl font-serif font-bold text-amber-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Speaking</h3>
+          <h3 className="text-xl font-serif font-bold text-amber-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Science<br />Communication</h3>
           <p className="text-slate-600 text-sm leading-relaxed text-left">
             I love speaking about responsible, inclusive, and humane use of technology. Clear, thoughtful science communication is at the heart of what I do. I'm passionate about making complex technologies understandable, meaningful, and useful in real contexts.         
           </p>
