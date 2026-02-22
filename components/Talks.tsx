@@ -145,10 +145,11 @@ const Talks: React.FC = () => {
 
   <span className="text-slate-200 hidden sm:inline">•</span>
 
-  <span className="flex flex-wrap items-center gap-x-2">
-    <span>{selectedTalk.event}</span>
-    <span className="text-slate-200 hidden sm:inline">•</span>
-    <span>{selectedTalk.location}</span>
+  {/* This span is ONE flex child that contains inline text */}
+  <span className="min-w-0">
+    {selectedTalk.event}
+    <span className="text-slate-200 hidden sm:inline">{" • "}</span>
+    <span className="whitespace-nowrap">{selectedTalk.location}</span>
   </span>
 </div>
             </div>
