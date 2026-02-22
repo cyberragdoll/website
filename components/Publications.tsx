@@ -92,7 +92,7 @@ const getPublicationImages = (pub: Publication) => {
                 <span className={`inline-flex px-2.5 py-1 rounded-md border text-[9px] font-bold uppercase tracking-wider ${getBadgeStyles(pub.type)}`}>
                   {pub.type}
                 </span>
-                <h3 className="text-1g font-serif font-bold text-slate-900 group-hover:text-sky-600 transition-colors pr-10">
+                <h3 className="text-lg sm:text-xl font-serif font-bold text-slate-900 group-hover:text-sky-600 transition-colors pr-10">
                   {pub.title}
                 </h3>
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-500">
@@ -123,7 +123,7 @@ const getPublicationImages = (pub: Publication) => {
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedPub.type)}`}>
                 {selectedPub.type}
               </span>
-              <h2 className="text-xl font-serif font-bold text-slate-900">{selectedPub.title}</h2>
+              <h2 className="text-xl sm:text-3xl font-serif font-bold text-slate-900">{selectedPub.title}</h2>
               <p className="text-slate-700 font-bold">{selectedPub.authors} <span className="text-slate-400 font-normal italic">— {selectedPub.venue}, {selectedPub.year}</span></p>
             </div>
             {selectedPub.abstract && (
