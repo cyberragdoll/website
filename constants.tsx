@@ -996,7 +996,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm6',
-    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
+    title: "Pictovertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
     event: "Science Slam @ Boekenbeurs van Antwerpen",
     date: "2018-11-08",
     location: "Antwerp, Belgium",
@@ -1006,7 +1006,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'scicomm7',
-    title: "Pictogramvertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
+    title: "Pictovertaaltechnologie voor mensen met een verstandelijke beperking ⁽ᴺᴸ⁾",
     event: "VIP Opening Event @ Boekenbeurs van Antwerpen",
     date: "2018-10-27",
     location: "Antwerp, Belgium",
