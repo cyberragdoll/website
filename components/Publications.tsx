@@ -128,8 +128,9 @@ const getPublicationImages = (pub: Publication) => {
 }
 
 /* Track */
-.modal-scroll::-webkit-scrollbar-track {
-  background: transparent;
+.modal-scroll::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1; /* slate-300 */
+  border-radius: 999px;
 }
 
 /* Thumb (the draggable bar) */
