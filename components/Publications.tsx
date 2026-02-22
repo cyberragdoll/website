@@ -182,6 +182,7 @@ const getPublicationImages = (pub: Publication) => {
         </div>
       )}
     </div>
+        </div>  
   );
 };
 
