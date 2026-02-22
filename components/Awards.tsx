@@ -128,15 +128,6 @@ const Awards: React.FC = () => {
                    </div>
                 </div>
               )}
-
-              <div className="pt-6">
-                <button 
-                  onClick={closeModal}
-                  className="w-full flex items-center justify-center px-6 py-4 bg-slate-900 text-white text-[10px] uppercase tracking-[0.2em] font-bold rounded-xl hover:bg-indigo-600 transition-all shadow-lg shadow-slate-900/10"
-                >
-                  Close
-                </button>
-              </div>
             </div>
           </div>
         </div>
