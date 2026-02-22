@@ -89,7 +89,7 @@ const About: React.FC = () => {
                 A little about me <div className="h-px flex-grow bg-slate-100"></div>
               </h2>
             </div>
-            <div className="space-y-4 text-slate-700 text-base leading-relaxed">
+            <div className="space-y-4 text-slate-700 text-sm md:text-base leading-relaxed">
               <p>
               Hi! I'm Leen Sevens (°1992). Born in Lanaken, I moved to Leuven at seventeen for my studies and, like so many before me, completely fell in love with the city and never left. These days I live here with my husband Niels and our two Maine Coons, Susu and Senshi: cute, fluffy, and firmly convinced they run the household.              
               </p>
