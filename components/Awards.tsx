@@ -82,25 +82,15 @@ const Awards: React.FC = () => {
 {/* SHELL (does not scroll) */}
    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 overflow-hidden">
 
-
 <style>{`
-/* Hide scrollbar arrow buttons (Chrome/Edge/Opera - WebKit/Blink) */
-.modal-scroll::-webkit-scrollbar-button:single-button {
-  height: 0;
-  width: 0;
-  display: block; /* 'none' is often ignored */
-  background: transparent;
-}
-
-.modal-scroll::-webkit-scrollbar-button:single-button:vertical:decrement,
-.modal-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
-  height: 0;
-}
-
-.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:decrement,
-.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:increment {
-  width: 0;
-}
+  .modal-scroll {
+    -ms-overflow-style: none;  /* IE/Edge legacy */
+    scrollbar-width: none;     /* Firefox */
+  }
+  .modal-scroll::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
 `}</style>
      
   {/* stays put */}
