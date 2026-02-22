@@ -92,7 +92,7 @@ const getPublicationImages = (pub: Publication) => {
                 <span className={`inline-flex px-2.5 py-1 rounded-md border text-[9px] font-bold uppercase tracking-wider ${getBadgeStyles(pub.type)}`}>
                   {pub.type}
                 </span>
-                <h3 className="text-lg sm:text-xl font-serif font-bold text-slate-900 group-hover:text-sky-600 transition-colors pr-10">
+                <h3 className="text-base sm:text-xl font-serif font-bold text-slate-900 group-hover:text-sky-600 transition-colors pr-10">
                   {pub.title}
                 </h3>
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-500">
