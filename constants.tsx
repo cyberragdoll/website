@@ -1412,7 +1412,7 @@ export const AWARDS: Award[] = [
     title: "Mediawijs Award",
     organization: "Mediawijs",
     year: 2017,
-    description: "The Able-to-Include project received the Mediawijs award for best smart media production, awarded to the CCL research group (Leen Sevens, Ineke Schuurman, Vincent Vandeghinste) at KU Leuven and Thomas More Kempen (Jo Daems, Annelies De Vliegher) for their co-creation project on accessible social media using pictograph-based communication.",
+    description: "The Able-to-Include project received the Mediawijs award for best smart media production, awarded to the CCL research group at KU Leuven (Leen Sevens, Ineke Schuurman, Vincent Vandeghinste) and Thomas More Kempen (Jo Daems, Annelies De Vliegher) for their co-creation project on accessible social media using pictograph-based communication.",
     imageUrl: "/website/award2.png"
   },
   {
