@@ -50,11 +50,10 @@ const Talks: React.FC = () => {
       </div>
       
       <div className="md:w-3/4 space-y-4 pr-10">
-        <div className="flex items-center flex-wrap gap-2">
+        <div className="flex items-center flex-wrap gap-2 -ml-1 md:ml-0">
            <span className={`px-2 py-0.5 rounded-md border text-[9px] font-bold uppercase tracking-wider ${getBadgeStyles(talk.type)}`}>
             {talk.type}
           </span>
-          <span className="text-slate-200">•</span>
           <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{talk.event}</span>
         </div>
         <h3 className="text-base sm:text-xl font-serif font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
