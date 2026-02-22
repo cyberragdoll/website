@@ -29,12 +29,6 @@ const getPublicationImages = (pub: Publication) => {
     }
   };
 
-  .modal-scroll::-webkit-scrollbar-button {
-  width: 0;
-  height: 0;
-  display: none;
-}
-
   const closeModal = () => setSelectedPub(null);
 
   // Helper component for filter buttons to keep code DRY
