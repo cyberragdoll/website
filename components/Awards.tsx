@@ -24,7 +24,7 @@ const Awards: React.FC = () => {
         <div className="space-y-2 text-center lg:text-left">
           <h1 className="text-4xl font-serif font-bold text-slate-900">Awards</h1>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-y-1 sm:gap-x-3">
-            <p className="text-[10px] uppercase tracking-widest text-slate-400 font-bold">Sorted newest to oldest</p>
+            <p className="text-[10px] uppercase tracking-widest text-slate-400 font-bold">From newest to oldest</p>
             <span className="hidden sm:block text-slate-200 text-xs">•</span>
             <div className="flex items-center space-x-1.5">
               <span className="relative flex h-1.5 w-1.5">
