@@ -229,7 +229,7 @@ const Talks: React.FC = () => {
               {getTalkImages(selectedTalk).map((url, i) => (
                 <div
                   key={i}
-                  className="flex justify-center rounded-2xl overflow-hidden shadow-sm border border-slate-100"
+                  className="flex justify-center rounded-2xl overflow-hidden shadow-sm"
                 >
                   <img
                     src={url}
