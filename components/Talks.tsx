@@ -215,7 +215,7 @@ const Talks: React.FC = () => {
           </div>
         </div>
 
-        <p className="whitespace-pre-line text-slate-600 leading-relaxed">
+        <p className="text-sm md:text-base whitespace-pre-line text-slate-600 leading-relaxed">
           {selectedTalk.description}
         </p>
 
