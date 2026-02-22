@@ -116,7 +116,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
       {/* Vision/Philosophy Section */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-12">
         <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:border-sky-100 transition-all duration-500">
-          <h3 className="text-xl font-serif font-bold text-sky-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Academic Background</h3>
+          <h3 className="text-xl font-serif font-bold text-sky-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Academic<br />Background</h3>
           <p className="text-slate-600 text-sm leading-relaxed text-left">
             Trained in computational linguistics with a strong grounding in educational technology, I work at the intersection of AI, language, and higher education, exploring how human expertise and intelligent systems can meaningfully support learning, teaching, and assessment.
           </p>
@@ -130,7 +130,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         </div>
 
         <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:border-rose-100 transition-all duration-500">
-          <h3 className="text-xl font-serif font-bold text-rose-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Artistic Philosophy</h3>
+          <h3 className="text-xl font-serif font-bold text-rose-600 mb-4 whitespace-nowrap overflow-hidden text-ellipsis text-center">Artistic<br />Philosophy</h3>
           <p className="text-slate-600 text-sm leading-relaxed text-left">
             I am driven by curiosity and a love for small, everyday moments. Through urban sketching, painting, and illustrated stories, I explore ways to make the world feel more approachable, especially for children, by turning observation, science, and imagination into something tangible and playful.          </p>
         </div>
