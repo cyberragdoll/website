@@ -141,7 +141,7 @@ This gallery features a small selection of my favourite works. Follow my social 
   className="
     fixed 
     top-0 right-6 
-    lg:top-10 lg:right-10 
+    lg:top-10 lg:right-5 
     p-4 
     text-white/40 hover:text-white 
     transition-all 
