@@ -171,7 +171,8 @@ const Talks: React.FC = () => {
     <span className="whitespace-nowrap">{selectedTalk.location}</span>
   </span>
 </div>
-            </div>
+            </div>     </div>
+  </div>
             <p className="whitespace-pre-line text-slate-600 leading-relaxed">{selectedTalk.description}</p>
           {getTalkImages(selectedTalk).length > 0 && (
               <div className="space-y-6 pt-4 border-t border-slate-50">
