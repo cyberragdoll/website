@@ -115,11 +115,27 @@ const getPublicationImages = (pub: Publication) => {
       {selectedPub && (
         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 md:p-8 animate-in fade-in duration-300">
           <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-md" onClick={closeModal}></div>
-          <div className="relative bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 p-8 md:p-12 space-y-8">
-            <button onClick={closeModal} className="absolute top-6 right-6 p-2 text-slate-400 hover:text-slate-900 transition-all">
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-            </button>
-            <div className="space-y-4">
+
+
+{/* SHELL (does not scroll) */}
+    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
+      {/* Close button stays put */}
+      <button
+        onClick={closeModal}
+        className="absolute top-6 right-6 z-20 p-2 text-slate-400 hover:text-slate-900 transition-all"
+        aria-label="Close"
+      >
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+
+      {/* SCROLL AREA (only this scrolls) */}
+      <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8">
+        <div className="space-y-4">
+          
+
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedPub.type)}`}>
                 {selectedPub.type}
               </span>
