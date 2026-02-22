@@ -121,15 +121,25 @@ const getPublicationImages = (pub: Publication) => {
    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 overflow-hidden">
 
      
-  <style>
-{`
-.modal-scroll::-webkit-scrollbar-button {
-  width: 0;
+<style>{`
+/* Hide scrollbar arrow buttons (Chrome/Edge/Opera - WebKit/Blink) */
+.modal-scroll::-webkit-scrollbar-button:single-button {
   height: 0;
-  display: none;
+  width: 0;
+  display: block; /* 'none' is often ignored */
+  background: transparent;
 }
-`}
-</style>
+
+.modal-scroll::-webkit-scrollbar-button:single-button:vertical:decrement,
+.modal-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+  height: 0;
+}
+
+.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:decrement,
+.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:increment {
+  width: 0;
+}
+`}</style>
      
       {/* Close button stays put */}
       <button
