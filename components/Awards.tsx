@@ -100,7 +100,7 @@ const Awards: React.FC = () => {
                 <h2 className="text-xl sm:text-2xl font-serif font-bold text-slate-900 leading-tight">
                   {selectedAward.title}
                 </h2>
-                <p className="text-sm font-bold text-slate-700">{selectedAward.organization}</p>
+                <p className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex flex-wrap items-center gap-x-2">{selectedAward.organization}</p>
               </div>
 
               {selectedAward.description && (
