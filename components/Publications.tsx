@@ -132,8 +132,8 @@ const getPublicationImages = (pub: Publication) => {
 
 
       {/* SCROLL AREA (only this scrolls) */}
-<div className="modal-scroll max-h-[90vh] overflow-y-auto p-8 pr-10 pt-12 pb-12 space-y-8">
-  <div className="pr-2 space-y-8">
+<div className="modal-scroll max-h-[90vh] overflow-y-auto pr-10 pt-8 pb-8">
+  <div className="-mt-8 -mb-8 p-8 pr-2 space-y-8">
 
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedPub.type)}`}>
                 {selectedPub.type}
