@@ -125,102 +125,111 @@ const Talks: React.FC = () => {
         </section>
       </div>
 
-      {selectedTalk && (
-        <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 animate-in fade-in duration-300">
-          <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-md" onClick={closeModal}></div>
-          
-      <div className="relative bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 flex flex-col">
-  {/* Sticky header (keeps X in place) */}
-  <div className="sticky top-0 bg-white border-b border-slate-50 p-6 flex justify-end items-center z-10">
-    <button
+{selectedTalk && (
+  <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 animate-in fade-in duration-300">
+    <div
+      className="absolute inset-0 bg-slate-900/40 backdrop-blur-md"
       onClick={closeModal}
-      className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-50 rounded-full transition-all"
-      aria-label="Close"
-    >
-      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-      </svg>
-    </button>
-  </div>
+    />
 
-  {/* Scrollable content */}
-  <div className="p-8 space-y-8">
-    <div className="space-y-4">
-      <span
-        className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedTalk.type)}`}
-      >
-        {selectedTalk.type}
-      </span>
+    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 flex flex-col">
+      {/* Sticky header (keeps X in place) */}
+      <div className="sticky top-0 bg-white border-b border-slate-50 p-6 flex justify-end items-center z-10">
+        <button
+          onClick={closeModal}
+          className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-50 rounded-full transition-all"
+          aria-label="Close"
+        >
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
 
-      <h2 className="text-xl sm:text-3xl font-serif font-bold text-slate-900">
-        {selectedTalk.title}
-      </h2>
+      {/* Scrollable content */}
+      <div className="p-8 space-y-8">
+        <div className="space-y-4">
+          <span
+            className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(
+              selectedTalk.type
+            )}`}
+          >
+            {selectedTalk.type}
+          </span>
 
-              
-              <div className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex flex-wrap items-center gap-x-2">
-  <span className="text-amber-600">
-    {new Date(selectedTalk.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-  </span>
+          <h2 className="text-xl sm:text-3xl font-serif font-bold text-slate-900">
+            {selectedTalk.title}
+          </h2>
 
-  <span className="text-slate-200">•</span>
+          <div className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex flex-wrap items-center gap-x-2">
+            <span className="text-amber-600">
+              {new Date(selectedTalk.date).toLocaleDateString('en-GB', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric',
+              })}
+            </span>
 
-  {/* This span is ONE flex child that contains inline text */}
-  <span className="min-w-0">
-    {selectedTalk.event}
-    <span className="text-slate-200">{" • "}</span>
-    <span className="whitespace-nowrap">{selectedTalk.location}</span>
-  </span>
-</div>
-            </div>     </div>
-  </div>
-            <p className="whitespace-pre-line text-slate-600 leading-relaxed">{selectedTalk.description}</p>
-          {getTalkImages(selectedTalk).length > 0 && (
-              <div className="space-y-6 pt-4 border-t border-slate-50">
-                <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Photos</h4>
-            
-                <div className="flex flex-col gap-6">
-                  {getTalkImages(selectedTalk).map((url, i) => (
-                    <div key={i} className="flex justify-center rounded-2xl overflow-hidden shadow-sm border border-slate-100">
-                      <img
-                        src={url}
-                        className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                        alt={`Talk photo ${i + 1}`}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            {selectedTalk.link && (
-              <div className="pt-6">
-                <a
-                  href={selectedTalk.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 px-8 py-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest rounded-xl hover:bg-sky-600 transition-all shadow-lg"
-                >
-                  <span>Learn more</span>
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </a>
-              </div>
-            )}            
+            <span className="text-slate-200">•</span>
+
+            <span className="min-w-0">
+              {selectedTalk.event}
+              <span className="text-slate-200">{" • "}</span>
+              <span className="whitespace-nowrap">{selectedTalk.location}</span>
+            </span>
           </div>
         </div>
-      )}
+
+        <p className="whitespace-pre-line text-slate-600 leading-relaxed">
+          {selectedTalk.description}
+        </p>
+
+        {getTalkImages(selectedTalk).length > 0 && (
+          <div className="space-y-6 pt-4 border-t border-slate-50">
+            <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">
+              Photos
+            </h4>
+
+            <div className="flex flex-col gap-6">
+              {getTalkImages(selectedTalk).map((url, i) => (
+                <div
+                  key={i}
+                  className="flex justify-center rounded-2xl overflow-hidden shadow-sm border border-slate-100"
+                >
+                  <img
+                    src={url}
+                    className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                    alt={`Talk photo ${i + 1}`}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {selectedTalk.link && (
+          <div className="pt-6">
+            <a
+              href={selectedTalk.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 px-8 py-4 bg-slate-900 text-white text-[10px] font-bold uppercase tracking-widest rounded-xl hover:bg-sky-600 transition-all shadow-lg"
+            >
+              <span>Learn more</span>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+            </a>
+          </div>
+        )}
+      </div>
     </div>
-  );
-};
+  </div>
+)}
 
 export default Talks;
