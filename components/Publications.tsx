@@ -31,6 +31,16 @@ const getPublicationImages = (pub: Publication) => {
 
   const closeModal = () => setSelectedPub(null);
 
+  <style>
+{`
+.modal-scroll::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+`}
+</style>
+
   // Helper component for filter buttons to keep code DRY
   const FilterButton = ({ type, label }: { type: PublicationFilter, label: string }) => (
     <button
