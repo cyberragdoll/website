@@ -233,6 +233,7 @@ const Talks: React.FC = () => {
                 >
                   <img
                     src={url}
+                    style={{ imageOrientation: "from-image" }}   // or try "none"
                     className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     alt={`Talk photo ${i + 1}`}
                   />
