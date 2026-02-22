@@ -76,7 +76,7 @@ const Talks: React.FC = () => {
           <h1 className="text-4xl font-serif font-bold text-slate-900">Talks & Conversations</h1>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-y-1 sm:gap-x-3">
             <p className="text-[10px] uppercase tracking-widest text-slate-400 font-bold">from newest to oldest (internal talks excluded)</p>
-            <span className="hidden sm:block text-slate-200 text-xs">•</span>
+            <span className="text-slate-200">•</span>
             <div className="flex items-center space-x-1.5">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
