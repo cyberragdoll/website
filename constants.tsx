@@ -1168,7 +1168,7 @@ export const TALKS: Talk[] = [
     event: "Uitreiking Pioniersprijs en Maatschappijprijs Groep Humane Wetenschappen",
     date: "2017-05-22",
     location: "Leuven, Belgium",
-    type: 'Academic & Professional',
+    type: 'science communication',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
     imageUrl: "/website/award14.jpg"
   },
