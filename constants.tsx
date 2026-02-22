@@ -1102,7 +1102,7 @@ export const TALKS: Talk[] = [
     date: "2017-11-10",
     location: "Remote",
     type: 'Media & Interviews',
-    description: "Article description: 'Leen Sevens (25) uit Lanaken heeft een vertaalsysteem uitgevonden dat tekst kan omzetten in pictogrammen en vice versa. Daarmee wil de doctoraatsstudente het internet en sociale media toegankelijker maken voor mensen met een verstandelijke beperking. 'Maar het systeem zou bijvoorbeeld ook gebruikt kunnen worden om te kunnen communiceren met vluchtelingen die nog geen Nederlands kunnen', zegt de Lanakense.",
+    description: "Article description: 'Leen Sevens (25) uit Lanaken heeft een vertaalsysteem uitgevonden dat tekst kan omzetten in pictogrammen en vice versa. Daarmee wil de doctoraatsstudente het internet en sociale media toegankelijker maken voor mensen met een verstandelijke beperking. 'Maar het systeem zou bijvoorbeeld ook gebruikt kunnen worden om te kunnen communiceren met vluchtelingen die nog geen Nederlands kunnen', zegt de Lanakense.'",
     imageUrl: "/website/media1.jpg"
   },
   {
@@ -1140,7 +1140,7 @@ export const TALKS: Talk[] = [
     event: "Let's Talk Science",
     date: "2017-07-06",
     location: "Ghent, Belgium",
-    type: 'Academic & Professional',
+    type: 'science communication',
     description: "Let's Talk Science is all about science communication and communicative competences. Every year, around the beginning of July, PhD researchers and postdocs of all Flemish universities and researchers of the Council of the Flemish Universities of Applied Sciences and Arts get the chance to delve into the world of science communication. In this plenary session, I testified about my experiences with science communication. By sharing examples and best practices, I illustrated how you can use science communication to the benefit of your current research and future career."
   },
   {
