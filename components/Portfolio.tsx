@@ -117,7 +117,7 @@ This gallery features a small selection of my favourite works. Follow my social 
               />
               <div className="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/20 transition-colors duration-500"></div>
             </div>
-            <div className="p-6 space-y-4">
+            <div className="p-6 space-y-2 sm:space-y-4">
               <span className={`inline-flex px-2 py-0.5 rounded-md border text-[9px] font-bold uppercase tracking-wider ${getBadgeStyles(piece.category)}`}>
                 {piece.category}
               </span>
