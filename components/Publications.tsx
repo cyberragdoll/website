@@ -117,8 +117,8 @@ const getPublicationImages = (pub: Publication) => {
           <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-md" onClick={closeModal}></div>
 
 
-{/* SHELL (does not scroll) */}
-    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
+{/* SHELL (does not scroll) */}      
+   <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 overflow-hidden">
       {/* Close button stays put */}
       <button
         onClick={closeModal}
@@ -132,8 +132,7 @@ const getPublicationImages = (pub: Publication) => {
 
 
       {/* SCROLL AREA (only this scrolls) */}
-<div className="max-h-[90vh] overflow-y-auto p-8 pr-10 space-y-8 [scrollbar-gutter:stable]">
-  <div className="pr-2 space-y-8">
+     <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8">
           
 
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedPub.type)}`}>
@@ -180,7 +179,6 @@ const getPublicationImages = (pub: Publication) => {
             </div>
           </div>
         </div>
-      </div>  
       )}
     </div>
   );
