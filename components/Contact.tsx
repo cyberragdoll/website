@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           <div className="lg:col-span-5 space-y-6 text-center lg:text-left">
-            <p className="text-slate-600 leading-relaxed text-base mb-12">
+            <p className="text-sm md:text-base text-slate-600 leading-relaxed mb-12">
      Whether it's about collaborations, speaking opportunities, creative projects, or exchanging ideas, I'm always happy to connect! Feel free to reach out. My inbox is open for thoughtful conversations.
             </p>
             
