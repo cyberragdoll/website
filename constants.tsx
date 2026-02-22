@@ -860,7 +860,7 @@ export const TALKS: Talk[] = [
     event: "Expertisenetwerk Informatiegeletterdheid @ KU Leuven",
     date: "2019-12-12",
     location: "Leuven, Belgium",
-    type: 'Academic & Professional',
+    type: 'science communication',
     description: "Workshop within the Expert Network for Information Literacy during the internal teaching seminar, focusing on principles of effective science communication applied to the use of PollEverywhere at KU Leuven. The session combined theoretical insights with practical strategies for interactive teaching.",
   },
   {
