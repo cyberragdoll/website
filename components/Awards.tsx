@@ -51,7 +51,7 @@ const Awards: React.FC = () => {
                    <span className="w-1 h-1 bg-slate-200 rounded-full"></span>
                    <span className="text-[10px] uppercase tracking-widest font-bold text-slate-400">{award.organization}</span>
                 </div>
-                <h3 className="text-xl font-serif font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">{award.title}</h3>
+                <h3 className="text-base sm:text-xl font-serif font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">{award.title}</h3>
                 {award.description && (
                   <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
                     {award.description}
@@ -99,7 +99,7 @@ const Awards: React.FC = () => {
 
             <div className="p-8 md:p-10 space-y-8">
               <div className="space-y-4">
-                <h2 className="text-2xl font-serif font-bold text-slate-900 leading-tight">
+                <h2 className="text-xl sm:text-2xl font-serif font-bold text-slate-900 leading-tight">
                   {selectedAward.title}
                 </h2>
                 <p className="text-sm font-bold text-slate-700">{selectedAward.organization}</p>
