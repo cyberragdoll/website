@@ -138,12 +138,14 @@ const Talks: React.FC = () => {
                 {selectedTalk.type}
               </span>
               <h2 className="text-3xl font-serif font-bold text-slate-900">{selectedTalk.title}</h2>
-              <div className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex flex-wrap items-center gap-x-2">
+              <div className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex items-center gap-x-2 whitespace-nowrap overflow-hidden">
                 <span className="text-amber-600">
                   {new Date(selectedTalk.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
                 </span>
                 <span className="text-slate-200 hidden sm:inline">•</span>
-                <span>{selectedTalk.event}</span>
+                <span className="truncate max-w-[260px]">
+                  {selectedTalk.event}
+                </span>
                 <span className="text-slate-200 hidden sm:inline">•</span>
                 <span>{selectedTalk.location}</span>
               </div>
