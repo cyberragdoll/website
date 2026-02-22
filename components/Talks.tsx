@@ -133,7 +133,32 @@ const Talks: React.FC = () => {
     />
 
 {/* SHELL (does not scroll) */}
-    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
+   <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 overflow-hidden">
+
+
+<style>{`
+/* Hide scrollbar arrow buttons (Chrome/Edge/Opera - WebKit/Blink) */
+.modal-scroll::-webkit-scrollbar-button:single-button {
+  height: 0;
+  width: 0;
+  display: block; /* 'none' is often ignored */
+  background: transparent;
+}
+
+.modal-scroll::-webkit-scrollbar-button:single-button:vertical:decrement,
+.modal-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+  height: 0;
+}
+
+.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:decrement,
+.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:increment {
+  width: 0;
+}
+`}</style>
+
+
+
+      
       {/* Close button stays put */}
       <button
         onClick={closeModal}
@@ -147,8 +172,9 @@ const Talks: React.FC = () => {
 
 
       {/* SCROLL AREA (only this scrolls) */}
-      <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8">
-        <div className="space-y-4">
+<div className="modal-scroll max-h-[90vh] overflow-y-auto p-8 pr-10 space-y-8">
+  <div className="pr-2 space-y-8">
+
           <span
             className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(
               selectedTalk.type
