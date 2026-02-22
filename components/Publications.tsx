@@ -122,22 +122,30 @@ const getPublicationImages = (pub: Publication) => {
 
      
 <style>{`
-/* Hide scrollbar arrow buttons (Chrome/Edge/Opera - WebKit/Blink) */
-.modal-scroll::-webkit-scrollbar-button:single-button {
-  height: 0;
-  width: 0;
-  display: block; /* 'none' is often ignored */
+/* Scrollbar width */
+.modal-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.modal-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.modal-scroll::-webkit-scrollbar-button:single-button:vertical:decrement,
-.modal-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
-  height: 0;
+/* Thumb (the draggable bar) */
+.modal-scroll::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0; /* slate-200 */
+  border-radius: 999px;
 }
 
-.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:decrement,
-.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:increment {
-  width: 0;
+/* Thumb on hover (slightly darker) */
+.modal-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e1; /* slate-300 */
+}
+
+/* Arrow buttons */
+.modal-scroll::-webkit-scrollbar-button {
+  background-color: #f8fafc; /* slate-50 */
 }
 `}</style>
      
