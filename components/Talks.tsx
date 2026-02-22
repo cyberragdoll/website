@@ -143,12 +143,12 @@ const Talks: React.FC = () => {
     {new Date(selectedTalk.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
   </span>
 
-  <span className="text-slate-200 hidden sm:inline">•</span>
+  <span className="text-slate-200">•</span>
 
   {/* This span is ONE flex child that contains inline text */}
   <span className="min-w-0">
     {selectedTalk.event}
-    <span className="text-slate-200 hidden sm:inline">{" • "}</span>
+    <span className="text-slate-200">{" • "}</span>
     <span className="whitespace-nowrap">{selectedTalk.location}</span>
   </span>
 </div>
