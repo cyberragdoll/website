@@ -94,7 +94,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
 >
   <div className="w-full h-full overflow-hidden">
     <img 
-      src="/website/profile.jpg" 
+      src="/profile.jpg" 
       alt="Leen Sevens" 
       className="w-full h-full object-cover"
     />
