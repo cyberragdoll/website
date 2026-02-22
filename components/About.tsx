@@ -38,19 +38,19 @@ const About: React.FC = () => {
     },
     {
       title: "Playing Videogames",
-      text: "Lately I've been deep into RPGs and online competitive games with friends. Since 2024, I also co-host a monthly game club in Leuven where we play and discuss indie games together.",
+      text: "I've always been deep into RPGs and online games with friends. Since 2024, I also co-host a monthly game club in Leuven where we play and discuss indie games together!",
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     },
     {
       title: "Studying Japanese",
-      text: "I've been teaching myself Japanese daily since 2020. After a few trips to Japan, I figured learning the local language was the logical next step!",
+      text: "I've been teaching myself Japanese daily since 2020. Since I love travelling to Japan (5 times and counting!), I figured learning the local language was the logical next step!",
       color: "text-amber-600",
       borderHover: "hover:border-amber-100"
     },
     {
       title: "Reading Books",
-      text: "I can finally call myself a casual reader again, finishing around 20 books a year. My favourites are cosy Japanese novels and books about AI, both fiction and non-fiction.",
+      text: "I can finally call myself a casual reader again, currently finishing around 20 books a year. My favourites are cosy Japanese novels and books about AI, both fiction and non-fiction.",
       color: "text-rose-600",
       borderHover: "hover:border-rose-100"
     },
