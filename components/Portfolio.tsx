@@ -136,7 +136,7 @@ const Portfolio: React.FC = () => {
       {selectedArt && (
         <div className="fixed inset-0 z-[110] flex flex-col items-center justify-center p-4 md:p-8 animate-in fade-in duration-300">
           <div className="absolute inset-0 bg-slate-900/95 backdrop-blur-md" onClick={closeModal}></div>
-          <button onClick={closeModal} className="fixed top-6 right-6 md:top-10 md:right-10 p-4 text-white/40 hover:text-white transition-all z-[120]" aria-label="Close">
+          <button onClick={closeModal} className="fixed top-3 right-6 md:top-10 md:right-10 p-4 text-white/40 hover:text-white transition-all z-[120]" aria-label="Close">
             <svg className="w-8 h-8 md:w-10 md:h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
           </button>
           <div className="relative z-[115] w-full h-full flex flex-col items-center justify-center max-w-5xl mx-auto space-y-6 md:space-y-10 animate-in zoom-in-95 duration-500 py-10">
