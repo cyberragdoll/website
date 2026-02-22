@@ -96,7 +96,7 @@ const Awards: React.FC = () => {
 
 /* Thumb (the draggable bar) */
 .modal-scroll::-webkit-scrollbar-thumb {
-  background-color: #e2e8f0; /* slate-200 */
+  background-color: #cbd5e1; /* slate-200 */
   border-radius: 999px;
 }
 
