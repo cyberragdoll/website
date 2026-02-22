@@ -108,7 +108,7 @@ const Awards: React.FC = () => {
 .modal-scroll::-webkit-scrollbar-button {
   background-color: #f8fafc; /* slate-50 */
 }
-`}</style
+`}</style>
      
   {/* stays put */}
   <button
