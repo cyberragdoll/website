@@ -55,9 +55,8 @@ const Portfolio: React.FC = () => {
             </div>
             
             <p className="text-sm text-slate-500 leading-relaxed italic max-w-lg mx-auto lg:mx-0">
-              This gallery represents a small selection of my favorite works. For a more comprehensive look at my portfolio, please follow my social channels.
+This gallery features a small selection of my favourite works. Follow my social channels to explore my full portfolio.
             </p>
-
             <div className="flex items-center justify-center lg:justify-start space-x-4 pt-2">
               <a 
                 href="https://www.instagram.com/fabledfoxx" 
