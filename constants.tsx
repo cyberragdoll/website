@@ -1286,7 +1286,7 @@ export const TALKS: Talk[] = [
   {
     id: 'academictalk8',
     title: "Automated Spelling Correction for Dutch Internet Users with Intellectual Disabilities ⁽ᴱᴺ⁾",
-    event: "The 10th Language Resources and Evaluation Conference (LREC 2016)",
+    event: "The 1st Workshop on Improving Social Inclusion: Tools and Resources (ISI-NLP)",
     date: "2016-05-23",
     location: "Portoroz, Slovenia",
     type: 'Academic & Professional',
@@ -1310,7 +1310,7 @@ export const TALKS: Talk[] = [
     date: "2015-12-18",
     location: "Amsterdam, The Netherlands",
     type: 'Academic & Professional',
-    description: "Poster in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'This poster addresses the challenge of translating sequences of pictographs (often used in Augmentative and Alternative Communication, or AAC) into grammatically correct natural language. The researchers focus on bridging the gap between symbol-based communication—which often lacks formal grammar—and spoken language. The poster details a method for generating natural language sentences from these pictographs, designed to assist individuals with communication disabilities or to facilitate communication in specific contexts, such as translation for refugees.'",
+    description: "Poster in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n This poster addresses the challenge of translating sequences of pictographs (often used in Augmentative and Alternative Communication, or AAC) into grammatically correct natural language. We focus on bridging the gap between symbol-based communication (which often lacks formal grammar) and spoken language. The poster details a method for generating natural language sentences from these pictographs, designed to assist individuals with communication disabilities or to facilitate communication in specific contexts.",
     imageUrl: "/website/academictalk4.png"
   },
   {
