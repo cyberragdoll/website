@@ -132,8 +132,8 @@ const getPublicationImages = (pub: Publication) => {
 
 
       {/* SCROLL AREA (only this scrolls) */}
-  <div className="max-h-[90vh] overflow-y-auto px-3">
-    <div className="-mx-3 p-8 space-y-8">
+<div className="max-h-[90vh] overflow-y-auto p-8 pr-10 space-y-8 [scrollbar-gutter:stable]">
+  <div className="pr-2 space-y-8">
           
 
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedPub.type)}`}>
