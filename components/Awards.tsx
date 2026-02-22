@@ -78,24 +78,23 @@ const Awards: React.FC = () => {
             className="absolute inset-0 bg-slate-900/40 backdrop-blur-md"
             onClick={closeModal}
           ></div>
-          
-          <div className="relative bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 flex flex-col">
-            <div className="sticky top-0 bg-white border-b border-slate-50 p-6 flex justify-between items-center z-10">
-              <div className="flex items-center space-x-3">
-                <span className="px-2 py-0.5 bg-indigo-500 text-white text-[8px] font-bold uppercase rounded">
-                  Honor / Award
-                </span>
-                <span className="text-xs font-bold text-slate-400">{selectedAward.year}</span>
-              </div>
-              <button 
-                onClick={closeModal}
-                className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-50 rounded-full transition-all"
-              >
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
+
+{/* SHELL (does not scroll) */}
+    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
+      {/* Close button stays put */}
+      <button
+        onClick={closeModal}
+        className="absolute top-6 right-6 z-20 p-2 text-slate-400 hover:text-slate-900 transition-all"
+        aria-label="Close"
+      >
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+
+      {/* SCROLL AREA (only this scrolls) */}
+      <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8">
 
             <div className="p-8 md:p-10 space-y-8">
               <div className="space-y-4">
