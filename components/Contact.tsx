@@ -125,7 +125,7 @@ const Contact: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-serif font-bold text-slate-900 mb-2">Message Sent!</h3>
                 <p className="text-slate-500 text-sm max-w-xs mx-auto mb-8">
-                  Thank you for reaching out. Your message has been sent to leen.sevens@kuleuven.be.
+                  Thank you for reaching out. Your message has been sent.
                 </p>
                 <button 
                   onClick={() => setSubmitted(false)}
