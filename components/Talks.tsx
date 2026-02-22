@@ -134,16 +134,19 @@ const Talks: React.FC = () => {
 
     {/* SHELL (does not scroll) */}
     <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
-      {/* Close button stays put */}
-      <button
-        onClick={closeModal}
-        className="absolute top-6 right-6 z-20 p-2 text-slate-400 hover:text-slate-900 transition-all"
-        aria-label="Close"
-      >
-        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
+  
+  {/* ✅ Sticky top bar (white background behind X) */}
+  <div className="sticky top-0 z-20 bg-white/95 backdrop-blur border-b border-slate-50 px-6 py-4 flex justify-end">
+    <button
+      onClick={closeModal}
+      className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-50 rounded-full transition-all"
+      aria-label="Close"
+    >
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
       {/* SCROLL AREA (only this scrolls) */}
       <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8">
