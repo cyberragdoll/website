@@ -83,15 +83,32 @@ const Awards: React.FC = () => {
    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 overflow-hidden">
 
 <style>{`
-  .modal-scroll {
-    -ms-overflow-style: none;  /* IE/Edge legacy */
-    scrollbar-width: none;     /* Firefox */
-  }
-  .modal-scroll::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-  }
-`}</style>
+/* Scrollbar width */
+.modal-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.modal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Thumb (the draggable bar) */
+.modal-scroll::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0; /* slate-200 */
+  border-radius: 999px;
+}
+
+/* Thumb on hover (slightly darker) */
+.modal-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e1; /* slate-300 */
+}
+
+/* Arrow buttons */
+.modal-scroll::-webkit-scrollbar-button {
+  background-color: #f8fafc; /* slate-50 */
+}
+`}</style
      
   {/* stays put */}
   <button
