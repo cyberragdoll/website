@@ -81,23 +81,22 @@ const Awards: React.FC = () => {
 
 {/* SHELL (does not scroll) */}
     <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
-      {/* Close button stays put */}
-      <button
-        onClick={closeModal}
-        className="absolute top-6 right-6 z-20 p-2 text-slate-400 hover:text-slate-900 transition-all"
-        aria-label="Close"
-      >
-        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
+  {/* stays put */}
+  <button
+    onClick={closeModal}
+    className="absolute top-6 right-6 z-20 p-2 text-slate-400 hover:text-slate-900 transition-all"
+    aria-label="Close"
+  >
+    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
 
-
-      {/* SCROLL AREA (only this scrolls) */}
-      <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8">
-
-            <div className="p-8 md:p-10 space-y-8">
-              <div className="space-y-4">
+  {/* scrolls */}
+  <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8 pr-16 pt-16">
+    {/* ↑ pr-16 gives breathing room so text/scrollbar don’t sit under the X
+       ↑ pt-16 ensures first content never hides behind the X */}
+    <div className="space-y-4">
                 <h2 className="text-xl sm:text-2xl font-serif font-bold text-slate-900 leading-tight">
                   {selectedAward.title}
                 </h2>
@@ -139,6 +138,7 @@ const Awards: React.FC = () => {
                 </button>
               </div>
             </div>
+          </div>
         </div>
       )}
     </div>
