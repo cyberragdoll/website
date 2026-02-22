@@ -138,7 +138,7 @@ This gallery features a small selection of my favourite works. Follow my social 
           <button onClick={closeModal} className="fixed top-0 right-6 md:top-10 md:right-10 p-4 text-white/40 hover:text-white transition-all z-[120]" aria-label="Close">
             <svg className="w-8 h-8 md:w-10 md:h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
           </button>
-          <div className="relative z-[115] w-full h-full flex flex-col items-center justify-center max-w-5xl mx-auto space-y-3 md:space-y-8 animate-in zoom-in-95 duration-500 py-6 md:py-10">
+          <div className="relative z-[115] w-full h-full flex flex-col items-center justify-center max-w-5xl mx-auto space-y-2 md:space-y-8 animate-in zoom-in-95 duration-500 py-5 md:py-10">
             <div className="relative w-full h-full max-h-[60vh] md:max-h-[65vh] flex items-center justify-center px-4">
               <img src={selectedArt.imageUrl} alt={selectedArt.title} className="max-w-full max-h-full object-contain rounded-sm shadow-2xl" />
             </div>
