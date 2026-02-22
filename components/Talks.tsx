@@ -57,7 +57,7 @@ const Talks: React.FC = () => {
           <span className="text-slate-200">•</span>
           <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{talk.event}</span>
         </div>
-        <h3 className="text-xl font-serif font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+        <h3 className="text-base sm:text-xl font-serif font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
           {talk.title}
         </h3>
       </div>
@@ -137,7 +137,7 @@ const Talks: React.FC = () => {
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedTalk.type)}`}>
                 {selectedTalk.type}
               </span>
-              <h2 className="text-3xl font-serif font-bold text-slate-900">{selectedTalk.title}</h2>
+              <h2 className="text-xl sm:text-3xl font-serif font-bold text-slate-900">{selectedTalk.title}</h2>
               <div className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex flex-wrap items-center gap-x-2">
   <span className="text-amber-600">
     {new Date(selectedTalk.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
