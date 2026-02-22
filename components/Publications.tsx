@@ -132,7 +132,7 @@ const getPublicationImages = (pub: Publication) => {
 
 
       {/* SCROLL AREA (only this scrolls) */}
-<div className="max-h-[90vh] overflow-y-auto p-8 pr-10 space-y-8">
+  <div className="max-h-[90vh] overflow-y-auto px-3">
   <div className="space-y-4">
           
 
