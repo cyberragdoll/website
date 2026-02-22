@@ -50,7 +50,7 @@ const Talks: React.FC = () => {
       </div>
       
       <div className="md:w-3/4 space-y-4 pr-10">
-        <div className="flex items-center flex-wrap gap-2 -ml-1 md:ml-0">
+        <div className="flex items-center flex-wrap gap-2">
            <span className={`px-2 py-0.5 rounded-md border text-[9px] font-bold uppercase tracking-wider ${getBadgeStyles(talk.type)}`}>
             {talk.type}
           </span>
