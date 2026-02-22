@@ -123,7 +123,7 @@ const getPublicationImages = (pub: Publication) => {
               <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedPub.type)}`}>
                 {selectedPub.type}
               </span>
-              <h2 className="text-2xl font-serif font-bold text-slate-900">{selectedPub.title}</h2>
+              <h2 className="text-xl font-serif font-bold text-slate-900">{selectedPub.title}</h2>
               <p className="text-slate-700 font-bold">{selectedPub.authors} <span className="text-slate-400 font-normal italic">— {selectedPub.venue}, {selectedPub.year}</span></p>
             </div>
             {selectedPub.abstract && (
