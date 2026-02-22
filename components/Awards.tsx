@@ -80,7 +80,29 @@ const Awards: React.FC = () => {
           ></div>
 
 {/* SHELL (does not scroll) */}
-    <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300">
+   <div className="relative bg-white w-full max-w-2xl max-h-[90vh] rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 overflow-hidden">
+
+
+<style>{`
+/* Hide scrollbar arrow buttons (Chrome/Edge/Opera - WebKit/Blink) */
+.modal-scroll::-webkit-scrollbar-button:single-button {
+  height: 0;
+  width: 0;
+  display: block; /* 'none' is often ignored */
+  background: transparent;
+}
+
+.modal-scroll::-webkit-scrollbar-button:single-button:vertical:decrement,
+.modal-scroll::-webkit-scrollbar-button:single-button:vertical:increment {
+  height: 0;
+}
+
+.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:decrement,
+.modal-scroll::-webkit-scrollbar-button:single-button:horizontal:increment {
+  width: 0;
+}
+`}</style>
+     
   {/* stays put */}
   <button
     onClick={closeModal}
@@ -92,11 +114,10 @@ const Awards: React.FC = () => {
     </svg>
   </button>
 
-  {/* scrolls */}
-  <div className="max-h-[90vh] overflow-y-auto p-8 space-y-8 pr-16 pt-16">
-    {/* ↑ pr-16 gives breathing room so text/scrollbar don’t sit under the X
-       ↑ pt-16 ensures first content never hides behind the X */}
-    <div className="space-y-4">
+      {/* SCROLL AREA (only this scrolls) */}
+<div className="modal-scroll max-h-[90vh] overflow-y-auto p-8 pr-10 space-y-8">
+  <div className="pr-2 space-y-8">
+
                 <h2 className="text-xl sm:text-2xl font-serif font-bold text-slate-900 leading-tight">
                   {selectedAward.title}
                 </h2>
