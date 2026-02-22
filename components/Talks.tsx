@@ -128,15 +128,35 @@ const Talks: React.FC = () => {
       {selectedTalk && (
         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 animate-in fade-in duration-300">
           <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-md" onClick={closeModal}></div>
-          <div className="relative bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 p-8 space-y-8">
-            <button onClick={closeModal} className="absolute top-6 right-6 p-2 text-slate-400 hover:text-slate-900 transition-all">
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-            </button>
-            <div className="space-y-4">
-              <span className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedTalk.type)}`}>
-                {selectedTalk.type}
-              </span>
-              <h2 className="text-xl sm:text-3xl font-serif font-bold text-slate-900">{selectedTalk.title}</h2>
+          
+      <div className="relative bg-white w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl animate-in zoom-in-95 duration-300 flex flex-col">
+  {/* Sticky header (keeps X in place) */}
+  <div className="sticky top-0 bg-white border-b border-slate-50 p-6 flex justify-end items-center z-10">
+    <button
+      onClick={closeModal}
+      className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-50 rounded-full transition-all"
+      aria-label="Close"
+    >
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  {/* Scrollable content */}
+  <div className="p-8 space-y-8">
+    <div className="space-y-4">
+      <span
+        className={`inline-flex px-3 py-1.5 rounded-md border text-[10px] font-bold uppercase tracking-wider ${getBadgeStyles(selectedTalk.type)}`}
+      >
+        {selectedTalk.type}
+      </span>
+
+      <h2 className="text-xl sm:text-3xl font-serif font-bold text-slate-900">
+        {selectedTalk.title}
+      </h2>
+
+              
               <div className="text-[11px] font-bold text-slate-500 uppercase tracking-widest flex flex-wrap items-center gap-x-2">
   <span className="text-amber-600">
     {new Date(selectedTalk.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
