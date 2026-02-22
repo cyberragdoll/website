@@ -175,7 +175,7 @@ const getPublicationImages = (pub: Publication) => {
             {selectedPub.abstract && (
               <div className="space-y-3">
                 <h4 className="text-[10px] uppercase tracking-widest font-bold text-slate-400">Abstract</h4>
-                <p className="text-slate-600 leading-relaxed whitespace-pre-line">{selectedPub.abstract}</p>
+                <p className="text-sm md:text-base text-slate-600 leading-relaxed whitespace-pre-line">{selectedPub.abstract}</p>
               </div>
             )}
             {getPublicationImages(selectedPub).length > 0 && (
