@@ -149,6 +149,7 @@ const Awards: React.FC = () => {
                         <div key={i} className="flex justify-center rounded-2xl overflow-hidden shadow-sm">
                           <img 
                             src={url} 
+                            style={{ imageOrientation: "none" }}   // or try "none"
                             className="max-w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
                             alt={`Award visual ${i + 1}`} 
                           />
