@@ -97,7 +97,7 @@ const About: React.FC = () => {
               I'm a certified technology nerd, which turned into a career in language technology and AI, especially the kind that makes the world a little more inclusive. When I'm not geeking out over algorithms, you'll probably find me with a sketchbook in a museum, a café, or at home. Art has always been part of my life, and I have a serious soft spot for colourful, joyful illustrations.
               </p>
               <p>
-              Outside of work and art, I love videogames, cosy Japanese novels, learning languages, travelling (with a slight obsession with Japan), and hunting down great restaurants and snug cafés with friends and family. In short: part tech nerd, part art goblin, full-time curious human. :)             </p>
+              Outside of work and art, I love videogames, cosy Japanese novels, learning languages, travelling, and hunting down great restaurants and snug cafés with friends and family. In short: part tech nerd, part art goblin, full-time curious human. :)             </p>
             </div>
           </div>
           
