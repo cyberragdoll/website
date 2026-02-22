@@ -86,16 +86,20 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
                <div className="w-full h-full absolute top-0 left-0 opacity-10 bg-sky-900"></div>
             </div>
 
-            <div className="relative aspect-square w-64 sm:w-72 md:w-80 lg:w-[360px] overflow-hidden rounded-sm bg-white p-3 lg:p-4 shadow-[0_20px_50px_rgba(0,0,0,0.12)] -rotate-1 lg:rotate-1 hover:rotate-0 transition-all duration-700 ease-out mx-auto">
-              <img 
-                src="/website/profile.jpg" 
-                alt="Leen Sevens" 
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.currentTarget.src = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=1000";
-                }}
-              />
-            </div>
+          <div className="relative aspect-square w-64 sm:w-72 md:w-80 lg:w-[360px] 
+  rounded-sm bg-white p-3 lg:p-4 
+  shadow-[0_20px_50px_rgba(0,0,0,0.12)] 
+  -rotate-1 lg:rotate-1 hover:rotate-0 
+  transition-all duration-700 ease-out mx-auto"
+>
+  <div className="w-full h-full overflow-hidden">
+    <img 
+      src="/website/profile.jpg" 
+      alt="Leen Sevens" 
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
           </div>
         </div>
 
