@@ -119,7 +119,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Uitgeverij Het Punt",
     type: 'Children’s books',
     abstract: "Wat krijg je als je een moeder met een grenzeloze fantasie en een dochter met een passie voor tekenen samenbrengt? Juist! Een sprankelend kinderboek! Katwalk vertelt het verhaal over hun kat Celesse (ze bestaat echt!) die onverwacht in de modewereld wordt gedompeld. Een boek over vriendschap, doorzettingsvermogen, zelfvertrouwen en creativiteit.",
-    imageUrl: "/website/childrensbook3.jpg"
+    imageUrl: "/childrensbook3.jpg"
   },
   {
     id: 'other1',
@@ -170,7 +170,7 @@ export const PUBLICATIONS: Publication[] = [
     type: 'Academic',
     link: "https://dl.acm.org/doi/epdf/10.1145/3058555.3058567",
     abstract: "The Able to Include project aims at improving the living conditions of people with intellectual or developmental disabilities (IDD) in key areas of society. One of its focus points concerns improving the integration of people with IDD in the workplace by introducing accessible Web-based tools. This paper describes one of the tools developed as result of the project: an e-mail client with text simplification and other assistive technologies which makes information transmitted over the Internet more understandable to people with IDD therefore facilitating their labor integration. The accessible Web e-mail client has been developed following a User-Centered Design and tested with people with IDD. The results so far are encouraging.",
-    imageUrl: "/website/award15.jpg",
+    imageUrl: "/award15.jpg",
   },
   {
     id: 'aca9',
@@ -250,7 +250,7 @@ export const PUBLICATIONS: Publication[] = [
     venue: "Uitgeverij Het Punt",
     type: 'Children’s books',
     abstract: "In Dromeria: Biggie hebben we al vele inwoners van Dromeria leren kennen. Nu is het de beurt aan de verstrooide postbode Lode!",
-    imageUrl: "/website/childrensbook2.jpg"
+    imageUrl: "/childrensbook2.jpg"
   },
   {
     id: 'aca2',
@@ -281,7 +281,7 @@ export const PUBLICATIONS: Publication[] = [
     type: 'Children’s books',
     link: "",
     abstract: "In Dromeria woont Biggie samen met vele andere leuke dieren. Wil je weten wat daar allemaal gebeurt? Lees dan snel dit boekje en ontdek welke grappige streken Biggie nu weer uithaalt...",
-    imageUrl: "/website/childrensbook1.jpg"
+    imageUrl: "/childrensbook1.jpg"
   },
 ];
 
@@ -341,7 +341,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer and panel moderator of the fifth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Op zoek naar inspiratie om je onderwijs te vernieuwen? Hoe kunnen we interactie met en tussen studenten vormgeven in onze onderwijspraktijk? Hoe stimuleer je daarbij reflectie, discussie en samenwerking? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze vijfde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend",
-    imageUrl: "/website/host4.png"
+    imageUrl: "/host4.png"
   },
   {
     id: 'scicomm20',
@@ -361,7 +361,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this session, we focus on the do's and don'ts of generative AI in education at KU Leuven. We reflect on university guidelines and recommendations, exchange experiences, and discuss both opportunities and risks. Through interactive statements, we engage in dialogue on themes such as assessment practices, the role of AI in skills development, and the place GenAI can (or should not) take in teaching and learning. The session creates space to share experiences, learn from one another, and collectively reflect on a positive yet critical integration of AI. For those already working with GenAI, it offers an opportunity to inspire colleagues with concrete examples from practice; for those still exploring, it provides insights and practical takeaways.'",
-    imageUrl: "/website/academictalk33.jpg"
+    imageUrl: "/academictalk33.jpg"
   }, 
   {
     id: 'academictalk42',
@@ -371,7 +371,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Academic & Professional',
     description: "Invited talk within a Una Europa workshop on Artificial Intelligence & the Humanities (101): Developing a Humanities Syllabus for AI & the Digital, contributing to discussions on integrating AI into Humanities and Social Sciences education.",
-    imageUrl: "/website/academictalk26.jpg"
+    imageUrl: "/academictalk26.jpg"
   },  
   {
     id: 'academictalk29',
@@ -381,7 +381,7 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
     description: "Three workshops in collaboration with An De Moor and Bert Keirsbilck. \n \n 'Tijdens deze sessie laten we zien hoe tools zoals Copilot en andere chatbots kunnen helpen bij het herschrijven van juridische documenten in een 'klare taal'. We presenteren voorbeelden van wollige juridische teksten en hun herschrijvingen in begrijpelijke rechtstaal, uitgevoerd door een jurist, studenten en GenAI. Daarnaast leren we je hoe je effectieve prompts kunt schrijven om het beste uit GenAI te halen en geven we je praktische voorbeelden mee. We sluiten af met een brainstormsessie over andere mogelijke toepassingen van GenAI voor juristen, waarbij we waardevolle tips delen.'",
-    imageUrl: "/website/academictalk15.jpg",
+    imageUrl: "/academictalk15.jpg",
     link: "https://lirias.kuleuven.be/retrieve/7967b30b-2ed6-404c-9762-14365d06716b"
   },
   {
@@ -410,7 +410,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Academic & Professional',
     description: "Invited lecture for the 'Onderwijsrijbewijs' ('Teaching Qualification') trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addressed practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices.",
-    imageUrl: "/website/academictalk27.jpg"
+    imageUrl: "/academictalk27.jpg"
   },  
   {
     id: 'scicomm19',
@@ -420,8 +420,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
-    imageUrl: "/website/scicomm15.jpg",
-    gallery: ["/website/scicomm16.jpg"],
+    imageUrl: "/scicomm15.jpg",
+    gallery: ["/scicomm16.jpg"],
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
@@ -441,7 +441,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Interactive table host at Tech Tapas, where students could drop by with questions and explore how generative AI can be used to spark ideas, improve study strategies, and support learning in practical ways. The session emphasized hands-on tips and responsible use of GenAI in line with KU Leuven guidelines.",
-    imageUrl: "/website/academictalk34.jpg"
+    imageUrl: "/academictalk34.jpg"
   },
   {
     id: 'academictalk32',
@@ -451,7 +451,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Invited lecture for the course 'Studium Generale' at KU Leuven, focusing on the opportunities and challenges of AI in education. The session combined practical do's and don'ts for students, covering responsible use, risks such as bias, misinformation, and environmental impact, with an overview of KU Leuven's institutional approach to AI in teaching and learning.",
-    imageUrl: "/website/academictalk17.png"
+    imageUrl: "/academictalk17.png"
   },
   {
     id: 'academictalk52',
@@ -461,7 +461,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Invited presentation at the team day of Vlaamse AI Academie (VAIA), highlighting AI initiatives at KU Leuven with a particular focus on the collaboration between KU Leuven and VAIA in the development of a MOOC on AI and the Humanities. The session showcased institutional strategy, educational innovation, and cross-sector partnership in AI education.",
-    imageUrl: "/website/academictalk31.jpg"
+    imageUrl: "/academictalk31.jpg"
   },  
   {
     id: 'academictalk54',
@@ -480,7 +480,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Workshop in collaboration with Liese Luijten. \n \n 'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI-toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands-on met prompts experimenteren om AI ten volle te benutten. Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
-    imageUrl: "/website/academictalk22.png"
+    imageUrl: "/academictalk22.png"
   },  
   {
     id: 'academictalk35',
@@ -499,7 +499,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Academic & Professional',
     description: "Invited webinar within the FEBinars series of the Faculty of Economics and Business at KU Leuven, in collaboration with Matthias Schuyten. We introduced educational innovation methods and technologies, with a focus on the practical do's and don'ts of using generative AI in higher education. The session addressed opportunities for teaching and learning alongside risks such as bias, reliability of output, and responsible use.",
-    imageUrl: "/website/academictalk18.jpg"
+    imageUrl: "/academictalk18.jpg"
   },
   {
     id: 'media10',
@@ -509,8 +509,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Media & Interviews',
     description: "Panel participant at the book launch of 'In alle talen' (CLT), a publication exploring the art of language learning and multilingualism, where language learners shared their experiences and perspectives on engaging with languages in everyday life and society.",
-    imageUrl: "/website/media7.jpeg",
-    gallery: ["/website/media8.jpg"]
+    imageUrl: "/media7.jpeg",
+    gallery: ["/media8.jpg"]
   },
   {
     id: 'academictalk59',
@@ -520,7 +520,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Interactive table host at Tech Tapas, where students could drop by with questions and explore how generative AI can be used to spark ideas, improve study strategies, and support learning in practical ways. The session emphasized hands-on tips and responsible use of GenAI in line with KU Leuven guidelines.",
-    imageUrl: "/website/academictalk35.jpg"
+    imageUrl: "/academictalk35.jpg"
   },
   {
     id: 'academictalk41',
@@ -530,8 +530,8 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
     description: "'In een tijdperk waar technologische innovaties, en in het bijzonder GenAI, razendsnel evolueren, staat ons onderwijs voor nieuwe uitdagingen en kansen. In deze lezing verkennen we de delicate balans tussen het omarmen van GenAI in het (Nederlandse) taalonderwijs en het behouden van een kritische, bewuste en menselijke aanpak. We duiken in de kansen die GenAI biedt voor het verrijken van de leerervaring van onze studenten, alsook de inherente risico's die gepaard gaan met een te grote afhankelijkheid van dergelijke technologieën. \n \n We staan stil bij de vraagstukken rond het evalueren van de taalvaardigheden van studenten in een tijd waarin technologie een steeds grotere rol speelt. Hoe kunnen we er zeker van zijn dat zij aan het einde van hun leertraject in staat zijn zich uit te drukken in een (vreemde) taal, zelfstandig en niet noodzakelijk geassisteerd door technologische hulpmiddelen? \n \n Verder verkennen we hoe GenAI kan dienen als een krachtige bondgenoot in ons eigen onderwijsproces. We zullen onderzoeken hoe docenten optimaal gebruik kunnen maken van de voordelen en nieuwe werkvormen die GenAI te bieden heeft, zonder daarbij de essentie van ons vakgebied te ontmenselijken. \n \n Aan de hand van inspirerende voorbeelden, praktische tips en inzichten in hoe KU Leuven navigeert door de steeds evoluerende technojungle, zullen we in deze sessie licht werpen op effectieve strategieën voor het integreren van GenAI in het taalonderwijs. Samen gaan we op zoek naar de juiste tools en het inzicht om GenAI op een goede manier te benaderen, zodat zowel docenten als studenten het maximale uit deze revolutionaire technologie kunnen halen, zonder daarbij de menselijke touch te verliezen.'",
-    imageUrl: "/website/academictalk25.jpg",
-    link: "/website/Presentation_NVT.pdf"
+    imageUrl: "/academictalk25.jpg",
+    link: "/Presentation_NVT.pdf"
   },  
   {
     id: 'media8',
@@ -542,7 +542,7 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "Video description: 'Watch the #100PhDAlumniVoices session by Leen Sevens, PhD in Computational Linguistics. #100PhDAlumniVoices is a web series connecting PhD alumni with current students to discuss diverse career paths post-PhD. Episodes include conversations between alumni and a moderator, followed by Q&A sessions for students.'",
     link: "https://connect.kuleuven.cloud/page/global-talks-phdalum-ghum-kuleuven",
-    imageUrl: "/website/media6.png"
+    imageUrl: "/media6.png"
   },
   {
     id: 'academictalk48',
@@ -552,7 +552,7 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
     description: "Invited lecture for the Research Unit for Economics Education (Faculty of Economics and Business, KU Leuven), delivered during the unit's annual council meeting. \n \n 'In een tijdperk waar technologische innovaties, en in het bijzonder GenAI, razendsnel evolueren, staat ons onderwijs voor nieuwe uitdagingen en kansen. In deze sessie verkennen we de delicate balans tussen het omarmen van GenAI in het onderwijs en het behouden van een kritische, bewuste aanpak. We duiken in de kansen die GenAI biedt voor het verrijken van de leerervaring van onze studenten, alsook de inherente risico's die gepaard gaan met een te grote afhankelijkheid van dergelijke technologieën. \n \n We staan stil bij de vraagstukken rond het evalueren van de (schrijf)vaardigheden van studenten in een tijd waarin technologie een steeds grotere rol speelt. Hoe kunnen we er zeker van zijn dat zij aan het einde van hun leertraject in staat zijn hun unieke, menselijke talenten optimaal te benutten, zelfstandig en niet noodzakelijk geassisteerd door technologische hulpmiddelen? \n \n Verder verkennen we hoe GenAI kan dienen als een krachtige bondgenoot in ons eigen onderwijsproces. We zullen onderzoeken hoe docenten optimaal gebruik kunnen maken van de voordelen en nieuwe werkvormen die GenAI ons te bieden heeft, zonder daarbij de essentie van ons vakgebied te ontmenselijken. \n \n Aan de hand van inspirerende voorbeelden en inzichten in hoe KU Leuven navigeert door de steeds evoluerende technojungle, gaan we samen op zoek naar de juiste methoden om GenAI op een goede manier te benaderen, zodat zowel docenten als studenten het maximale uit deze revolutionaire technologie kunnen halen, zonder daarbij de menselijke touch te verliezen.'",
-    imageUrl: "/website/academictalk28.jpg"
+    imageUrl: "/academictalk28.jpg"
   },   
   {
     id: 'academictalk34',
@@ -562,8 +562,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Invited lecture at the CLT Inspiration Day at the Faculty Club in Leuven, a professional development event bringing together educators for keynotes, poster presentations, workshops, and the exchange of best practices in language education. The session contributed to ongoing dialogue on innovation and quality in language teaching.",
-    imageUrl: "/website/academictalk19.png",
-    link: "/website/Presentation_CLT.pdf",
+    imageUrl: "/academictalk19.png",
+    link: "/Presentation_CLT.pdf",
   },
   {
     id: 'academictalk28',
@@ -582,7 +582,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Workshop in collaboration with Lien Castelein. \n \n 'In this session, we will discuss the opportunities and challenges of GenAI for education. Together, we will explore tools and good practices that challenge you to implement AI in your educational practice in a positive, yet critical way.'",
-    imageUrl: "/website/academictalk32.jpg"
+    imageUrl: "/academictalk32.jpg"
   },  
   {
     id: 'academictalk40',
@@ -601,7 +601,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Hosting',
     description: "Co-organizer and panel moderator of the 'Dag van de Onderwijsondersteuner' (Day of the Educational Support Professional), dedicated to exploring the challenges and opportunities of generative AI and its impact on the role of educational support staff. The event examined practical applications of tools such as Copilot and ChatGPT, strategies for effective use in educational and workplace contexts, and critical reflections on both the benefits and risks of GenAI.",
-    imageUrl: "/website/host5.jpg"
+    imageUrl: "/host5.jpg"
   },
   {
     id: 'academictalk51',
@@ -611,7 +611,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Workshop in collaboration with Lien Castelein on the fundamentals of generative AI in higher education, introducing KU Leuven guidelines for responsible use alongside practical prompting tips and hands-on strategies. The session supported teaching staff in understanding both institutional policy and everyday applications of GenAI for learning, teaching, and assessment.",
-    imageUrl: "/website/academictalk30.jpg"
+    imageUrl: "/academictalk30.jpg"
   },  
   {
     id: 'media9',
@@ -621,7 +621,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Media & Interviews',
     description: "Wat is je rol in het Leuvense onderwijsveld? \n \n Onderwijsinnovator aan de Groep Humane Wetenschappen van KU Leuven met een hart voor educatieve technologie en artificial intelligence. \n \n Wat betekent Samen Onderwijs Maken (SOM) voor jou? \n \n 'Samen Onderwijs Maken' staat voor een krachtig netwerk waarin diverse onderwijspartners hun expertise bundelen. Van het uitwisselen van innovatieve ideeën, tot het bedenken van oplossingen voor gemeenschappelijke uitdagingen over de gehele breedte van het onderwijsspectrum. Van kleuteronderwijs tot volwassenenonderwijs. Van beleidsnota's tot praktijk. Door samen te werken, versterken we het onderwijs in zijn geheel en zorgen we voor een vruchtbare bodem voor innovatie. \n \n Wat kan er volgens jou anders in het onderwijs? \n \n Binnen het brede spectrum van ons onderwijs kan er meer aandacht worden besteed aan een snelle, veilige en effectieve integratie van nieuwe technologieën, zoals GenAI. Het is belangrijk dat zowel de risico's als de opportuniteiten worden belicht. GenAI biedt bijvoorbeeld unieke kansen voor het personaliseren van het leerproces, wat kan bijdragen aan een inclusiever onderwijs. Door zowel studenten als onderwijzend personeel tijdig te sensibiliseren, kunnen we de kracht van nieuwe technologieën optimaal benutten en werken aan een toekomstbestendig onderwijssysteem. \n \n Waarvoor mogen onderwijsmakers jou contacteren? \n \n Mijn passie ligt bij het benutten van educatieve technologie als katalysator voor onderwijsinnovatie. Mijn enthousiasme wordt vooral gewekt door taaltechnologie en de manieren waarop digitalisering kan bijdragen aan verhoogde personalisatie binnen ons onderwijs. Samen kunnen we op zoek gaan naar nieuwe, effectieve onderwijsmethoden die aansluiten bij de unieke talenten en behoeften van elke student... én docent! \n \n Wat maakt voor jou het beroep van leraar zo mooi? \n \n Als onderwijsinnovator aan de Groep Humane Wetenschappen sta ik elke dag in contact met gedreven docenten en onderwijsondersteuners. Zij zijn voortdurend op zoek naar de meest effectieve methodes om studenten te betrekken, activeren en begeesteren. Hoewel mijn enthousiasme voor technologie groot is, vind ik het fantastisch dat het menselijke aspect steeds de kern blijft van ons onderwijs. Zo kunnen onze docenten onderwijs bieden dat niet alleen informeert, maar ook inspireert en transformeert.",
-    imageUrl: "/website/media5.jpg"
+    imageUrl: "/media5.jpg"
   },
   {
     id: 'scicomm18',
@@ -631,7 +631,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
-    imageUrl: "/website/scicomm14.png",
+    imageUrl: "/scicomm14.png",
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
@@ -642,7 +642,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Workshop for the Faculty of Law and Criminology in collaboration with Christof Koolen, Laura Eskens, Kyra Wigard, and Denzel Vingerhoed. \n \n 'Klinken de namen Dall-E, Gemini en Copilot je nog onbekend in de oren? Dan introduceren we je graag in de wondere wereld van generatieve artificiële intelligentie. De faculteit, in samenwerking met de Groep Humane Wetenschappen, nodigt je uit voor 'Van codex tot chatbot. Een crashcourse over generatieve AI en onderwijs aan FRC'. Tijdens deze workshop ontdek je hoe studenten generatieve AI kunnen inzetten tijdens hun studieloopbaan en welke mogelijkheden generatieve AI-tools bieden voor jouw eigen lespraktijk. De focus ligt op de criminologische en juridische context. We zullen dieper ingaan op het effectief gebruik van GenAI, de richtlijnen voorgeschreven door KU Leuven, en hoe om te gaan met kwesties als eigenaarschap en plagiaat. Voorkennis is niet nodig, we beginnen bij de basis.'",
-    imageUrl: "/website/academictalk23.jpg"
+    imageUrl: "/academictalk23.jpg"
   },  
   {
     id: 'host6',
@@ -653,7 +653,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer and panel moderator of the fourth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze vierde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-iv",
-    imageUrl: "/website/host4.png"
+    imageUrl: "/host4.png"
   },
   {
     id: 'academictalk30',
@@ -663,8 +663,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "During this afterwork event, SOM organized keynote talks on the role of AI in education for teachers and educational professionals. Experts were invited to share insights and perspectives in the inspiring setting of Leuven City Hall. \n \n Keynote description: 'Leen Sevens is educatief technoloog aan de KU Leuven. In haar keynote licht ze uit hoe AI van waarde kan zijn voor het hoger onderwijs. Ze zal daarbij ingaan op praktische do's en don'ts voor het gebruik van AI in communicatie, administratie en de lespraktijk. Daarbij zoomt ze ook in op de aanpak van de KU Leuven in het bewust en kritisch omgaan met verschillende uitdagingen gerelateerd aan GenAI, waaronder plagiaat en het gebruik van AI in de leeromgeving.'",
-    imageUrl: "/website/academictalk16.jpg", 
-    link: "/website/Presentation_FTI.pdf", 
+    imageUrl: "/academictalk16.jpg", 
+    link: "/Presentation_FTI.pdf", 
   },
   {
     id: 'academictalk37',
@@ -683,7 +683,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Workshop in collaboration with Liese Luijten. \n \n 'AI is een krachtig hulpmiddel voor onderzoeksondersteuners, maar het is niet altijd makkelijk om het goed te gebruiken. Daarom organiseren we een workshop over GenAI, waar je leert hoe je verschillende AI toepassingen kan inzetten in het werkveld van onderzoeksondersteuners en informatiespecialisten. Je krijgt een inleiding tot de basis van GenAI, maar ook concrete tips en tricks om correct aan de slag te gaan met AI. Je ontdekt welke mogelijkheden AI biedt voor jouw werkveld en je gaat tijdens de workshop hands on met prompts experimenteren om AI ten volle te benutten. Deze workshop is bedoeld voor de onderzoeksondersteuner en informatiespecialist die meer wil leren over GenAI en er direct mee aan de slag wil gaan.'",
-    imageUrl: "/website/academictalk20.jpg"
+    imageUrl: "/academictalk20.jpg"
   },
   {
     id: 'media11',
@@ -693,7 +693,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Media & Interviews',
     description: "Panel participant at the Generative AI Day for Management lecturers by UCLL (Leuven and Limburg regions), a professional development event bringing together approximately 150 educators across diverse disciplines. The panel focused on exploring the implications of GenAI for higher education.",
-    imageUrl: "/website/media9.jpg"
+    imageUrl: "/media9.jpg"
   },
   {
     id: 'scicomm26',
@@ -703,8 +703,8 @@ export const TALKS: Talk[] = [
     location: "Kortrijk, Belgium",
     type: 'science communication',
     description: "Invited talk for PhD students on practical techniques for communicating research clearly and effectively.",
-    imageUrl: "/website/scicomm19.jpg",
-    link: "/website/Presentation_Kulak2.pdf"
+    imageUrl: "/scicomm19.jpg",
+    link: "/Presentation_Kulak2.pdf"
   },
   {
     id: 'academictalk50',
@@ -724,7 +724,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer and panel moderator of the third edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat is het 'nieuwe' normaal en waarin verschilt dit juist wel of niet van het 'oude' normaal? Hoe kunnen we interactie met en tussen studenten bevorderen? Hoe stimuleer je reflectie, discussie en samenwerking tussen studenten? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze derde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend-III",
-    imageUrl: "/website/host4.png"
+    imageUrl: "/host4.png"
   },
   {
     id: 'scicomm23',
@@ -734,9 +734,9 @@ export const TALKS: Talk[] = [
     location: "Kortrijk, Belgium",
     type: 'science communication',
     description: "Event description: 'We have invited dr. Leen Sevens, PhD in Computational Linguistics & MSc in Artificial Intelligence, to deliver the keynote lecture during the Research Afternoon. Dr. Sevens is specialized in how to communicate research successfully and creatively to the outer world. This lecture, full of valuable tips, tricks & lessons learnt, will send you home feeling inspired and ready to take your first/next steps towards becoming a resourceful science communicator yourself.'",
-    imageUrl: "/website/scicomm17.jpg",
-    gallery: ["/website/scicomm18.jpg"],
-    link: "/website/Presentation_Kulak1.pdf"
+    imageUrl: "/scicomm17.jpg",
+    gallery: ["/scicomm18.jpg"],
+    link: "/Presentation_Kulak1.pdf"
   },
   {
     id: 'scicomm17',
@@ -746,7 +746,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
-    imageUrl: "/website/scicomm13.jpg",
+    imageUrl: "/scicomm13.jpg",
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
    {
@@ -758,7 +758,7 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "Podcast in collaboration with Lien Castelein. Description: 'We bekijken de rol van artificiële intelligentie in het hoger onderwijs van dichtbij. Mogen studenten hun pennen opbergen, want schrijven is verleden tijd? Moeten we terug naar examens met pen en papier? Kortom, staat er binnenkort een robot voor de aula?'",
     link: "https://open.spotify.com/episode/0eyXI2q9sHt4H47aKPYSzZ",
-    imageUrl: "/website/media3.jpg"
+    imageUrl: "/media3.jpg"
   },
   {
     id: 'scicomm22',
@@ -768,7 +768,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Invited pitch presentation at the farewell lecture of Professor Frank Van Eynde, celebrating his emeritus status, where I presented my PhD Cup pitch as part of the academic tribute to his career and mentorship.",
-    imageUrl: "/website/academictalk24.jpg"
+    imageUrl: "/academictalk24.jpg"
   },
   {
     id: 'scicomm15',
@@ -778,7 +778,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the '3 Minute Thesis' competition at KU Leuven, organized during 'Dag van de Wetenschap' ('Science Day').",
-    imageUrl: "/website/scicomm11.jpg"
+    imageUrl: "/scicomm11.jpg"
   },
   {
     id: 'academictalk27',
@@ -799,7 +799,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer of the second edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Het einde van de werkweek was nog nooit zo leuk als op vrijdag 10 december 2021 tijdens The Big Blend II. Toen injecteerden enkele docenten en ondersteuners van de Groep Humane Wetenschappen een honderdtal deelnemers met een prikkelende inspiratieboostershot. Ze vertelden er onder meer hoe ze met behulp van educatieve tools in dialoog en interactie zijn gegaan met studenten én elkaar.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-II",
-    imageUrl: "/website/host4.png"
+    imageUrl: "/host4.png"
   },
   {
     id: 'media6',
@@ -810,7 +810,7 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "Article description: 'In een vorig leven was Leen Sevens onderzoeker in taaltechnologie. Vandaag gaat ze als stafmedewerker educatieve technologie bij de Groepsdiensten van Humane Wetenschappen op zoek naar technologische oplossingen die nuttig zijn voor onze docenten en studenten. Maar ook Donald Duck, cosplay en exotische talen spelen een belangrijke rol in haar leven.'",
     link: "https://stories.kuleuven.be/nl/verhalen/speeddate-met-leen-sevens-ooit-wil-ik-klingon-leren",
-    imageUrl: "/website/media2.jpg"
+    imageUrl: "/media2.jpg"
   },
   {
     id: 'academictalk26',
@@ -831,7 +831,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer the first edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Wat krijg je als docenten en ondersteuners hun ervaringen en expertise over blended leren samenbrengen? The Big Blend, ofwel een dynamisch online event met getuigenissen uit de Groep Humane Wetenschappen. Meer dan 172 deelnemers van 19 faculteiten en diensten popten op in de Microsoft Teams-meeting op vrijdag 4 december 2020 om zich door hun collega's te laten inspireren.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/realisaties/the-big-blend-terugblik",
-    imageUrl: "/website/host4.png"
+    imageUrl: "/host4.png"
   },
   {
     id: 'scicomm11',
@@ -841,8 +841,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "'Kinderuniversiteit' ('Children's University') is an educational outreach initiative that introduces children to university life through engaging lectures, workshops, and hands-on activities, inspiring curiosity and a love for science and learning from an early age.",
-    imageUrl: "/website/scicomm7.jpg",
-    gallery: ["/website/scicomm8.jpg"] 
+    imageUrl: "/scicomm7.jpg",
+    gallery: ["/scicomm8.jpg"] 
   },
   {
     id: 'academictalk49',
@@ -852,7 +852,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "'Onderwijsinstellingen worden in toenemende mate getransformeerd door intelligente systemen die mensen helpen beter te leren en hun leerdoelen te bereiken: artificial intelligence. Van hypergepersonaliseerde leeromgevingen en slimme taaltechnologieën, tot automatische feedback en virtuele klaslokalen: het belang van technologie in het hoger onderwijs zal de komende jaren alleen maar toenemen. Krijg ik straks een robot als collega? Gaan computers mijn werk overnemen? Of creëert artificial intelligence juist meer ruimte voor innovatie en creativiteit? In deze sessie nemen we een kijkje naar de manier waarop artificial intelligence ons onderwijslandschap vandaag de dag al beïnvloedt en gaan we samen op zoek naar slimme oplossingen voor hedendaagse uitdagingen vanuit een optimistisch, maar realistisch toekomstperspectief.'",
-    imageUrl: "/website/academictalk29.jpg"
+    imageUrl: "/academictalk29.jpg"
   },  
   {
     id: 'scicomm21',
@@ -871,8 +871,8 @@ export const TALKS: Talk[] = [
     location: "Antwerp, Belgium",
     type: 'Academic & Professional',
     description: "Guest lecture about pictograph translation technologies for the course 'Communicatiewetenschap' at the Faculty of Arts in Antwerp.",
-    imageUrl: "/website/academictalk14.jpg",
-    link: "/website/Presentation_Picto.pdf"
+    imageUrl: "/academictalk14.jpg",
+    link: "/Presentation_Picto.pdf"
   },
   {
     id: 'scicomm14',
@@ -882,8 +882,8 @@ export const TALKS: Talk[] = [
     location: "Antwerp, Belgium",
     type: 'science communication',
     description: "Invited speaker at the VRT Taalavond in deSingel, where I presented my PhD Cup pitch 'Chatten zonder letters' and was interviewed by Marcel Vanthilt about accessibility in language.",
-    imageUrl: "/website/scicomm9.jpg",
-    gallery: ["/website/scicomm10.jpg"] 
+    imageUrl: "/scicomm9.jpg",
+    gallery: ["/scicomm10.jpg"] 
   },
   {
     id: 'scicomm13',
@@ -893,7 +893,7 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'science communication',
     description: "The Vlaamse Phd Cup (Flemish PhD Cup) is a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round. My pitch placed third.",
-    imageUrl: "/website/award12.jpg",
+    imageUrl: "/award12.jpg",
   },
   {
     id: 'scicomm12',
@@ -903,7 +903,7 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'science communication',
     description: "The Vlaamse Phd Cup (Flemish PhD Cup) is a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round. My pitch advanced to the final round.",
-    imageUrl: "/website/award13.png",
+    imageUrl: "/award13.png",
   },
   {
     id: 'academictalk25',
@@ -931,7 +931,7 @@ export const TALKS: Talk[] = [
     location: "Lanaken, Belgium",
     type: 'science communication',
     description: "The 'Ervaringsdagen' ('Experience Days') in Lanaken are educational awareness events, organised by the municipal Welfare Service and the Advisory Council for People with Disabilities, where children and adults take part in interactive workshops that simulate everyday experiences of living with a disability. Held at the Lanaken Cultural Centre, these activities aim to foster understanding, empathy, and inclusive attitudes.",
-    imageUrl: "/website/scicomm2.jpg"
+    imageUrl: "/scicomm2.jpg"
   },
   {
     id: 'scicomm27',
@@ -941,7 +941,7 @@ export const TALKS: Talk[] = [
     location: "Dilbeek, Belgium",
     type: 'science communication',
     description: "Workshop for non-native speakers in the Brussels metropolitan area on using pictogram-based communication tools in self-reliance courses, focusing on accessibility, everyday communication, and visual support for language learning.",
-    imageUrl: "/website/scicomm20.jpg"
+    imageUrl: "/scicomm20.jpg"
   },
   {
     id: 'academictalk61',
@@ -951,8 +951,8 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Academic & Professional',
     description: "Invited lecture at the VUB Artificial Intelligence Lab (Vrije Universiteit Brussel), presenting the conclusions of the Picto project on automatic translation between pictographs and text. The talk addressed technological developments, linguistic challenges, and broader implications for accessibility, inclusion, and AI-driven communication support.",
-    imageUrl: "/website/academictalk36.png",
-    link: "/website/Presentation_Picto2.pdf"
+    imageUrl: "/academictalk36.png",
+    link: "/Presentation_Picto2.pdf"
   },
   {
     id: 'academictalk62',
@@ -972,8 +972,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "'Never in the history of mankind have we produced more text than at this present moment. Being able to read and write is an important way of taking part in our society. However, we tend to forget that, even in our educated communities, there exist several degrees of literacy. Written text on the Internet creates a barrier between people with and without an intellectual disability. As a result, people with reading and writing difficulties are e-excluded. Schools and day centres for people with an intellectual disability use specialised picture systems, called pictographs, that depict everyday activities and objects, to enable accessible written communication between children or adults with an intellectual disability and their environment. In my dissertation, I transfer these pictographs to social media platforms and email, by developing natural language processing tools that automatically translate natural language text into pictographs and vice versa for people with an intellectual disability, allowing them to read and write status updates, emails, and chat messages in online environments.'",
-    imageUrl: "/website/academictalk13.jpg",
-    link: "/website/Presentation_Picto3.pdf"
+    imageUrl: "/academictalk13.jpg",
+    link: "/Presentation_Picto3.pdf"
   },
   {
     id: 'scicomm8',
@@ -992,7 +992,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "'Dag van de Wetenschap' ('Science Day') is an annual public outreach event in which universities, research institutions, and science organisations open their doors to the public, offering hands-on activities, demonstrations, workshops, and talks to make scientific research accessible, engaging, and relevant for a broad audience.",
-    imageUrl: "/website/scicomm6.jpg"
+    imageUrl: "/scicomm6.jpg"
   },
   {
     id: 'scicomm6',
@@ -1002,7 +1002,7 @@ export const TALKS: Talk[] = [
     location: "Antwerp, Belgium",
     type: 'science communication',
     description: "Winner of KU Leuven's Science Slam at the 'Boekenbeurs van Antwerpen' ('Antwerp Book Fair'), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
-    imageUrl: "/website/award6.jpg"
+    imageUrl: "/award6.jpg"
   },
   {
     id: 'scicomm7',
@@ -1012,7 +1012,7 @@ export const TALKS: Talk[] = [
     location: "Antwerp, Belgium",
     type: 'science communication',
     description: "Speaker at the VIP opening event of the 'Boekenbeurs van Antwerpen' ('Antwerp Book Fair') as a representative of KU Leuven.",
-    imageUrl: "/website/scicomm5.jpg"
+    imageUrl: "/scicomm5.jpg"
   },
   {
     id: 'scicomm24',
@@ -1032,7 +1032,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer of the second workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 7) at the 11th Language Resources and Evaluation Conference (LREC 2018) in Miyazaki, Japan. \n \n 'Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?'",
     link: "https://www.ccl.kuleuven.be/ISINLP2/",
-    imageUrl: "/website/host3.jpg"
+    imageUrl: "/host3.jpg"
   },
   {
     id: 'scicomm16',
@@ -1042,7 +1042,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
-    imageUrl: "/website/scicomm12.jpg",
+    imageUrl: "/scicomm12.jpg",
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
   },
   {
@@ -1053,7 +1053,7 @@ export const TALKS: Talk[] = [
     location: "Kortrijk, Belgium",
     type: 'science communication',
     description: "Invited talk for Kulak staff on practical techniques for communicating research clearly and effectively.",
-    imageUrl: "/website/scicomm4.jpg"
+    imageUrl: "/scicomm4.jpg"
   },
   {
     id: 'academictalk22',
@@ -1063,7 +1063,7 @@ export const TALKS: Talk[] = [
     location: "Nijmegen, The Netherlands",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Lyan Verwimp, Ineke Schuurman, Frank Van Eynde, and Patrick Wambacq, presented by me. \n \n 'In today's digital age, people with limited reading and writing skills have trouble partaking in online activities. Not being able to access or use information technology is a major form of social exclusion. We present a Pictograph-to-Text translation system for people with an intellectual disability. It provides help in constructing Dutch textual messages, by allowing the user to input a series of pictographs, and translates these messages into natural language text. \n \n The main challenge in translating from pictograph languages to natural language text is the fact that a pictograph-for-word correspondence will almost never provide an acceptable output. Pictographs are underspecified, both semantically and grammatically. In the second place, the pictograph input to translation could be ambiguous and unpredictable with respect to pictograph order. Our baseline system for Pictograph-to-Text translation (Sevens et al. 2015) generates natural language from pictographs using language models and does not use any grammatical information in the translation process. When a pictograph is selected, its connected WordNet synset is retrieved, and from this synset, the system retrieves all the synonyms it contains. For each of these synonyms, reverse lemmatisation is applied. The reverse lemmatiser retrieves the full inflectional paradigm of each lemma. Each of these surface forms is a hypothesis for the language model. We propose two types of language models. In our n-gram-based approach, the system performs beam search decoding on an n-gram language model (n≤5), trained with the CMU toolkit (Clarkson & Rosenfeld 1997) on a Dutch corpus of over 1100M tokens. In our Long Short-Term Memory-based approach, we train a language model with Tensorflow (Abadi et al. 2016) on the Flemish part of the CGN corpus (3.8M tokens) (Oostdijk et al. 2002) and re-rank the natural language hypotheses. The evaluations of the baseline system show that using language models for finding the most likely combination of textual representations is already an improvement over the initial baseline (i.e., pictograph file names), but there is ample room for improvement. \n \n In recent experiments, we apply machine translation techniques. Since a parallel corpus of pictograph sequences and well-formed written Dutch text is not available, we explore different approaches toward the creation of a suitable parallel corpus. In our first approach, we automatically translate a large corpus of monolingual Dutch SoNaR subtitles (27.6M tokens) (Oostdijk et al. 2013) into pictographs using the Text-to-Pictograph translation tool (Vandeghinste et al. 2015). In our second approach, we lemmatise the subtitle corpus, and remove all words that are not content words, thus creating a source language corpus that resembles pictograph input. Our phrase-based statistical machine translation approach toward Pictograph-to-Text translation uses the Moses decoder (Koehn et al. 2007), while our neural machine translation approach makes use of the open-source system OpenNMT (Klein et al. 2017). We build different models using a variety of training conditions, including factored models that include part-of-speech and lemma information, and evaluate all systems using automated metricks and human evaluations (adequacy, fluency, and ranking). Our first experiments indicate that the machine translation approaches outperform the baseline system.'",
-    link: "/website/Presentation_Picto4.pdf"
+    link: "/Presentation_Picto4.pdf"
   },
   {
     id: 'media4',
@@ -1093,7 +1093,7 @@ export const TALKS: Talk[] = [
     location: "Geel, Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n The Com@Modem Dag is an annual event (Thomas More University of Applied Sciences) focused on Augmentative and Alternative Communication (AAC) for people with speech, writing, or reading difficulties.",
-    imageUrl: "/website/academictalk12.jpg"
+    imageUrl: "/academictalk12.jpg"
   },
   {
     id: 'media2',
@@ -1103,7 +1103,7 @@ export const TALKS: Talk[] = [
     location: "Remote",
     type: 'Media & Interviews',
     description: "Article description: 'Leen Sevens (25) uit Lanaken heeft een vertaalsysteem uitgevonden dat tekst kan omzetten in pictogrammen en vice versa. Daarmee wil de doctoraatsstudente het internet en sociale media toegankelijker maken voor mensen met een verstandelijke beperking. 'Maar het systeem zou bijvoorbeeld ook gebruikt kunnen worden om te kunnen communiceren met vluchtelingen die nog geen Nederlands kunnen', zegt de Lanakense.'",
-    imageUrl: "/website/media1.jpg"
+    imageUrl: "/media1.jpg"
   },
   {
     id: 'scicomm4',
@@ -1113,7 +1113,7 @@ export const TALKS: Talk[] = [
     location: "Berlin, Germany",
     type: 'science communication',
     description: "Presentation for the Falling Walls Lab international finale in Berlin. A hundred candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience.",
-    imageUrl: "/website/scicomm3.jpg"
+    imageUrl: "/scicomm3.jpg"
   },
   {
     id: 'academictalk20',
@@ -1132,7 +1132,7 @@ export const TALKS: Talk[] = [
     location: "Sheffield, UK",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Jo Daems, Annelies De Vliegher, Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'We present a pictograph interface for Pictograph-to-Text translation, which facilitates the construction of written text on social media platforms for users with Intellectual Disabilities. For the design of the interface, a user-centred approach was adopted. Results show that the target group can appreciate accessing social media through pictograph-based technologies.'",
-    imageUrl: "/website/academictalk10.jpg"
+    imageUrl: "/academictalk10.jpg"
   },
   {
     id: 'scicomm3',
@@ -1170,7 +1170,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n The Picto technology received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
-    imageUrl: "/website/award14.jpg"
+    imageUrl: "/award14.jpg"
   },
     {
     id: 'academictalk16',
@@ -1180,7 +1180,7 @@ export const TALKS: Talk[] = [
     location: "Örebro, Sweden",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs. Our baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave our end users confused and distracted. \n \n In order to formulate a set of objectives for pictograph output simplification, we study a number of guidelines and inspiration sources: the Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the 'Klare Taal' checklist for clear language. We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations using gold standard simplifications. The system does not perform any unnecessary syntactic simplification operations and high accuracy scores were obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Simplification systems are ideally tested with the intended users. Future evaluations within the framework of the European Able to Include project will involve human judgements. We expect these experiments to reveal the merits and disadvantages of our proposed solutions.'",
-    imageUrl: "/website/academictalk9.jpg",
+    imageUrl: "/academictalk9.jpg",
   },
   {
     id: 'academictalk15',
@@ -1190,7 +1190,7 @@ export const TALKS: Talk[] = [
     location: "Örebro, Sweden",
     type: 'Academic & Professional',
     description: "Poster in collaboration with Ineke Schuurman, Annelies De Vliegher, and Jo Daems, presented by me. \n \n 'People with Intellectual Disabilities (ID) currently have very limited access to the information society and social media websites. Not being able to access or use information technology is a major form of social exclusion. The Able to Include project aims to overcome this problem by developing a set of technologies that can improve the daily lives of people with ID. One such technology is the Picto translation system, which translates Dutch, English, and Spanish written text into a series of Sclera or Beta pictographs, and vice versa. At the time of developing the Picto system, a number of technical decisions had to be made. In order to create a truly useful tool that is tailored toward the target group, the end users' feedback turned out to be indispensable. \n \n Within the project, three types of pilot studies are carried out. One concerns 'Leisure within the Information Society', another one 'Mobility', and the third one 'Labour Integration'. These pilots allow, through the interaction with real users, for a permanent adjustment of the project, especially of the tools and resources involved. \n \n The results of the Flemish pilot studies are used to adapt and improve the Dutch Picto translation technology. Testing is a particularly long process, especially since it requires very small steps to be taken. However, we found that, if that time is spent meaningfully and a solid methodology is adopted, the feedback that is given by the end users can be exceptionally valuable. For instance, they thought the initial pictograph output was too long and complex, so a simplification module was added. There are many examples of how the users' opinions influence our technical decisions. \n \n The users are enthusiastic about being part of the project. They are eager to learn more about the technologies and positive about accessing Facebook through them. After all, they are the experts, and when new technologies are developed for them, they should, ideally, be involved from the very start.'", 
-    imageUrl: "/website/academictalk8.jpg",
+    imageUrl: "/academictalk8.jpg",
   },
   {
     id: 'scicomm1',
@@ -1201,7 +1201,7 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "Presentation for the Falling Walls Lab competition in Leuven. Fifteen candidates presented their innovative and groundbreaking research in 3 minutes to a jury and audience. The jury as well as the audience declared a winner. 'Breaking the Wall of Illiteracy' won the Jury's First Prize and the Audience Award.",
     imageUrl: "award4.jpg",
-    gallery: ["/website/award5.jpg", "/website/scicomm1.jpg"]
+    gallery: ["/award5.jpg", "/scicomm1.jpg"]
   },
   {
     id: 'academictalk14',
@@ -1221,7 +1221,7 @@ export const TALKS: Talk[] = [
     location: "Mechelen, Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n On 10 February 2017, the Op.Recht.Mechelen conference 'Better Management of Justice: Also Better for the Citizen?' was held in Mechelen, Belgium, as part of the city's Op.Recht.Mechelen festival focusing on law and justice. The event brought together legal experts, policymakers and academics to discuss how reforms in the management of the justice system could improve its performance and benefit society.",
-    link: "/website/Presentation_Oprecht.pdf"
+    link: "/Presentation_Oprecht.pdf"
   },
   {
     id: 'host8',
@@ -1241,7 +1241,7 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'In order to enable or facilitate online communication for people with Intellectual Disabilities, the Text-to-Pictograph translation system automatically translates Dutch written text into a series of Sclera or Beta pictographs. The baseline system presents the reader with a more or less verbatim pictograph-per-word translation, without changing the order of the pictographs, and not removing any redundant information in the output pictograph sequence. As a result, long and complex input sentences lead to long and complex pictograph translations, which often leave the end users confused and distracted. \n \n We build an inventory of syntactic phenomena to be treated by the simplification module and introduce deep linguistic analysis into the translation process, using the Alpino parser for preprocessing. The Chinese writing system, easy-to-read news messages for people with Intellectual Disabilities, and the 'Klare Taal' checklist for clear language serve as an inspiration source. The simplification module splits long and complex sentences into several shorter units, and deletes pictographs that do not contribute to the essence of the message. This leads to shorter, clearer, and more consistent pictograph conversions. \n \n We perform automated evaluations of the simplification module using gold standard simplifications. The system does not apply any unnecessary simplification operations and high accuracy scores are obtained. \n \n Applying syntactic simplification for Text-to-Pictograph translation is a complex, yet necessary step toward making our system more user-friendly and usable. Future evaluations will involve human judgments.'", 
-    link: "/website/Presentation_Picto5.pdf"
+    link: "/Presentation_Picto5.pdf"
   },
   {
     id: 'academictalk11',
@@ -1260,7 +1260,7 @@ export const TALKS: Talk[] = [
     location: "Lancaster, UK",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Ineke Schuurman, John O'Flaherty, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'In order to be included in today's society, it is becoming increasingly important to be able to use the current available technological tools. The number of apps is growing exponentially, but very few are really accessible to people with Intellectual Disabilities (ID). However, users indicated very clearly their desire to interact with their friends and family on social media. The Able-to-Include project seeks to improve the lives of people with ID. Able-to-Include is creating a context-aware Accessibility Layer based on three key technologies that can improve the daily tasks of people with ID and help them interact with the Information Society. These technologies are a text simplifier, pictograph translation technologies, and text-to-speech funtionalities. The integration of this Accessibility Layer with existing ICT tools will be tested in different pilots in Spain, Belgium, and the UK. Within the Able-to-Include project, KU Leuven is responsible for the development of the Text-to-Pictograph and Pictograph-to-Text translation tools. The Text-to-Pictograph translation tool translates Dutch, English, and Spanish text into a series of Sclera or Beta pictographs. Additional to a shallow source language analysis, we use WordNets to link pictographs to groups of synonyms and retrieve appropriate or semantically related pictographs in the translation process. The system allows social media text to be converted into pictographs with a single tap. The Pictograph-to-Text translation system provides help in constructing Dutch, English, and Spanish textual messages by allowing the user to introduce a series of pictographs and translates these messages into natural language using WordNet synsets and a trigram language model. So far, we have developed two different input methods. When using social media websites, users have access to the Accessibility Layer to construct pictograph messages using a pictograph hierarchy and a pictograph predictor. Their messages will be converted to text, which can be posted on the website.'", 
-    imageUrl: "/website/academictalk7.jpg"
+    imageUrl: "/academictalk7.jpg"
   },
  {
     id: 'academictalk9',
@@ -1270,7 +1270,7 @@ export const TALKS: Talk[] = [
     location: "Berlin, Germany",
     type: 'Academic & Professional',
     description: "Poster in collaboration with Gilles Jacobs, Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'We describe the implementation of a Word Sense Disambiguation (WSD) tool in a Dutch Text-to-Pictograph translation system, which converts textual messages into sequences of pictographic images. The system is used in an online platform for Augmentative and Alternative Communication (AAC). In the original translation process, the appropriate sense of a word was not disambiguated before converting it into a pictograph. This often resulted in incorrect translations. The implementation of a WSD tool provides a better semantic understanding of the input messages.'",
-    imageUrl: "/website/academictalk6.png"
+    imageUrl: "/academictalk6.png"
   },
   {
     id: 'host1',
@@ -1281,7 +1281,7 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "I co-organized the first workshop on 'Improving Social Inclusion: Tools and Resources' (ISI-NLP, pronounce ['i:zi] NLP) organized as a pre-conference workshop (May 23) at the 10th Language Resources and Evaluation Conference (LREC 2016) in Portoroz, Slovenia. \n \n 'Social media are an inherent part of life in the 21st century and should be accessible to anyone. People who are to some extent functionally illiterate are currently excluded from properly using social media such as Twitter, Facebook, and WhatsApp. In order to overcome this exclusion, we need NLP tools and resources adapted to the needs of, among others, people with intellectual and/or developmental disabilities, people with limited communication skills due to illness or accident, (deaf) people with a sign language as mother tongue, migrants wanting to socially integrate and communicate in a language they do not yet master, and elderly people with diminishing language skills. Which NLP techniques are used in order to allow these groups to be socially included and use social media? What do we need in order to build applications for these groups of users?'",
     link: "https://www.ccl.kuleuven.be/ISINLP/",
-    imageUrl: "/website/host1.jpg" 
+    imageUrl: "/host1.jpg" 
   },
   {
     id: 'academictalk8',
@@ -1291,7 +1291,7 @@ export const TALKS: Talk[] = [
     location: "Portoroz, Slovenia",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Tom Vanallemeersch, Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'We present the first version of an automated spelling correction system for Dutch Internet users with Intellectual Disabilities (ID). The normalization of ill-formed messages is an important preprocess- ing step before any conventional Natural Language Processing (NLP) process can be applied. As such, we describe the effects of automated correction of Dutch ID text within the larger framework of a Text-to-Pictograph translation system. The present study consists of two main parts. First, we thoroughly analyze email messages that have been written by users with cognitive disabilities in or- der to gain insights on how to develop solutions that are specifically tailored to their needs. We then present a new, generally applicable approach toward context-sensitive spelling correction, based on character-level fuzzy matching techniques. The resulting system shows significant improvements, although further research is still needed.'",
-    imageUrl: "/website/host2.jpg"
+    imageUrl: "/host2.jpg"
   },
   {
     id: 'media5',
@@ -1311,7 +1311,7 @@ export const TALKS: Talk[] = [
     location: "Amsterdam, The Netherlands",
     type: 'Academic & Professional',
     description: "Poster in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n This poster addresses the challenge of translating sequences of pictographs (often used in Augmentative and Alternative Communication, or AAC) into grammatically correct natural language. We focus on bridging the gap between symbol-based communication (which often lacks formal grammar) and spoken language. The poster details a method for generating natural language sentences from these pictographs, designed to assist individuals with communication disabilities or to facilitate communication in specific contexts.",
-    imageUrl: "/website/academictalk4.png"
+    imageUrl: "/academictalk4.png"
   },
   {
     id: 'scicomm2',
@@ -1330,8 +1330,8 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
     description: "Poster in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde, presented by me. \n \n 'The Able-To-Include project aims to improve the living conditions of people with Intellectual or Developmental Disabilities. As failure to access or use ICT (email, social media) is considered a major form of social and economic exclusion, the goal is to build an 'accessibility layer' that is based on three key technologies, automatic translation from pictographs to text being one of them. We describe how our original Dutch Text2Picto system has been modified in order to be useable for English and Spanish. The design of the tool is such that it is as language-independent as possible, not only for the (natural) source language, but also for the (pictographic) target language, with the exception of some language-specific phenomena. As far as the 'text' part of the tool is concerned, it is adaptable to all (alphabetical) languages, and as far as the 'picto' part is concerned, it is adaptable to various pictographic languages that were specifically designed for Augmentative and Alternative Communication purposes, such as the Sclera and Beta sets. Sclera and Beta pictographs being linked to groupings of synonyms (synsets), rather than to individual words, WordNets and their (often problematic) mutual relations play a central role in the process of creating multilingual text-to-pictograph translation tools. In particular, the highly erroneous, partly automatically established relations between Dutch and English in the Cornetto database urged us to devise an algorithm for automatically assigning confidence scores to synset links.'",
-    imageUrl: "/website/award8.jpg",
-    gallery: ["/website/academictalk5.png"]  
+    imageUrl: "/award8.jpg",
+    gallery: ["/academictalk5.png"]  
   },
   {
     id: 'academictalk4',
@@ -1341,7 +1341,7 @@ export const TALKS: Talk[] = [
     location: "Bryggen, Norway",
     type: 'Academic & Professional',
     description: "Presentation in collaboration with Ineke Schuurman, Vincent Vandeghinste, and Frank Van Eynde, presented by me. \n \n 'Technology can improve life of people with disabilities considerably. For people with intellectual or developmental disabilities (IDD), social exclusion is a problem, as they can not do like their peers, use ICT (email, social media), especially when they are unable to write or read well. Therefore the European project Able-To-Include (CIF-framework) aims to improve their living conditions in this respect. Its goal is to build an ICT 'accessibility layer' that is based on three key technologies: automatic text simplification, text-to-speech, and text-to-pictograph translation (including pictograph-to-text and pictograph-to-pictograph translation). For the latter, we are currently serving three natural languages (Dutch, English and Spanish), and two pictographic languages (Beta and Sclera), but the tools are in se language-independent. New languages can be added relatively easily, provided that the necessary linguistic tools and resources (such as a part-of-speech tagger, a lemmatizer and lexical-semantic database à la WordNet) are available. The same holds for pictographic languages, the main condition being that there is a facility to express 'verbs'. \n \n We evaluate the system by automatic techniques drawn from the field of machine translation, but we also rely on comments by our users, i.e. people with IDD and their care givers, in order to refine the tool. \n \n Our tool contributes to the e-inclusion of people with intellectual disabilities. Moreover, augmenting written text with pictographic images allows organizations and companies to easily reach out to a large group of people that previously had none or only very limited access to digital written content.'",
-    imageUrl: "/website/academictalk2.jpg",
+    imageUrl: "/academictalk2.jpg",
   },
   {
     id: 'academictalk3',
@@ -1369,7 +1369,7 @@ export const TALKS: Talk[] = [
     location: "Dublin, Ireland",
     type: 'Academic & Professional',
     description: "Poster presentation in collaboration with Vincent Vandeghinste and Frank Van Eynde, presented by me. \n \n 'Knowledge-based multilingual language processing benefits from having access to correctly established relations between semantic lexicons, such as the links between different WordNets. WordNet linking is a process that can be sped up by the use of computational techniques. Manual evaluations of the partly automatically established synonym set (synset) relations between Dutch and English in Cornetto, a Dutch lexical-semantic database associated with the EuroWordNet grid, have confronted us with a worrisome amount of erroneous links. By extracting translations from various bilingual resources and automatically assigning a confidence score to every pre-established link, we reduce the error rate of the existing equivalence relations between both languages' synsets (section 2). We will apply this technique to reuse the connection of Sclera and Beta pictograph sets and Cornetto synsets to Princeton WordNet and other WordNets, allowing us to further extend an existing Dutch text-to-pictograph translation tool to other languages (section 3).'",
-    imageUrl: "/website/academictalk1.jpg"
+    imageUrl: "/academictalk1.jpg"
   }
 ];
 
@@ -1380,8 +1380,8 @@ export const AWARDS: Award[] = [
     organization: "Scimingo",
     year: 2019,
     description: "Third Place in the Flemish PhD Cup (Vlaamse PhD Cup), a science communication competition challenging researchers to present their doctoral research to a broad audience. Following a four-day media training, sixteen selected candidates advanced through semi-finals, with eight finalists competing in the final round.",
-    imageUrl: "/website/award13.png",
-    gallery: ["/website/award12.jpg"]
+    imageUrl: "/award13.png",
+    gallery: ["/award12.jpg"]
   },
   {
     id: 'award7',
@@ -1389,7 +1389,7 @@ export const AWARDS: Award[] = [
     organization: "Koninklijke Vlaamse Academie van België & Jonge Academie",
     year: 2019,
     description: "The Annual Science Communication Award, presented by the Royal Flemish Academy of Belgium for Science and the Arts and the Young Academy, honors researchers with exceptional contributions to science communication, highlighting concrete and impactful public engagement projects.",
-    imageUrl: "/website/award10.jpg"
+    imageUrl: "/award10.jpg"
   },
    {
     id: 'award6',
@@ -1397,7 +1397,7 @@ export const AWARDS: Award[] = [
     organization: "KU Leuven",
     year: 2018,
     description: "Winner of KU Leuven's Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
-    imageUrl: "/website/award6.jpg"
+    imageUrl: "/award6.jpg"
   },
   {
     id: 'award9',
@@ -1405,7 +1405,7 @@ export const AWARDS: Award[] = [
     organization: "KU Leuven",
     year: 2017,
     description: "The Picto technology, developed in collaboration with Vincent Vandeghinste and Ineke Schuurman, received a honorary mention for the Humanities and Social Sciences Group's 'Pioniersprijs'. The Pioniersprijs is awarded to a researcher or research group in the Humanities and Social Sciences Group who has initiated and conducted research that is scientifically innovative and opens a completely new avenue of research. The main aim is to celebrate researchers who have ventured outside the confines of the established research in their domain.",
-    imageUrl: "/website/award14.jpg"
+    imageUrl: "/award14.jpg"
   },
   {
     id: 'award5',
@@ -1413,7 +1413,7 @@ export const AWARDS: Award[] = [
     organization: "Mediawijs",
     year: 2017,
     description: "The Able-to-Include project received the Mediawijs award for best smart media production, awarded to the CCL research group at KU Leuven (Leen Sevens, Ineke Schuurman, Vincent Vandeghinste) and Thomas More Kempen (Jo Daems, Annelies De Vliegher) for their co-creation project on accessible social media using pictograph-based communication.",
-    imageUrl: "/website/award2.png"
+    imageUrl: "/award2.png"
   },
   {
     id: 'award4',
@@ -1421,7 +1421,7 @@ export const AWARDS: Award[] = [
     organization: "Web4All Conference",
     year: 2017,
     description: "Best Communication Paper Award for 'Able to Read my Mail: An Accessible E-mail Client with Assistive Technology' (Horacio Saggion, Daniel Ferrés, Leen Sevens, Ineke Schuurman) at the 14th International Web for All Conference.",
-    imageUrl: "/website/award15.jpg",
+    imageUrl: "/award15.jpg",
   },
   {
     id: 'award3',
@@ -1429,8 +1429,8 @@ export const AWARDS: Award[] = [
     organization: "KU Leuven",
     year: 2017,
     description: "First Prize (Jury) and Audience Award at a science pitch competition for 'Breaking the Wall of Illiteracy', awarded among fifteen researchers, followed by representation of KU Leuven at the international finale in Berlin.",
-    imageUrl: "/website/award3.jpg",
-    gallery: ["/website/award4.jpg", "/website/award5.jpg", "/website/award1.jpg"]
+    imageUrl: "/award3.jpg",
+    gallery: ["/award4.jpg", "/award5.jpg", "/award1.jpg"]
   },
   {
     id: 'award2',
@@ -1438,7 +1438,7 @@ export const AWARDS: Award[] = [
     organization: "De Taalsector",
     year: 2016,
     description: "Text2Picto was honored with the Language Industry Award for best language service. The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "/website/award7.jpg"
+    imageUrl: "/award7.jpg"
   },
   {
     id: 'award1',
@@ -1446,38 +1446,38 @@ export const AWARDS: Award[] = [
     organization: "LOT Summer School",
     year: 2015,
     description: "Best Poster Award for 'Extending a Dutch Text-to-Pictograph Converter to English and Spanish'. The tool was developed in collaboration with Vincent Vandeghinste, Ineke Schuurman, and Frank Van Eynde.",
-    imageUrl: "/website/award8.jpg",
-    gallery: ["/website/academictalk5.png"] 
+    imageUrl: "/award8.jpg",
+    gallery: ["/academictalk5.png"] 
   }
 ];
 
 export const ART_PIECES: ArtPiece[] = [
-  { id: 'art1', title: "Winter Quest", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/website/art1.jpg", imageUrl: "/website/art1_Alt.jpg", description: "Festive RPG-style Christmas card starring my cats as magical adventurers." },
-  { id: 'art2', title: "STE(A)M Heroes", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/website/art2.jpg", imageUrl: "/website/art2.jpg", description: "Five original characters representing STE(A)M for TWA Leuven." },
-  { id: 'art3', title: "Original Character Sketch", medium: "Pencil", year: 2024, category: 'Traditional art', thumbnailUrl: "/website/art3.jpg", imageUrl: "/website/art3.jpg", description: "A pencil sketch of an original character." },
-  { id: 'art4', title: "100 Years of Wonder", medium: "Procreate", year: 2024, category: 'Digital art', thumbnailUrl: "/website/art4.jpg", imageUrl: "/website/art4_Alt.jpg", description: "Tribute artwork showcasing my eighteen favourite Disney characters honoring a century of magic." },
-  { id: 'art5', title: "Autumn Fox", medium: "Ink and watercolour paint", year: 2023, category: 'Traditional art', thumbnailUrl: "/website/art5.jpg", imageUrl: "/website/art5.jpg", description: "Soft watercolour illustration of a fox in an autumn-inspired palette." },
-  { id: 'art6', title: "My Violet Journey", medium: "Procreate", year: 2023, category: 'Digital art', thumbnailUrl: "/website/art6_Alt.jpg", imageUrl: "/website/art6.jpg", description: "Artwork showcasing my chosen team from the game Pokémon Violet." },
-  { id: 'art7', title: "Lady Sylvanas", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/website/art7.jpg", imageUrl: "/website/art7.jpg", description: "Watercolour illustration of Sylvanas Windrunner from World of Warcraft." },
-  { id: 'art8', title: "Kyoto Storefront", medium: "Ink and watercolour paint", year: 2019, category: 'Urban sketching', thumbnailUrl: "/website/art8.jpg", imageUrl: "/website/art8.jpg", description: "Watercolour urban sketch of a traditional storefront in Kyoto." },
-  { id: 'art10', title: "Original Character Sketch", medium: "Pencil", year: 2018, category: 'Traditional art', thumbnailUrl: "/website/art10.jpg", imageUrl: "/website/art10.jpg", description: "Original character illustration including a bird accent." },
-  { id: 'art11', title: "Jinx", medium: "Ink", year: 2022, category: 'Traditional art', thumbnailUrl: "/website/art11.jpg", imageUrl: "/website/art11.jpg", description: "Ink character portrait of Jinx from Arcane/League of Legends." },
-  { id: 'art12', title: "Retro Companion", medium: "Ink and Copic markers", year: 2021, category: 'Traditional art', thumbnailUrl: "/website/art12.jpg", imageUrl: "/website/art12.jpg", description: "Copic marker illustration blending Bulbasaur's charm with retro gaming culture." },
-  { id: 'art13', title: "Elemental Guardian", medium: "Ink and watercolour paint", year: 2021, category: 'Traditional art', thumbnailUrl: "/website/art13.jpg", imageUrl: "/website/art13.jpg", description: "Original watercolour character representing the water element." },
-  { id: 'art14', title: "Haku", medium: "Procreate", year: 2021, category: 'Digital art', thumbnailUrl: "/website/art14.jpg", imageUrl: "/website/art14.jpg", description: "Digital illustration of Haku from Spirited Away." },
-  { id: 'art17', title: "Yuki", medium: "Procreate", year: 2020, category: 'Digital art', thumbnailUrl: "/website/art17.jpg", imageUrl: "/website/art17.jpg", description: "Original character blending feline charm with traditional Japanese aesthetics." },
-  { id: 'art19', title: "Quarantime", medium: "Procreate", year: 2020, category: 'Comics', thumbnailUrl: "/website/art19_Alt_2.jpg", imageUrl: "/website/art19.jpg", description: "Comic from my personal pandemic-era series exploring everyday moments." },
-  { id: 'art20', title: "Flight", medium: "Ink and watercolour paint", year: 2020, category: 'Traditional art', thumbnailUrl: "/website/art20.jpg", imageUrl: "/website/art20.jpg", description: "Soft watercolour illustration of an original character with a bird in her hair." },
-  { id: 'art21', title: "Hula", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/website/art21.jpg", imageUrl: "/website/art21.jpg", description: "Original watercolour illustration created for a character design challenge." },
-  { id: 'art22', title: "Treecko Community Day", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/website/art22.jpg", imageUrl: "/website/art22.jpg", description: "Watercolour illustration of Treecko and its evolutions for a Pokémon Community Day." },
-  { id: 'art23', title: "Hermione", medium: "Procreate", year: 2019, category: 'Digital art', thumbnailUrl: "/website/art23.jpg", imageUrl: "/website/art23.jpg", description: "Personal digital interpretation of Hermione Granger." },
-  { id: 'art24', title: "Neurodiversity at Work", medium: "Procreate", year: 2022, category: 'Comics', thumbnailUrl: "/website/art27_Alt.png", imageUrl: "/website/art27.jpg", description: "Commissioned comic series for KU Leuven's neurodiversity awareness e-learning module." },
-  { id: 'art25', title: "Leendagsvliegje: Hamvraag", medium: "Procreate", year: 2021, category: 'Comics', thumbnailUrl: "/website/art28_Alt.jpg", imageUrl: "/website/art28.jpg", description: "Personal comic series capturing small, humorous moments of daily life." },
-  { id: 'art26', title: "Leendagsvliegje: Portfolio", medium: "Procreate", year: 2021, category: 'Comics', thumbnailUrl: "/website/art29_Alt_2.jpg", imageUrl: "/website/art29.jpg", description: "Personal comic series capturing small, humorous moments of daily life." },
-  { id: 'art27', title: "Pharmacy 'De Zeven Hoeken'", medium: "Ink and watercolour paint", year: 2024, category: 'Urban sketching', thumbnailUrl: "/website/art30.jpg", imageUrl: "/website/art30.jpg", description: "Watercolour urban sketch of a local pharmacy in Leuven." },
-  { id: 'art28', title: "Manneken Pis Outfit", medium: "Procreate", year: 2024, category: 'Digital art', thumbnailUrl: "/website/art31_Alt.jpg", imageUrl: "/website/art31.jpg", description: "Commissioned concept art for Manneken Pis and Jeanneke Pis celebrating Science Day." },
-  { id: 'art29', title: "Vienna", medium: "Ink and watercolour paint", year: 2023, category: 'Urban sketching', thumbnailUrl: "/website/art32.jpg", imageUrl: "/website/art32.jpg", description: "Watercolour urban sketch of the places we visited in Vienna." },
-  { id: 'art30', title: "Martelarenplein", medium: "Ink and watercolour paint", year: 2022, category: 'Urban sketching', thumbnailUrl: "/website/art33.jpg", imageUrl: "/website/art33.jpg", description: "Watercolour urban sketch of the Martelarenplein in Leuven." },
-  { id: 'art31', title: "Leendagsvliegje: Rust", medium: "Procreate", year: 2023, category: 'Comics', thumbnailUrl: "/website/art34_Alt_2.jpg", imageUrl: "/website/art34.jpg", description: "Personal comic series capturing small, humorous moments of daily life." },
-  { id: 'art32', title: "Madmum", medium: "Ink and watercolour paint", year: 2023, category: 'Urban sketching', thumbnailUrl: "/website/art35_Alt.jpg", imageUrl: "/website/art35.jpg", description: "Watercolour urban sketch made during a coffee break at Madmum in Leuven." },
+  { id: 'art1', title: "Winter Quest", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/art1.jpg", imageUrl: "/art1_Alt.jpg", description: "Festive RPG-style Christmas card starring my cats as magical adventurers." },
+  { id: 'art2', title: "STE(A)M Heroes", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/art2.jpg", imageUrl: "/art2.jpg", description: "Five original characters representing STE(A)M for TWA Leuven." },
+  { id: 'art3', title: "Original Character Sketch", medium: "Pencil", year: 2024, category: 'Traditional art', thumbnailUrl: "/art3.jpg", imageUrl: "/art3.jpg", description: "A pencil sketch of an original character." },
+  { id: 'art4', title: "100 Years of Wonder", medium: "Procreate", year: 2024, category: 'Digital art', thumbnailUrl: "/art4.jpg", imageUrl: "/art4_Alt.jpg", description: "Tribute artwork showcasing my eighteen favourite Disney characters honoring a century of magic." },
+  { id: 'art5', title: "Autumn Fox", medium: "Ink and watercolour paint", year: 2023, category: 'Traditional art', thumbnailUrl: "/art5.jpg", imageUrl: "/art5.jpg", description: "Soft watercolour illustration of a fox in an autumn-inspired palette." },
+  { id: 'art6', title: "My Violet Journey", medium: "Procreate", year: 2023, category: 'Digital art', thumbnailUrl: "/art6_Alt.jpg", imageUrl: "/art6.jpg", description: "Artwork showcasing my chosen team from the game Pokémon Violet." },
+  { id: 'art7', title: "Lady Sylvanas", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/art7.jpg", imageUrl: "/art7.jpg", description: "Watercolour illustration of Sylvanas Windrunner from World of Warcraft." },
+  { id: 'art8', title: "Kyoto Storefront", medium: "Ink and watercolour paint", year: 2019, category: 'Urban sketching', thumbnailUrl: "/art8.jpg", imageUrl: "/art8.jpg", description: "Watercolour urban sketch of a traditional storefront in Kyoto." },
+  { id: 'art10', title: "Original Character Sketch", medium: "Pencil", year: 2018, category: 'Traditional art', thumbnailUrl: "/art10.jpg", imageUrl: "/art10.jpg", description: "Original character illustration including a bird accent." },
+  { id: 'art11', title: "Jinx", medium: "Ink", year: 2022, category: 'Traditional art', thumbnailUrl: "/art11.jpg", imageUrl: "/art11.jpg", description: "Ink character portrait of Jinx from Arcane/League of Legends." },
+  { id: 'art12', title: "Retro Companion", medium: "Ink and Copic markers", year: 2021, category: 'Traditional art', thumbnailUrl: "/art12.jpg", imageUrl: "/art12.jpg", description: "Copic marker illustration blending Bulbasaur's charm with retro gaming culture." },
+  { id: 'art13', title: "Elemental Guardian", medium: "Ink and watercolour paint", year: 2021, category: 'Traditional art', thumbnailUrl: "/art13.jpg", imageUrl: "/art13.jpg", description: "Original watercolour character representing the water element." },
+  { id: 'art14', title: "Haku", medium: "Procreate", year: 2021, category: 'Digital art', thumbnailUrl: "/art14.jpg", imageUrl: "/art14.jpg", description: "Digital illustration of Haku from Spirited Away." },
+  { id: 'art17', title: "Yuki", medium: "Procreate", year: 2020, category: 'Digital art', thumbnailUrl: "/art17.jpg", imageUrl: "/art17.jpg", description: "Original character blending feline charm with traditional Japanese aesthetics." },
+  { id: 'art19', title: "Quarantime", medium: "Procreate", year: 2020, category: 'Comics', thumbnailUrl: "/art19_Alt_2.jpg", imageUrl: "/art19.jpg", description: "Comic from my personal pandemic-era series exploring everyday moments." },
+  { id: 'art20', title: "Flight", medium: "Ink and watercolour paint", year: 2020, category: 'Traditional art', thumbnailUrl: "/art20.jpg", imageUrl: "/art20.jpg", description: "Soft watercolour illustration of an original character with a bird in her hair." },
+  { id: 'art21', title: "Hula", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/art21.jpg", imageUrl: "/art21.jpg", description: "Original watercolour illustration created for a character design challenge." },
+  { id: 'art22', title: "Treecko Community Day", medium: "Ink and watercolour paint", year: 2019, category: 'Traditional art', thumbnailUrl: "/art22.jpg", imageUrl: "/art22.jpg", description: "Watercolour illustration of Treecko and its evolutions for a Pokémon Community Day." },
+  { id: 'art23', title: "Hermione", medium: "Procreate", year: 2019, category: 'Digital art', thumbnailUrl: "/art23.jpg", imageUrl: "/art23.jpg", description: "Personal digital interpretation of Hermione Granger." },
+  { id: 'art24', title: "Neurodiversity at Work", medium: "Procreate", year: 2022, category: 'Comics', thumbnailUrl: "/art27_Alt.png", imageUrl: "/art27.jpg", description: "Commissioned comic series for KU Leuven's neurodiversity awareness e-learning module." },
+  { id: 'art25', title: "Leendagsvliegje: Hamvraag", medium: "Procreate", year: 2021, category: 'Comics', thumbnailUrl: "/art28_Alt.jpg", imageUrl: "/art28.jpg", description: "Personal comic series capturing small, humorous moments of daily life." },
+  { id: 'art26', title: "Leendagsvliegje: Portfolio", medium: "Procreate", year: 2021, category: 'Comics', thumbnailUrl: "/art29_Alt_2.jpg", imageUrl: "/art29.jpg", description: "Personal comic series capturing small, humorous moments of daily life." },
+  { id: 'art27', title: "Pharmacy 'De Zeven Hoeken'", medium: "Ink and watercolour paint", year: 2024, category: 'Urban sketching', thumbnailUrl: "/art30.jpg", imageUrl: "/art30.jpg", description: "Watercolour urban sketch of a local pharmacy in Leuven." },
+  { id: 'art28', title: "Manneken Pis Outfit", medium: "Procreate", year: 2024, category: 'Digital art', thumbnailUrl: "/art31_Alt.jpg", imageUrl: "/art31.jpg", description: "Commissioned concept art for Manneken Pis and Jeanneke Pis celebrating Science Day." },
+  { id: 'art29', title: "Vienna", medium: "Ink and watercolour paint", year: 2023, category: 'Urban sketching', thumbnailUrl: "/art32.jpg", imageUrl: "/art32.jpg", description: "Watercolour urban sketch of the places we visited in Vienna." },
+  { id: 'art30', title: "Martelarenplein", medium: "Ink and watercolour paint", year: 2022, category: 'Urban sketching', thumbnailUrl: "/art33.jpg", imageUrl: "/art33.jpg", description: "Watercolour urban sketch of the Martelarenplein in Leuven." },
+  { id: 'art31', title: "Leendagsvliegje: Rust", medium: "Procreate", year: 2023, category: 'Comics', thumbnailUrl: "/art34_Alt_2.jpg", imageUrl: "/art34.jpg", description: "Personal comic series capturing small, humorous moments of daily life." },
+  { id: 'art32', title: "Madmum", medium: "Ink and watercolour paint", year: 2023, category: 'Urban sketching', thumbnailUrl: "/art35_Alt.jpg", imageUrl: "/art35.jpg", description: "Watercolour urban sketch made during a coffee break at Madmum in Leuven." },
  ];
