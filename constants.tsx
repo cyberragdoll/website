@@ -364,6 +364,16 @@ export const TALKS: Talk[] = [
     imageUrl: "/academictalk33.jpg"
   }, 
   {
+    id: 'host10',
+    title: "Community of Practice Event 'GenAI in Education' ⁽ᴱᴺ⁾",
+    event: "KU Leuven",
+    date: "2025-10-22",
+    location: "Leuven, Belgium",
+    type: 'Hosting',
+    description: "Co-organizer of a Community of Practice event on GenAI in Education, in collaboration with Steven Huyghe, Roel De Meu, Daria Bogdanova, Ana Paklons, and Thomas Lodewyckx. \n \n 'We are pleased to invite you to a half-day Community of Practice event focused on the pedagogical use of Generative AI in higher education. This session is designed for lecturers, teaching assistants, and educational support staff interested in exploring how GenAI can enhance teaching and learning practices.'",
+    imageUrl: "/host6.jpg"
+  },
+  {
     id: 'academictalk42',
     title: "AI in Education at KU Leuven - Transforming Humanities, Social Sciences and Beyond ⁽ᴱᴺ⁾",
     event: "1st AIHUMS101 Workshop (Una Europa)",
