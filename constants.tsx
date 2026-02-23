@@ -1396,7 +1396,7 @@ export const AWARDS: Award[] = [
     title: "KU Leuven Science Slam Winner",
     organization: "KU Leuven",
     year: 2018,
-    description: "Winner of KU Leuven's Science Slam at the Antwerp Book Fair (Boekenbeurs van Antwerpen), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
+    description: "Winner of KU Leuven's Science Slam at the 'Boekenbeurs' ('Antwerp Book Fair'), a science communication competition in which six researchers presented their work to a broad audience in an accessible and engaging way.",
     imageUrl: "/award6.jpg"
   },
   {
