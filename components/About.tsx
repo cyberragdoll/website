@@ -14,7 +14,7 @@ const About: React.FC = () => {
     },
     {
       period: "2013 — 2014 @ Department of Computer Science (KU Leuven)",
-      title: "MA in Artificial Intelligence (Speech & Language Technology)",
+      title: "MSc in Artificial Intelligence (Speech & Language Technology)",
       description: "Summa Cum Laude. From theory to practice in modern language-focused AI systems."
     },
     {
