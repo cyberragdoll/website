@@ -307,7 +307,7 @@ export const TALKS: Talk[] = [
   {
     id: 'academictalk63',
     title: "Get it Done! (With or Without AI) ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
-    event: "Get it Done! Festival",
+    event: "Get it Done! Festival @ KU Leuven",
     date: "2026-03-31",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
