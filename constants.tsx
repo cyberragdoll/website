@@ -6,10 +6,10 @@ export const PUBLICATIONS: Publication[] = [
     title: "A Strong Start: Designing a Positioning Test for Bachelor Students in the Humanities and Social Sciences ⁽ᴱᴺ⁾",
     authors: "Ena Coenen, Leen Sevens",
     year: 2026,
-    venue: "Manuscript under review",
+    venue: "Journal of Perspectives in Applied Academic Practice, Accepted",
     type: 'Academic',
     link: "",
-    abstract: "Manuscript under review."
+    abstract: "Higher education in Flanders is open-admissions (except for medical and some arts programmes), meaning that anyone with a secondary education diploma can enrol in university. In addition, tuition fees are relatively low compared to other countries. These factors make it essential to support students in making well-informed study choices, which is the goal of the orientation process. Positioning tests take place in the later stages of this process, giving the students an opportunity to assess whether their preferred study choice matches their interests and skills. Positioning tests, such that exists already in STEM, are thus meant to help students reflect on their initial choice. \n \n At this moment, we are developing positioning tests for humanities and social sciences, in response to an impulse from both the university and the Flemish government to improve study success, especially during students’ first year. The aim of the development of these positioning tests is threefold: the test has to (1) provide a reliable and valid idea of the necessary starting competencies of the programme, (2) predict academic success and inform the student on their potential, and (3) be able to indicate the learning needs of starting students, offering targeted remedial support. \n \n In this paper, we will further elaborate on the rationale and genesis of the positioning test. We will detail how the to-be-tested starting competences were selected, how the content of the test was further inferred from that and how the questions were developed. In addition, we will discuss piloting the first version of the positioning test involving over 1.000 students and 24 stakeholders, researching the reliability and validity of the test. A close collaboration between the involved faculties and the project team was central in every step of this process."
  },   
  {
     id: 'other4',
@@ -361,7 +361,9 @@ export const TALKS: Talk[] = [
     location: "Leuven, Belgium",
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
-    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab"
+    link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab",
+    imageUrl: "/scicomm21.jpg",
+    gallery: ["/scicomm22.jpg"]
   },
   {
     id: 'academictalk56',
