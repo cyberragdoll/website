@@ -351,7 +351,8 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Co-organizer and panel moderator of the fifth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Op zoek naar inspiratie om je onderwijs te vernieuwen? Hoe kunnen we interactie met en tussen studenten vormgeven in onze onderwijspraktijk? Hoe stimuleer je daarbij reflectie, discussie en samenwerking? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze vijfde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend",
-    imageUrl: "/host4.png"
+    imageUrl: "/BigBlend1.png",
+    gallery: ["/BigBlend2.png", "/BigBlend3.png"]
   },
   {
     id: 'scicomm20',
