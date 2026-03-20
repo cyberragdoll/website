@@ -332,6 +332,7 @@ export const TALKS: Talk[] = [
     type: 'Academic & Professional',
     description: "Workshop in collaboration with Liese Luijten. \n \n 'In deze sessie verkennen we hoe GenAI studenten kan ondersteunen bij efficiënt en verantwoord studeren, in lijn met de geldende richtlijnen aan KU Leuven. Leen Sevens en Liese Luijten tonen ons concrete use cases waarin GenAI kan bijdragen aan gepersonaliseerd leren, instant feedback, schrijf- en studieondersteuning, en het overwinnen van leer- en denkdrempels. Daarbij plaatsen ze telkens kritische kanttekeningen rond betrouwbaarheid, afhankelijkheid en academische integriteit. De focus ligt in deze sessie expliciet op GenAI als ondersteunend hulpmiddel dat zelfregulatie en leerprocessen versterkt, zonder het eigen kunnen van de student te ondergraven. De sessie biedt studentenbegeleiders inspiratie om studenten te adviseren over zinvol, kritisch en transparant gebruik van GenAI in hun studiepraktijk.'",
     link: "https://www.kuleuven.be/onderwijs/learninglab/netwerk-studentenbegeleiders/dag-van-de-studentenbegeleider",
+    imageUrl: "/academictalk38.png"
   },  
   {
     id: 'academictalk46',
@@ -340,8 +341,9 @@ export const TALKS: Talk[] = [
     date: "2026-03-19",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, focusing on the use of GenAI in higher education. The session addresses practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice."
-  },  
+    description: "Invited lecture for ABAP staff of the Faculty of Economics and Business at KU Leuven, focusing on the use of GenAI in higher education. The session addresses practical applications for research and teaching, as well as critical considerations including reliability, bias, and responsible integration into academic practice.",
+    imageUrl: "/academictalk37.png"
+  }, 
   {
     id: 'host7',
     title: "The Big Blend V ⁽ᴺᴸ⁾",
@@ -363,8 +365,8 @@ export const TALKS: Talk[] = [
     type: 'science communication',
     description: "Jury member for the Belgian preselections of the Falling Walls Lab competition at KU Leuven.",
     link: "https://www.kuleuven.be/communicatie/wetenschapscommunicatie/iedereen/falling-walls-lab-1/fallingwallslab",
-    imageUrl: "/scicomm21.jpg",
-    gallery: ["/scicomm22.jpg"]
+    imageUrl: "/scicomm22.jpg",
+    gallery: ["/scicomm23.png"]
   },
   {
     id: 'academictalk56',
