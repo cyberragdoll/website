@@ -294,7 +294,7 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Hosting',
     description: "Panel moderator and closing speaker for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
-  }  
+  },
   {
     id: 'academictalk57',
     title: "Workshop 'GenAI in Education' ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
