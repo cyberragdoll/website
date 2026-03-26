@@ -330,7 +330,9 @@ export const TALKS: Talk[] = [
     date: "2026-03-26",
     location: "Remote",
     type: 'Academic & Professional',
-    description: "Invited lecture for the 'Onderwijsrijbewijs' ('Teaching Qualification') trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addresses practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices."
+    description: "Invited lecture for the 'Onderwijsrijbewijs' ('Teaching Qualification') trajectory at LUCA School of Arts, focusing on the responsible and pedagogically meaningful use of generative AI in higher education. The session addresses practical applications, risks and limitations, and strategies for integrating GenAI into teaching and assessment practices.",
+    imageUrl: "/LUCA3.png",
+    gallery: ["/LUCA1.png"]
   },  
   {
     id: 'academictalk47',
