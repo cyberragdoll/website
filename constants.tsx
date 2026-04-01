@@ -314,16 +314,6 @@ export const TALKS: Talk[] = [
     description: "Invited lecture within the course 'Skills voor de 21ste eeuw' ('Skills for the 21st Century', Faculty of Science, KU Leuven), focusing on digital and entrepreneurial skills through hands-on introduction to generative AI tools. The session explores practical applications of GenAI for entrepreneurship, including creative problem-solving, workflow support, and responsible use in real-world contexts."
   },   
   {
-    id: 'academictalk63',
-    title: "Get it Done! (With or Without AI) ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
-    event: "Get it Done! Festival @ KU Leuven",
-    date: "2026-03-31",
-    location: "Leuven, Belgium",
-    type: 'Academic & Professional',
-    description: "AI coach at the 'Get it Done!' festival in the Agora Learning Centre, where students can drop by with questions and explore how generative AI can be used to spark ideas, improve study strategies, and support learning in practical ways.  \n \n 'On Tuesday, March 31, Agora will be the location of a one-day productivity festival. What can you expect? From 2 PM until 2 AM, you can visit different zones for coaching, workshops, relaxation, food, focus,... Write down your goal of the day on our Goal Wall and go home with a completed task and maybe even a nice prize.'",
-    link: "https://bib.kuleuven.be/english/agora/events/get-it-done-festival"
-  },
-  {
     id: 'academictalk44',
     title: "The Hitchhiker's Guide to AI in Education - De opportuniteiten en risico's van GenAI in het hoger onderwijs ⁽ᴺᴸ⁾",
     event: "LUCA School of Arts",
