@@ -315,7 +315,7 @@ export const TALKS: Talk[] = [
   },
   {
     id: 'academictalk63',
-    title: "Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
+    title: "CTRL+AI: Efficiënt en verantwoord studeren in het tijdperk van GenAI ⁽ᴺᴸ⁾",
     event: "Onderwijsstudiedag Rechtsgeleerdheid @ KU Leuven, UHasselt & UMaastricht",
     date: "2026-05-07",
     location: "Leuven, Belgium",
