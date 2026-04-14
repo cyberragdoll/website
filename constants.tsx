@@ -286,6 +286,15 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const TALKS: Talk[] = [
+   {
+    id: 'academictalk64',
+    title: "Efficient and Responsible Studying with GenAI - A Workshop for Educators and Student Support Staff ⁽ᴱᴺ⁾",
+    event: "KU Leuven",
+    date: "2026-10-12",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "In this workshop, we explore how GenAI can support students in studying efficiently and responsibly, in line with the current guidelines at KU Leuven. The session is aimed at everyone who guides, coaches, or supports students. We present concrete use cases in which GenAI can contribute to personalized learning, instant feedback, writing and study support, and overcoming learning and cognitive barriers, while also offering critical reflections on reliability, dependency, and academic integrity. The focus is explicitly on GenAI as a supportive tool that strengthens self-regulation and learning processes, without undermining students’ own abilities. The workshop provides practical guidance to help participants advise students on the meaningful, critical, and transparent use of GenAI in their study practices."
+  },  
   {
     id: 'host11',
     title: "Panel Moderator & Conference Wrap-up Speaker ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
@@ -294,6 +303,24 @@ export const TALKS: Talk[] = [
     location: "Brussels, Belgium",
     type: 'Hosting',
     description: "Panel moderator and closing speaker for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
+  },
+  {
+    id: 'academictalk64',
+    title: "Efficiënt en verantwoord studeren met GenAI - Een workshop voor docenten en studentenbegeleiders ⁽ᴺᴸ⁾",
+    event: "KU Leuven",
+    date: "2026-05-21",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "In deze workshop verkennen we hoe GenAI studenten kan ondersteunen bij efficiënt en verantwoord studeren, in lijn met de geldende richtlijnen aan KU Leuven. De sessie richt zich op iedereen die studenten begeleidt, coacht of ondersteunt. We tonen concrete use cases waarin GenAI kan bijdragen aan gepersonaliseerd leren, instant feedback, schrijf- en studieondersteuning, en het overwinnen van leer- en denkdrempels, en plaatsen daarbij kritische kanttekeningen bij betrouwbaarheid, afhankelijkheid en academische integriteit. De focus ligt expliciet op GenAI als ondersteunend hulpmiddel dat zelfregulatie en leerprocessen versterkt, zonder het eigen kunnen van de student te ondermijnen. De workshop biedt concrete handvatten om studenten te adviseren over zinvol, kritisch en transparant gebruik van GenAI in hun studiepraktijk."
+  },
+  {
+    id: 'academictalk63',
+    title: "Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
+    event: "Onderwijsstudiedag Rechtsgeleerdheid @ KU Leuven, UHasselt & UMaastricht",
+    date: "2026-05-07",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for the 'Onderwijsstudiedag' (Professional Development Day for Educators), organized by the Faculties of Law at KU Leuven, UHasselt, and Maastricht University."
   },
   {
     id: 'academictalk57',
