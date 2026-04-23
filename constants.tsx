@@ -287,7 +287,7 @@ export const PUBLICATIONS: Publication[] = [
 
 export const TALKS: Talk[] = [
    {
-    id: 'academictalk64',
+    id: 'academictalk65',
     title: "Efficient and Responsible Studying with GenAI - A Workshop for Educators and Student Support Staff ⁽ᴱᴺ⁾",
     event: "KU Leuven",
     date: "2026-10-12",
