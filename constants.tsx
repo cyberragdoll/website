@@ -297,12 +297,12 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'host11',
-    title: "Panel Moderator & Conference Wrap-up Speaker ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    title: "Panel Moderator ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
     event: "Europese Dag van de Talen",
     date: "2026-10-02",
     location: "Brussels, Belgium",
     type: 'Hosting',
-    description: "Panel moderator and closing speaker for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
+    description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
   },
   {
     id: 'academictalk64',
