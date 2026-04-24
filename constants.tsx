@@ -338,7 +338,8 @@ export const TALKS: Talk[] = [
     date: "2026-04-24",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture within the course 'Skills voor de 21ste eeuw' ('Skills for the 21st Century', Faculty of Science, KU Leuven), focusing on digital and entrepreneurial skills through hands-on introduction to generative AI tools. The session explores practical applications of GenAI for entrepreneurship, including creative problem-solving, workflow support, and responsible use in real-world contexts."
+    description: "Invited lecture within the course 'Skills voor de 21ste eeuw' ('Skills for the 21st Century', Faculty of Science, KU Leuven), focusing on digital and entrepreneurial skills through hands-on introduction to generative AI tools. The session explores practical applications of GenAI for entrepreneurship, including creative problem-solving, workflow support, and responsible use in real-world contexts.",
+    imageUrl: "21stCentury.jpg"
   },   
   {
     id: 'academictalk44',
