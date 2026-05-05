@@ -329,7 +329,8 @@ export const TALKS: Talk[] = [
     date: "2026-04-30",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this session, we focus on the do's and don'ts of generative AI in education at KU Leuven. We reflect on university guidelines and recommendations, exchange experiences, and discuss both opportunities and risks. Through interactive statements, we engage in dialogue on themes such as assessment practices, the role of AI in skills development, and the place GenAI can (or should not) take in teaching and learning. The session creates space to share experiences, learn from one another, and collectively reflect on a positive yet critical integration of AI. For those already working with GenAI, it offers an opportunity to inspire colleagues with concrete examples from practice; for those still exploring, it provides insights and practical takeaways.'" 
+    description: "Workshop in collaboration with Steven Huyghe. \n \n 'In this session, we focus on the do's and don'ts of generative AI in education at KU Leuven. We reflect on university guidelines and recommendations, exchange experiences, and discuss both opportunities and risks. Through interactive statements, we engage in dialogue on themes such as assessment practices, the role of AI in skills development, and the place GenAI can (or should not) take in teaching and learning. The session creates space to share experiences, learn from one another, and collectively reflect on a positive yet critical integration of AI. For those already working with GenAI, it offers an opportunity to inspire colleagues with concrete examples from practice; for those still exploring, it provides insights and practical takeaways.'",
+    imageUrl: "TeachingKULeuven.jpg"
  }, 
   {
     id: 'academictalk48',
