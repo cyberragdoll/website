@@ -320,7 +320,8 @@ export const TALKS: Talk[] = [
     date: "2026-05-07",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture for the 'Onderwijsstudiedag' (Professional Development Day for Educators), organized by the Faculties of Law at KU Leuven, UHasselt, and Maastricht University."
+    description: "Invited lecture for the 'Onderwijsstudiedag' (Professional Development Day for Educators), organized by the Faculties of Law at KU Leuven, UHasselt, and Maastricht University.",
+    imageUrl: "FRC.png"
   },
   {
     id: 'academictalk57',
