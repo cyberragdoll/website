@@ -334,7 +334,7 @@ export const TALKS: Talk[] = [
     imageUrl: "TeachingKULeuven.jpg"
  }, 
   {
-    id: 'academictalk48',
+    id: 'academictalk66',
     title: "Skills voor de 21ste eeuw: Efficiënt en verantwoord studeren met GenAI ⁽ᴺᴸ⁾",
     event: "KU Leuven",
     date: "2026-04-24",
