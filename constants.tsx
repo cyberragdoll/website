@@ -305,6 +305,16 @@ export const TALKS: Talk[] = [
     description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
   },
   {
+    id: 'media12',
+    title: "Podcast: AI-gebruik bij studenten ⁽ᴺᴸ⁾",
+    event: "AHA!-gora Podcast",
+    date: "2026-06-26",
+    location: "Remote",
+    type: 'Media & Interviews',
+    description: "Podcast description: 'AI is niet meer weg te denken in ons dagelijkse leven. Hoog tijd om het gebruik van AI bij studenten onder de loep te nemen. Hiervoor heb ik Leen Sevens en Liese Luijten uitgenodigd.'",    link: "https://open.spotify.com/episode/54ku60DeFPYxdFjDBOWq00?si=NHpM_dXuQ7qNI1KpY3Gpxw",
+    imageUrl: "/media10.png"
+  },
+  {
     id: 'academictalk64',
     title: "Efficiënt en verantwoord studeren met GenAI - Een workshop voor docenten en studentenbegeleiders ⁽ᴺᴸ⁾",
     event: "KU Leuven",
