@@ -305,6 +305,26 @@ export const TALKS: Talk[] = [
     description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
   },
   {
+    id: 'media14',
+    title: "KUpdate - Startscan (Part 2) ⁽ᴺᴸ⁾",
+    event: "KU Leuven KUpdate",
+    date: "2026-08-27",
+    location: "Leuven",
+    type: 'Media & Interviews',
+    description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.'",
+    link: "https://www.tiktok.com/@kuleuven/video/7678722968834362657"
+  },
+  {
+    id: 'media13',
+    title: "KUpdate - Startscan (Part 1) ⁽ᴺᴸ⁾",
+    event: "KU Leuven KUpdate",
+    date: "2026-08-27",
+    location: "Leuven",
+    type: 'Media & Interviews',
+    description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.'",
+    link: "https://www.instagram.com/p/DcjByCaIEYw/?hl=nl"
+  },
+  {
     id: 'media12',
     title: "Podcast: AI-gebruik bij studenten ⁽ᴺᴸ⁾",
     event: "AHA!-gora Podcast",
