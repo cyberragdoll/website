@@ -311,7 +311,7 @@ export const TALKS: Talk[] = [
     date: "2026-08-27",
     location: "Leuven",
     type: 'Media & Interviews',
-    description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.'",
+    description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.",
     link: "https://www.tiktok.com/@kuleuven/video/7678722968834362657"
   },
   {
@@ -321,7 +321,7 @@ export const TALKS: Talk[] = [
     date: "2026-08-27",
     location: "Leuven",
     type: 'Media & Interviews',
-    description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.'",
+    description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.",
     link: "https://www.instagram.com/p/DcjByCaIEYw/?hl=nl"
   },
   {
