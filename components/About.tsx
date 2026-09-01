@@ -19,8 +19,8 @@ const About: React.FC = () => {
     },
     {
       period: "2014 — 2019 @ Centre for Computational Linguistics (KU Leuven)",
-      title: "PhD in Computational Linguistics",
-      description: "Doctoral research on pictograph-based translation technologies to support people with an intellectual disability."
+      title: "PhD & Postdoc in Computational Linguistics",
+      description: "(Post)doctoral research on pictograph-based translation technologies to support people with an intellectual disability."
     },
     {
       period: "2019 — Now @ Humanities and Social Sciences Group (KU Leuven)",
