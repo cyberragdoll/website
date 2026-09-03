@@ -288,7 +288,7 @@ export const PUBLICATIONS: Publication[] = [
 export const TALKS: Talk[] = [
   {
     id: 'academictalk67',
-    title: "The Hitchhiker's Guide to GenAI in Education - Opportunities, concerns and choices for teaching and learning ⁽ᴱᴺ⁾",
+    title: "The Hitchhiker's Guide to GenAI in Education - Opportunities, Concerns and Choices for Teaching and Learning ⁽ᴱᴺ⁾",
     event: "PPW @ KU Leuven",
     date: "2027-03-24",
     location: "Leuven, Belgium",
