@@ -286,6 +286,36 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const TALKS: Talk[] = [
+  {
+    id: 'academictalk67',
+    title: "The Hitchhiker's Guide to GenAI in Education - Opportunities, concerns and choices for teaching and learning ⁽ᴱᴺ⁾",
+    event: "PPW @ KU Leuven",
+    date: "2027-03-24",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for teaching staff at the Faculty of Psychology and Educational Sciences. \n \n 'In this session, we take a closer look at the do's and don'ts of GenAI in education at KU Leuven. Starting from the university guidelines and recommendations, we will explore how GenAI is already finding its way into teaching and learning, and what opportunities, questions and concerns come with it. \n \n Using interactive statements as a starting point, we will exchange experiences and perspectives on topics such as assessment, skills development, and where GenAI can (or perhaps should not) have a place in education. There will be plenty of room to share concrete examples, questions and lessons learned. \n \n Whether you are already experimenting with GenAI in your teaching or are still figuring out what to make of it, the session offers an opportunity to learn from colleagues, pick up new ideas and reflect together on how we can use GenAI in a thoughtful and responsible way.'"
+
+   },  
+  {
+    id: 'host12',
+    title: "The Big Blend VI ⁽ᴺᴸ⁾",
+    event: "KU Leuven",
+    date: "2027-03-12",
+    location: "Leuven, Belgium",
+    type: 'Hosting',
+    description: "Co-organizer and panel moderator of the sixth edition of 'The Big Blend', an educational innovation event for and by the Humanities and Social Sciences Group. \n \n 'Op zoek naar inspiratie om je onderwijs te vernieuwen? Hoe kunnen we interactie met en tussen studenten vormgeven in onze onderwijspraktijk? Hoe stimuleer je daarbij reflectie, discussie en samenwerking? Welke tools en ondersteuning kan je hiervoor inzetten? En hoe evalueer je dit allemaal? In deze zesde editie van The Big Blend zoomen we in op enkele concrete praktijkvoorbeelden met voldoende ruimte voor feedback en interactie en twee deugddoende netwerkmomenten.'",
+    link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend",
+    imageUrl: "/BigBlend1.png"
+   },
+    {
+    id: 'host13',
+    title: "Panel Moderator ⁽ᴺᴸ⁾",
+    event: "Techniek- en Wetenschapsacademie UCLL",
+    date: "2026-12-04",
+    location: "Heverlee, Belgium",
+    type: 'Hosting',
+    description: "Panel moderator for the 10-year anniversary event of the Techniek- en Wetenschapsacademie at UCLL, facilitating the discussion and bringing together key insights and recurring themes."
+  },
    {
     id: 'academictalk65',
     title: "Efficient and Responsible Studying with GenAI - A Workshop for Educators and Student Support Staff ⁽ᴱᴺ⁾",
@@ -297,7 +327,7 @@ export const TALKS: Talk[] = [
   },  
   {
     id: 'host11',
-    title: "Panel Moderator ⁽ᴺᴸ⁾⁽ᴱᴺ⁾",
+    title: "Panel Moderator ⁽ᴺᴸ⁾",
     event: "Europese Dag van de Talen",
     date: "2026-10-02",
     location: "Brussels, Belgium",
