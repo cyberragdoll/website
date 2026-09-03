@@ -343,7 +343,7 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.",
     link: "https://www.tiktok.com/@kuleuven/video/7678722968834362657",
-    imageUrl: "/startscan1.png"
+    imageUrl: "/Startscan1.png"
   },
   {
     id: 'media13',
@@ -354,7 +354,7 @@ export const TALKS: Talk[] = [
     type: 'Media & Interviews',
     description: "I was interviewed for 'KUpdate'. KUpdates are short, accessible videos that highlight what’s happening at KU Leuven. They share useful updates, new initiatives and stories from across the university in a quick and engaging way.",
     link: "https://www.instagram.com/p/DcjByCaIEYw/?hl=nl",
-    imageUrl: "/startscan2.png"
+    imageUrl: "/Startscan2.png"
   },
   {
     id: 'media12',
