@@ -332,7 +332,8 @@ export const TALKS: Talk[] = [
     date: "2026-10-02",
     location: "Brussels, Belgium",
     type: 'Hosting',
-    description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes."
+    description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes.",
+    link: "https://www.epos-vlaanderen.be/edt-conferentie-2026/"
   },
   {
     id: 'media14',
