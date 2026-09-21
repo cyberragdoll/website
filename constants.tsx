@@ -293,9 +293,8 @@ export const TALKS: Talk[] = [
     date: "2027-03-24",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Invited lecture for teaching staff at the Faculty of Psychology and Educational Sciences. \n \n 'In this session, we take a closer look at the do's and don'ts of GenAI in education at KU Leuven. Starting from the university guidelines and recommendations, we will explore how GenAI is already finding its way into teaching and learning, and what opportunities, questions and concerns come with it. \n \n Using interactive statements as a starting point, we will exchange experiences and perspectives on topics such as assessment, skills development, and where GenAI can (or perhaps should not) have a place in education. There will be plenty of room to share concrete examples, questions and lessons learned. \n \n Whether you are already experimenting with GenAI in your teaching or are still figuring out what to make of it, the session offers an opportunity to learn from colleagues, pick up new ideas and reflect together on how we can use GenAI in a thoughtful and responsible way.'"
-
-   },  
+    description: "Invited lecture for teaching staff at the Faculty of Psychology and Educational Sciences at KU Leuven. \n \n 'In this session, we take a closer look at the do's and don'ts of GenAI in education at KU Leuven. Starting from the university guidelines and recommendations, we will explore how GenAI is already finding its way into teaching and learning, and what opportunities, questions and concerns come with it. \n \n Using interactive statements as a starting point, we will exchange experiences and perspectives on topics such as assessment, skills development, and where GenAI can (or perhaps should not) have a place in education. There will be plenty of room to share concrete examples, questions and lessons learned. \n \n Whether you are already experimenting with GenAI in your teaching or are still figuring out what to make of it, the session offers an opportunity to learn from colleagues, pick up new ideas and reflect together on how we can use GenAI in a thoughtful and responsible way.'"
+  },  
   {
     id: 'host12',
     title: "The Big Blend VI ⁽ᴺᴸ⁾",
@@ -307,6 +306,15 @@ export const TALKS: Talk[] = [
     link: "https://ghum.kuleuven.be/NL/onderwijs-hw/the-big-blend",
     imageUrl: "/BigBlend1.png"
    },
+    {
+    id: 'academictalk68',
+    title: "The Hitchhiker's Guide to GenAI in Education - Opportunities, Concerns and Choices for Teaching and Learning ⁽ᴱᴺ⁾",
+    event: "FEB @ KU Leuven",
+    date: "2027-03-03",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Invited lecture for teaching staff at the Faculty of Economics and Business Science at KU Leuven. \n \n 'In this session, we take a closer look at the do's and don'ts of GenAI in education at KU Leuven. Starting from the university guidelines and recommendations, we will explore how GenAI is already finding its way into teaching and learning, and what opportunities, questions and concerns come with it. \n \n Using interactive statements as a starting point, we will exchange experiences and perspectives on topics such as assessment, skills development, and where GenAI can (or perhaps should not) have a place in education. There will be plenty of room to share concrete examples, questions and lessons learned. \n \n Whether you are already experimenting with GenAI in your teaching or are still figuring out what to make of it, the session offers an opportunity to learn from colleagues, pick up new ideas and reflect together on how we can use GenAI in a thoughtful and responsible way.'"
+  },  
     {
     id: 'host13',
     title: "Panel Moderator ⁽ᴺᴸ⁾",
