@@ -331,7 +331,9 @@ export const TALKS: Talk[] = [
     date: "2026-10-12",
     location: "Leuven, Belgium",
     type: 'Academic & Professional',
-    description: "Workshop in collaboration with Liese Luijten. \n \n 'In this workshop, we explore how GenAI can support students in studying efficiently and responsibly, in line with the current guidelines at KU Leuven. The session is aimed at everyone who guides, coaches, or supports students. We present concrete use cases in which GenAI can contribute to personalized learning, instant feedback, writing and study support, and overcoming learning and cognitive barriers, while also offering critical reflections on reliability, dependency, and academic integrity. The focus is explicitly on GenAI as a supportive tool that strengthens self-regulation and learning processes, without undermining students’ own abilities. The workshop provides practical guidance to help participants advise students on the meaningful, critical, and transparent use of GenAI in their study practices.'"
+    description: "Workshop in collaboration with Liese Luijten. \n \n 'In this workshop, we explore how GenAI can support students in studying efficiently and responsibly, in line with the current guidelines at KU Leuven. The session is aimed at everyone who guides, coaches, or supports students. We present concrete use cases in which GenAI can contribute to personalized learning, instant feedback, writing and study support, and overcoming learning and cognitive barriers, while also offering critical reflections on reliability, dependency, and academic integrity. The focus is explicitly on GenAI as a supportive tool that strengthens self-regulation and learning processes, without undermining students’ own abilities. The workshop provides practical guidance to help participants advise students on the meaningful, critical, and transparent use of GenAI in their study practices.'",
+    imageUrl: "/EfficientStudying1.jpg",
+    gallery: ["/EfficientStudying2.jpg"]
   },  
   {
     id: 'host11',
@@ -343,7 +345,7 @@ export const TALKS: Talk[] = [
     description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes.",
     link: "https://www.epos-vlaanderen.be/edt-conferentie-2026/",
     imageUrl: "/EDT1.jpg",
-    gallery: ["/EDT2.jpg"],
+    gallery: ["/EDT2.jpg"]
   },
   {
     id: 'media14',
