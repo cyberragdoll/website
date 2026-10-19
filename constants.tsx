@@ -362,8 +362,8 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Panel moderator for 'Europese Dag van de Talen' ('European Day of Languages'), responsible for facilitating discussion and synthesizing key insights and themes.",
     link: "https://www.epos-vlaanderen.be/edt-conferentie-2026/",
-    imageUrl: "/EDT1.jpg",
-    gallery: ["/EDT2.jpg"]
+    imageUrl: "/EDT3.jpg",
+    gallery: ["/EDT4.jpg"]
   },
   {
     id: 'media14',
