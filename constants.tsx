@@ -324,6 +324,24 @@ export const TALKS: Talk[] = [
     type: 'Hosting',
     description: "Panel moderator for the 10-year anniversary event of the Techniek- en Wetenschapsacademie at UCLL, facilitating the discussion and bringing together key insights and recurring themes."
   },
+  {
+    id: 'academictalk70',
+    title: "Copilot Agent Workshop for Educators at KU Leuven ⁽ᴱᴺ⁾",
+    event: "KU Leuven",
+    date: "2026-12-08",
+    location: "Leuven, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Daria Bogdanova. \n \n 'How can Copilot agents support everyday teaching practice? In this hands-on workshop, teaching staff will explore how to design and build practical Copilot agents for recurring pedagogical tasks. We start with the foundations of effective agent instructions, focusing on elements such as role, audience, context, constraints, output format and quality checks. Participants will then work with concrete use cases, including preparing lecture outlines and teaching materials, drafting course announcements and student communication, supporting inclusion and accessibility, and using AI as a professional development partner. Throughout the session, the emphasis is on creating agents that are useful, realistic and easy to adapt to participants’ own teaching contexts. No advanced technical knowledge is required. By the end of the workshop, participants will have designed and tested at least one agent they can continue developing for their own educational practice.'"
+  },  
+  {
+    id: 'academictalk69',
+    title: "Copilot Agent Workshop for Educators at KU Leuven ⁽ᴱᴺ⁾",
+    event: "KU Leuven",
+    date: "2026-11-26",
+    location: "Heverlee, Belgium",
+    type: 'Academic & Professional',
+    description: "Workshop in collaboration with Daria Bogdanova. \n \n 'How can Copilot agents support everyday teaching practice? In this hands-on workshop, teaching staff will explore how to design and build practical Copilot agents for recurring pedagogical tasks. We start with the foundations of effective agent instructions, focusing on elements such as role, audience, context, constraints, output format and quality checks. Participants will then work with concrete use cases, including preparing lecture outlines and teaching materials, drafting course announcements and student communication, supporting inclusion and accessibility, and using AI as a professional development partner. Throughout the session, the emphasis is on creating agents that are useful, realistic and easy to adapt to participants’ own teaching contexts. No advanced technical knowledge is required. By the end of the workshop, participants will have designed and tested at least one agent they can continue developing for their own educational practice.'"
+  },  
    {
     id: 'academictalk65',
     title: "Efficient and Responsible Studying with GenAI - A Workshop for Educators and Student Support Staff ⁽ᴱᴺ⁾",
