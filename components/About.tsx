@@ -60,12 +60,14 @@ const About: React.FC = () => {
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     },
+
     {
-      title: "World Flavours",
-      text: "I cook several times a week and love experimenting with dishes from all over the world. I try to pick up at least one new cooking trick every week!",
-      color: "text-amber-600",
-      borderHover: "hover:border-amber-100"
+      title: "Leenguistically",
+      text: "I combine my love for linguistics and illustration in Leenguistically, an Instagram account where I share fun facts about language through hand-drawn comics. From talking animals to curious word origins, there's always a new linguistic rabbit hole to explore!",
+      color: "text-sky-600",
+      borderHover: "hover:border-sky-100"
     }
+
   ];
 
   return (
