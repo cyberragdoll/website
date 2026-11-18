@@ -1604,7 +1604,7 @@ export const AWARDS: Award[] = [
 ];
 
 export const ART_PIECES: ArtPiece[] = [
-  { id: 'art39', title: "Leenguistically: Penguins", medium: "Procreate", year: 2026, category: 'Comics', thumbnailUrl: "/art39.png", imageUrl: "/art39_alt.png", description: "Leenguistically is my Instagram account where I share fun facts about linguistics through hand-drawn illustrations." },
+  { id: 'art39', title: "Leenguistically: Penguins", medium: "Procreate", year: 2026, category: 'Comics', thumbnailUrl: "/art39_alt.png", imageUrl: "/art39_2.png", description: "Leenguistically is my Instagram account where I share fun facts about linguistics through hand-drawn illustrations." },
   { id: 'art38', title: "Ralsei", medium: "Procreate", year: 2026, category: 'Digital art', thumbnailUrl: "/art38.jpg", imageUrl: "/art38.jpg", description: "Digital illustration of Ralsei from the game Deltarune." },
   { id: 'art37', title: "Melinoë", medium: "Procreate", year: 2026, category: 'Digital art', thumbnailUrl: "/art37.jpg", imageUrl: "/art37.jpg", description: "Digital illustration of Melinoë from the game Hades II." },
   { id: 'art36', title: "The Hitchhiker's Guide", medium: "Ink and watercolour paint", year: 2026, category: 'Traditional art', thumbnailUrl: "/art36.jpg", imageUrl: "/art36.jpg", description: "Tribute watercolour illustration of The Hitchhiker's Guide to the Galaxy." },
