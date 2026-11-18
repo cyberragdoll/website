@@ -63,7 +63,7 @@ const About: React.FC = () => {
 
     {
       title: "Leenguistically",
-      text: "I combine my love for linguistics and illustration in Leenguistically, an Instagram account where I share fun facts about language through hand-drawn comics. From talking animals to curious word origins, there's always a new linguistic rabbit hole to explore!",
+      text: "I combine my love for linguistics and illustration in Leenguistically, an Instagram account where I share fun facts about language through hand-drawn comics. There's always a new linguistic rabbit hole to explore!",
       color: "text-sky-600",
       borderHover: "hover:border-sky-100"
     }
