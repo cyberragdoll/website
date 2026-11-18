@@ -1604,10 +1604,10 @@ export const AWARDS: Award[] = [
 ];
 
 export const ART_PIECES: ArtPiece[] = [
-  { id: 'art39', title: "Leenguistically: Prairie Dogs", medium: "Procreate", year: 2026, category: 'Comics', thumbnailUrl: "/art39_alt.png", imageUrl: "/art39_2.png", description: "Leenguistically is my Instagram account where I share fun facts about linguistics through hand-drawn illustrations." },
   { id: 'art38', title: "Ralsei", medium: "Procreate", year: 2026, category: 'Digital art', thumbnailUrl: "/art38.jpg", imageUrl: "/art38.jpg", description: "Digital illustration of Ralsei from the game Deltarune." },
-  { id: 'art37', title: "Melinoë", medium: "Procreate", year: 2026, category: 'Digital art', thumbnailUrl: "/art37.jpg", imageUrl: "/art37.jpg", description: "Digital illustration of Melinoë from the game Hades II." },
   { id: 'art36', title: "The Hitchhiker's Guide", medium: "Ink and watercolour paint", year: 2026, category: 'Traditional art', thumbnailUrl: "/art36.jpg", imageUrl: "/art36.jpg", description: "Tribute watercolour illustration of The Hitchhiker's Guide to the Galaxy." },
+  { id: 'art37', title: "Melinoë", medium: "Procreate", year: 2026, category: 'Digital art', thumbnailUrl: "/art37.jpg", imageUrl: "/art37.jpg", description: "Digital illustration of Melinoë from the game Hades II." },
+  { id: 'art39', title: "Leenguistically: Prairie Dogs", medium: "Procreate", year: 2026, category: 'Comics', thumbnailUrl: "/art39_alt.png", imageUrl: "/art39_2.png", description: "Leenguistically is my Instagram account where I share fun facts about linguistics through hand-drawn illustrations." },
   { id: 'art1', title: "Winter Quest", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/art1.jpg", imageUrl: "/art1_Alt.jpg", description: "Festive RPG-style Christmas card starring my cats as magical adventurers." },
   { id: 'art2', title: "STE(A)M Heroes", medium: "Procreate", year: 2025, category: 'Digital art', thumbnailUrl: "/art2.jpg", imageUrl: "/art2.jpg", description: "Five original characters representing STE(A)M for TWA Leuven." },
   { id: 'art3', title: "Original Character Sketch", medium: "Pencil", year: 2024, category: 'Traditional art', thumbnailUrl: "/art3.jpg", imageUrl: "/art3.jpg", description: "A pencil sketch of an original character." },
